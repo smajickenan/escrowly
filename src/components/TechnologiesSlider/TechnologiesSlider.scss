@@ -1,0 +1,85 @@
+@use "../../styles/base/variables";
+.technologies-slider {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    @media (max-width:1023px) {
+        margin-top: 35px;
+        margin-bottom: 27px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    &:after {
+        content: "";
+        background: linear-gradient(180deg, #1E274A 8.09%, #283258 35.23%, #313C64 65.25%, #37416A 100%);
+        filter: blur(25px);
+        width: 102px;
+        height: 90px;
+        position: absolute;
+        right: -50px;
+        z-index: 1;
+        top: -10px;
+        @media (max-width:1023px) {
+            display: none;
+        }
+    }
+    p {
+        color: variables.$blue-50;
+        flex: 0 0 157px;
+        margin-right: 19px;
+        margin-top: 7px;
+        line-height: 19px;
+        letter-spacing: 0.4px;
+        position: relative;
+        z-index: 2;
+        @media (max-width:1023px) {
+            display: none;
+        }
+        &:before {
+            content: '';
+            background: linear-gradient(180deg, #1E274A 8.09%, #283258 35.23%, #313C64 65.25%, #37416A 100%);
+            filter: blur(25px);
+            width: 102px;
+            height: 90px;
+            position: absolute;
+            right: -70px;
+            z-index: 1;
+            top: -20px;
+        }
+        span {
+            display: block;
+        }
+    }
+    
+    .coin {
+        background: rgb(121 134 190 / 11%);
+        padding: 12px 11.7px;
+        border-radius: 12px;
+        width: 51.38px;
+        img {
+            display: block;
+        }
+    }
+    .swiper{
+        margin-right: -8px;
+        &:after {
+            content: "";
+            background: linear-gradient(180deg, #1E274A 8.09%, #283258 35.23%, #313C64 65.25%, #37416A 100%);
+            filter: blur(25px);
+            width: 102px;
+            height: 90px;
+            position: absolute;
+            right: -70px;
+            z-index: 1;
+            top: -20px;
+            @media (max-width:1023px) {
+                display: none;
+            }
+        }
+        .swiper-wrapper {
+            transition-timing-function: linear;
+        }
+    }
+}
+
+ 

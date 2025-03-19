@@ -1,0 +1,135 @@
+@use "../../styles/base/variables";
+.section.section-about-escrowly {
+    padding-top: 28px;
+    @media (max-width: 767px) {
+        padding-top: 16px;
+        margin-bottom: 18px;
+    }
+    .section-header {
+        &+p {
+            margin-bottom: 42px;
+            @media (max-width: 767px) {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 27px;
+            }
+        }
+    }
+    .content-image {
+        @media(max-width:1023px) {
+            margin-bottom: 20px;
+        }
+        @media(max-width:767px) {
+            display: none;
+        }
+    }
+    .mt-20 {
+        @media(max-width:767px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
+
+.about-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(0,0,0,0.08);
+    @media (max-width: 767px) {
+        padding: 15px 16px;
+        margin-bottom: 12px;
+    }
+    h5 {
+        margin-bottom: 10px;
+        @media (max-width: 767px) {
+            margin-top: 7px;
+        }
+    }
+    p {
+        @media (max-width: 767px) {
+            padding-right: 10px;
+            margin-bottom: 34px;
+        }
+    }
+    .btn {
+        margin-top: auto;
+        @media (max-width: 767px) {
+            margin-bottom: 4px;
+        }
+    }
+    
+    .about-card-image {
+        border-radius: 8px;
+        margin-bottom: 11px;
+        width: 100%;
+        @media (max-width: 767px) {
+            height: 277px;
+            object-fit: cover;
+        }
+    }
+    
+    .about-users {
+        margin-bottom: 6px;
+        @media (max-width: 767px) {
+            margin-bottom: 9px;
+        }
+        img {
+            border-radius: 50%;
+            border: 1px solid #fff;
+            margin-right: -12px;
+            width: 36px;
+        }
+    }
+    
+    span {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+.about-counters {
+    padding-top: 20px;
+    .row {
+        margin-left: -20px;
+        margin-right: -20px;
+        .col {
+            padding: 0 20px;
+            border-right: 1px solid rgba(0,0,0,0.1);
+            @media(max-width:767px) {
+                border-right: 0;
+            }
+            &:last-child {
+                border:0;
+                .about-counter {
+                    @media(max-width:767px) {
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.about-counter {
+    padding: 42px 20px 21px 23px;
+    @media(max-width:767px) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 33px;
+    }
+    .num {
+        font-size: 48px;
+        font-weight: 500;
+        margin-bottom: 46px;
+        color: variables.$heading-color;
+        @media(max-width:767px) {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+    }
+}

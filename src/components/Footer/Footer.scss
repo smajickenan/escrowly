@@ -1,0 +1,298 @@
+@use "../../styles/base/variables";
+.footer {
+    position: relative;
+    overflow:hidden;
+    padding-top: 81px;
+    background: rgb(16, 18, 36);
+    background: linear-gradient(180deg, rgb(2, 4, 24) 51%, #0c112d 72%, rgb(43, 47, 86) 100%);
+    @media(max-width:767px) {
+        padding-top: 32px;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        width: 2579px;
+        height: 1972px;
+        left: calc(50% - 2579px/2 + 0.5px);
+        top: -527px;
+        background: linear-gradient(180deg, #020417 43.52%, #0D1835 57.65%, #15287A 63.86%, #FFFFFF 77.07%);
+        filter: blur(201.7px);
+        display: none;
+        @media(max-width:1023px) {
+            top: -437px;
+        }
+        @media(max-width:767px) {
+            top: -137px;
+        }
+    }
+    .container {
+        position: relative;
+    }
+
+    .footer-col-1 {
+        flex: 0 0 31%;
+        @media(max-width:1023px) {
+            flex: 0 0 100%;
+            margin-bottom: 48px;
+        }
+    }
+
+    .footer-col-2 {
+        flex: 0 0 26.5%;
+        margin-left: 4.1%;
+        @media(max-width:1366px) {
+            flex: 0 0 22.5%;
+        }
+        @media(max-width:1023px) {
+            flex: 0 0 27.5%;
+        }
+        @media(max-width:767px) {
+            margin-left: 0.2%;
+            flex: 0 0 44.4%;
+        }
+    }
+
+    .footer-col-3 {
+        flex: 0 0 29.3%;
+        @media(max-width:1366px) {
+            flex: 0 0 24.3%;
+        }
+        @media(max-width:1023px) {
+            flex: 0 0 37.3%;
+        }
+        @media(max-width:767px) {
+            flex: 0 0 54.3%;
+        }
+    }
+
+    .footer-col-4 .row {
+        flex-direction: column;
+        @media(max-width:767px) {
+            flex-direction: row;
+        }
+        .col:first-child {
+            @media(max-width:767px) {
+                flex: 0 0 45%;
+            }
+        }
+    }
+    .footer-social p {
+        color: #fff;
+        @media(max-width:767px) {
+            font-size: 16px;
+        }
+    }
+    .footer-copy {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        position: relative;
+        margin-top: 147px;
+        padding-top: 21px;
+        padding-bottom: 17px;
+        @media(max-width:1023px) {
+            margin-top: 7px;
+        }
+        @media(max-width:767px) {
+            margin-top: 18px;
+            border: 0;
+            padding: 21px 16px 24px;
+        }
+        .container {
+            @media(max-width:767px) {
+                border-top: 1px solid rgba(255, 255, 255, 0.15);
+                padding: 10px 0 0;
+                text-align: center;
+            }
+            .row {
+                @media(max-width:767px) {
+                    flex-direction: column;
+                }
+            }
+            .col {
+                @media(max-width:767px) {
+                    margin-bottom: 17px;
+                }
+            }
+        }
+        .col:last-child {
+            text-align: right;
+            @media(max-width:767px) {
+                text-align: center;
+            }
+        }
+        p {
+            color: variables.$blue-50;
+            font-size: 12px;
+            &.copyright {
+                font-size: 14px;
+            }
+            br {
+                @media(max-width:1366px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.footer-contact {
+    background: rgb(147 157 201 / 11%);
+    border-radius: 8px;
+    padding: 30px 70px 30px 30px;
+    @media(max-width:767px) {
+        padding: 18px 40px 18px 16px;
+    }
+    p {
+        color: variables.$blue-50;
+        margin-top: 20px;
+        margin-bottom: 27px;
+    }
+    
+    .phone {
+        color: #fff;
+        margin-bottom: 26px;
+        display: block;
+        @media(max-width:767px) {
+            font-size: 16px;
+            margin-bottom: 29px;
+        }
+    }
+    
+    .logo {
+        margin-left: -10px;
+        display: block;
+    }
+    
+    .phone img {
+        vertical-align: -2px;
+        margin-right: 13px;
+    }
+    
+    .language-dropdown {
+        border: 1px solid variables.$blue-50;
+        display: inline-block;
+        border-radius: 8px;
+        padding: 5px 15px;
+        position: relative;
+        z-index: 1;
+        @media(max-width:767px) {
+            padding: 6px 15px;
+        }
+        .dropdown-menu {
+            left: -5px;
+        }
+    }
+}
+
+.footer-menu {
+    li {
+        margin-bottom: 30px;
+        @media(max-width:767px) {
+            margin-bottom: 33px;
+        }
+        a {
+            color: variables.$white;
+            transition: 0.3s;
+            &:hover {
+                color: variables.$white;
+            }
+            @media(max-width:767px) {
+                font-size: 16px;
+            }
+        }
+        ul {
+            margin-top: 17px;
+            @media(max-width:767px) {
+                margin-top: 19px;
+            }
+            li {
+                margin-bottom: 7.6px;
+                @media(max-width:767px) {
+                    margin-bottom: 11.6px;
+                }
+                a {
+                    color: variables.$blue-50;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.footer-social-icons {
+    margin-top: 10px;
+    @media(max-width:767px) {
+        margin-left: -4px;
+    }
+    li {
+        margin-bottom: 3px;
+        a {
+            color: variables.$blue-50;
+            font-size: 14px;
+            transition: 0.3s;
+            &:hover {
+                color: variables.$white;
+            }
+            img {
+                vertical-align: middle;
+                transform: scale(0.8);
+                margin-right: 4px;
+            }
+        }
+    }
+}
+
+
+.trustpilot {
+    color: #fff;
+    margin-top: 35px;
+    letter-spacing: 0;
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    @media(max-width:1023px) {
+        position: static;
+        margin-bottom: 20px;
+    }
+    @media(max-width:767px) {
+        margin-top: -2px;
+        font-size: 16px;
+    }
+    .rating {
+        margin-top: 10px;
+        margin-bottom: 7px;
+        img {
+            margin-right: 9px;
+        }
+    }
+    .trustpilot-info {
+        display: flex;
+        font-size: 8.8px;
+        letter-spacing: -0.3px;
+        img {
+            margin-right: 9px;
+        }
+        
+        p {
+            padding-left: 0px;
+            color: variables.$blue-50;
+            position: relative;
+            &:before {
+                content: '';
+                width: 2px;
+                height: 2px;
+                background: #fff;
+                border-radius: 50%;
+                position: absolute;
+                left: -6px;
+                top: 10px;
+            }
+            a {
+                color: variables.$white;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+

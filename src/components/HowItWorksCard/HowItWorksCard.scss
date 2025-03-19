@@ -1,0 +1,35 @@
+@use "../../styles/base/variables";
+.how-it-works-card {
+    background: #fff;
+    border-radius: 8px;
+    width: 401px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 74px 32px 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    min-height: 315px;
+    @media(max-width:767px) {
+        width: 311px;
+    }
+    .num {
+        font-size: 20px;
+        position: absolute;
+        left: 30px;
+        top: 36px;
+    }
+    
+    img {
+        margin-bottom: 16px;
+    }
+    
+    h5 {
+        margin-bottom: 15px;
+        color: variables.$heading-color;
+    }
+}
+

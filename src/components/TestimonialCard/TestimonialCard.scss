@@ -1,0 +1,57 @@
+@use "../../styles/base/variables";
+.testimonial-card {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 468px;
+    padding: 34px 34px;
+    min-height: 286px;
+    display: flex;
+    flex-direction: column;
+    @media(max-width:767px) {
+        width: 343px;
+        padding: 16px 16px;
+        min-height: 247px;
+    }
+    .testimonial-title {
+        margin-bottom: 16px;
+        display: block;
+        color: variables.$heading-color;
+        @media(max-width:767px) {
+            font-size: 16px;
+            padding-right: 40px;
+            line-height: 1.5;
+            margin-bottom: 9px;
+        }
+    }
+    & > p {
+        margin-bottom: 63px;
+        @media(max-width:767px) {
+            margin-bottom: 51px;
+        }
+    }
+    .client {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: auto;
+        img {
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        p {
+            color: variables.$heading-color;
+            @media(max-width:767px) {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+        span {
+            display: block;
+            font-size: 14px;
+            margin-top: 3px;
+            color: variables.$dark-blue-60;
+        }
+    }
+    
+}

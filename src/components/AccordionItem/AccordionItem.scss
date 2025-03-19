@@ -1,0 +1,98 @@
+@use "../../styles/base/variables";
+
+.accordion-item {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 13px;
+    border-radius: 12px;
+    margin-bottom: 19px;
+    transition: 0.3s;
+    &.active {
+        background: #fff;
+        .plus {
+            transform: rotate(90deg);
+            &:before {
+                opacity: 0;
+            }
+        }
+        .accordion-content p {
+            transform: translateX(0px);
+            opacity: 1;
+        }
+    }
+    .accordion-title {
+        background: #fff;
+        font-weight: 400;
+        color: variables.$heading-color;
+        border-radius: 8px;
+        border: 1px dashed rgba(0,0,0,0.1);
+        padding: 14px 39px 14px 18px;
+        letter-spacing: -0.55px;
+        cursor: pointer;
+        position: relative;
+        @media(max-width:767px) {
+            padding: 11px 32px 10px 36px;
+            position: relative;
+            line-height: 1.5;
+        }
+        span {
+            display: inline-block;
+            margin-right: 10px;
+            @media(max-width:767px) {
+                position: absolute;
+                left: 9px;
+                top: 10px;
+            }
+        }
+        .plus {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            right: 22px;
+            top: 16px;
+            transition: 0.3s;
+            @media(max-width:767px) {
+                right: 13px;
+                top: calc(50% - 8px);
+            }
+            &:before {
+                content: '';
+                width: 15px;
+                height: 1px;
+                background: #030518;
+                display: block;
+                margin-top: 7px;
+                transition: 0.3s;
+            }
+            &:after {
+                content: '';
+                width: 1px;
+                height: 15px;
+                position: absolute;
+                top: 0;
+                background: #030518;
+                left: 7px;
+            }    
+        }
+    }
+    .accordion-content {
+        transition: 0.3s;
+        overflow: hidden;
+        p {
+            margin: 21px 18px 6px;
+            color: #333;
+            line-height: 1.6;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: ease 0.5s;
+            @media(max-width:767px) {
+                font-size: 16px;
+                letter-spacing: -0.6px;
+                line-height: 1.4;
+            }
+        }
+    }
+}
+
+div:last-child > .accordion-item {
+    margin-bottom: 0;
+}

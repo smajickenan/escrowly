@@ -1,0 +1,23 @@
+.login-wrapper .logo {
+    position: absolute;
+    left: 72px;
+    top: 41px;
+    @media(max-width:767px) {
+        left: 4px;
+        top: 20px;
+    }
+}
+
+.login-container {
+    max-width: 680px;
+    background: #fff;
+    border-radius: 12px;
+    margin: 142px auto 0;
+    padding: 60px 120px 13px;
+    border: 1px solid rgba(0,0,0,0.08);
+    @media(max-width:767px) {
+        max-width: calc(100% - 31px);
+        margin-top: 157px;
+        padding: 18px 17px 13px;
+    }
+}

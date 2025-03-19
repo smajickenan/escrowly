@@ -1,0 +1,79 @@
+@use "../../styles/base/variables";
+.section-our-vision {
+    &.section {
+        @media(max-width:767px) {
+            margin-bottom: 30px;
+        }
+    }
+    .col-left {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        align-items: flex-start;
+        @media(max-width:1023px) {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: none;
+            @media(max-width:767px) {
+                display: inline-block;
+                margin-top: 17px;
+                margin-bottom: 31px;
+            }
+        }
+    }
+    .col-right {
+        padding-left: 30px;
+        max-width: 50%;
+        @media(max-width:1023px) {
+            max-width: 100%;
+            padding-left: 10px;
+        }
+    }
+    .section-header {
+        margin-bottom: 5px;
+        @media(max-width:767px) {
+            margin-bottom: 14px;
+        }
+        & + p {
+            line-height: 27px;
+            @media(max-width:767px) {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    h2 {
+        font-size: 28px;
+        @media(max-width:767px) {
+            font-size: 24px;
+        }
+        .section-word {
+            margin-right: 5px;
+        }
+    }
+}
+
+.powering-escrowly {
+    margin-top: auto;
+    width: 100%;
+    p {
+        margin-bottom: 24px;
+        @media(max-width:767px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.powering-escrowly-items {
+    .item {
+        background: variables.$blue-11;
+        width: 51.5px;
+        height: 51.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 13.34px;
+    }
+}

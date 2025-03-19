@@ -1,0 +1,42 @@
+@use "../../styles/base/variables";
+
+.breadcrumbs {
+    margin-top: 88px;
+    padding: 29px 0;
+    @media (max-width: 767px) {
+        margin-top: 80px;
+    }
+    .breadcrumbs-list {
+        display: flex;
+        li {
+            font-size: 14px;
+            &:last-child {
+                @media (max-width: 767px) {
+                    display: block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+            a {
+                color: variables.$dark-blue;
+                display: inline-block;
+                margin-right: 5px;
+                white-space: nowrap;
+                &:after {
+                    content: '';
+                    display: inline-block;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 50%;
+                    margin-left: 5px;
+                    background-color: variables.$dark-blue;
+                    vertical-align: 3px;
+                }
+            }
+            span {
+                color: variables.$dark-blue-60;
+            }
+        }
+    }
+}

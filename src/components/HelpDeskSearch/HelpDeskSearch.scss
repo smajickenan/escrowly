@@ -1,0 +1,40 @@
+@use "../../styles/base/variables";
+.help-desk-search {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 41px;
+    @media(max-width:767px) {
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+    input {
+        flex: 0 0 calc(100% - 141px);
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 12px;
+        background: transparent;
+        padding-left: 43px;
+        font-size: 14px;
+        letter-spacing: -0.6px;
+        color: variables.$dark-blue-60;
+        height: 48px;
+        background-image: url("../../assets/img/icon-search.svg");
+        background-repeat: no-repeat;
+        background-position: 19px 15px;
+        @media(max-width:767px) {
+            padding-left: 35px;
+            font-size: 12px;
+            background-position: 12px 15px;
+            flex-basis: calc(100% - 133px);
+        }
+    }
+    
+    .btn.btn-primary {
+        margin-top: 4px;
+    }
+    
+    .btn.btn-primary img {
+        margin-left: 16px;
+    }
+}

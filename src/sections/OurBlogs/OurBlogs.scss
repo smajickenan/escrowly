@@ -1,0 +1,13 @@
+@use "../../styles/base/variables";
+.section-our-blogs {
+    &.section {
+        @media(max-width:767px) {    
+            margin-bottom: 20px;
+        }
+    }
+    .section-header {
+        @media(max-width:767px) {
+            margin-bottom: 10px;
+        }
+    }
+}

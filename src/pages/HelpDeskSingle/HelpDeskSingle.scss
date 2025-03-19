@@ -1,0 +1,113 @@
+@use "../../styles/base/variables";
+.section-help-desk-single {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    @media (max-width: 767px) {
+        padding-top: 16px;
+        padding-bottom: 6px;
+    }
+    .section-label {
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+            margin-bottom: 6px;
+        }
+    }
+}
+
+.help-desk-single-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    .col-left {
+        flex: 0 0 calc(48% - 20px);
+        @media (max-width: 767px) {
+            flex: 0 0 100%;
+        }
+    }
+    
+    .col-right {
+        flex: 0 0 calc(52% - 20px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 5px;
+        @media (max-width: 767px) {
+            flex: 0 0 100%;
+            padding-top: 62px;
+        }
+    }
+    
+    .section-header {
+        margin-bottom: 28px;
+        @media (max-width: 767px) {
+            margin-bottom: 34px;
+        }
+    }
+    
+    p {
+        line-height: 27px;
+        margin-bottom: 14px;
+    }
+    .help-desk-list {
+        margin-top: 23px;
+        flex: 0 0 100%;
+        margin-bottom: 38px;
+        @media (max-width: 767px) {
+            margin-top: 17px;
+        }
+    }
+    h4 {
+        color: variables.$heading-color;
+        @media (max-width: 767px) {
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+    .btn.btn-link-dark {
+        color: variables.$heading-color;
+        img {
+            margin-right: 0;
+            margin-left: 6px;
+        }
+    }
+    .btn-primary {
+        margin-left: auto;
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.rate-question {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 26px;
+    @media (max-width: 767px) {
+        margin-top: 37px;
+    }
+    span {
+        margin-right: 15px;
+        vertical-align: 4px;
+        color: variables.$heading-color;
+    }
+    
+    button {
+        display: inline-flex;
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+        border-radius: 8px;
+        background: #E9EAED;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+            background: variables.$blue;
+            path {
+                stroke: #fff;
+                stroke-opacity: 1;
+            }
+        }
+    }
+}

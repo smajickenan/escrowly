@@ -1,0 +1,252 @@
+@use "../../styles/base/variables";
+
+.banner-feature-card {
+    position: absolute;
+    left: -10.6%;
+    top: 43.2%;
+    padding: 8px 12px 0px 10px;
+    background-color: variables.$blue-5;
+    border: 1px solid variables.$white-11;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 251px;
+    transition: background-color 0.3s;
+    z-index: 1;
+    @media (max-width:1023px) {
+        left: 5.3%;
+        top: 42.8%;
+        border-radius: 8px;
+        padding: 8px 12px 7px 8px;
+        width: 164px;
+        z-index: 1;
+    }
+    &:hover {
+        background-color: variables.$blue-30;
+    }
+    &.position-1 {
+        opacity: 0;
+        animation: 32s linear 0s feature-card-1 infinite;
+        @keyframes feature-card-1 {
+            12% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            14% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            45% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            47% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    &.position-2 {
+        left: 56.7%;
+        top: 18.3%;
+        @media (max-width:1280px) {
+            left: 46.7%;
+        }
+        @media (max-width:1023px) {
+            left: 54.2%;
+        }
+        opacity: 0;
+        animation: 32s linear 0s feature-card-2 infinite;
+        @keyframes feature-card-2 {
+            16% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            18% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            48% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            50% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    
+    &.position-3 {
+        left: 46.3%;
+        top: 64.8%;
+        @media (max-width:1023px) {
+            top: 69.9%;
+        }
+        opacity: 0;
+        animation: 32s linear 0s feature-card-3 infinite;
+        z-index: 1;
+        @keyframes feature-card-3 {
+            8% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            10% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            42% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            44% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    &.position-4 {
+        top: 17%;
+        left: 6%;
+        opacity: 0;
+        animation: 32s linear 0s feature-card-4 infinite;
+        z-index: 1;
+        @keyframes feature-card-4 {
+            65% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            67% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            98% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    
+    &.position-5 {
+        left: 56.4%;
+        top: 43.2%;
+        opacity: 0;
+        animation: 32s linear 0s feature-card-5 infinite;
+        z-index: 1;
+        @keyframes feature-card-5 {
+            61% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            63% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            95% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            97% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    
+    &.position-6 {
+        left: 5.4%;
+        top: 67.2%;
+        opacity: 0;
+        animation: 32s linear 0s feature-card-6 infinite;
+        z-index: 1;
+        @keyframes feature-card-6 {
+            56% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            58% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            92% {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            94% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+        }
+    }
+    h5 {
+        color: variables.$white;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1;
+        @media (max-width:1023px) {
+            font-size: 10px;
+            letter-spacing: -0.4px;
+        }
+    }
+    
+    img {
+        vertical-align: top;
+        margin-right: 8px;
+        @media (max-width:1023px) {
+            width: 20px;
+            margin-right: 4px;
+        }
+    }
+    span {
+        display: inline-flex;
+        height: 30px;
+        align-items: center;
+        margin-top: 3px;
+        @media (max-width:1023px) {
+            margin-top: -5px;
+        }
+    }
+    .feature-card-list {
+        margin-top: 16px;
+        color: variables.$blue-50;
+        line-height: 95%;
+        font-size: 12px;
+        letter-spacing: -0.4px;
+        @media (max-width:1023px) {
+            margin-top: 10px;
+            font-size: 8px;
+        }
+        li {
+            padding-left: 18px;
+            margin-bottom: 9px;
+            position: relative;
+            @media (max-width:1023px) {
+                padding-left: 12px;
+                margin-bottom: 5px;
+            }
+            &:before {
+                content: '';
+                width: 4px;
+                height: 4px;
+                position: absolute;
+                top: 5px;
+                left: 8px;
+                background: variables.$blue-50;
+                border-radius: 10px;
+                @media (max-width:1023px) {
+                    width: 2px;
+                    height: 2px;
+                    left: 5px;
+                    top: 2px;
+                }
+            }
+        }
+    }
+    
+}
+
+

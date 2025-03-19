@@ -1,0 +1,18 @@
+.section-our-team {
+    &.section {
+        @media(max-width:767px) {
+            margin-bottom: 0;
+        }
+    }
+    .section-header {
+        @media(max-width:767px) {
+            margin-bottom: 10px;
+        }
+    }
+}
+.our-team-carousel-wrapper {
+    position: relative;
+    .swiper {
+        padding-bottom: 37px;
+    }
+}

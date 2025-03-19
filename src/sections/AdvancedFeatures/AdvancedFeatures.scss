@@ -1,0 +1,17 @@
+.section-advanced-features {
+    .section-header {
+        margin-bottom: 24px;
+        @media(max-width:767px) {
+            margin-bottom: 31px;
+        }
+    }
+    .row:last-child {
+        .col:last-child {
+            .advanced-feature-card {
+                @media(max-width:767px) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

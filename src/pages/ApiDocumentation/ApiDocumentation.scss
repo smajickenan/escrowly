@@ -1,0 +1,107 @@
+@use "../../styles/base/variables";
+
+.section-api-documentation {
+    margin-top: 30px;
+    padding-bottom: 110px;
+    @media(max-width:767px) {
+        margin-top: 16px;
+        padding-bottom: 51px;
+    }
+    .api-documentation-nav {
+        flex: 0 0 329px;
+        margin-right: 52px;
+        @media(max-width:1199px) {
+            margin-right: 0;
+        }
+        @media(max-width:1023px) {
+            position: fixed;
+            bottom: 0;
+            padding: 0;
+            left: 0;
+            right: 0;
+            top:0;
+            z-index: 100;
+            transition: 0.6s;
+            opacity: 0;
+            visibility: hidden;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        &.active {
+            @media(max-width:1023px) {
+                transform: translateY(0%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    .api-documentation-content {
+        padding-right: 40px;
+        @media(max-width:1023px) {
+            padding-right: 10px;
+        }
+        .section-header {
+            margin-bottom: 39px;
+            @media(max-width:767px) {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+        }
+
+        h3 {
+            margin-bottom: 22px;
+            @media(max-width:767px) {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: -0.5px;
+            }
+        }
+
+        p {
+            margin-bottom: 14px;
+            @media(max-width:767px) {
+                margin-bottom: 22px;
+            }
+        }
+
+        hr {
+            border: 1px solid rgba(0,0,0,0.1);
+            margin: 32px 0;
+        }
+        .next-steps {
+            h3 {
+                margin-bottom: 8px;
+                @media(max-width:767px) {
+                    margin-bottom: 18px;
+                }
+            }
+
+            li {
+                margin-bottom: 8px;
+                @media(max-width:767px) {
+                    margin-bottom: 12px;
+                }
+            }
+    
+            a {
+                color: variables.$blue;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: -0.9px;
+                img {
+                    vertical-align: -3px;
+                    margin-left: 17px;
+                }
+            }
+        }
+
+    }
+    .btn.btn-primary.btn-open-api-nav {
+        display: none;
+        @media(max-width:1023px) {
+            display: inline-flex;
+        }
+        @media(max-width:767px) {
+            margin-bottom: 31px;
+        }
+    }
+}

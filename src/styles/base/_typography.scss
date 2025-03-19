@@ -1,0 +1,115 @@
+@use "../base/variables";
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: variables.$body-bg;
+    font-family: "Inter", serif;
+    color: variables.$dark-blue-60;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.55px;
+    @media (max-width:1023px) {
+        font-size: 14px;
+    }
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0;
+    @media (max-width:1280px) {
+        font-size: 40px;
+    }
+}
+
+h2 {
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: variables.$heading-color;
+    letter-spacing: -0.2px;
+    @media(max-width:1023px) {
+        font-size: 32px;
+    }
+    @media(max-width:767px) {
+        font-size: 24px;
+        letter-spacing: -0.5px;
+    }
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 1.4;
+    color: variables.$heading-color;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: variables.$heading-color;
+    @media(max-width:767px) {
+        font-size: 18px;
+    }
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: variables.$heading-color;
+}
+
+.color-white {
+    color: variables.$white;
+}
+
+.color-blue-50 {
+    color: variables.$blue-50;
+}
+
+@media (max-width: 1023px) {
+    .sm-font-16 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+}
+
+.check-list {
+    li {
+        padding-left: 28px;
+        position: relative;
+        font-size: 14px;
+        margin-bottom: 23px;
+        @media(max-width:767px) {
+            margin-bottom: 27px;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0px;
+            top: 6px;
+            background-image: url(../../assets/img/icon-check.svg);
+            width: 18px;
+            height: 18px;
+            @media(max-width:767px) {
+                top: 3px;
+            }
+        }
+        p {
+            font-size: 16px;
+            color: variables.$heading-color;
+            @media(max-width:767px) {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
+

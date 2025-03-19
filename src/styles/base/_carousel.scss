@@ -1,0 +1,68 @@
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 0;
+    top: -48px;
+    background: #fff;
+    border-radius: 50%;
+    // opacity: 0;
+    cursor: pointer;
+    // transform: scale(0);
+    @media(max-width:767px) {
+        display: none;
+    }
+}
+.swiper-button-prev {
+    background-image: url(../../assets/img/slider-btn-prev.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 36px;
+    transition: 0.4s 2.8s;
+}
+.swiper-button-next {
+    background-image: url(../../assets/img/slider-btn-next.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s 3s;
+}
+
+// .swiper.active {
+    // .swiper-button-prev {
+    //     opacity: 1;
+    //     transform: scale(1);
+    // }
+    // .swiper-button-next {
+    //     opacity: 1;
+    //     transform: scale(1);
+    // }
+// }
+.swiper-button-disabled {
+    opacity: 0.5;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 0;
+    max-width: 73%;
+    background: #fff;
+    left: 0;
+    overflow: hidden;
+    @media(max-width:767px) {
+        max-width: 91%;
+    }
+}
+
+.swiper-scrollbar-drag {
+    background: #14256C;
+    left: 0px;
+    transition: 1s;
+    width: 0;
+}
+.swiper.active .swiper-scrollbar-drag {
+    left: 0px;
+}
+
+.carousel-nav {
+    position: absolute;
+    right: 0;
+}

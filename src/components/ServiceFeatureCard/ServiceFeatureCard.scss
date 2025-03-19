@@ -1,0 +1,68 @@
+@use "../../styles/base/variables";
+
+.service-feature-card {
+    border-radius: 12px;
+    width: 309px;
+    &.feature-blue {
+        background: linear-gradient(180deg, #020417 -28.42%, #0D1835 45.04%, #15287A 85.07%, #FFFFFF 119.74%);
+        color: variables.$white;
+        padding: 23px 25px;
+        @media(max-width:767px) {
+            padding: 17px 16px;
+            min-height: 315px;
+        }
+        h6 {
+            color: variables.$white;
+        }
+        p {
+            color: rgb(255 255 255 / 80%);
+        }
+    }
+    &.feature-bg {
+        position: relative;
+        overflow: hidden;
+        .service-feature-content {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+            padding: 0 24px;
+            color: #fff;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 291px;
+                height: 244px;
+                left: -113px;
+                bottom: -150px;
+                background: #2D3E87;
+                filter: blur(70px);
+            }
+            h6, img,p {
+                position: relative;
+                z-index:1;
+            }
+            p {
+                color: variables.$white-80;
+            }
+        }
+        .service-feature-image {
+            margin-bottom: 0;
+            display: block;
+        }
+        .service-feature-content h6 {
+            color: #fff;
+        }
+    }
+    h6 {
+        margin-bottom: 8px;
+        color: variables.$heading-color;
+    }
+    img {
+        margin-bottom: 9px;
+    }
+    .service-feature-image {
+        border-radius:12px;
+        width: 100%;
+    }
+}

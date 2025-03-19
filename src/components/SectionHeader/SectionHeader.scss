@@ -1,0 +1,35 @@
+.section-header {
+    margin-bottom: 20px;
+    &.small-title {
+        .section-title {
+            font-size: 30px;
+            @media(max-width: 767px) {
+                font-size: 24px;
+            }
+        }
+    }
+    &.centered {
+        text-align: center;
+    }
+    .section-word {
+        display: inline-block;
+        margin-right: 7px;
+        span {
+            display: inline-block;
+        }
+    }
+}
+
+.section-label {
+    background: rgb(233 234 237 / 80%);
+    font-size: 14px;
+    color: #000;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 16px;
+    letter-spacing: -0.5px;
+    margin-bottom: 3px;
+    @media(max-width:767px) {
+        margin-bottom: 6px;
+    }
+}

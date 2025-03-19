@@ -1,0 +1,177 @@
+@use "../../styles/base/variables";
+.dropdown {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    letter-spacing: -0.6px;
+    position: relative;
+    @media (max-width:1023px) {
+        background: #fff;
+        flex: 0 0 100%;
+        border-radius: 8px;
+        height: 40px;
+        width: 100%;
+        padding: 0 12px;
+        margin-bottom: 8px;
+    }
+    &:after {
+        content: '';
+        background-image: url("../../assets/img/arrow-down-grey.svg");
+        position: absolute;
+        right: 0;
+        top: 18px;
+        width: 10px;
+        height: 6px;
+        background-repeat: no-repeat;
+        pointer-events: none;
+        @media (max-width:1023px) {
+            right: 15px;
+        }
+    }
+    &.dropdown-selling {
+        flex: 0 0 29.5%;
+        @media (max-width:1280px) {
+            flex: 0 0 30.5%;
+        }
+        @media (max-width:1023px) {
+            flex: 0 0 100%;
+        }
+        &:after {
+            right: 30px;
+            @media (max-width:1280px) {
+                right: 10px;
+            }
+            @media (max-width:1023px) {
+                right: 15px;
+            }
+        }
+        .dropdown-list {
+            right: 5px;
+            left: 15px;
+            min-width: auto;
+        }
+    }
+    &.dropdown-coin {
+        margin-left: 15px; 
+        flex: 0 0 46.1%;
+        @media (max-width:1280px) {
+            flex: 0 0 62.1%;
+            margin-left: 0;
+        }
+        @media (max-width:1023px) {
+            flex: 0 0 100%;
+            padding-left: 4px;
+        }
+        &:after {
+            right: 0;
+            @media (max-width:1023px) {
+                right: 15px;
+            }
+        }
+        .dropdown-list {
+            min-width: 198px;
+            left: -4px;
+            right: 0;
+        }
+        .selected {
+            margin-top: 2px;
+            img {
+                margin-right: 4px;
+                vertical-align: -7px;
+                &:nth-child(4),&:nth-child(5) {
+                    @media (max-width:1280px) {
+                        // display: none;
+                    }
+                    @media (max-width:1023px) {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    &.dropdown-domain {
+        flex: 0 0 70%;
+        padding-left: 19px;
+        @media (max-width:1280px) {
+            padding-left: 10px;
+            flex: 0 0 68%;
+        }
+        @media (max-width:1023px) {
+            flex: 0 0 100%;
+            padding-left: 4px;
+        }
+        .dropdown-list {
+            min-width: 283px;
+            right: 0;
+            left: 15px;
+        }
+    }
+    &.dropdown-payment-method {
+        width: 100%;
+        padding: 9px 0px;
+        @media(max-width:1023px) {
+            padding: 9px 12px;
+        }
+        & > span {
+            display: none;
+        }
+        .dropdown-list {
+            left: -12px;
+            @media(max-width:1023px) {
+                left: 0;
+            }
+        }
+    }
+    &.active {
+        .dropdown-list {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .dropdown-list {
+        position: absolute;
+        top: calc(100% + -4px);
+        right: 1px;
+        opacity: 0;
+        visibility: hidden;
+        background: variables.$white;
+        min-width: 140px;
+        border-radius: 8px;
+        overflow: hidden;
+        z-index: 2;
+        filter: drop-shadow(-8px 5px 9px rgba(8, 14, 41, 0.09));
+        li {
+            padding: 8px 12px 7px;
+            transition: 0.3s;
+            cursor: pointer;
+            color: #030518;
+            &:hover {
+                background: variables.$blue;
+                color: variables.$white;
+            }
+            img {
+                vertical-align: bottom;
+                margin-right: 3px;
+            }
+        }
+    }
+    span {
+        color: variables.$grey-50;
+        margin-right: 8px;
+    }
+    .selected {
+        color: variables.$heading-color;
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            inset: -17px -14px -15px 0px;
+        }
+        &.placeholder {
+            margin-left: 28px;
+            color: variables.$dark-blue-60;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@use "../../styles/base/variables";
+.guidlines-header {
+    margin-bottom: 25px;
+    @media(max-width: 767px) {
+        margin-bottom: 22px;
+    }
+    p {
+        margin-top: 95px;
+        @media(max-width: 1023px) {
+            margin-top: 60px;
+        }
+        @media(max-width: 767px) {
+            margin-top: -4px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+}
+
+.tabs {
+    .tab-buttons {
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+        @media(max-width: 767px) {
+            margin-bottom: 16px;
+        }
+        button {
+            font-size: 20px;
+            color: variables.$dark-blue-60;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: -2px;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+            padding: 0 13px 22px;
+            margin-right: 67px;
+            background-color: transparent;
+            @media(max-width: 1023px) {
+                margin-right: 20px;
+            }
+            @media(max-width: 767px) {
+                font-size: 16px;
+                margin-right: 0px;
+                padding: 0 12px 20px;
+            }
+            &.active {
+                color: variables.$heading-color;
+                border-bottom: 2px solid variables.$heading-color;
+            }
+            &:last-child {
+                @media(max-width: 767px) {
+                    margin-right: -10px;
+                }
+            }
+        }
+    }
+}

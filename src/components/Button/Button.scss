@@ -1,0 +1,44 @@
+@use "../../styles/base/variables";
+
+.btn {
+    @media (max-width:1023px) {
+        // display: block;
+    }
+    &.btn-primary {
+        background-color: variables.$blue;
+        color: variables.$white;
+        padding: 9px 27px 9px 20px;
+        border-radius: 12px;
+        letter-spacing: -0.8px;
+        @media (max-width:1023px) {
+            padding: 10px 27px 10px 20px;
+        }
+        &.btn-icon-left {
+            display: inline-flex;
+            margin-bottom: 20px;
+            img {
+                order: -1;
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+    &.btn-outline {
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 12px;
+        background: transparent;
+        padding: 13px 22px;
+        letter-spacing: -0.5px;
+        img {
+            margin-left: 0;
+            margin-right: 16px;
+            @media(max-width:767px) {
+                margin-right: 6px;
+            }
+        }
+    }
+    img {
+        margin-left: 21px;
+        vertical-align: -4px;
+        margin-right: -6px;
+    }
+}

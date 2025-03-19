@@ -1,0 +1,38 @@
+@use "../../styles/base/variables";
+.post-card {
+    @media(max-width:767px) {    
+        margin-bottom: 12px;
+    }
+    h6 {
+        letter-spacing: -0.6px;
+        margin-bottom: 9px;
+        color: variables.$heading-color;
+        font-weight: 400;
+        @media(max-width:767px) {
+            font-size: 14px;
+        }
+    }
+    
+    .post-thumbnail {
+        border-radius: 12px;
+        margin-bottom: 17px;
+        @media(max-width:767px) {
+            height: 228px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    .post-meta {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        padding: 20px 5px 18px 0;
+        @media(max-width:767px) {
+            padding: 10px 5px 6px 0;
+            font-size: 12px;
+        }
+    }
+}

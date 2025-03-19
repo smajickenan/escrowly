@@ -1,0 +1,19 @@
+@use "../../styles/base/variables";
+.team-member-card {
+    img {
+        border-radius: 12px;
+        margin-bottom: 19px;
+        @media(max-width:767px) {
+            height: 209px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+    }
+    h6 {
+        color: variables.$heading-color;
+        @media(max-width:767px) {
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+    }
+}

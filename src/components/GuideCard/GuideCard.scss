@@ -1,0 +1,90 @@
+@use "../../styles/base/variables";
+.guide-card  {
+    background:#fff;
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius: 12px;
+    padding: 23px;
+    margin-bottom: 20px;
+    @media(max-width: 767px) {
+        padding: 15px;
+        margin-bottom: 12px;
+    }
+    .row {
+        margin: 0 -6px;
+    }
+    
+    .col {
+        padding: 0 6px;
+        &:nth-child(2) {
+            @media(max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+    h4 {
+        font-weight: 400;
+        color: variables.$heading-color;
+        font-size: 24px;
+        margin-bottom: 12px;
+        @media(max-width: 767px) {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            line-height: 27px;
+        }
+        img {
+            vertical-align: -14px;
+            margin-right: 12px;
+        }
+    }
+    h6 {
+        margin-bottom: 13px;
+        color: variables.$heading-color;
+        letter-spacing: -0.7px;
+        @media(max-width: 767px) {    
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+    }
+    
+    p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .guide-thumb {
+        margin-bottom: 12px;
+        position: relative;
+    
+        & > img {
+            border-radius: 12px;
+            @media(max-width: 767px) {
+                height: 162px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .btn-play {
+            background: rgba(255, 255, 255, 0.2);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 66px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            backdrop-filter: blur(4px);
+            @media(max-width: 767px) {
+                width: 48px;
+                height: 48px;
+            }
+            img {
+                @media(max-width: 767px) {
+                    transform: scale(0.7);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover img {
+        transform: translateX(5px);
+    }
+    &.btn-primary {
+        background-color: #19459f;
+        &:hover {
+            background-color: #14256c;
+        }
+    }
+    &.btn-secondary {
+        background-color: #fff;
+        color: #030518;
+        border-radius: 8px;
+        padding: 9px 18px 8px;
+        border: 1px solid #fff;
+        &:hover {
+            background: transparent;
+            color: #fff;
+            img {
+                filter: invert(1);
+            }
+        }
+    }
+    &.btn-link {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+        background-color:transparent;
+    }
+    img {
+        transition: 0.3s;
+    }
+}

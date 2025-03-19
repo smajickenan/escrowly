@@ -1,0 +1,33 @@
+@use "../../styles/base/variables";
+.help-desk-item {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 12px 13px 12px;
+    margin-bottom: 21px;
+    @media(max-width:767px) {
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    a {
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 8px;
+        display: block;
+        padding: 11px 20px;
+        border: 1px dashed rgba(0,0,0,0.1);
+        background: #fff;
+        color: variables.$heading-color;
+        @media(max-width:767px) {
+            padding-left: 37px;
+            position: relative;
+        }
+        span {
+            margin-right: 5px;
+            @media(max-width:767px) {
+                position: absolute;
+                left: 9px;
+                top: 11px;
+            }
+        }
+    }
+}
