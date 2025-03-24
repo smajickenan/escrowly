@@ -1,0 +1,96 @@
+@use "../../styles/base/variables";
+.language-dropdown {
+    color: variables.$white;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    padding: 10px 0;
+    margin-right: 6px;
+    @media (max-width: 1023px) {
+        display: none;
+    }
+    &:hover {
+        .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .chevron-down {
+        margin-left: 7px;
+    }
+    .selected-language {
+        cursor: pointer;
+        position: relative;
+        padding-right: 21px;
+        &:after {
+            content: "";
+            position: absolute;
+            right: 5px;
+            top: 7px;
+            width: 9px;
+            height: 6px;
+            background-image: url(../../assets/img/chevron-down-white.svg);
+            background-repeat: no-repeat;
+        }
+        img {
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+    }
+    .dropdown-menu {
+        position: absolute;
+        left: -20px;
+        top: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        padding: 0;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: variables.$white;
+        li {
+            &:hover {
+                a {
+                    background: variables.$blue;
+                    color: variables.$white;
+                }
+            }
+            a {
+                color: variables.$dark-blue-60;
+                display: block;
+                padding: 5px 20px;
+                transition: 0.3s;
+                display: flex;
+                align-items: center;
+                min-width: 126px;
+                white-space: nowrap;
+                img {
+                    border-radius: 50%;
+                    width: 17px;
+                    height: 17px;
+                    margin-right: 3px;
+                    display: inline-block;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+.header-dark, .header-scrolling {
+    .language-dropdown {
+        color: variables.$heading-color;
+    }
+    .selected-language {
+        &:after {
+            background-image: url(../../assets/img/chevron-down-dark.svg);
+        }
+    }
+}
+.header-scrolling {
+    .selected-language {
+        &:after {
+            background-image: url(../../assets/img/chevron-down-white.svg);
+        }
+    }
+}

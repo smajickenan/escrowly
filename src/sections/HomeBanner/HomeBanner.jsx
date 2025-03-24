@@ -37,7 +37,7 @@ const HomeBanner = function () {
             <div className="container">
                 <div className="row">
                     <div className="col banner-content">
-                        <AnimatedHeading title="The Future of Secure Crypto Transactions."/>
+                        <AnimatedHeading title="Never buy or sell online without using Escrowly"/>
 
                         <p className="color-blue-50">
                             <motion.span
@@ -45,14 +45,14 @@ const HomeBanner = function () {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 2 }}
                             >
-                                The world’s first fully automated and ultra-secure crypto escrow platform,
+                                With Escrowly.com, you can buy and sell anything online while secuting your
                             </motion.span>
                             <motion.span
                                 initial={{ opacity: 0, y: 10}}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 2.2 }}
                             >
-                                ensuring trusted crypto transactions with smart contract power.
+                                transactions with zero chargeback risk. The real future of safe payments.
                             </motion.span>
                         </p>
                         <FeeCalculator/>

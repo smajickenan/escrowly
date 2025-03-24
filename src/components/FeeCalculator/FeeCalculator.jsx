@@ -62,21 +62,21 @@ const FeeCalculator = ({paymentMethod=false, animation=true}) => {
                     className="dropdown-coin"
                     placeholder={[
                         '/img/icon-crypto-tether.svg',
+                        '/img/icon-crypto-cardano.svg',
                         '/img/icon-crypto-bitcoin.svg',
                         '/img/icon-crypto-etherium.svg',
                         '/img/icon-crypto-solana.svg',
                         '/img/icon-crypto-binance.svg',
                         '/img/icon-crypto-usdc.svg',
-                        '/img/icon-crypto-cardano.svg'
                     ]}
                     items={[
                         <><img src="/img/icon-crypto-tether.svg" alt="" /> Tether (USDT)</>,
+                        <><img src="/img/icon-crypto-cardano.svg" alt="" /> Litecoin (LTC)</>,
                         <><img src="/img/icon-crypto-bitcoin.svg" alt="" /> Bitcoin (BTC)</>,
                         <><img src="/img/icon-crypto-etherium.svg" alt="" /> Ethereum (ETH)</>,
                         <><img src="/img/icon-crypto-solana.svg" alt="" /> Solana (SOL)</>,
                         <><img src="/img/icon-crypto-binance.svg" alt="" /> Binance Coin (BNB)</>,
                         <><img src="/img/icon-crypto-usdc.svg" alt="" /> U.S. Dollar Coin (USDC)</>,
-                        <><img src="/img/icon-crypto-cardano.svg" alt="" /> Cardano (ADA)</>
                     ]} 
                 />
             </motion.div>
