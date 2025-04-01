@@ -141,7 +141,27 @@ const Header = ({ className }) => {
                             </li>
                         </ul>
                     </li>
-                    <li><Link to="/how-it-works">How It Works</Link></li>
+                    <li className="has-sub-menu">
+                        <Link to="/our-partners">Partners</Link>
+                        <ul className="sub-menu">
+                            <li>
+                                <Link to="/get-started">Get Started <span>Description text example</span></Link>
+                            </li>
+                            <li>
+                                <Link to="/our-partners">Our Partners <span>Description text example</span></Link>
+                            </li>
+                            <li>
+                                <Link to="/partners-enquiry">Partners Enquiry <span>Description text example</span></Link>
+                            </li>
+                            <li>
+                                <Link to="/api-guide">API Guide <span>Description text example</span></Link>
+                            </li>
+                            <li className="bordered">
+                                <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg"/>
+                            </li>
+                        </ul>
+                    </li>
                     <li className="has-sub-menu">
                         <Link to="/about-us">Help</Link>
                         <ul className="sub-menu">

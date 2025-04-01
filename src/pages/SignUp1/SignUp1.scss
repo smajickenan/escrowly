@@ -1,10 +1,16 @@
-.login-wrapper .logo {
-    position: absolute;
-    left: 72px;
-    top: 41px;
-    @media(max-width:767px) {
-        left: 4px;
-        top: 20px;
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    .logo {
+        position: absolute;
+        left: 72px;
+        top: 41px;
+        @media(max-width:767px) {
+            left: 4px;
+            top: 20px;
+        }
     }
 }
 
@@ -12,9 +18,13 @@
     max-width: 680px;
     background: #fff;
     border-radius: 12px;
-    margin: 142px auto 0;
+    margin: 20px auto 20px;
     padding: 60px 120px 13px;
     border: 1px solid rgba(0,0,0,0.08);
+    width: 100%;
+    @media(max-width:1199px) {
+        margin-top: 157px;
+    }
     @media(max-width:767px) {
         max-width: calc(100% - 31px);
         margin-top: 157px;

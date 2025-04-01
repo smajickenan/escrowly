@@ -24,6 +24,21 @@ import SignIn1 from "./pages/SignIn1/SignIn1";
 import SignUp1 from "./pages/SignUp1/SignUp1";
 import HelpDesk from "./pages/HelpDesk/HelpDesk";
 import HelpDeskSingle from "./pages/HelpDeskSingle/HelpDeskSingle";
+import OurPartners from "./pages/OurPartners";
+import GetStarted from "./pages/GetStarted";
+import PartnersEnquiry from "./pages/PartnersEnquiry";
+import ApiGuide from "./pages/ApiGuide";
+import PaymentOptions from "./pages/PaymentOptions";
+import ApprovedCarriers from "./pages/PartnersEnquiry copy";
+import FraudPrevention from "./pages/FraudPrevention";
+import ReportABug from "./pages/ReportABug";
+import ContactUs from "./pages/ContactUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import AMLKYCPolicy from "./pages/AMLKYCPolicy";
+import RegulatoryCompliance from "./pages/RegulatoryCompliance";
+import LegalSecurityPolicy from "./pages/LegalSecurityPolicy";
+import RiskDisclosure from "./pages/RiskDisclosure";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -63,6 +78,22 @@ function MainLayout() {
         <Route path="/sign-in1" element={<SignIn1 />} />
         <Route path="/help-desk" element={<HelpDesk />} />
         <Route path="/help-desk-single" element={<HelpDeskSingle />} />
+        <Route path="/our-partners" element={<OurPartners/>} />
+        <Route path="/get-started" element={<GetStarted/>} />
+        <Route path="/partners-enquiry" element={<PartnersEnquiry/>} />
+        <Route path="/get-started" element={<GetStarted/>} />
+        <Route path="/api-guide" element={<ApiGuide/>} />
+        <Route path="/payment-options" element={<PaymentOptions/>} />
+        <Route path="/approved-carriers" element={<ApprovedCarriers/>} />
+        <Route path="/fraud-prevention" element={<FraudPrevention/>} />
+        <Route path="/report-a-bug" element={<ReportABug/>} />
+        <Route path="/contact-us" element={<ContactUs/>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+        <Route path="/aml-kyc-policy" element={<AMLKYCPolicy/>} />
+        <Route path="/regulatory-compliance" element={<RegulatoryCompliance/>} />
+        <Route path="/legal-security-policy" element={<LegalSecurityPolicy/>} />
+        <Route path="/risk-disclosure" element={<RiskDisclosure/>} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}

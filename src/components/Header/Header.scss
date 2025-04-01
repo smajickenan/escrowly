@@ -59,10 +59,10 @@
             display: none;
         }
         li {
-            margin-right: 16px;
+            padding-right: 16px;
             // position: relative;
             @media (max-width: 1279px) {
-                margin-right: 10px;
+                padding-right: 10px;
             }
             &.has-sub-menu {
                 // padding-right: 16px;

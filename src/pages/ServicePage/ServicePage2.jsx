@@ -37,7 +37,7 @@ const ServicePage2 = () => (
                 <section className="section-service-page">
                     <div className="container">
                         <SectionHeader 
-                            label="Domain Name Escrow"
+                            label="General Escrow Services "
                             title="General Escrow Services - Secure Your Crypto Transactions"
                             className="centered"
                         />

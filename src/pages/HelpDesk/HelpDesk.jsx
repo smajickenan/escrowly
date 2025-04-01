@@ -8,14 +8,157 @@ import HelpDeskItem from "../../components/HelpDeskItem/HelpDeskItem";
 import SupportHours from "../../sections/SupportHours/SupportHours";
 
 const helpQuestions = [
-    "How does Escrowly ensure the security of my transactions?",
-    "What payment methods do you support?",
-    "Can I integrate Escrowly with my existing business systems?",
-    "How quickly are funds released after a transaction is completed?",
-    "Is Escrowly available for international transactions?",
-    "Is Escrowly available for international transactions?",
-    "Is Escrowly available for international transactions?"
+    {
+        question: "How does Escrowly ensure the security of my transactions?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "What payment methods do you support?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I integrate Escrowly with my existing business systems?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How quickly are funds released after a transaction is completed?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Is Escrowly available for international transactions?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "What are the fees for using Escrowly?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I track the status of my transaction in real time?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How do I contact support?",
+        link: "/help-desk-single"
+      }
 ];
+
+
+const helpQuestions2 = [
+      {
+        question: "What payment methods do you support?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I integrate Escrowly with my existing business systems?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How quickly are funds released after a transaction is completed?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Is Escrowly available for international transactions?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "What are the fees for using Escrowly?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I track the status of my transaction in real time?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How do I contact support?",
+        link: "/help-desk-single"
+      }
+];
+
+const helpQuestions3 = [
+      {
+        question: "Can I integrate Escrowly with my existing business systems?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How quickly are funds released after a transaction is completed?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Is Escrowly available for international transactions?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "What are the fees for using Escrowly?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I track the status of my transaction in real time?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How do I contact support?",
+        link: "/help-desk-single"
+      }
+];
+
+const helpQuestions4 = [
+      {
+        question: "How quickly are funds released after a transaction is completed?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Is Escrowly available for international transactions?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "What are the fees for using Escrowly?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I track the status of my transaction in real time?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How do I contact support?",
+        link: "/help-desk-single"
+      }
+];
+
+
+const helpQuestions5 = [
+    {
+      question: "Is Escrowly available for international transactions?",
+      link: "/help-desk-single"
+    },
+    {
+      question: "What are the fees for using Escrowly?",
+      link: "/help-desk-single"
+    },
+    {
+      question: "Can I track the status of my transaction in real time?",
+      link: "/help-desk-single"
+    },
+    {
+      question: "How do I contact support?",
+      link: "/help-desk-single"
+    }
+];
+
+const helpQuestions6 = [
+      {
+        question: "What are the fees for using Escrowly?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "Can I track the status of my transaction in real time?",
+        link: "/help-desk-single"
+      },
+      {
+        question: "How do I contact support?",
+        link: "/help-desk-single"
+      }
+];
+
 
 const HelpDesk = () => {
     const [activeTab, setActiveTab] = useState('tab1');
@@ -93,8 +236,43 @@ const HelpDesk = () => {
                                 <div className="help-desk-content">
                                     {activeTab === 'tab1' && (
                                         <ul className="help-desk-list">
-                                            {helpQuestions.map((question, index) => (
-                                                <HelpDeskItem key={index} question={question} />
+                                            {helpQuestions.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
+                                            ))}
+                                        </ul>
+                                    )}
+                                    {activeTab === 'tab2' && (
+                                        <ul className="help-desk-list">
+                                            {helpQuestions2.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
+                                            ))}
+                                        </ul>
+                                    )}
+                                    {activeTab === 'tab3' && (
+                                        <ul className="help-desk-list">
+                                            {helpQuestions3.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
+                                            ))}
+                                        </ul>
+                                    )}
+                                    {activeTab === 'tab4' && (
+                                        <ul className="help-desk-list">
+                                            {helpQuestions4.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
+                                            ))}
+                                        </ul>
+                                    )}
+                                    {activeTab === 'tab5' && (
+                                        <ul className="help-desk-list">
+                                            {helpQuestions5.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
+                                            ))}
+                                        </ul>
+                                    )}
+                                    {activeTab === 'tab6' && (
+                                        <ul className="help-desk-list">
+                                            {helpQuestions6.map(({ question, link }, index) => (
+                                                <HelpDeskItem key={index} question={question} link={link} />
                                             ))}
                                         </ul>
                                     )}

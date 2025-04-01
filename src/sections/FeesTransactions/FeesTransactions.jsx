@@ -6,72 +6,75 @@ import 'swiper/css';
 const FeesTransactions = function () {
     const cryptoTabs = [
         { id: 'tab1', icon: "/img/icon-crypto-tether.svg", label: "Tether (USDT)" },
-        { id: 'tab2', icon: "/img/icon-crypto-bitcoin.svg", label: "Bitcoin (BTC)" },
-        { id: 'tab3', icon: "/img/icon-crypto-etherium.svg", label: "Ethereum (ETH)" },
-        { id: 'tab4', icon: "/img/icon-crypto-solana.svg", label: "Solana (SOL)" },
-        { id: 'tab5', icon: "/img/icon-crypto-binance.svg", label: "Binance Coin (BNB)" },
-        { id: 'tab6', icon: "/img/icon-crypto-xrp.svg", label: "XRP (XRP)" },
-        { id: 'tab7', icon: "/img/icon-crypto-usdc.svg", label: "U.S. Dollar Coin (USDC)" },
-        { id: 'tab8', icon: "/img/icon-crypto-cardano.svg", label: "Cardano (ADA)" }
+        { id: 'tab2', icon: "/img/icon-crypto-cardano.svg", label: "Litecoin (LTC)" },
+        { id: 'tab3', icon: "/img/icon-crypto-bitcoin.svg", label: "Bitcoin (BTC)" },
+        { id: 'tab4', icon: "/img/icon-crypto-etherium.svg", label: "Ethereum (ETH)" },
+        { id: 'tab5', icon: "/img/icon-crypto-solana.svg", label: "Solana (SOL)" },
+        { id: 'tab6', icon: "/img/icon-crypto-binance.svg", label: "Binance Coin (BNB)" },
+        { id: 'tab7', icon: "/img/icon-crypto-xrp.svg", label: "XRP (XRP)" },
+        { id: 'tab8', icon: "/img/icon-crypto-usdc.svg", label: "U.S. Dollar Coin (USDC)" },
     ];
 
     const [activeTab, setActiveTab] = useState(cryptoTabs[0].id);
 
     const transactionData = [
+
         {
-            amount: "0 - 1 BTC",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$1 - $500",
+            standard: "3.5%",
+            concierge: "$10",
+            noCharges: "No Charges"
         },
         {
-            amount: "1 - 10 BTC",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$500.01 - $5,000",
+            standard: "2.5%",
+            concierge: "$15",
+            noCharges: "No Charges"
         },
         {
-            amount: "10 - 50 BTC",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$5000.01 - $10,000",
+            standard: "2.2%",
+            concierge: "$75",
+            noCharges: "No Charges"
         },
         {
-            amount: "50 - 100 BTC",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$10,000.01 - $100,000",
+            standard: "1.8%",
+            concierge: "$150",
+            noCharges: "No Charges"
         },
         {
-            amount: "100 BTC and above",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$100,000.01 - $500,000",
+            standard: "1.5%",
+            concierge: "$600",
+            noCharges: "No Charges"
         },
         {
-            amount: "$0 - $5,000.00",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$500,000.01 - $1,000,000",
+            standard: "1.0%",
+            concierge: "$2000",
+            noCharges: "No Charges"
         },
         {
-            amount: "$0 - $5,000.00",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$1,000,000.01 - $5,000,000",
+            standard: "0.7%",
+            concierge: "$4,500",
+            noCharges: "No Charges"
         },
         {
-            amount: "$0 - $5,000.00",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
+            amount: "$5,000,000.01 - $10,000,000",
+            standard: "0.4%",
+            concierge: "$7,500",
+            noCharges: "No Charges"
         },
         {
-            amount: "$0 - $5,000.00",
-            standard: "2.6% (0.01 BTC minimum)",
-            concierge: "5.2% (0.02 BTC minimum)",
-            fee: "Standard or Concierge fee + 3.05%"
-        }
+            amount: "$10,000,000+",
+            standard: "0.2%",
+            concierge: "Custom Quote",
+            noCharges: "No Charges"
+        },
+
+
     ];
 
     return (
@@ -103,9 +106,9 @@ const FeesTransactions = function () {
                         <div className="transactions-table">
                             <div className="th">
                                 <div className="td">Transaction Amount (Crypto Amount)</div>
-                                <div className="td">Standard</div>
-                                <div className="td">Concierge</div>
-                                <div className="td">Payment Processing Fee</div>
+                                <div className="td">Fee Percentage</div>
+                                <div className="td">Minimum Fee</div>
+                                <div className="td">No Charges</div>
                             </div>
                             {transactionData.map((row, index) => (
                                 <div className="tr" key={index}>
@@ -123,7 +126,7 @@ const FeesTransactions = function () {
                                     </div>
                                     <div className="td">
                                         <strong>Payment Processing Fee</strong>
-                                        <span>{row.fee}</span>
+                                        <span>{row.noCharges}</span>
                                     </div>
                                 </div>
                             ))}

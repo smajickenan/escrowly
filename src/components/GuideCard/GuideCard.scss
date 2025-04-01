@@ -57,6 +57,16 @@
     
         & > img {
             border-radius: 12px;
+            max-height: 317px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+            @media(max-width: 1199px) {
+                height: 242px;
+            }
+            @media(max-width: 1023px) {
+                height: 173px;
+            }
             @media(max-width: 767px) {
                 height: 162px;
                 width: 100%;

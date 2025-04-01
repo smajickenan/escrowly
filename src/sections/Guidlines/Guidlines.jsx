@@ -63,20 +63,48 @@ const Guidlines = () => {
                                 title="Inspect and Confirm Satisfaction"
                                 subtitle="Verify and Confirm Quality"
                                 text="Once you receive the product or service, carefully inspect it to ensure it meets the agreed-upon standards. Only after confirming that everything is satisfactory, the payment is released to the seller, ensuring both parties are protected"
-                                type="video"
+                                type="image"
                             />
                         </div>
                     )}
                     {activeTab === 'tab2' && (
-                        <div>
-                            <h2>Tab 2 Content</h2>
-                            <p>Content for Tab 2.</p>
+                        <div className="tab-content-wrapper">
+                            <GuideCard
+                                icon="/img/guide-icon-1.svg"
+                                imgSrc={["/images/buyer_image2.avif", "/images/buyer_image.avif"]}
+                                title="Reserve Funds Securely"
+                                subtitle="Reserve Payment with Confidence"
+                                text="Securely set aside the agreed payment amount on Escrowly. This guarantees that both parties are committed to the transaction and provides peace of mind, knowing that the funds are safely held until the conditions are met"
+                                type="image"
+                            />
+                            <GuideCard
+                                icon="/img/guide-icon-2.svg"
+                                imgSrc={["/images/guide-image-3.jpg"]}
+                                title="Inspect and Confirm Satisfaction"
+                                subtitle="Verify and Confirm Quality"
+                                text="Once you receive the product or service, carefully inspect it to ensure it meets the agreed-upon standards. Only after confirming that everything is satisfactory, the payment is released to the seller, ensuring both parties are protected"
+                                type="image"
+                            />
                         </div>
                     )}
                     {activeTab === 'tab3' && (
-                        <div>
-                            <h2>Tab 3 Content</h2>
-                            <p>Content for Tab 3.</p>
+                        <div className="tab-content-wrapper">
+                            <GuideCard
+                                icon="/img/guide-icon-1.svg"
+                                imgSrc={["/images/Broker_image.avif", "/images/Broker_image2.avif"]}
+                                title="Reserve Funds Securely"
+                                subtitle="Reserve Payment with Confidence"
+                                text="Securely set aside the agreed payment amount on Escrowly. This guarantees that both parties are committed to the transaction and provides peace of mind, knowing that the funds are safely held until the conditions are met"
+                                type="image"
+                            />
+                            <GuideCard
+                                icon="/img/guide-icon-2.svg"
+                                imgSrc={["/images/guide-image-3.jpg"]}
+                                title="Inspect and Confirm Satisfaction"
+                                subtitle="Verify and Confirm Quality"
+                                text="Once you receive the product or service, carefully inspect it to ensure it meets the agreed-upon standards. Only after confirming that everything is satisfactory, the payment is released to the seller, ensuring both parties are protected"
+                                type="image"
+                            />
                         </div>
                     )}
                 </div>

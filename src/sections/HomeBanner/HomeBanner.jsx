@@ -87,7 +87,7 @@ const HomeBanner = function () {
                         ) : (
                             <video 
                                 ref={videoRef}
-                                src="/video/globe.webm" 
+                                src="/video/globe-new3.webm" 
                                 autoPlay 
                                 loop 
                                 muted 

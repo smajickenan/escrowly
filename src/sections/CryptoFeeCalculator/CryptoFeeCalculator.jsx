@@ -17,7 +17,7 @@ const CryptoFeeCalculator = function () {
                         />
                         <p>Enter the purchase price of your goods to estimate the escrow fee</p>
                         <FeeCalculator 
-                            paymentMethod={true}
+                            paymentMethod={false}
                             animation={false}
                         />
                     </div>
