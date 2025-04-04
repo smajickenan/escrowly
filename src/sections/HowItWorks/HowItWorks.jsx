@@ -19,7 +19,7 @@ const HowItWorks = () => {
         <div className="container">
             <SectionHeader 
                 label="How It Works"
-                title="How Escrowly Ensures Safe <br> and Secure Deals"
+                title="How Escrowly Ensures Safe <br> & Secure Deals"
                 className="mb-40 xs-mb-30"
             />
 
