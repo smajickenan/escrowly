@@ -12,7 +12,7 @@ import Innovate from "../sections/Innovate/Innovate";
 const HomePage = () => (
     <>
         <Helmet>
-            <title>Best Crypto Escrow - Escrowly</title>
+            <title>Escrowly - Trusted Crypto Escrow for Safe Online Deals</title>
             <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
             <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
             <meta name="author" content="Escrowly Crypto Escrow Team" />
