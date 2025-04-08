@@ -1,7 +1,10 @@
-.section-our-services .swiper {
-    padding-bottom: 32px;
-    @media(max-width:767px) {
-        padding-bottom: 22px;
+.section-our-services {
+    overflow-x: hidden;
+    .swiper {
+        padding-bottom: 32px;
+        @media(max-width:767px) {
+            padding-bottom: 22px;
+        }
     }
 }
 

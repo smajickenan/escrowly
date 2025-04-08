@@ -125,7 +125,13 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <p>Escrowly.com operates in compliance with applicable regulations to provide a secure crypto escrow <br />service for transactions. We are not a bank, or legal advisory firm.</p>
+                            <p>Escrowly.com operates in compliance with applicable regulations to provide a secure crypto escrow service. <br />
+                                Escrowly LLC is a registered Money Services Business (MSB) with FinCEN and complies with all AML/KYC regulations.
+                                <br />
+                                We are not a bank or a legal advisory firm. Learn more at <a href="https://www.fincen.gov/" target="_blank" rel="noopener noreferrer nofollow" classname="text-blue-600 hover:underline">
+                                    FinCEN.gov ↗
+                                </a>
+                            </p>
                         </div>
                         <div className="col">
                             <p className="copyright">Copyright © Escrowly™ and logo are trademarks of Escrowly LLC All rights reserved. <br />

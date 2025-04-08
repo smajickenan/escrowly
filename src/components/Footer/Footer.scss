@@ -195,6 +195,7 @@
         .col:last-child {
             text-align: right;
             @media(max-width:767px) {
+                order: -1;
                 text-align: center;
             }
         }

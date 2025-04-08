@@ -16,7 +16,8 @@
     }
     &:before {
         background: linear-gradient(180deg, #020417 43.52%, #0D1835 57.65%, #15287A 63.86%, #FFFFFF 77.07%);
-        filter: blur(201.7px);
+        // filter: blur(201.7px);
+        // -webkit-filter: blur(201.7px);
         content: "";
         position: absolute;
         top: -30%;

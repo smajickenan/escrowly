@@ -40,3 +40,12 @@
         }
     }
 }
+
+
+.header-dark.header-scrolling:not(.active) {
+    .secondary-menu {
+        .menu-btn {
+            background-image: url("../../assets/img/menu-btn-open.svg");
+        }
+    }
+}

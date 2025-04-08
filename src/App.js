@@ -39,6 +39,7 @@ import RegulatoryCompliance from "./pages/RegulatoryCompliance";
 import LegalSecurityPolicy from "./pages/LegalSecurityPolicy";
 import RiskDisclosure from "./pages/RiskDisclosure";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import WhatIsEscrowly from "./pages/WhatIsEscrowly/WhatIsEscrowly";
 
 function App() {
   return (
@@ -49,9 +50,9 @@ function App() {
 }
 
 function MainLayout() {
-  const location = useLocation(); 
-  const isLight = location.pathname === "/"; 
-  const hideHeaderFooter = ["/sign-in1", "/sign-up1"].includes(location.pathname); // Скрывать на этих страницах
+  const location = useLocation();
+  const isLight = location.pathname === "/";
+  const hideHeaderFooter = ["/sign-in1", "/sign-up1"].includes(location.pathname);
 
   return (
     <div className="App">
@@ -78,22 +79,23 @@ function MainLayout() {
         <Route path="/sign-in1" element={<SignIn1 />} />
         <Route path="/help-desk" element={<HelpDesk />} />
         <Route path="/help-desk-single" element={<HelpDeskSingle />} />
-        <Route path="/our-partners" element={<OurPartners/>} />
-        <Route path="/get-started" element={<GetStarted/>} />
-        <Route path="/partners-enquiry" element={<PartnersEnquiry/>} />
-        <Route path="/get-started" element={<GetStarted/>} />
-        <Route path="/api-guide" element={<ApiGuide/>} />
-        <Route path="/payment-options" element={<PaymentOptions/>} />
-        <Route path="/approved-carriers" element={<ApprovedCarriers/>} />
-        <Route path="/fraud-prevention" element={<FraudPrevention/>} />
-        <Route path="/report-a-bug" element={<ReportABug/>} />
-        <Route path="/contact-us" element={<ContactUs/>} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
-        <Route path="/aml-kyc-policy" element={<AMLKYCPolicy/>} />
-        <Route path="/regulatory-compliance" element={<RegulatoryCompliance/>} />
-        <Route path="/legal-security-policy" element={<LegalSecurityPolicy/>} />
-        <Route path="/risk-disclosure" element={<RiskDisclosure/>} />
-        <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
+        <Route path="/our-partners" element={<OurPartners />} />
+        <Route path="/get-started" element={<GetStarted />} />
+        <Route path="/partners-enquiry" element={<PartnersEnquiry />} />
+        <Route path="/get-started" element={<GetStarted />} />
+        <Route path="/api-guide" element={<ApiGuide />} />
+        <Route path="/payment-options" element={<PaymentOptions />} />
+        <Route path="/approved-carriers" element={<ApprovedCarriers />} />
+        <Route path="/fraud-prevention" element={<FraudPrevention />} />
+        <Route path="/report-a-bug" element={<ReportABug />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/aml-kyc-policy" element={<AMLKYCPolicy />} />
+        <Route path="/regulatory-compliance" element={<RegulatoryCompliance />} />
+        <Route path="/legal-security-policy" element={<LegalSecurityPolicy />} />
+        <Route path="/risk-disclosure" element={<RiskDisclosure />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/what-is-escrowly" element={<WhatIsEscrowly />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}

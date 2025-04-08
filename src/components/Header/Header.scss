@@ -5,6 +5,9 @@
     z-index: 20;
     letter-spacing: 0;
     padding-bottom: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
     &.active {
         position: fixed;
         inset: 0;
@@ -204,8 +207,8 @@
                 backdrop-filter: none;
                 li {
                     &:hover {
-                        background: rgb(236 236 239 / 30%);
-                        border: 1px solid rgba(0, 0, 0, 0.08);
+                        // background: rgb(236 236 239 / 30%);
+                        // border: 1px solid rgba(0, 0, 0, 0.08);
                     }
                     a span {
                         // color: rgb(100 101 113);
@@ -225,6 +228,11 @@
         }
     }
     &.header-scrolling {
+        &.header-dark.active {
+            .btn-secondary {
+                color: #fff;
+            }
+        }
         .main-menu {
             & > li {
 
