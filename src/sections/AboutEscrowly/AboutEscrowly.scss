@@ -77,6 +77,7 @@
         margin-bottom: 6px;
         @media (max-width: 767px) {
             margin-bottom: 9px;
+            display: flex;
         }
         img {
             border-radius: 50%;

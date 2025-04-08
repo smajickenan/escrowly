@@ -13,8 +13,8 @@ const LoginForm = ({ type }) => {
 
     return (
         <div className="login-form-wrapper">
-            <h3>{ type === "sign-up" ? "Create an account on Escrowly" : "Login to Escrowly"}</h3>
-            <p>The safest way to close your deal.</p>    
+            <h3>{type === "sign-up" ? "Open Account" : "Login"}</h3>
+            <p>The safest way to close your deal.</p>
             <div className="social-login">
                 <button className="btn btn-outline btn-social-login">
                     <img src="/img/icon-google.svg" alt="" />
@@ -35,12 +35,12 @@ const LoginForm = ({ type }) => {
                     <label htmlFor="password">Password</label>
                     <a href="#url">Forgot password?</a>
                     <div className={`input-password ${showPassword ? "password-showing" : ""}`}>
-                        <input 
-                            type={showPassword ? "text" : "password"} 
-                            name="password" 
-                            placeholder="min 8 chars" 
+                        <input
+                            type={showPassword ? "text" : "password"}
+                            name="password"
+                            placeholder="min 8 chars"
                         />
-                        <button 
+                        <button
                             className={`show-password ${showPassword ? "active" : ""}`}
                             onClick={togglePasswordVisibility}
                         >
@@ -49,11 +49,11 @@ const LoginForm = ({ type }) => {
                     </div>
                 </div>
                 <label htmlFor="terms" className="terms">
-                    <input type="checkbox" name="terms" defaultChecked/>
-                    I { type === "sign-up" ? "hereby" : ""} agree to the <a href="#url">Terms & Conditions</a> of Escrowly
+                    <input type="checkbox" name="terms" defaultChecked />
+                    I {type === "sign-up" ? "hereby" : ""} agree to the <a href="#url">Terms & Conditions</a> of Escrowly
                 </label>
-                <FormButton text={ type === "sign-up" ? "Sign Up" : "Sign In"}/>
-                <p className="align-left">{ type === "sign-up" ? "Have" : "Don't have"} an account? <Link to={ type === "sign-up" ? "/sign-in1" : "/sign-up1"}>{ type === "sign-up" ? "Sign In" : "Sign Up"}</Link></p>
+                <FormButton text={type === "sign-up" ? "Sign Up" : "Sign In"} />
+                <p className="align-left">{type === "sign-up" ? "Have" : "Don't have"} an account? <Link to={type === "sign-up" ? "/sign-in1" : "/sign-up1"}>{type === "sign-up" ? "Sign In" : "Sign Up"}</Link></p>
             </form>
         </div>
     );

@@ -224,7 +224,7 @@ const Header = ({ className }) => {
                             <li><a href="#linkedin"><img src="/img/social-icon-linkedin.svg" alt="" /></a></li>
                         </ul>
                         <p className="copyright">
-                            <a href="#copy">Copyright</a> © and Trademarked 2023–2025 Escrowly.com LLC. All rights reserved. A Tech Company with a Crypto Lic company
+                            Copyright © and Trademarked 2023–2025 Escrowly LLC. All rights reserved. A Tech Company with a Crypto Licence
                     </p>
                     </div>
                 </div>

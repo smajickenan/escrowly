@@ -99,8 +99,8 @@ const Footer = () => {
                                         <li><a href="#twitter"><img src="/img/social-icon-twitter.svg" alt="" /></a></li>
                                         <li><a href="#linkedin"><img src="/img/social-icon-linkedin.svg" alt="" /></a></li>
                                     </ul>
-                                    <a href="#url" className="btn-google-play"><img src="/images/btn-google-play.svg" alt="" /></a>
-                                    <a href="#url" className="btn-app-store"><img src="/images/btn-app-store.svg" alt="" /></a>
+                                    <a href="#url" className="btn-google-play"><img width="120" height="151" src="/images/btn-google-play.png" alt="" /></a>
+                                    <a href="#url" className="btn-app-store"><img width="120" height="151" src="/images/btn-app-store.png" alt="" /></a>
                                 </div>
                             </div>
                             <div className="col col-2">
@@ -129,7 +129,7 @@ const Footer = () => {
                                 Escrowly LLC is a registered Money Services Business (MSB) with FinCEN and complies with all AML/KYC regulations.
                                 <br />
                                 We are not a bank or a legal advisory firm. Learn more at <a href="https://www.fincen.gov/" target="_blank" rel="noopener noreferrer nofollow" classname="text-blue-600 hover:underline">
-                                    FinCEN.gov ↗
+                                    FinCEN.gov <img className="icon-globe" src="/img/globe-1.svg" alt="" />
                                 </a>
                             </p>
                         </div>

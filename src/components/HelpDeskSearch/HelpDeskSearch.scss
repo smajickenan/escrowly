@@ -32,9 +32,16 @@
     
     .btn.btn-primary {
         margin-top: 4px;
+        @media(max-width:374px) {
+            padding-left: 10px;
+            padding-right: 15px;
+        }
     }
     
     .btn.btn-primary img {
         margin-left: 16px;
+        @media(max-width:374px) {
+            margin-left: 10px;
+        }
     }
 }
