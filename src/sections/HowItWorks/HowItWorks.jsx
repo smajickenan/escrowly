@@ -9,54 +9,54 @@ import 'swiper/css/scrollbar';
 
 const HowItWorks = () => {
 
-  return (
-    <motion.section 
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        className="section section-how-it-works"
-    >
-        <div className="container">
-            <SectionHeader 
-                label="How It Works"
-                title="How Escrowly Ensures Safe <br> and Secure Deals"
-                className="mb-40 xs-mb-30"
-            />
+    return (
+        <motion.section
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="section section-how-it-works"
+        >
+            <div className="container">
+                <SectionHeader
+                    label="How It Works"
+                    title="How Escrowly Ensures Safe <br> and Secure Deals"
+                    className="mb-40 xs-mb-30"
+                />
 
-            <motion.div
-                variants={{
-                    hidden: { opacity: 0 },
-                    visible: { opacity: 1, transition: { duration: 0.6, delay: 0.5 } }
-                }}
-            >
-                <Swiper
-                
-                    speed={"1000"}
-                    slidesPerView={"auto"}
-                    className="overflow-visible"
-                    navigation={true} 
-                    modules={[Navigation, Scrollbar]}
-                    scrollbar={{
-                    hide: false,
-                    dragSize: 250
-                    }}
-                    breakpoints={{
-                        320: { 
-                            spaceBetween: 12,
-                            scrollbar:{
-                                hide: false,
-                                dragSize: 101
-                            }
-                        }, 
-                        768: { 
-                            spaceBetween: 20,
-                            scrollbar:{
-                                hide: false,
-                                dragSize: 250
-                            }
-                        }
+                <motion.div
+                    variants={{
+                        hidden: { opacity: 0 },
+                        visible: { opacity: 1, transition: { duration: 0.6, delay: 0.5 } }
                     }}
                 >
+                    <Swiper
+
+                        speed={"1000"}
+                        slidesPerView={"auto"}
+                        className="overflow-visible"
+                        navigation={true}
+                        modules={[Navigation, Scrollbar]}
+                        scrollbar={{
+                            hide: false,
+                            dragSize: 250
+                        }}
+                        breakpoints={{
+                            320: {
+                                spaceBetween: 12,
+                                scrollbar: {
+                                    hide: false,
+                                    dragSize: 101
+                                }
+                            },
+                            768: {
+                                spaceBetween: 20,
+                                scrollbar: {
+                                    hide: false,
+                                    dragSize: 250
+                                }
+                            }
+                        }}
+                    >
                         <SwiperSlide style={{ width: 'auto' }}>
                             <motion.div
                                 variants={{
@@ -64,7 +64,7 @@ const HowItWorks = () => {
                                     visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.6 } }
                                 }}
                             >
-                                <HowItWorksCard 
+                                <HowItWorksCard
                                     num="01"
                                     img="/img/icon-hiw-1.svg"
                                     title="Buyer & Seller Agree"
@@ -76,10 +76,10 @@ const HowItWorks = () => {
                             <motion.div
                                 variants={{
                                     hidden: { opacity: 0, x: 70 },
-                                    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.8} }
+                                    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 0.8 } }
                                 }}
                             >
-                                <HowItWorksCard 
+                                <HowItWorksCard
                                     num="02"
                                     img="/img/icon-hiw-2.svg"
                                     title="Buyer Pays Escrowly"
@@ -94,7 +94,7 @@ const HowItWorks = () => {
                                     visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1 } }
                                 }}
                             >
-                                <HowItWorksCard 
+                                <HowItWorksCard
                                     num="03"
                                     img="/img/icon-hiw-3.svg"
                                     title="Seller Delivers"
@@ -109,7 +109,7 @@ const HowItWorks = () => {
                                     visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.2 } }
                                 }}
                             >
-                                <HowItWorksCard 
+                                <HowItWorksCard
                                     num="04"
                                     img="/img/icon-hiw-4.svg"
                                     title="Buyer Approves"
@@ -124,7 +124,7 @@ const HowItWorks = () => {
                                     visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.4 } }
                                 }}
                             >
-                                <HowItWorksCard 
+                                <HowItWorksCard
                                     num="05"
                                     img="/img/icon-hiw-5.svg"
                                     title="Seller Gets Paid"
@@ -132,11 +132,11 @@ const HowItWorks = () => {
                                 />
                             </motion.div>
                         </SwiperSlide>
-                </Swiper>
-            </motion.div>
-        </div>
-    </motion.section> 
-  );
+                    </Swiper>
+                </motion.div>
+            </div>
+        </motion.section>
+    );
 };
 
 export default HowItWorks;

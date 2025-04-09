@@ -29,15 +29,14 @@ const HomeBanner = function () {
             return isSafariBrowser && (isIOS || !/Android|Mobi/i.test(ua));
         };
 
-        setIsSafari(isSafari()); // Вызов
+        setIsSafari(isSafari());
     }, []);
 
     return (
-
-        <section className="home-banner">
+        <section className="home-banner" aria-label="Escrowly crypto escrow service">
             <div className="container">
                 <div className="row">
-                    <div className="col banner-content">
+                    <div className="col banner-content xs-text-center">
                         <AnimatedHeading title="Never buy or sell online without using Escrowly" />
 
                         <p className="color-blue-50">
@@ -46,7 +45,7 @@ const HomeBanner = function () {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 2 }}
                             >
-                                With Escrowly.com, you can buy and sell anything online while secuting your
+                                With Escrowly.com, you can buy and sell anything online while securing your
                             </motion.span>
                             <motion.span
                                 initial={{ opacity: 0, y: 10 }}
@@ -57,20 +56,22 @@ const HomeBanner = function () {
                             </motion.span>
                         </p>
                         <FeeCalculator />
-                        <IconCounter
-                            imgSrc="/img/icon-calc.svg"
-                            num={98}
-                            numText="%"
-                            description="secure transactions"
-                            delay="3"
-                        />
-                        <IconCounter
-                            imgSrc="/img/icon-likes.svg"
-                            num={1}
-                            numText="M+"
-                            description="Users Worldwide"
-                            delay="3.4"
-                        />
+                        <div className="stats-container">
+                            <IconCounter
+                                imgSrc="/img/icon-calc.svg"
+                                num={98}
+                                numText="%"
+                                description="secure transactions"
+                                delay="3"
+                            />
+                            <IconCounter
+                                imgSrc="/img/icon-likes.svg"
+                                num={1}
+                                numText="M+"
+                                description="Users Worldwide"
+                                delay="3.4"
+                            />
+                        </div>
                     </div>
                     <motion.div
                         className="banner-globe"
@@ -82,25 +83,25 @@ const HomeBanner = function () {
                             scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                         }}
                     >
-                        {/* <img className="video-placeholder" src="/images/globe2.png" alt="Globe" /> */}
                         {isSafari ? (
-                            <img className="video-placeholder" src="/images/globe2.png" alt="Globe" />
+                            <img className="video-placeholder" src="/images/globe2.png" alt="Global secure crypto transactions with Escrowly" />
                         ) : (
-                                <video
-                                    ref={videoRef}
-                                    src="/video/globe-new3.webm"
-                                    autoPlay
-                                    loop
-                                    muted
-                                    playsInline
-                                    type="video/webm"
-                                ></video>
-                            )}
+                            <video
+                                ref={videoRef}
+                                src="/video/globe-new3.webm"
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                type="video/webm"
+                                aria-label="Animation showing global crypto escrow transactions"
+                            ></video>
+                        )}
                         <BannerFeatureCard
                             className="position-1"
                             imgSrc="/img/icon-feature-card-1.svg"
                             title="Safe and Simple Process"
-                            list={['Buyer deposits funds in cryptocurrency ', 'Seller ships after buyer’s confirmation']}
+                            list={['Buyer deposits funds in cryptocurrency ', "Seller ships after buyer's confirmation"]}
                         />
                         <BannerFeatureCard
                             className="position-2"
@@ -134,17 +135,14 @@ const HomeBanner = function () {
                             list={['Fast and secure crypto transfers', 'Funds sent instantly upon verify']}
                         />
                         <div className="globe-wrapper">
-
                             <div className="globe-pins-1">
-                                <img className="globe-pin-1" src="/img/globe-pin-1.svg" alt="" />
-                                <img className="globe-pin-2" src="/img/globe-pin-2.svg" alt="" />
-                                <img className="globe-pin-3" src="/img/globe-pin-3.svg" alt="" />
-                                <div className="globe-line-1"><img src="/img/globe-line-1.svg" alt="" /></div>
-                                <div className="globe-line-2"><img src="/img/globe-line-2.svg" alt="" /></div>
-                                <div className="globe-line-3"><img src="/img/globe-line-3.svg" alt="" /></div>
-                                <img src="/img/globe-dots.svg" alt="" className="globe-dots" />
-
-
+                                <img className="globe-pin-1" src="/img/globe-pin-1.svg" alt="Location pin" />
+                                <img className="globe-pin-2" src="/img/globe-pin-2.svg" alt="Location pin" />
+                                <img className="globe-pin-3" src="/img/globe-pin-3.svg" alt="Location pin" />
+                                <div className="globe-line-1"><img src="/img/globe-line-1.svg" alt="Connection line" /></div>
+                                <div className="globe-line-2"><img src="/img/globe-line-2.svg" alt="Connection line" /></div>
+                                <div className="globe-line-3"><img src="/img/globe-line-3.svg" alt="Connection line" /></div>
+                                <img src="/img/globe-dots.svg" alt="Connection dots" className="globe-dots" />
                             </div>
                         </div>
                     </motion.div>

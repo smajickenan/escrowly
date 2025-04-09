@@ -1,15 +1,38 @@
 .section-how-it-works {
     overflow-x: hidden;
+
     .swiper {
         padding-bottom: 35px;
+
         @media(max-width:767px) {
             padding-bottom: 19px;
+        }
+
+        .swiper-scrollbar {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            max-width: 800px;
+        }
+    }
+
+    @media(max-width:767px) {
+        .section-header {
+            .section-label {
+                justify-content: center;
+                display: flex;
+            }
+
+            .section-title {
+                text-align: center;
+            }
         }
     }
 }
 
-.breadcrumbs + .section-how-it-works {
+.breadcrumbs+.section-how-it-works {
     padding-top: 28px;
+
     @media(max-width:767px) {
         padding-top: 16px;
         margin-bottom: 16px;

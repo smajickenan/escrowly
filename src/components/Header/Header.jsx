@@ -54,95 +54,95 @@ const Header = ({ className }) => {
                     <Link to="/" className="logo"><img src={((className === "header-dark" && !mobileMenu) && !scrolled) ? "/img/logo-dark.svg" : "/img/logo.svg"} alt="" /></Link>
                     <ul className="main-menu">
                         <li className="has-sub-menu">
-                            <Link>Consumer</Link>
+                            <Link to="/consumer">Consumer</Link>
                             <ul className="sub-menu">
                                 <li>
-                                    <Link>Learn more<span>How to use Escrowly</span></Link>
+                                    <Link to="/consumer/learn-more">Learn more<span>How to use Escrowly</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Benefits<span>See the advantages of using Escrowly</span></Link>
+                                    <Link to="/consumer/benefits">Benefits<span>See the advantages of using Escrowly</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Fees<span>Low transparent fees</span></Link>
+                                    <Link to="/consumer/fees">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
                         <li className="has-sub-menu">
-                            <Link to="/about-us">Broker</Link>
+                            <Link to="/broker">Broker</Link>
                             <ul className="sub-menu">
                                 <li>
-                                    <Link>Learn more<span>Learn how broker Escrow works</span></Link>
+                                    <Link to="/broker/learn-more">Learn more<span>Learn how broker Escrow works</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Become a Broker<span>Act as a trusted third party</span></Link>
+                                    <Link to="/broker/become-a-broker">Become a Broker<span>Act as a trusted third party</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Fees<span>Low transparent fees</span></Link>
+                                    <Link to="/broker/fees">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
                         <li className="has-sub-menu">
-                            <Link to="/about-us">Business</Link>
+                            <Link to="/business">Business</Link>
                             <ul className="sub-menu">
                                 <li>
-                                    <Link>Learn more<span>How Escrow works for your business</span></Link>
+                                    <Link to="/business/learn-more">Learn more<span>How Escrow works for your business</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Become a Partner<span>Grow your business and revenue</span></Link>
+                                    <Link to="/business/become-a-partner">Become a Partner<span>Grow your business and revenue</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Benefits<span>See the advantages of using Escrow</span></Link>
+                                    <Link to="/business/benefits">Benefits<span>See the advantages of using Escrow</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Fees<span>Low transparent fees</span></Link>
+                                    <Link to="/business/fees">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Pay<span>Simplest way to add escrow payments</span></Link>
+                                    <Link to="/business/escrow-pay">Escrow Pay<span>Simplest way to add escrow payments</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Offer<span>Allow negotiation for your transactions</span></Link>
+                                    <Link to="/business/escrow-offer">Escrow Offer<span>Allow negotiation for your transactions</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
+                                    <Link to="/business/escrow-buttons">Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow API<span>Get all benefits of Escrow via API</span></Link>
+                                    <Link to="/business/escrow-api">Escrow API<span>Get all benefits of Escrow via API</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
                         <li className="has-sub-menu">
-                            <Link to="/about-us">Developer</Link>
+                            <Link to="/developer">Developer</Link>
                             <ul className="sub-menu">
                                 <li>
-                                    <Link>API Integration<span>Learn about Escrow API</span></Link>
+                                    <Link to="/developer/api-integration">API Integration<span>Learn about Escrow API</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/api-documentation">API Documentation<span>Built by developers for developers</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Pay<span>Escrow payment with one API call</span></Link>
+                                    <Link to="/developer/escrow-pay">Escrow Pay<span>Escrow payment with one API call</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Offer<span>Receive offers via API</span></Link>
+                                    <Link to="/developer/escrow-offer">Escrow Offer<span>Receive offers via API</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Buttons<span>Add Escrow Buttons to your website</span></Link>
+                                    <Link to="/developer/escrow-buttons">Escrow Buttons<span>Add Escrow Buttons to your website</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -162,25 +162,25 @@ const Header = ({ className }) => {
                                     <Link to="/api-guide">API Guide <span>Description text example</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
                         <li className="has-sub-menu">
-                            <Link to="/about-us">Help</Link>
+                            <Link to="/help">Help</Link>
                             <ul className="sub-menu">
                                 <li>
                                     <Link to="/what-is-escrowly">What is Escrowly? <span>Learn how Escrowly.com works</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Fees<span>Low transparent fees</span></Link>
+                                    <Link to="/fees">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Contact Us<span>Get in touch with us</span></Link>
+                                    <Link to="/contact-us">Contact Us<span>Get in touch with us</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Call Us<span>+1-415-801-2270</span></Link>
+                                    <Link to="tel:+1-415-801-2270">Call Us<span>+1-415-801-2270</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/help-desk">Help Desk<span>Find answers to FAQs</span></Link>
@@ -189,8 +189,8 @@ const Header = ({ className }) => {
                                     <Link to="/about-us">About Us<span>Learn about our company</span></Link>
                                 </li>
                                 <li className="bordered">
-                                    <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
+                                    <Button text="Get Started Now" className="btn btn-primary" to="/get-started" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -225,7 +225,7 @@ const Header = ({ className }) => {
                         </ul>
                         <p className="copyright">
                             Copyright © and Trademarked 2023–2025 Escrowly LLC. All rights reserved. A Tech Company with a Crypto Licence
-                    </p>
+                        </p>
                     </div>
                 </div>
             </div>

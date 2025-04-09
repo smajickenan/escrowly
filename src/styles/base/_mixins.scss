@@ -1,0 +1,13 @@
+// Mobile text center mixin
+@mixin mobile-text-center {
+    @media (max-width: 767px) {
+        text-align: center;
+    }
+}
+
+// Apply mobile text centering to all column content
+@mixin responsive-columns {
+    .col {
+        @include mobile-text-center;
+    }
+}

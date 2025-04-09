@@ -8,7 +8,7 @@ import { Navigation, Scrollbar } from 'swiper/modules';
 import 'swiper/css/scrollbar';
 import Button from '../../components/Button/Button';
 
-const OurServices = () => { 
+const OurServices = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     const swiperRef = useRef(null);
@@ -23,108 +23,108 @@ const OurServices = () => {
         }
     };
 
-  return (
-    <motion.section 
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        className="section section-our-services"
-    >
-        <div className="container">
-            <div className="row sm-direction-column">
-                <div className="col">
-                    <SectionHeader 
-                        label="Our Services"
-                        title="Overview <br>of Escrowly Services"
-                        className="mb-20 xs-mb-0 "
-                    />
+    return (
+        <motion.section
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="section section-our-services"
+        >
+            <div className="container">
+                <div className="row sm-direction-column">
+                    <div className="col">
+                        <SectionHeader
+                            label="Our Services"
+                            title="Overview <br>of Escrowly Services"
+                            className="mb-20 xs-mb-0 "
+                        />
+                    </div>
+                    <div className="col">
+                        <motion.p
+                            variants={{
+                                hidden: { opacity: 0, y: 70 },
+                                visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.6 } }
+                            }}
+                            className="mt-20 sm-font-16"
+                        >
+                            Escrowly offers secure payments, digital protection, and seamless escrow services. Our platform ensures transparency by holding funds until all terms are met, making transactions safe and reliable for businesses and individuals
+                        </motion.p>
+                    </div>
                 </div>
-                <div className="col">
-                    <motion.p 
-                        variants={{
-                            hidden: { opacity: 0, y: 70 },
-                            visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.6 } }
-                        }}
-                        className="mt-20 sm-font-16"
-                    >
-                        Escrowly offers secure payments, digital protection, and seamless escrow services. Our platform ensures transparency by holding funds until all terms are met, making transactions safe and reliable for businesses and individuals
-                    </motion.p>
-                </div>
-            </div>
 
-            <div className="our-services-carousel-wrapper">
-                <div className="carousel-nav">
-                    <div ref={prevRef} className="swiper-button-prev"></div>
-                    <div ref={nextRef} className="swiper-button-next"></div>
-                </div>
-                <Button 
-                    url="#get-started"
-                    text="All Services"
-                    icon="/img/btn-arrow-right.svg"
-                    delay={2}
-                />
-                <motion.div
-                    variants={{
-                        hidden: { opacity: 0 },
-                        visible: { opacity: 1, transition: { duration: 0.6, delay: 0.8 } }
-                    }}
-                >
-                    <Swiper
-                        onSwiper={handleSwiper}
-                        speed={"1000"}
-                        slidesPerView={"auto"}
-                        modules={[Navigation, Scrollbar]}
-                        scrollbar={{
-                            hide: false,
-                            dragSize: 250
-                        }}
-                        navigation={{
-                            prevEl: prevRef.current,
-                            nextEl: nextRef.current,
-                        }}
-                        breakpoints={{
-                            320: { 
-                                spaceBetween: 12,
-                                // slidesPerView:"auto",
-                                scrollbar:{
-                                    hide: false,
-                                    dragSize: 101
-                                }
-                            }, 
-                            768: { 
-                                spaceBetween: 20,
-                                // slidesPerView:2,
-                                scrollbar:{
-                                    hide: false,
-                                    dragSize: 250
-                                }
-                            }, 
-                            1024: { 
-                                spaceBetween: 20,
-                                // slidesPerView:3,
-                                scrollbar:{
-                                    hide: false,
-                                    dragSize: 250
-                                }
-                            },
-                            1280: { 
-                                spaceBetween: 20,
-                                // slidesPerView:4,
-                                scrollbar:{
-                                    hide: false,
-                                    dragSize: 250
-                                }
-                            }
+                <div className="our-services-carousel-wrapper">
+                    <div className="carousel-nav">
+                        <div ref={prevRef} className="swiper-button-prev"></div>
+                        <div ref={nextRef} className="swiper-button-next"></div>
+                    </div>
+                    <Button
+                        url="#get-started"
+                        text="All Services"
+                        icon="/img/btn-arrow-right.svg"
+                        delay={2}
+                    />
+                    <motion.div
+                        variants={{
+                            hidden: { opacity: 0 },
+                            visible: { opacity: 1, transition: { duration: 0.6, delay: 0.8 } }
                         }}
                     >
+                        <Swiper
+                            onSwiper={handleSwiper}
+                            speed={"1000"}
+                            slidesPerView={"auto"}
+                            modules={[Navigation, Scrollbar]}
+                            scrollbar={{
+                                hide: false,
+                                dragSize: 250
+                            }}
+                            navigation={{
+                                prevEl: prevRef.current,
+                                nextEl: nextRef.current,
+                            }}
+                            breakpoints={{
+                                320: {
+                                    spaceBetween: 12,
+                                    // slidesPerView:"auto",
+                                    scrollbar: {
+                                        hide: false,
+                                        dragSize: 101
+                                    }
+                                },
+                                768: {
+                                    spaceBetween: 20,
+                                    // slidesPerView:2,
+                                    scrollbar: {
+                                        hide: false,
+                                        dragSize: 250
+                                    }
+                                },
+                                1024: {
+                                    spaceBetween: 20,
+                                    // slidesPerView:3,
+                                    scrollbar: {
+                                        hide: false,
+                                        dragSize: 250
+                                    }
+                                },
+                                1280: {
+                                    spaceBetween: 20,
+                                    // slidesPerView:4,
+                                    scrollbar: {
+                                        hide: false,
+                                        dragSize: 250
+                                    }
+                                }
+                            }}
+                        >
                             <SwiperSlide style={{ width: 'auto' }}>
-                                <motion.div  
+                                <motion.div
                                     variants={{
                                         hidden: { opacity: 0, x: 70 },
                                         visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1 } }
-                                    }}  
+                                    }}
                                 >
-                                    <ServiceFeatureCard 
+                                    <ServiceFeatureCard
                                         icon="/img/service-feature-1.svg"
                                         title="Secure Escrowly Services"
                                         text="We provide secure payment solutions for a wide range of cryptocurrency transactions, ensuring safety for both buyers and sellers. Our platform acts as a neutral third party, holding digital assets until all terms are met, fostering trust and confidence in every transaction"
@@ -133,13 +133,13 @@ const OurServices = () => {
                                 </motion.div>
                             </SwiperSlide>
                             <SwiperSlide style={{ width: 'auto' }}>
-                                <motion.div    
+                                <motion.div
                                     variants={{
                                         hidden: { opacity: 0, x: 70 },
                                         visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.2 } }
-                                    }}  
+                                    }}
                                 >
-                                    <ServiceFeatureCard 
+                                    <ServiceFeatureCard
                                         icon="/img/service-feature-2.svg"
                                         image="/images/service-feature-image-2.jpg"
                                         title="Real Estate Transactions"
@@ -148,29 +148,29 @@ const OurServices = () => {
                                 </motion.div>
                             </SwiperSlide>
                             <SwiperSlide style={{ width: 'auto' }}>
-                                <motion.div    
+                                <motion.div
                                     variants={{
                                         hidden: { opacity: 0, x: 70 },
                                         visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.4 } }
-                                    }}  
+                                    }}
                                 >
-                                    <ServiceFeatureCard 
+                                    <ServiceFeatureCard
                                         icon="/img/service-feature-3.svg"
                                         image="/images/service-feature-image-3.jpg"
                                         title="Digital Asset Protection"
                                         text="Securing digital asset transfers for domains, software, and more"
                                         className="feature-bg"
                                     />
-                                </motion.div>    
+                                </motion.div>
                             </SwiperSlide>
                             <SwiperSlide style={{ width: 'auto' }}>
-                                <motion.div    
+                                <motion.div
                                     variants={{
                                         hidden: { opacity: 0, x: 70 },
                                         visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.6 } }
-                                    }}  
+                                    }}
                                 >
-                                    <ServiceFeatureCard 
+                                    <ServiceFeatureCard
                                         icon="/img/service-feature-4.svg"
                                         image="/images/service-feature-image-4.jpg"
                                         title="Escrowly for Merchandise"
@@ -179,13 +179,13 @@ const OurServices = () => {
                                 </motion.div>
                             </SwiperSlide>
                             <SwiperSlide style={{ width: 'auto' }}>
-                                <motion.div    
+                                <motion.div
                                     variants={{
                                         hidden: { opacity: 0, x: 70 },
                                         visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.8 } }
-                                    }}  
+                                    }}
                                 >
-                                    <ServiceFeatureCard 
+                                    <ServiceFeatureCard
                                         icon="/img/service-feature-1.svg"
                                         title="Secure Escrowly Services"
                                         text="We provide secure payment solutions for a wide range of cryptocurrency transactions, ensuring safety for both buyers and sellers. Our platform acts as a neutral third party, holding digital assets until all terms are met, fostering trust and confidence in every transaction"
@@ -193,12 +193,12 @@ const OurServices = () => {
                                     />
                                 </motion.div>
                             </SwiperSlide>
-                    </Swiper>
-                </motion.div>
+                        </Swiper>
+                    </motion.div>
+                </div>
             </div>
-        </div>
-    </motion.section> 
-  );
+        </motion.section>
+    );
 };
 
 export default OurServices;

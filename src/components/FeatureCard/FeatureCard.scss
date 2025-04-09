@@ -3,27 +3,32 @@
 .feature-card {
     @media(max-width:767px) {
         margin-bottom: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
     img {
         margin-bottom: 13px;
         display: block;
     }
-    
+
     h6 {
         margin-bottom: 11px;
         color: variables.$heading-color;
+
         @media(max-width:767px) {
             margin-bottom: 15px;
         }
     }
-    
+
     p {
         letter-spacing: -0.5px;
+
         @media(max-width:767px) {
             letter-spacing: -0.6px;
             line-height: 1.9;
         }
     }
 }
-
-

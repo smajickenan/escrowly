@@ -1,9 +1,18 @@
 .section-our-services {
     overflow-x: hidden;
+
     .swiper {
         padding-bottom: 32px;
+
         @media(max-width:767px) {
             padding-bottom: 22px;
+        }
+
+        .swiper-scrollbar {
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            max-width: 800px;
         }
     }
 }
@@ -11,19 +20,23 @@
 .our-services-carousel-wrapper {
     position: relative;
     margin-bottom: 18px;
+
     @media(max-width:1023px) {
         margin-top: 50px;
     }
+
     @media(max-width:767px) {
         margin-top: 17px;
         margin-right: -16px;
         margin-bottom: 0px;
     }
+
     .btn {
         position: absolute;
         right: 0;
         bottom: -18px;
         z-index: 2;
+
         @media(max-width:767px) {
             position: static;
             margin-bottom: 33px;

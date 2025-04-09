@@ -19,8 +19,8 @@ const NotFound = () => (
         <div>
             <main className="main-content">
                 <h1>Page Not Found!</h1>
-                <Innovate/>
-                <Faq/>
+                <Innovate />
+                <Faq />
             </main>
         </div>
     </>

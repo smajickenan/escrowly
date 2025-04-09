@@ -12,26 +12,107 @@ import Innovate from "../sections/Innovate/Innovate";
 const HomePage = () => (
     <>
         <Helmet>
-            <title>Escrowly - Trusted Crypto Escrow for Safe Online Deals</title>
-            <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-            <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+            <title>Escrowly - Secure Crypto Escrow for Safe Online Transactions | Buy & Sell with Confidence</title>
+            <meta name="description" content="Escrowly provides secure cryptocurrency escrow services for safe online transactions. Buy and sell online with zero chargeback risk using our trusted escrow platform." />
+            <meta name="keywords" content="secure crypto escrow, secure online transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow, escrow wallet, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate, crypto payment protection" />
             <meta name="author" content="Escrowly Crypto Escrow Team" />
-            <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-            <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto Escrow" />
+            <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets with zero chargeback risk." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
             <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:site_name" content="Escrowly" />
+
+            {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Escrowly - Secure Crypto Escrow" />
+            <meta name="twitter:description" content="Buy and sell online with confidence using our secure crypto escrow service. Zero chargeback risk." />
+            <meta name="twitter:image" content="https://escrowly.com/twitter-image.jpg" />
+
+            {/* Additional SEO */}
+            <link rel="canonical" href="https://escrowly.com" />
+            <meta name="robots" content="index, follow" />
+
+            {/* JSON-LD Structured Data */}
+            <script type="application/ld+json">
+                {`
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Escrowly",
+                    "url": "https://escrowly.com",
+                    "logo": "https://escrowly.com/logo.png",
+                    "description": "Escrowly provides secure cryptocurrency escrow services for safe online transactions.",
+                    "sameAs": [
+                        "https://twitter.com/escrowly",
+                        "https://facebook.com/escrowly",
+                        "https://linkedin.com/company/escrowly"
+                    ],
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+1-800-ESCROWLY",
+                        "contactType": "customer service",
+                        "availableLanguage": ["English"]
+                    },
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://escrowly.com/search?q={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                }
+                `}
+            </script>
+
+            <script type="application/ld+json">
+                {`
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebSite",
+                    "url": "https://escrowly.com",
+                    "name": "Escrowly - Secure Crypto Escrow",
+                    "description": "Secure cryptocurrency escrow services for safe online transactions.",
+                    "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://escrowly.com/search?q={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                }
+                `}
+            </script>
+
+            <script type="application/ld+json">
+                {`
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Service",
+                    "serviceType": "Crypto Escrow Service",
+                    "provider": {
+                        "@type": "Organization",
+                        "name": "Escrowly"
+                    },
+                    "name": "Cryptocurrency Escrow",
+                    "description": "Secure escrow service for cryptocurrency transactions, ensuring safe online deals for buyers and sellers.",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0.00",
+                        "priceCurrency": "USD"
+                    }
+                }
+                `}
+            </script>
         </Helmet>
         <div>
             <main className="main-content">
-                <HomeBanner/>
-                <HowItWorks/>
-                <AboutUs/>
-                <OurServices/>
-                <AdvancedFeatures/>
-                <Testimonials/>
-                <Faq/>
-                <Innovate/>
+                <HomeBanner />
+                <HowItWorks />
+                <AboutUs />
+                <OurServices />
+                <AdvancedFeatures />
+                <Testimonials />
+                <Faq />
+                <Innovate />
             </main>
         </div>
     </>

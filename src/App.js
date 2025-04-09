@@ -82,7 +82,6 @@ function MainLayout() {
         <Route path="/our-partners" element={<OurPartners />} />
         <Route path="/get-started" element={<GetStarted />} />
         <Route path="/partners-enquiry" element={<PartnersEnquiry />} />
-        <Route path="/get-started" element={<GetStarted />} />
         <Route path="/api-guide" element={<ApiGuide />} />
         <Route path="/payment-options" element={<PaymentOptions />} />
         <Route path="/approved-carriers" element={<ApprovedCarriers />} />
@@ -96,6 +95,37 @@ function MainLayout() {
         <Route path="/risk-disclosure" element={<RiskDisclosure />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/what-is-escrowly" element={<WhatIsEscrowly />} />
+
+        {/* New routes for menu links */}
+        <Route path="/consumer" element={<NotFound />} />
+        <Route path="/consumer/learn-more" element={<NotFound />} />
+        <Route path="/consumer/benefits" element={<NotFound />} />
+        <Route path="/consumer/fees" element={<NotFound />} />
+
+        <Route path="/broker" element={<NotFound />} />
+        <Route path="/broker/learn-more" element={<NotFound />} />
+        <Route path="/broker/become-a-broker" element={<NotFound />} />
+        <Route path="/broker/fees" element={<NotFound />} />
+
+        <Route path="/business" element={<NotFound />} />
+        <Route path="/business/learn-more" element={<NotFound />} />
+        <Route path="/business/become-a-partner" element={<NotFound />} />
+        <Route path="/business/benefits" element={<NotFound />} />
+        <Route path="/business/fees" element={<NotFound />} />
+        <Route path="/business/escrow-pay" element={<NotFound />} />
+        <Route path="/business/escrow-offer" element={<NotFound />} />
+        <Route path="/business/escrow-buttons" element={<NotFound />} />
+        <Route path="/business/escrow-api" element={<NotFound />} />
+
+        <Route path="/developer" element={<NotFound />} />
+        <Route path="/developer/api-integration" element={<NotFound />} />
+        <Route path="/developer/escrow-pay" element={<NotFound />} />
+        <Route path="/developer/escrow-offer" element={<NotFound />} />
+        <Route path="/developer/escrow-buttons" element={<NotFound />} />
+
+        <Route path="/help" element={<NotFound />} />
+        <Route path="/fees" element={<NotFound />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}

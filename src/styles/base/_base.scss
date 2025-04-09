@@ -1,38 +1,49 @@
+@use "mixins";
+
 .App {
     // overflow-x: hidden;
 }
+
 .container {
     margin: 0 auto;
     padding: 0 10px;
+
     @media (min-width: 1366px) {
         max-width: 1316px;
     }
+
     @media (max-width: 1023px) {
         padding: 0 16px;
     }
 }
+
 .section {
     padding-top: 90px;
     padding-bottom: 90px;
+
     @media(max-width:1023px) {
         // padding-top: 90px;
         // padding-bottom: 90px;
     }
+
     @media(max-width:767px) {
         padding-top: 32px;
         padding-bottom: 32px;
         margin-bottom: 60px;
     }
+
     .content-image {
         border-radius: 12px;
         margin-bottom: 52px;
         display: block;
         width: 100%;
+
         @media(max-width:767px) {
             margin-bottom: 35px;
         }
     }
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -44,19 +55,25 @@
     flex: 1 0 0%;
     padding: 0 10px;
     max-width: 100%;
+    @include mixins.mobile-text-center;
+
     &.col-8 {
         flex: 0 0 66.666%;
     }
 }
+
 .mt-20 {
     margin-top: 20px;
 }
+
 .mt-32 {
     margin-top: 32px;
 }
+
 .mb-0 {
     margin-bottom: 0px;
 }
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -68,6 +85,7 @@
 .mt-auto {
     margin-top: auto;
 }
+
 .overflow-visible {
     overflow: visible;
 }
@@ -76,14 +94,21 @@
     .xs-mb-30 {
         margin-bottom: 30px;
     }
+
     .xs-mb-20 {
         margin-bottom: 20px;
     }
+
     .xs-mb-0 {
         margin-bottom: 0;
     }
+
     .xs-mt-0 {
         margin-top: 0;
+    }
+
+    .xs-text-center {
+        text-align: center;
     }
 }
 
@@ -92,9 +117,11 @@
     .sm-mb-30 {
         margin-bottom: 30px;
     }
+
     .sm-mb-20 {
         margin-bottom: 20px;
     }
+
     .sm-mt-0 {
         margin-top: 0;
     }
@@ -112,11 +139,13 @@
         flex-wrap: nowrap;
     }
 }
+
 @media(max-width:767px) {
     .xs-direction-column {
         flex-direction: column;
         flex-wrap: nowrap;
     }
+
     .xs-direction-column-reverse {
         flex-direction: column-reverse;
         flex-wrap: nowrap;
@@ -128,13 +157,28 @@
         display: none !important;
     }
 }
+
 @media(max-width:767px) {
     .xs-hidden {
         display: none !important;
     }
 }
+
 @media(min-width:768px) {
     .xs-visible {
         display: none !important;
     }
+}
+
+// Screen reader only class - for accessibility
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }

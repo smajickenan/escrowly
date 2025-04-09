@@ -1,9 +1,20 @@
 .section-about-us {
     overflow-x: hidden;
+
     .content-image.sm-hidden {
         margin-bottom: 0;
     }
+
     .col:last-child .feature-card {
         margin-bottom: 0;
+    }
+
+    @media(max-width:767px) {
+        .feature-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
     }
 }
