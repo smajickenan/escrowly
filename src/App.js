@@ -28,7 +28,7 @@ import OurPartners from "./pages/OurPartners";
 import GetStarted from "./pages/GetStarted";
 import PartnersEnquiry from "./pages/PartnersEnquiry";
 import ApiGuide from "./pages/ApiGuide";
-import PaymentOptions from "./pages/WhatIsEscrowly/PaymentOptions"
+
 import ApprovedCarriers from "./pages/WhatIsEscrowly/ApprovedCarriers";
 
 import ReportABug from "./pages/ReportABug";
