@@ -4,6 +4,7 @@ import './Header.scss';
 import { motion } from "motion/react";
 import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
 import Button from "../Button/Button";
+import UserLocation from "../UserLocation/UserLocation";
 
 const Header = ({ className }) => {
 
@@ -51,7 +52,10 @@ const Header = ({ className }) => {
         >
             <div className="container">
                 <div className="header-wrapper">
-                    <Link to="/" className="logo"><img src={((className === "header-dark" && !mobileMenu) && !scrolled) ? "/img/logo-dark.svg" : "/img/logo.svg"} alt="" /></Link>
+                    <div className="logo-container">
+                        <Link to="/" className="logo"><img src={((className === "header-dark" && !mobileMenu) && !scrolled) ? "/img/logo-dark.svg" : "/img/logo.svg"} alt="" /></Link>
+                        <UserLocation />
+                    </div>
                     <ul className="main-menu">
                         <li className="has-sub-menu">
                             <Link>Consumer</Link>

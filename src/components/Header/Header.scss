@@ -44,6 +44,12 @@
             position: relative;
         }
     }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+    
     .logo {
         @media (max-width: 1023px) {
             margin-left: -8px; 
@@ -51,7 +57,7 @@
     } 
     .main-menu {
         display: flex;
-        margin-top: 12px;
+        margin-top: 15px;
         list-style: none;
         padding-left: 23px;
         position: relative;
