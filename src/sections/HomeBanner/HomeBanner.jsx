@@ -106,7 +106,7 @@ const HomeBanner = function () {
                                 className="video-placeholder" 
                                 src="/images/globe2.png" 
                                 alt="Interactive 3D globe showing global transactions"
-                                loading="lazy"
+                               
                             />
                         ) : (
                             <>
@@ -115,7 +115,7 @@ const HomeBanner = function () {
                                         className="video-placeholder" 
                                         src="/images/globe2.png" 
                                         alt="Loading globe animation"
-                                        loading="lazy"
+                                      
                                     />
                                 )}
                                 <video
