@@ -3,7 +3,7 @@ import './IconCounter.scss';
 import { motion } from 'motion/react';
 import Counter from '../Counter/Counter';
 
-const IconCounter = ({ imgSrc, num, numText, description, delay }) => {
+const IconCounter = ({ imgSrc, num, numText, description, delay, alt }) => {
     return (
         <motion.div 
             className="icon-counter"
@@ -14,7 +14,7 @@ const IconCounter = ({ imgSrc, num, numText, description, delay }) => {
                 delay: delay,
             }}
         >
-            <img src={imgSrc} alt="" />
+            <img src={imgSrc} alt={alt || description} loading="lazy" />
             <div className="icon-content">
                 <span className="num">
                     <Counter

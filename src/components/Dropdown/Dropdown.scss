@@ -145,6 +145,7 @@
             transition: 0.3s;
             cursor: pointer;
             color: #030518;
+            display: flex;
             &:hover {
                 background: variables.$blue;
                 color: variables.$white;

@@ -1,10 +1,11 @@
 import React from 'react';
 import './BannerFeatureCard.scss';
-const BannerFeatureCard = ({ imgSrc, title, list = [], className = '', delay }) => {
+
+const BannerFeatureCard = ({ imgSrc, title, list = [], className = '', delay, alt }) => {
     return (
-        <div className={`banner-feature-card ${className}`} >
+        <div className={`banner-feature-card ${className}`}>
             <h5>
-                <img src={imgSrc} alt="" />
+                <img src={imgSrc} alt={alt || title} loading="lazy" />
                 <span dangerouslySetInnerHTML={{ __html: title }}></span>
             </h5>
             <ul className="feature-card-list">
