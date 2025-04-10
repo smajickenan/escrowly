@@ -68,7 +68,7 @@ const HowItWorks = () => {
                                     num="01"
                                     img="/img/icon-hiw-1.svg"
                                     title="Buyer & Seller Agree"
-                                    text="The buyer selects a product or service and agrees on terms with the seller"
+                                    text="Buyer and seller come to agreement on our platform."
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -83,7 +83,7 @@ const HowItWorks = () => {
                                     num="02"
                                     img="/img/icon-hiw-2.svg"
                                     title="Buyer Pays Escrowly"
-                                    text="The buyer sends cryptocurrency payment to Escrowly, where it's securely held"
+                                    text="Buyer makes a deposit into Escrowly’s crypto escrow wallet"
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -98,7 +98,7 @@ const HowItWorks = () => {
                                     num="03"
                                     img="/img/icon-hiw-3.svg"
                                     title="Seller Delivers"
-                                    text="The seller ships the product or provides the agreed-upon service"
+                                    text="Seller delivers goods or services."
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -113,7 +113,7 @@ const HowItWorks = () => {
                                     num="04"
                                     img="/img/icon-hiw-4.svg"
                                     title="Buyer Approves"
-                                    text="The buyer inspects the item or service and confirms satisfaction"
+                                    text="Buyer verifies the receipts of the goods or services as agreed upon"
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -128,7 +128,7 @@ const HowItWorks = () => {
                                     num="05"
                                     img="/img/icon-hiw-5.svg"
                                     title="Seller Gets Paid"
-                                    text="Escrowly releases the cryptocurrency funds to the seller, completing the transaction"
+                                    text="Escrowly releases the funds to the seller - no risk, no fraud"
                                 />
                             </motion.div>
                         </SwiperSlide>
