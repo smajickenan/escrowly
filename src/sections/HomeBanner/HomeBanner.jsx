@@ -62,7 +62,7 @@ useEffect(() => {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 2 }}
                             >
-                                Escrowly.com is a trusted crypto escrow for safe online deals, keeping both buyers and sellers secure.
+                                Escrowly.com is a trusted crypto escrow for safe online deals keeping both buyers and sellers secure.
                             </motion.span>
                         </p>
                         <FeeCalculator />
