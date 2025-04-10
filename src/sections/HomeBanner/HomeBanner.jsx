@@ -10,6 +10,18 @@ import AnimatedHeading from "../../components/AnimatedHeading/AnimatedHeading";
 const HomeBanner = function () {
     const videoRef = useRef(null);
     const [isSafari, setIsSafari] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
+
+useEffect(() => {
+    const checkMobile = () => {
+        setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile(); // initial
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+}, []);
+
     useEffect(() => {
         if (videoRef.current) {
             videoRef.current.playbackRate = 1;
@@ -38,7 +50,11 @@ const HomeBanner = function () {
             <div className="container">
                 <div className="row">
                     <div className="col banner-content">
-                        <AnimatedHeading title="Never buy or sell online without using Escrowly" />
+                    {isMobile ? (
+    <AnimatedHeading title="Never buy or sell without Escrowly" />
+) : (
+    <AnimatedHeading title="Never buy or sell online without using Escrowly" />
+)}
 
                         <p className="color-blue-50">
                             <motion.span

@@ -13,8 +13,8 @@ const HomePage = () => (
     <>
         <Helmet>
             <title>Escrowly - Secure Crypto Escrow for Safe Online Transactions | Buy & Sell with Confidence</title>
-            <meta name="description" content="Escrowly provides secure cryptocurrency escrow services for safe online transactions. Buy and sell online with zero chargeback risk using our trusted escrow platform." />
-            <meta name="keywords" content="secure crypto escrow, secure online transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow, escrow wallet, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate, crypto payment protection" />
+            <meta name="description" content="Escrowly provides secure cryptocurrency escrow services for safe online transactions. Buy and sell online with zero chargeback risk." data-rh="true"/>
+            <meta name="keywords" content="secure crypto escrow, secure online transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow, escrow wallet, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate, crypto payment protection" data-rh="true"/>
             <meta name="author" content="Escrowly Crypto Escrow Team" />
 
             {/* Open Graph / Facebook */}
