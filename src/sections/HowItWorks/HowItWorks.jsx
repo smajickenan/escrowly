@@ -68,7 +68,7 @@ const HowItWorks = () => {
                                     num="01"
                                     img="/img/icon-hiw-1.svg"
                                     title="Buyer & Seller Agree"
-                                    text="Buyer and seller come to agreement on our platform."
+                                    text="Buyer and seller come to an agreement on Escrowly"
                                 />
                             </motion.div>
                         </SwiperSlide>
