@@ -99,22 +99,22 @@ const Header = ({ className }) => {
                                     <Link to="/business/become-a-partner">Become a Partner<span>Grow your business and revenue</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/business/benefits">Benefits<span>See the advantages of using Escrow</span></Link>
+                                    <Link to="/business/benefits">Benefits<span>See the advantages of using Escrowly</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/business/fees">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/business/escrow-pay">Escrow Pay<span>Simplest way to add escrow payments</span></Link>
+                                    <Link to="/business/escrow-pay">Escrowly Pay<span>Simplest way to add escrow payments</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/business/escrow-offer">Escrow Offer<span>Allow negotiation for your transactions</span></Link>
+                                    <Link to="/business/escrow-offer">Escrowly Offer<span>Allow negotiation for your transactions</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/business/escrow-buttons">Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
+                                    <Link to="/business/escrow-buttons">Escrowly Buttons<span>Create a button for Escrow transaction</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/business/escrow-api">Escrow API<span>Get all benefits of Escrow via API</span></Link>
+                                    <Link to="/business/escrow-api">Escrowly API<span>Get all benefits of Escrow via API</span></Link>
                                 </li>
                                 <li className="bordered">
                                     <Link to="/get-started">Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>

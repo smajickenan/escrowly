@@ -28,8 +28,8 @@ import OurPartners from "./pages/OurPartners";
 import GetStarted from "./pages/GetStarted";
 import PartnersEnquiry from "./pages/PartnersEnquiry";
 import ApiGuide from "./pages/ApiGuide";
-import PaymentOptions from "./pages/PaymentOptions";
-import ApprovedCarriers from "./pages/PartnersEnquiry copy";
+import PaymentOptions from "./pages/WhatIsEscrowly/PaymentOptions"
+import ApprovedCarriers from "./pages/WhatIsEscrowly/ApprovedCarriers";
 import FraudPrevention from "./pages/FraudPrevention";
 import ReportABug from "./pages/ReportABug";
 import ContactUs from "./pages/ContactUs";
@@ -40,7 +40,17 @@ import LegalSecurityPolicy from "./pages/LegalSecurityPolicy";
 import RiskDisclosure from "./pages/RiskDisclosure";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import WhatIsEscrowly from "./pages/WhatIsEscrowly/WhatIsEscrowly";
-
+import AllowedGoodsAndServices from "./pages/WhatIsEscrowly/AllowedGoodAndServices";
+import Benefits from "./pages/WhatIsEscrowly/Benefits"
+import BuyerSellerBrokerProtection from "./pages/WhatIsEscrowly/BuyerSellerBrokerProtection";
+import CurrencyOptions from "./pages/WhatIsEscrowly/CurrencyOptions"
+import DisbursementsMethods from "./pages/WhatIsEscrowly/DisbursementsMethods"
+import Disputes from "./pages/WhatIsEscrowly/Disputes";
+import FraudPrevention from "./pages/WhatIsEscrowly/FraudPrevention";
+import HowItWorksBroker from "./pages/WhatIsEscrowly/HowItWorksBroker";
+import InspectionPeriod from "./pages/WhatIsEscrowly/InspectionPeriod";
+import PaymentOptions from "./pages/WhatIsEscrowly/PaymentOptions";
+import Security from "./pages/WhatIsEscrowly/Security";
 function App() {
   return (
     <Router>
@@ -96,35 +106,16 @@ function MainLayout() {
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/what-is-escrowly" element={<WhatIsEscrowly />} />
 
-        {/* New routes for menu links */}
-        <Route path="/consumer" element={<NotFound />} />
-        <Route path="/consumer/learn-more" element={<NotFound />} />
-        <Route path="/consumer/benefits" element={<NotFound />} />
-        <Route path="/consumer/fees" element={<NotFound />} />
-
-        <Route path="/broker" element={<NotFound />} />
-        <Route path="/broker/learn-more" element={<NotFound />} />
-        <Route path="/broker/become-a-broker" element={<NotFound />} />
-        <Route path="/broker/fees" element={<NotFound />} />
-
-        <Route path="/business" element={<NotFound />} />
-        <Route path="/business/learn-more" element={<NotFound />} />
-        <Route path="/business/become-a-partner" element={<NotFound />} />
-        <Route path="/business/benefits" element={<NotFound />} />
-        <Route path="/business/fees" element={<NotFound />} />
-        <Route path="/business/escrow-pay" element={<NotFound />} />
-        <Route path="/business/escrow-offer" element={<NotFound />} />
-        <Route path="/business/escrow-buttons" element={<NotFound />} />
-        <Route path="/business/escrow-api" element={<NotFound />} />
-
-        <Route path="/developer" element={<NotFound />} />
-        <Route path="/developer/api-integration" element={<NotFound />} />
-        <Route path="/developer/escrow-pay" element={<NotFound />} />
-        <Route path="/developer/escrow-offer" element={<NotFound />} />
-        <Route path="/developer/escrow-buttons" element={<NotFound />} />
-
-        <Route path="/help" element={<NotFound />} />
-        <Route path="/fees" element={<NotFound />} />
+        <Route path="/allowed-goods-and-services" element={<AllowedGoodsAndServices />} />
+        <Route path="/currency-options" element={<CurrencyOptions />} />
+        <Route path="/disbursements-methods" element={<DisbursementsMethods />} />
+        <Route path="/benefits" element={<Benefits />} />
+        <Route path="/buyer-seller-broker-protection" element={<BuyerSellerBrokerProtection />} />
+        <Route path="/how-it-works-broker" element={<HowItWorksBroker />} />
+        <Route path="/security" element={<Security />} />
+        <Route path="/inspection-period" element={<InspectionPeriod />} />
+        <Route path="/disputes" element={<Disputes />} />
+       
 
         <Route path="*" element={<NotFound />} />
       </Routes>

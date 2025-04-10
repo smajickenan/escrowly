@@ -45,15 +45,8 @@ const HomeBanner = function () {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 2 }}
                             >
-                                With Escrowly.com, you can buy and sell anything online while securing your
-                            </motion.span>
-                            <motion.span
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.5, delay: 2.2 }}
-                            >
-                                transactions with zero chargeback risk. The real future of safe payments.
-                            </motion.span>
+                           Escrowly.com is a trusted crypto escrow for safe online deals keeping both buyers and sellers secure. </motion.span>
+                          
                         </p>
                         <FeeCalculator />
                         <div className="stats-container">
@@ -101,7 +94,7 @@ const HomeBanner = function () {
                             className="position-1"
                             imgSrc="/img/icon-feature-card-1.svg"
                             title="Safe and Simple Process"
-                            list={['Buyer deposits funds in cryptocurrency ', "Seller ships after buyer's confirmation"]}
+                            list={['Buyer deposits funds in crypto ', "Seller ships after buyer's confirmation"]}
                         />
                         <BannerFeatureCard
                             className="position-2"

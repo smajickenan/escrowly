@@ -8,8 +8,7 @@ import FeeCalculator from "../../components/FeeCalculator/FeeCalculator";
 import Faq from "../../sections/Faq/Faq";
 import Innovate from "../../sections/Innovate/Innovate";
 
-const WhatIsEscrowly = () => {
-
+const Security = () => {
     return (
         <>
             <Helmet>
@@ -29,7 +28,7 @@ const WhatIsEscrowly = () => {
                         breadcrumbs={[
                             { title: "Home", url: "/" },
                             { title: "What is Escrowly", url: "/what-is-escrowly" },
-                            { title: "What is Escrow?", url: "/what-is-escrowly" },
+                            { title: "Security", url: "/security" },
                         ]}
                     />
 
@@ -39,7 +38,7 @@ const WhatIsEscrowly = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidlines"
-                                        title="What is Escrow?"
+                                        title="Security"
                                         className=""
                                     />
                                     <div className="blog-article-content">
@@ -69,50 +68,50 @@ const WhatIsEscrowly = () => {
                                     </div>
                                 </div>
                                 <div className="col col-right">
-                                    <h3>Start  or Selling Securelly</h3>
+                                    <h3>Start Buying or Selling Securelly</h3>
                                     <p className="mb-40">Enter the purchase price of your goods to estimate the escrow fee</p>
                                     <FeeCalculator />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
-                                        <Link className="active" to="/what-is-escrowly">
+                                        <Link to="/what-is-escrowly">
                                             What Is Escrow?
-                                        </Link>
+                                    </Link>
                                         <Link to="/allowed-goods-and-services">
                                             Allowed goods and services
-                                        </Link>
+                                    </Link>
                                         <Link to="/currency-options">
                                             Currency Options
-                                        </Link>
+                                    </Link>
                                         <Link to="/payment-options">
                                             Payment Options
-                                        </Link>
+                                    </Link>
                                         <Link to="/disbursements-methods">
                                             Disbursements Methods
-                                        </Link>
+                                    </Link>
                                         <Link to="/benefits">
                                             Benefits
-                                        </Link>
+                                    </Link>
                                         <Link to="/buyer-seller-broker-protection">
                                             Buyer, Seller, & Broker Protection
-                                        </Link>
+                                    </Link>
                                         <Link to="/how-it-works-broker">
                                             How it Works: Broker
-                                        </Link>
-                                        <Link to="/security">
+                                    </Link>
+                                        <Link className="active" to="/security">
                                             Security
-                                        </Link>
+                                    </Link>
                                         <Link to="/inspection-period">
                                             Inspection Period
-                                        </Link>
+                                    </Link>
                                         <Link to="/fraud-prevention">
                                             Fraud Prevention
-                                        </Link>
+                                    </Link>
                                         <Link to="/disputes">
                                             Disputes
-                                        </Link>
+                                    </Link>
                                         <Link to="/approved-carriers">
                                             Approved Carriers
-                                        </Link>
+                                    </Link>
                                     </div>
                                 </div>
                             </div>
@@ -127,4 +126,4 @@ const WhatIsEscrowly = () => {
     );
 }
 
-export default WhatIsEscrowly;
+export default Security;
