@@ -15,7 +15,7 @@ const Footer = () => {
                             <a href="#index" className="logo">
                                 <img src="/img/logo.svg" alt="" />
                             </a>
-                            <p>The Global Leader In Online Crypto Escrow</p>
+                            <p>The Global Leader In Online Crypto Escrow.</p>
                             <a href="tel:+4805550103" className="phone"><img src="/img/icon-phone.svg" alt="" />+(480) 555-0103</a>
                             <LanguageDropdown />
                         </div>
