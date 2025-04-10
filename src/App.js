@@ -30,7 +30,7 @@ import PartnersEnquiry from "./pages/PartnersEnquiry";
 import ApiGuide from "./pages/ApiGuide";
 import PaymentOptions from "./pages/WhatIsEscrowly/PaymentOptions"
 import ApprovedCarriers from "./pages/WhatIsEscrowly/ApprovedCarriers";
-import FraudPrevention from "./pages/FraudPrevention";
+
 import ReportABug from "./pages/ReportABug";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
