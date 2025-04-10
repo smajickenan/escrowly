@@ -13,7 +13,7 @@ const LoginForm = ({ type }) => {
 
     return (
         <div className="login-form-wrapper">
-            <h3>{type === "sign-up" ? "Open an Account" : "Login"}</h3>
+            <h3>{type === "sign-up" ? "Open an Account" : "Sign In"}</h3>
             <p>The Global Leader In Online Crypto Escrow</p>
             <div className="social-login">
                 <button className="btn btn-outline btn-social-login">
@@ -53,7 +53,7 @@ const LoginForm = ({ type }) => {
                     I {type === "sign-up" ? "hereby" : ""} agree to the <a href="#url">Terms & Conditions</a> of Escrowly
                 </label>
                 <FormButton text={type === "sign-up" ? "Sign Up" : "Sign In"} />
-                <p className="align-left">{type === "sign-up" ? "Have" : "Don't have"} an account? <Link to={type === "sign-up" ? "/sign-in1" : "/sign-up1"}>{type === "sign-up" ? "Sign In" : "Sign Up"}</Link></p>
+                <p className="align-left">{type === "sign-up" ? "Have" : "Don't have"} an account? <Link to={type === "sign-up" ? "/sign-in1" : "/sign-up1"}>{type === "sign-up" ? "Sign In" : "Open an Account"}</Link></p>
             </form>
         </div>
     );
