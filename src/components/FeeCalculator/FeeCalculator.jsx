@@ -3,12 +3,23 @@ import './FeeCalculator.scss';
 import { motion } from "motion/react";
 import FormButton from "../FormButton/FormButton";
 import Dropdown from "../Dropdown/Dropdown";
-
+import { Helmet } from "react-helmet-async"
 const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
 
     const i = (animation) ? 1 : 0;
 
     return (
+        <>
+        <Helmet>
+  <title>Start Crypto Escrow | Escrowly</title>
+  <meta name="description" content="Start your crypto escrow transaction securely and easily with Escrowly. Safe and trusted service for online crypto deals." />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Start Crypto Escrow | Escrowly" />
+  <meta property="og:description" content="Escrowly offers secure and fast crypto escrow transactions. Start now with trusted protection." />
+  <meta property="og:image" content="/img/shield-og.jpg" />
+  <meta property="og:url" content="https://escrowly.com" />
+</Helmet>
         <motion.form
             className="fee-calculator"
             initial={{ opacity: 0, filter: "blur(10px)" }}
@@ -108,9 +119,10 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                 transition={{ duration: 0.5 * i, delay: 3 } * i}
             >
-                <FormButton text="Get Started Now" />
+                <FormButton text="Start Crypto Escrow" />
             </motion.div>
         </motion.form>
+        </>
     );
 };
 
