@@ -13,8 +13,8 @@ const LoginForm = ({ type }) => {
 
     return (
         <div className="login-form-wrapper">
-            <h3>{type === "sign-up" ? "Open Account" : "Login"}</h3>
-            <p>The safest way to close your deal.</p>
+            <h3>{type === "sign-up" ? "Open an Account" : "Login"}</h3>
+            <p>The Global Leader In Online Crypto Escrow</p>
             <div className="social-login">
                 <button className="btn btn-outline btn-social-login">
                     <img src="/img/icon-google.svg" alt="" />
