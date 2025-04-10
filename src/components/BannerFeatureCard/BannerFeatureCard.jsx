@@ -5,7 +5,13 @@ const BannerFeatureCard = ({ imgSrc, title, list = [], className = '', delay, al
     return (
         <div className={`banner-feature-card ${className}`}>
             <h5>
-                <img src={imgSrc} alt={alt || title} loading="lazy" />
+                <img 
+                    src={imgSrc} 
+                    alt={alt || title} 
+                    loading="lazy" 
+                    width="24" 
+                    height="24"
+                />
                 <span dangerouslySetInnerHTML={{ __html: title }}></span>
             </h5>
             <ul className="feature-card-list">

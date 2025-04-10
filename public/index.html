@@ -9,16 +9,74 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://escrowly.com" />
   <title>Escrowly - Secure Crypto Escrow for Safe Online Transactions</title>
+  
+  <!-- Resource hints -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="%PUBLIC_URL%/images/globe2.png" as="image" />
+  <link rel="preload" href="%PUBLIC_URL%/video/globe-new3.webm" as="video" type="video/webm" />
+  <link rel="preload" href="%PUBLIC_URL%/img/icon-calc.svg" as="image" />
+  <link rel="preload" href="%PUBLIC_URL%/img/icon-likes.svg" as="image" />
+  
+  <!-- Preload fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
-
+    
+  <!-- Inline critical CSS -->
+  <style>
+    /* Critical styles for initial render */
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .home-banner {
+      position: relative;
+      overflow: hidden;
+      background-color: #f8f9fa;
+    }
+    
+    .banner-content {
+      padding: 2rem 0;
+    }
+    
+    .calculator-loading {
+      min-height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: #19459f;
+    }
+    
+    /* Prevent layout shift during load */
+    .banner-globe {
+      min-height: 400px;
+      position: relative;
+    }
+    
+    .video-placeholder {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+  </style>
+  
+  <!-- Defer non-critical scripts -->
+  <script defer src="%PUBLIC_URL%/static/js/main.chunk.js"></script>
+  <script defer src="%PUBLIC_URL%/static/js/0.chunk.js"></script>
+  <script defer src="%PUBLIC_URL%/static/js/bundle.js"></script>
 </head>
 
 <body>
-
   <div id="root"></div>
-
 </body>
 
 </html>

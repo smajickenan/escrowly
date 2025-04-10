@@ -1,11 +1,13 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, Suspense } from "react";
 import './HomeBanner.scss';
-import FeeCalculator from "../../components/FeeCalculator/FeeCalculator";
 import IconCounter from "../../components/IconCounter/IconCounter";
 import TechnologiesSlider from "../../components/TechnologiesSlider/TechnologiesSlider";
 import BannerFeatureCard from "../../components/BannerFeatureCard/BannerFeatureCard";
 import { motion } from "motion/react";
 import AnimatedHeading from "../../components/AnimatedHeading/AnimatedHeading";
+
+// Lazy load FeeCalculator
+const FeeCalculator = React.lazy(() => import("../../components/FeeCalculator/FeeCalculator"));
 
 const HomeBanner = function () {
     const videoRef = useRef(null);
@@ -69,7 +71,9 @@ const HomeBanner = function () {
                                 Escrowly.com is a trusted crypto escrow for safe online deals keeping both buyers and sellers secure.
                             </motion.span>
                         </p>
-                        <FeeCalculator />
+                        <Suspense fallback={<div className="calculator-loading">Loading calculator...</div>}>
+                            <FeeCalculator />
+                        </Suspense>
                         <IconCounter
                             imgSrc="/img/icon-calc.svg"
                             num={98}
@@ -101,7 +105,7 @@ const HomeBanner = function () {
                             <img 
                                 className="video-placeholder" 
                                 src="/images/globe2.png" 
-                                alt="Interactive Escrow 3D globe showing global transactions"
+                                alt="Interactive 3D globe showing global transactions"
                                 loading="lazy"
                             />
                         ) : (
@@ -122,7 +126,7 @@ const HomeBanner = function () {
                                     muted
                                     playsInline
                                     type="video/webm"
-                                    aria-label="Interactive Escrow 3D globe animation showing global transactions"
+                                    aria-label="Interactive 3D globe animation showing global transactions"
                                     onLoadedData={handleVideoLoad}
                                     preload="auto"
                                     style={{ display: isVideoLoaded ? 'block' : 'none' }}
@@ -134,6 +138,7 @@ const HomeBanner = function () {
                             imgSrc="/img/icon-feature-card-1.svg"
                             title="Safe and Simple Process"
                             list={['Buyer deposits funds in crypto ', 'Seller ships after buyer’s confirmation']}
+                             alt="Safe transaction process icon"
                         />
                         <BannerFeatureCard
                             className="position-2"

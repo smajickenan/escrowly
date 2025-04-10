@@ -14,7 +14,13 @@ const IconCounter = ({ imgSrc, num, numText, description, delay, alt }) => {
                 delay: delay,
             }}
         >
-            <img src={imgSrc} alt={alt || description} loading="lazy" />
+            <img 
+                src={imgSrc} 
+                alt={alt || description} 
+                loading="lazy" 
+                width="32" 
+                height="32"
+            />
             <div className="icon-content">
                 <span className="num">
                     <Counter
