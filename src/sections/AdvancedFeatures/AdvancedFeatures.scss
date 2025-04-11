@@ -26,14 +26,14 @@
     }
     .advanced-feature-card.feature-bg h5 {
         @media(max-width: 767px) {
-            margin-top: 75px;
+            margin-top: 10px;
         }
     }
     
 }
 
-.col {
+.advanced-feature-card.feature-bg p {
     @media(max-width: 767px) {
-        margin-top: 15px;
+        margin-top: 0px;
     }
 }
