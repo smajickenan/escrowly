@@ -57,7 +57,7 @@ const Faq = () => {
                         >
                             <AccordionItem
                                 title="What payment methods does Escrowly support?"
-                                text="We accept payments in popular cryptocurrencies, such as Bitcoin, Ethereum, and USDT. Escrowly also has options for escrow wallets for crypto."
+                                text="We accept payments in popular cryptocurrencies, such as Bitcoin, Ethereum, USDT etc. Escrowly also has options for escrow wallets for crypto."
                                 active={false}
                             />
                         </motion.div>
