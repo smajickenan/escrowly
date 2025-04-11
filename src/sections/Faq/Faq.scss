@@ -20,4 +20,9 @@
             margin-bottom: 32px;
         }
     }
+    .section-header {
+        @media(max-width: 767px) {
+            margin: auto;
+        }
+    }
 }

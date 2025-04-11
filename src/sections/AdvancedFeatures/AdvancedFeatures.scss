@@ -24,4 +24,16 @@
             }
         }
     }
+    .advanced-feature-card.feature-bg h5 {
+        @media(max-width: 767px) {
+            margin-top: 75px;
+        }
+    }
+    
+}
+
+.col {
+    @media(max-width: 767px) {
+        margin-top: 15px;
+    }
 }
