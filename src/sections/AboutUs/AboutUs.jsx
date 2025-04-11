@@ -31,7 +31,7 @@ const AboutUs = () => {
                             }}
                             className="mt-32 xs-mt-0 mb-20 sm-font-16"
                         >
-                            Escrowly is a crypto escrow company that serves as a neutral third party, protecting high-value assets until agreement is fulfilled. Our blockchain escrow ensures trustworthy crypto escrow transactions, and business deals powered by smart contracts.
+                            Escrowly is a crypto escrow company that serves as a neutral third party, protecting high-value assets until agreement is fulfilled. Our blockchain escrow ensures trustworthy crypto escrow transactions and business deals powered by smart contracts.
                         </motion.p>
                         <Button
                             url="/get-started"
