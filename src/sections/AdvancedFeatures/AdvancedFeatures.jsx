@@ -43,7 +43,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Fast and Seamless Transfers"
-                            text="Benefit Escrowly instant and secure transactions with our crypto escrow platform suitable for secure crypto escrow."
+                            text="Benefit Escrowly instant and secure transactions with our crypto escrow platform."
                             image="/images/advanced-feature-2-4x.png"
                             btnUrl="/fee-calculator"
                             btnText="Fee Calculator"
