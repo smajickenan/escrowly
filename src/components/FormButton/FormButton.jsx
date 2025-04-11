@@ -1,11 +1,16 @@
 import React from "react";
 import './FormButton.scss';
 
-const FormButton = ({ text, icon }) => {
+const FormButton = ({ text, onClick , icon}) => {
     return (
-        <button className="btn btn-primary">
+        <button 
+            type="button" 
+            className="btn btn-primary form-button"
+            onClick={onClick}
+        >
             {text}
-            {icon && <img src={icon} alt="Button Icon" />}
+           
+
         </button>
     );
 };

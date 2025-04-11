@@ -35,7 +35,7 @@ const AboutUs = () => {
                         </motion.p>
                         <Button
                             url="/get-started"
-                            text="Get Started3"
+                            text="Get Started"
                             icon="/img/btn-arrow-right.svg"
                             delay={0.8}
                         />

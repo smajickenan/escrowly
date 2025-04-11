@@ -41,7 +41,7 @@ const Innovate = () => {
                     </motion.p>
                     <Button
                         text="Get Started Now"
-                        url="#get-started"
+                        url="/get-started"
                         icon="/img/btn-arrow-right-dark.svg"
                         className="btn-secondary"
                         delay={0.6}

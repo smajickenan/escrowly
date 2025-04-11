@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './FeeCalculator.scss';
 import { motion } from "motion/react";
 import FormButton from "../FormButton/FormButton";
 import Dropdown from "../Dropdown/Dropdown";
 import { Helmet } from "react-helmet-async"
-const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
+import { useNavigate } from "react-router-dom";
 
+const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const navigate = useNavigate();
     const i = (animation) ? 1 : 0;
+
+    useEffect(() => {
+        // Check if user is authenticated
+        const checkAuth = () => {
+            const token = localStorage.getItem('authToken');
+            setIsAuthenticated(!!token);
+        };
+        checkAuth();
+    }, []);
+
+    const handleStartEscrow = () => {
+        if (isAuthenticated) {
+            navigate('/dashboard');
+        } else {
+            navigate('/sign-in');
+        }
+    };
 
     return (
         <>
@@ -119,7 +139,10 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                 transition={{ duration: 0.5 * i, delay: 3 } * i}
             >
-                <FormButton text="Start Crypto Escrow" />
+                <FormButton 
+                    text="Start Crypto Escrow" 
+                    onClick={handleStartEscrow}
+                />
             </motion.div>
         </motion.form>
         </>
