@@ -29,7 +29,7 @@ const Innovate = () => {
                             visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.2 } }
                         }}
                     >
-                        Join forces to build powerful digital experiences
+                        Join to secure your crypto and ensure regulation
                     </motion.h3>  
                     <motion.p
                         variants={{
@@ -37,7 +37,7 @@ const Innovate = () => {
                             visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.4 } }
                         }}
                     >
-                        Collaborate with Lezo to design and deliver innovative digital solutions that transform your business. From cutting-edge web development to strategic marketing initiatives.
+                        Join us in our journey to become the frontrunner of secure crypto deals - where every deal, whether for digital or traditional assets, is built on integrity, innovation, and peace of mind.
                     </motion.p>
                     <Button
                         text="Get Started Now"
