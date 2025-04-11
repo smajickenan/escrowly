@@ -27,7 +27,7 @@ const Faq = () => {
                                 visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.5 } }
                             }}
                         >
-                            Escrowly is a cutting-edge crypto escrow service that equips individuals, enterprises, and business owners with the power to transfer their high-value assets safely in the decentralized space.
+                                Escrowly is a cutting-edge crypto escrow service that equips individuals, enterprises, and business owners with the power to transfer their high-value assets safely in the decentralized space.
                         </motion.p>
                         <Button
                             text="Get Started"
