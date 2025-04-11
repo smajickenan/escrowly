@@ -44,7 +44,7 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="How does Escrowly guarantee the security of my exchanges?"
+                                title="How does Escrowly guarantee the safety of my crypto when buying or selling?"
                                 text="Escrowly employs smart contract escrow and blockchain escrow services technology to safeguard funds until all terms of an agreement are met."
                                 active={false}
                             />
@@ -69,7 +69,7 @@ const Faq = () => {
                         >
                             <AccordionItem
                                 title="Can I incorporate Escrowly with my existing business structure?"
-                                text="Absolutely yes! Our Escrowly API enables users to easily access escrow for e-commerce stores, crypto escrow platforms, and escrow for DeFi applications for automated deals."
+                                text="Absolutely yes! Our Escrowly Plug and Play Simple Connect API makes it easy to integrate crypto escrow into e-commerce stores and other business platforms, helping businesses become crypto compliant."
                                 active={false}
                             />
                         </motion.div>
