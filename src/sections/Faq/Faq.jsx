@@ -27,7 +27,7 @@ const Faq = () => {
                                 visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.5 } }
                             }}
                         >
-                            At Escrowly.com, our mission is to provide simple, smooth, secure, and borderless transactions for our users. Born from a drive for innovation and reliability, Escrowly.com is a cutting-edge crypto escrow service that equips individuals, enterprises, and business owners with the power to transfer their high-value assets safely in the decentralized space.
+                            Escrowly.com is a cutting-edge crypto escrow service that equips individuals, enterprises, and business owners with the power to transfer their high-value assets safely in the decentralized space.
                         </motion.p>
                         <Button
                             text="Get Started"
@@ -44,7 +44,7 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="How does Escrowly guarantee the safety of my crypto when buying or selling?"
+                                title="How does Escrowly guarantee the safety of my crypto?"
                                 text="Escrowly employs smart contract escrow and blockchain escrow services technology to safeguard funds until all terms of an agreement are met."
                                 active={false}
                             />
