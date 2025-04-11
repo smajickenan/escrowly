@@ -83,7 +83,7 @@ const HowItWorks = () => {
                                     num="02"
                                     img="/img/icon-hiw-2.svg"
                                     title="Buyer Pays Escrowly"
-                                    text="Buyer makes a deposit into Escrowly’s crypto escrow wallet"
+                                    text="Buyer makes a safe deposit into Escrowly’s crypto escrow wallet"
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -98,7 +98,7 @@ const HowItWorks = () => {
                                     num="03"
                                     img="/img/icon-hiw-3.svg"
                                     title="Seller Delivers"
-                                    text="Seller delivers goods or services."
+                                    text="Seller delivers goods or services to buyer."
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -128,7 +128,7 @@ const HowItWorks = () => {
                                     num="05"
                                     img="/img/icon-hiw-5.svg"
                                     title="Seller Gets Paid"
-                                    text="Escrowly releases the funds to the seller - no risk, no fraud, and no middlemen."
+                                    text="Escrowly releases the funds to the seller - safe, simple and secure."
                                 />
                             </motion.div>
                         </SwiperSlide>
