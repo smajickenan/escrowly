@@ -93,11 +93,11 @@ const Footer = () => {
                                 <div className="footer-social">
                                     <p>Follow us on</p>
                                     <ul className="footer-social-icons">
-                                        <li><a href="https://www.instagram.com/escrowlyholdings/" target="_blank"><img src="/img/social-icon-instagram.svg" alt="Escrowly Instagram" /></a></li>
-                                        <li><a href="#facebook"><img src="/img/social-icon-facebook.svg" alt="Escrowly Facebook" /></a></li>
-                                        <li><a href="https://www.youtube.com/@Escrowly" target="_blank"><img src="/img/social-icon-youtube.svg" alt="Escrowly Youtube" /></a></li>
-                                        <li><a href="https://x.com/escrowly" target="_blank"><img src="/img/social-icon-twitter.svg" alt="Escrowly Twitter" /></a></li>
-                                        <li><a href="https://www.linkedin.com/company/escrowly/" target="_blank"><img src="/img/social-icon-linkedin.svg" alt="Escrowly Linkedin" /></a></li>
+                                        <li><a href="https://www.instagram.com/escrowlyholdings/" target="_blank" rel="noopener noreferrer"><img src="/img/social-icon-instagram.svg" alt="Escrowly Instagram" /></a></li>
+                                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="/img/social-icon-facebook.svg" alt="Escrowly Facebook" /></a></li>
+                                        <li><a href="https://www.youtube.com/@Escrowly" target="_blank" rel="noopener noreferrer"><img src="/img/social-icon-youtube.svg" alt="Escrowly Youtube" /></a></li>
+                                        <li><a href="https://x.com/escrowly" target="_blank" rel="noopener noreferrer"><img src="/img/social-icon-twitter.svg" alt="Escrowly Twitter" /></a></li>
+                                        <li><a href="https://www.linkedin.com/company/escrowly/" target="_blank" rel="noopener noreferrer"><img src="/img/social-icon-linkedin.svg" alt="Escrowly Linkedin" /></a></li>
                                     </ul>
                                     <a href="#url" className="btn-google-play"><img width="120" height="151" src="/images/btn-google-play.png" alt="" /></a>
                                     <a href="#url" className="btn-app-store"><img width="120" height="151" src="/images/btn-app-store.png" alt="" /></a>
