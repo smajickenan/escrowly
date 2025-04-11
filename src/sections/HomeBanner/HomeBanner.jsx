@@ -150,8 +150,8 @@ const HomeBanner = function () {
                         <BannerFeatureCard
                             className="position-3"
                             imgSrc="/img/icon-feature-card-3.svg"
-                            title="Total Protection for <br> Transactions"
-                            list={['Buyer pays via Escrowly', 'Seller ships after payment']}
+                            title="Protection for Transactions"
+                            list={['Buyer pays via Escrowly', 'Seller ships after crypto payment']}
                             alt="Transaction protection icon"
                         />
                         <BannerFeatureCard
