@@ -33,14 +33,14 @@ const Footer = () => {
                             <li>
                                 <a href="#url">Escrowly Services</a>
                                 <ul>
-                                    <li><Link to="/service-page2">General Escrowly Services</Link></li>
-                                    <li><Link to="/service-page">Domain Name Escrowly</Link></li>
-                                    <li><Link to="/service-page3"> Motor Vehicle Escrowly</Link></li>
+                                    <li><Link to="/service-page2">General Escrow Services</Link></li>
+                                    <li><Link to="/service-page">Domain Name Escrow</Link></li>
+                                    <li><Link to="/service-page3"> Motor Vehicle Escrow</Link></li>
                                     <li><Link to="/service-page4"> Milestone Transactions</Link></li>
                                     <li><Link to="/service-page5">Online Goods & Digital Items</Link></li>
-                                    <li><Link to="/service-page6"> Stock & Investment Escrowly</Link></li>
-                                    <li><Link to="/service-page7"> Luxury Items Escrowly</Link></li>
-                                    <li><Link to="/service-page8"> Real Estate Escrowly</Link></li>
+                                    <li><Link to="/service-page6"> Stock & Investment Escrow</Link></li>
+                                    <li><Link to="/service-page7"> Luxury Items Escrow</Link></li>
+                                    <li><Link to="/service-page8"> Real Estate Escrow</Link></li>
                                 </ul>
                             </li>
                         </ul>
@@ -93,11 +93,11 @@ const Footer = () => {
                                 <div className="footer-social">
                                     <p>Follow us on</p>
                                     <ul className="footer-social-icons">
-                                        <li><a href="#instagram"><img src="/img/social-icon-instagram.svg" alt="" /></a></li>
+                                        <li><a href="https://www.instagram.com/escrowlyholdings/"><img src="/img/social-icon-instagram.svg" alt="" /></a></li>
                                         <li><a href="#facebook"><img src="/img/social-icon-facebook.svg" alt="" /></a></li>
-                                        <li><a href="#youtube"><img src="/img/social-icon-youtube.svg" alt="" /></a></li>
-                                        <li><a href="#twitter"><img src="/img/social-icon-twitter.svg" alt="" /></a></li>
-                                        <li><a href="#linkedin"><img src="/img/social-icon-linkedin.svg" alt="" /></a></li>
+                                        <li><a href="https://www.youtube.com/@Escrowly"><img src="/img/social-icon-youtube.svg" alt="" /></a></li>
+                                        <li><a href="https://x.com/escrowly"><img src="/img/social-icon-twitter.svg" alt="" /></a></li>
+                                        <li><a href="https://www.linkedin.com/company/escrowly/"><img src="/img/social-icon-linkedin.svg" alt="" /></a></li>
                                     </ul>
                                     <a href="#url" className="btn-google-play"><img width="120" height="151" src="/images/btn-google-play.png" alt="" /></a>
                                     <a href="#url" className="btn-app-store"><img width="120" height="151" src="/images/btn-app-store.png" alt="" /></a>
