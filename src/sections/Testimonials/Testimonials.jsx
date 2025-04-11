@@ -151,6 +151,38 @@ const Testimonials = () => {
                                 />
                             </motion.div>
                         </SwiperSlide>
+                        <SwiperSlide style={{ width: 'auto' }}>
+                            <motion.div
+                                variants={{
+                                    hidden: { opacity: 0, x: 50 },
+                                    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.7 } }
+                                }}
+                            >
+                                <TestimonialCard
+                                    img="/images/client-3.jpg"
+                                    title="Escrowly gave me peace of mind"
+                                    text="I once used Escrowly for a high-risk Bitcoin exchange and was amazed by the speed and transparency. Since then, it's the only platform I trust for crypto transactions."
+                                    name="James Kenedy"
+                                    address=" Crypto Trader, UK"
+                                />
+                            </motion.div>
+                        </SwiperSlide>
+                        <SwiperSlide style={{ width: 'auto' }}>
+                            <motion.div
+                                variants={{
+                                    hidden: { opacity: 0, x: 50 },
+                                    visible: { opacity: 1, x: 0, transition: { duration: 1, delay: 1.9 } }
+                                }}
+                            >
+                                <TestimonialCard
+                                    img="/images/client-3.jpg"
+                                    title="Finally - a platform that protects NFT creators!"
+                                    text="As an NFT creator, I've dealt with scams before. With Escrowly, my funds stay safe until receipt is confirmed  it's the only escrow service I trust."
+                                    name="Adam Kirschner"
+                                    address="NFT Artist, USA"
+                                />
+                            </motion.div>
+                        </SwiperSlide>
                     </Swiper>
                 </motion.div>
             </div>

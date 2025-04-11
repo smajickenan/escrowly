@@ -31,7 +31,7 @@ const Faq = () => {
                         </motion.p>
                         <Button
                             text="Get Started"
-                            url="#get-started"
+                            url="/get-started"
                             icon="/img/btn-arrow-right.svg"
                             delay={1.6}
                         />
@@ -44,8 +44,8 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="How does Escrowly ensure the security of my transactions?"
-                                text="Escrowly supports major cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), and USDT. Our platform ensures secure and seamless crypto transactions for all users"
+                                title="How does Escrowly guarantee the security of my exchanges?"
+                                text="Escrowly employs smart contract escrow and blockchain escrow services technology to safeguard funds until all terms of an agreement are met."
                                 active={false}
                             />
                         </motion.div>
@@ -56,8 +56,8 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="What payment methods do you support?"
-                                text="Escrowly supports major cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), and USDT. Our platform ensures secure and seamless crypto transactions for all users"
+                                title="What payment methods does Escrowly support?"
+                                text="We accept payments in popular cryptocurrencies, such as Bitcoin, Ethereum, and USDT. Escrowly also has options for escrow wallets for crypto."
                                 active={false}
                             />
                         </motion.div>
@@ -68,8 +68,8 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="Can I integrate Escrowly with my existing business systems?"
-                                text="Escrowly supports major cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), and USDT. Our platform ensures secure and seamless crypto transactions for all users"
+                                title="Can I incorporate Escrowly with my existing business structure?"
+                                text="Absolutely yes! Our Escrowly API enables users to easily access escrow for e-commerce stores, crypto escrow platforms, and escrow for DeFi applications for automated deals."
                                 active={false}
                             />
                         </motion.div>
@@ -80,8 +80,8 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="How quickly are funds released after a transaction is completed?"
-                                text="Escrowly supports major cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), and USDT. Our platform ensures secure and seamless crypto transactions for all users"
+                                title="How quickly are funds released after a deal is done?"
+                                text="Instantaneously. Once the terms of the transaction are met, funds are released via our secure P2P crypto escrow system backed by automated escrow smart contracts."
                                 active={false}
                             />
                         </motion.div>
@@ -92,8 +92,8 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="Is Escrowly available for international transactions?"
-                                text="Escrowly supports major cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), and USDT. Our platform ensures secure and seamless crypto transactions for all users"
+                                title="Does Escrowly support international transactions?"
+                                text="Yes. We promote cross-border crypto escrow and escrow for international business deals with complete international access and compliance."
                                 active={false}
                             />
                         </motion.div>

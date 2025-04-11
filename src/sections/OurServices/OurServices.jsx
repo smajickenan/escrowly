@@ -58,7 +58,7 @@ const OurServices = () => {
                         <div ref={nextRef} className="swiper-button-next"></div>
                     </div>
                     <Button
-                        url="#get-started"
+                        url="/services"
                         text="All Services"
                         icon="/img/btn-arrow-right.svg"
                         delay={2}

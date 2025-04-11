@@ -28,6 +28,9 @@ import OurPartners from "./pages/OurPartners";
 import GetStarted from "./pages/GetStarted";
 import PartnersEnquiry from "./pages/PartnersEnquiry";
 import ApiGuide from "./pages/ApiGuide";
+import EscrowlyPay from "./pages/EscrowlyPay/EscrowlyPay";
+import EscrowlyOffer from "./pages/EscrowlyOffer/EscrowlyOffer";
+import EscrowlyButtons from "./pages/EscrowlyButtons/EscrowlyButtons";
 
 import ApprovedCarriers from "./pages/WhatIsEscrowly/ApprovedCarriers";
 
@@ -62,7 +65,7 @@ function App() {
 function MainLayout() {
   const location = useLocation();
   const isLight = location.pathname === "/";
-  const hideHeaderFooter = ["/sign-in1", "/sign-up1"].includes(location.pathname);
+  const hideHeaderFooter = ["/sign-in", "/sign-up"].includes(location.pathname);
 
   return (
     <div className="App">
@@ -85,14 +88,17 @@ function MainLayout() {
         <Route path="/how-it-works" element={<HowItWorksPage />} />
         <Route path="/fee-calculator" element={<FeeCalculatorPage />} />
         <Route path="/api-documentation" element={<ApiDocumentation />} />
-        <Route path="/sign-up1" element={<SignUp1 />} />
-        <Route path="/sign-in1" element={<SignIn1 />} />
+        <Route path="/sign-up" element={<SignUp1 />} />
+        <Route path="/sign-in" element={<SignIn1 />} />
         <Route path="/help-desk" element={<HelpDesk />} />
         <Route path="/help-desk-single" element={<HelpDeskSingle />} />
         <Route path="/our-partners" element={<OurPartners />} />
         <Route path="/get-started" element={<GetStarted />} />
         <Route path="/partners-enquiry" element={<PartnersEnquiry />} />
         <Route path="/api-guide" element={<ApiGuide />} />
+        <Route path="/escrowly-pay" element={<EscrowlyPay />} />
+        <Route path="/escrowly-offer" element={<EscrowlyOffer />} />
+        <Route path="/escrowly-buttons" element={<EscrowlyButtons />} />
         <Route path="/payment-options" element={<PaymentOptions />} />
         <Route path="/approved-carriers" element={<ApprovedCarriers />} />
         <Route path="/fraud-prevention" element={<FraudPrevention />} />

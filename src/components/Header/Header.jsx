@@ -10,11 +10,22 @@ const Header = ({ className }) => {
 
     const [mobileMenu, setMobileMenu] = useState(false)
     const [scrolled, setScrolled] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const location = useLocation();
 
     useEffect(() => {
         setMobileMenu(false);
     }, [location.pathname]);
+
+    useEffect(() => {
+        // Check if user is authenticated
+        const checkAuth = () => {
+            // TODO: Implement actual authentication check
+            const token = localStorage.getItem('authToken');
+            setIsAuthenticated(!!token);
+        };
+        checkAuth();
+    }, []);
 
     function mobileMenuToggle() {
         setMobileMenu((prev) => !prev);
@@ -42,6 +53,7 @@ const Header = ({ className }) => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    const getStartedRoute = isAuthenticated ? '/dashboard' : '/sign-in';
 
     return (
         <motion.header
@@ -71,7 +83,7 @@ const Header = ({ className }) => {
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -89,7 +101,7 @@ const Header = ({ className }) => {
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -109,20 +121,20 @@ const Header = ({ className }) => {
                                     <Link to="/fee-calculator">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Pay<span>Simplest way to add escrow payments</span></Link>
+                                    <Link to="/escrowly-pay">Escrow Pay<span>Simplest way to add escrow payments</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Offer<span>Allow negotiation for your transactions</span></Link>
+                                    <Link to="/escrowly-offer">Escrow Offer<span>Allow negotiation for your transactions</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
+                                    <Link to="/escrowly-buttons">Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/api-guide">Escrow API<span>Get all benefits of Escrow via API</span></Link>
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -142,11 +154,11 @@ const Header = ({ className }) => {
                                     <Link to="/escrowly-offer">Escrowly Offer<span>Receive offers via API</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/escrowly-button">Escrowly Buttons<span>Add Escrowly buttons to your website</span></Link>
+                                    <Link to="/escrowly-buttons">Escrowly Buttons<span>Add Escrowly buttons to your website</span></Link>
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -164,7 +176,7 @@ const Header = ({ className }) => {
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -191,7 +203,7 @@ const Header = ({ className }) => {
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
-                                    <Button text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
+                                    <Button to={getStartedRoute} text="Get Started Now" className="btn btn-primary" icon="/img/btn-arrow-right.svg" />
                                 </li>
                             </ul>
                         </li>
@@ -200,8 +212,8 @@ const Header = ({ className }) => {
                         <li>
                             <LanguageDropdown />
                         </li>
-                        <li><Link to="/sign-in1" className="btn btn-link btn-sign-in">Sign In</Link></li>
-                        <li><Link to="/sign-up1" className="btn btn-secondary">Sign Up</Link></li>
+                        <li><Link to="/sign-in" className="btn btn-link btn-sign-in">Sign In</Link></li>
+                        <li><Link to="/sign-up" className="btn btn-secondary">Sign Up</Link></li>
                         <button className="menu-btn" onClick={mobileMenuToggle}><span></span><span></span><span></span></button>
                     </ul>
                 </div>
@@ -209,7 +221,7 @@ const Header = ({ className }) => {
                     <div className="mobile-menu-content">
                         <span className="menu-label">Menu</span>
                         <ul className="mobile-menu">
-                            <li><Link to="/sign-in1">Start A Transaction</Link></li>
+                            <li><Link to={getStartedRoute}>Start A Transaction</Link></li>
                             <li><Link to="/how-it-works">How It Works</Link></li>
                             <li><Link to="/fee-calculator">Fee Calculator</Link></li>
                             <li><Link to="/services">Escrowly Services</Link></li>
@@ -226,12 +238,11 @@ const Header = ({ className }) => {
                         </ul>
                         <p className="copyright">
                             Copyright © and Trademarked 2023–2025 Escrowly LLC. All rights reserved. A Tech Company with a Crypto Licence
-                    </p>
+                        </p>
                     </div>
                 </div>
             </div>
         </motion.header>
-
     )
 }
 

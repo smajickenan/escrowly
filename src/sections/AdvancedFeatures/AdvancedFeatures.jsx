@@ -29,7 +29,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly Pay"
-                            text="Your transactions, fully protected with our advanced security system"
+                            text="A safe crypto escrow service for Bitcoin, Ethereum, and other digital assets, developed to protect both buyers and sellers."
                             image="/images/advanced-feature-1.svg"
                             imageDelay={0.7}
                         />
@@ -42,10 +42,10 @@ const AdvancedFeatures = () => {
                         className="col"
                     >
                         <AdvancedFeatureCard
-                            title="Fast and Easy Transactions"
-                            text="Streamline your payments with a seamless and efficient process"
+                            title="Fast and Seamless Exchanges"
+                            text="Enjoy Escrowly.com’s instant and trustless transactions with our crypto escrow platform, suitable for secure P2P crypto escrow, escrow service for NFT, and cross-border crypto escrow."
                             image="/images/advanced-feature-2-4x.png"
-                            btnUrl="#url"
+                            btnUrl="/fee-calculator"
                             btnText="Fee Calculator"
                             className="image-bottom"
                             imageDelay={0.9}
@@ -76,7 +76,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly API"
-                            text="Easily integrate secure crypto escrow services into your business, enabling safe and automated transactions without risks"
+                            text="Incorporate secure P2P crypto escrow into your business with our reliable Escrowly API, designed for escrow for crypto exchanges, escrow for DeFi transactions, and escrow for e-commerce stores."
                             image="/images/advanced-feature-4.svg"
                             btnUrl="#url"
                             btnText="Api Documentation"

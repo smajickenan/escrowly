@@ -34,8 +34,8 @@ const AboutUs = () => {
                             Escrowly is a trusted platform for secure transactions, offering digital protection, seamless escrow services, and crypto payment solutions. We are committed to ensuring safe and transparent deals for businesses and individuals worldwide.
                         </motion.p>
                         <Button
-                            url="#get-started"
-                            text="Get Started"
+                            url="/get-started"
+                            text="Get Started3"
                             icon="/img/btn-arrow-right.svg"
                             delay={0.8}
                         />
