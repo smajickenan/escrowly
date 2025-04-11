@@ -19,7 +19,7 @@ const AboutUs = () => {
                     <div className="col">
                         <SectionHeader
                             label="About us"
-                            title="Ensuring Secure and Transparent <br> Transactions with Modern Payment Solutions <br> for Businesses and Individuals"
+                            title="Smart Crypto Escrow <br> Powered by Smart Contracts <br> for Individuals and Enterprises"
                             className="mb-40 xs-mb-20 hide-breaks-xs small-title"
                         />
                     </div>
