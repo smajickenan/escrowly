@@ -81,7 +81,7 @@ const Faq = () => {
                         >
                             <AccordionItem
                                 title="How quickly are funds released after a deal is done?"
-                                text="Instantaneously. Once the terms of the transaction are met, funds are released via Escrowly secure crypto escrow system backed by automated escrow smart contracts."
+                                text="Instantaneously. Once the terms of the transaction are met, funds are released via Escrowly secure crypto escrow system backed by smart contracts."
                                 active={false}
                             />
                         </motion.div>
