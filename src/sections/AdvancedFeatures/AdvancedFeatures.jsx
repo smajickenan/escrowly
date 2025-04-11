@@ -29,7 +29,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly Pay"
-                            text="A safe crypto escrow service for Bitcoin, Ethereum, and other digital assets, developed to protect both buyers and sellers."
+                            text="A safe crypto escrow service for USDT, Bitcoin, Ethereum, and other digital assets, developed to protect both buyers and sellers."
                             image="/images/advanced-feature-1.svg"
                             imageDelay={0.7}
                         />
@@ -42,8 +42,8 @@ const AdvancedFeatures = () => {
                         className="col"
                     >
                         <AdvancedFeatureCard
-                            title="Fast and Seamless Exchanges"
-                            text="Enjoy Escrowly.com’s instant and trustless transactions with our crypto escrow platform, suitable for secure P2P crypto escrow, escrow service for NFT, and cross-border crypto escrow."
+                            title="Fast and Seamless Transfers"
+                            text="Benefit Escrowly.com instant and secure transactions with our crypto escrow platform, suitable for secure crypto escrow, and cross-border crypto transactions."
                             image="/images/advanced-feature-2-4x.png"
                             btnUrl="/fee-calculator"
                             btnText="Fee Calculator"
@@ -62,7 +62,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Simple Dispute Resolution"
-                            text="Fair and transparent resolution, ensuring peace of mind"
+                            text="Transparent and fair resolution for complete peace of mind"
                             background="/images/advanced-feature-3.jpg"
                             className="feature-bg mb-0"
                         />
@@ -76,7 +76,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly API"
-                            text="Incorporate secure P2P crypto escrow into your business with our reliable Escrowly API, designed for escrow for crypto exchanges, escrow for DeFi transactions, and escrow for e-commerce stores."
+                            text="Incorporate secure crypto escrow payments into your business with our reliable Escrowly API, designed for both individual businesses and for online e-commerce shops."
                             image="/images/advanced-feature-4.svg"
                             btnUrl="#url"
                             btnText="Api Documentation"
