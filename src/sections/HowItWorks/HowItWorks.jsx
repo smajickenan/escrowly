@@ -128,7 +128,7 @@ const HowItWorks = () => {
                                     num="05"
                                     img="/img/icon-hiw-5.svg"
                                     title="Seller Gets Paid"
-                                    text="Escrowly releases the funds to the seller - safe, simple and secure."
+                                    text="Escrowly auto releases the funds to the seller - safe, simple and secure."
                                 />
                             </motion.div>
                         </SwiperSlide>
