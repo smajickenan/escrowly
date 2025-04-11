@@ -137,7 +137,7 @@ const HomeBanner = function () {
                             className="position-1"
                             imgSrc="/img/icon-feature-card-1.svg"
                             title="Safe and Simple Process"
-                            list={['Buyer deposits funds in crypto ', 'Seller ships after buyer’s confirmation']}
+                            list={['Buyer deposits funds in crypto ', 'Seller ships after buyers confirmation']}
                              alt="Safe transaction process icon"
                         />
                         <BannerFeatureCard
