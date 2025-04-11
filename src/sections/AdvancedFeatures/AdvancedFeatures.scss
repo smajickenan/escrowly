@@ -15,4 +15,13 @@
             }
         }
     }
+    .advanced-feature-content {
+        p {
+            @media(max-width: 767px) {
+                line-height: 1.5;
+                margin-bottom: 6px;
+                margin: auto;
+            }
+        }
+    }
 }
