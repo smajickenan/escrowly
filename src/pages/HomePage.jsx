@@ -43,24 +43,60 @@ const HomePage = () => (
                     "@type": "Organization",
                     "name": "Escrowly",
                     "url": "https://escrowly.com",
-                    "logo": "https://escrowly.com/logo.png",
+                    "logo": "https://escrowly.com/img/logo.svg",
                     "description": "Escrowly provides secure cryptocurrency escrow services for safe online transactions.",
-                    "sameAs": [
+                     "sameAs": [
                         "https://twitter.com/escrowly",
                         "https://facebook.com/escrowly",
                         "https://linkedin.com/company/escrowly"
                     ],
                     "contactPoint": {
                         "@type": "ContactPoint",
-                        "telephone": "+1-800-ESCROWLY",
+                         "telephone": "+1-800-ESCROWLY",
                         "contactType": "customer service",
+                        "email": "support@escrowly.com",
+                        "areaServed": "Worldwide",
                         "availableLanguage": ["English"]
                     },
-                    "potentialAction": {
+                     "potentialAction": {
                         "@type": "SearchAction",
                         "target": "https://escrowly.com/search?q={search_term_string}",
                         "query-input": "required name=search_term_string"
                     }
+                }
+                `}
+            </script>
+
+            <script type="application/ld+json">
+                {`
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "Escrowly Crypto Escrow Service",
+                    "description": "Secure cryptocurrency escrow service that protects both buyers and sellers in online transactions.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Escrowly"
+                    },
+                    "offers": {
+                        "@type": "AggregateOffer",
+                        "priceCurrency": "USD",
+                        "lowPrice": "0.00",
+                        "highPrice": "0.00",
+                        "offerCount": "1"
+                    },
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "4.8",
+                        "reviewCount": "1000"
+                    },
+                    "feature": [
+                        "Secure crypto transactions",
+                        "Smart contract protection",
+                        "Global coverage",
+                        "Instant settlements",
+                        "Buyer-seller protection"
+                    ]
                 }
                 `}
             </script>
