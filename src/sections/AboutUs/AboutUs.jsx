@@ -31,7 +31,7 @@ const AboutUs = () => {
                             }}
                             className="mt-32 xs-mt-0 mb-20 sm-font-16"
                         >
-                            Escrowly is a trusted platform for secure transactions, offering digital protection, seamless escrow services, and crypto payment solutions. We are committed to ensuring safe and transparent deals for businesses and individuals worldwide.
+                            Escrowly.com is a crypto escrow platform that serves as an unbiased third party, protecting high-value assets until all parties meet the stipulated agreement. Our blockchain technology provides trustworthy crypto escrow deals powered by smart contracts.
                         </motion.p>
                         <Button
                             url="/get-started"
