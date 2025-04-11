@@ -78,7 +78,7 @@ const AdvancedFeatures = () => {
                             title="Escrowly API"
                             text="Incorporate secure crypto escrow payments into your business with our reliable Escrowly API designed for both individual businesses and for online e-commerce shops."
                             image="/images/advanced-feature-4.svg"
-                            btnUrl="#url"
+                            btnUrl="/api-documentation"
                             btnText="API Documentation"
                             className="feature-vertical mb-0"
                             imageDelay={1.1}
