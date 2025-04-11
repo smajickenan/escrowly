@@ -69,7 +69,7 @@ const AboutUs = () => {
                             >
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-1.svg"
-                                    title="Our Motivation"
+                                    title="Escrow Wallet for Crypto"
                                     text="We help businesses succeed by providing the right tools and technology for growth"
                                 />
                             </motion.div>
@@ -82,7 +82,7 @@ const AboutUs = () => {
                             >
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-2.svg"
-                                    title="Our Purpose"
+                                    title="Bitcoin Escrow Service"
                                     text="We envision a future where businesses have the tools to thrive online"
                                 />
                             </motion.div>
