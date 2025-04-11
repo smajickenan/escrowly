@@ -29,7 +29,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly Pay"
-                            text="A safe crypto escrow service for USDT, Bitcoin, Ethereum, and other digital assets, developed to protect both buyers and sellers."
+                            text="A safe crypto escrow service for USDT, Bitcoin, Ethereum, and other digital assets developed to protect both buyers and sellers."
                             image="/images/advanced-feature-1.svg"
                             imageDelay={0.7}
                         />
@@ -43,7 +43,7 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Fast and Seamless Transfers"
-                            text="Benefit Escrowly.com instant and secure transactions with our crypto escrow platform, suitable for secure crypto escrow, and cross-border crypto transactions."
+                            text="Benefit Escrowly instant and secure transactions with our crypto escrow platform suitable for secure crypto escrow."
                             image="/images/advanced-feature-2-4x.png"
                             btnUrl="/fee-calculator"
                             btnText="Fee Calculator"
@@ -76,10 +76,10 @@ const AdvancedFeatures = () => {
                     >
                         <AdvancedFeatureCard
                             title="Escrowly API"
-                            text="Incorporate secure crypto escrow payments into your business with our reliable Escrowly API, designed for both individual businesses and for online e-commerce shops."
+                            text="Incorporate secure crypto escrow payments into your business with our reliable Escrowly API designed for both individual businesses and for online e-commerce shops."
                             image="/images/advanced-feature-4.svg"
                             btnUrl="#url"
-                            btnText="Api Documentation"
+                            btnText="API Documentation"
                             className="feature-vertical mb-0"
                             imageDelay={1.1}
                         />
