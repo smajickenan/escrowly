@@ -98,7 +98,7 @@ const HowItWorks = () => {
                                     num="03"
                                     img="/img/icon-hiw-3.svg"
                                     title="Seller Delivers"
-                                    text="Seller delivers goods or services to buyer."
+                                    text="Seller delivers goods or services to buyer"
                                 />
                             </motion.div>
                         </SwiperSlide>
@@ -128,7 +128,7 @@ const HowItWorks = () => {
                                     num="05"
                                     img="/img/icon-hiw-5.svg"
                                     title="Seller Gets Paid"
-                                    text="Funds are auto released once both parties mark the transaction complete."
+                                    text="Funds are auto released once both parties mark the transaction complete"
                                 />
                             </motion.div>
                         </SwiperSlide>
