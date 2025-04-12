@@ -70,7 +70,7 @@ const AboutUs = () => {
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-1.svg"
                                     title="Escrow Wallet for Crypto"
-                                    text="Best escrow wallet protection with our smart safekeeping contract escrow"
+                                    text="Best escrow wallet protection with our smart safekeeping contracts"
                                 />
                             </motion.div>
                             <motion.div
