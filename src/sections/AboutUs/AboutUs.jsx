@@ -70,7 +70,7 @@ const AboutUs = () => {
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-1.svg"
                                     title="Escrow Wallet for Crypto"
-                                    text="We help businesses succeed by providing the right tools and technology for growth"
+                                    text="Best escrow wallet protection with our smart contract escrow"
                                 />
                             </motion.div>
                             <motion.div
@@ -83,7 +83,7 @@ const AboutUs = () => {
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-2.svg"
                                     title="Bitcoin Escrow Service"
-                                    text="We envision a future where businesses have the tools to thrive online"
+                                    text="Secure bitcoin escrow services powered by blockchain technology"
                                 />
                             </motion.div>
                         </div>
