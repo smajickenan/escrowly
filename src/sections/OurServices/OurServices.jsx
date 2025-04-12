@@ -47,7 +47,7 @@ const OurServices = () => {
                             }}
                             className="mt-20 sm-font-16"
                         >
-                            Our services do not stop at cryptocurrencies. Escrowly.com is more than equipped to be your ideal escrow service for property sales, escrow for car dealership payments, and escrow service for high-value assets
+                            Our services do not stop at cryptocurrencies. Escrowly.com is more than equipped to be your ideal escrow service for property sales, escrow for car dealership payments, and escrow service for high-value assets.
                         </motion.p>
                     </div>
                 </div>
