@@ -187,7 +187,7 @@ const OurServices = () => {
                                 >
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-1.svg"
-                                        title="Secure Escrowly Services"
+                                        title="Crypto Escrow for Businesses"
                                         text="We provide secure payment solutions for a wide range of cryptocurrency transactions, ensuring safety for both buyers and sellers. Our platform acts as a neutral third party, holding digital assets until all terms are met, fostering trust and confidence in every transaction"
                                         className="feature-blue"
                                     />
