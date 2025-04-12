@@ -173,7 +173,7 @@ const OurServices = () => {
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-4.svg"
                                         image="/images/service-feature-image-4.jpg"
-                                        title="Escrowly for Merchandise"
+                                        title="Smart Contract Escrow"
                                         className="feature-image"
                                     />
                                 </motion.div>
