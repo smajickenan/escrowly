@@ -127,7 +127,7 @@ const OurServices = () => {
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-1.svg"
                                         title="Escrow for Property Sales"
-                                        text="Escrowly.com services caters to property sales and real estate closings for domestic and cross-border transactions. Our services encompasses conventional escrow functions which operates with the same digital precision and security"
+                                        text="Escrowly services caters to property sales and real estate closings for domestic and cross-border transactions to international clients. Our services encompasses conventional escrow functions which operates with the same digital precision and security"
                                         className="feature-blue"
                                     />
                                 </motion.div>
