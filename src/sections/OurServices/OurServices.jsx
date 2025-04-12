@@ -188,7 +188,7 @@ const OurServices = () => {
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-1.svg"
                                         title="Crypto Escrow for Businesses"
-                                        text="We provide secure payment solutions for a wide range of cryptocurrency transactions, ensuring safety for both buyers and sellers. Our platform acts as a neutral third party, holding digital assets until all terms are met, fostering trust and confidence in every transaction"
+                                        text="Escrowly provides unparalleled support to businesses using escrow for contractors with a round the clock wallet system monitoring and stable coins escrow services from Ethereum escrow to USDT escrow services for individuals and businesses worldwide"
                                         className="feature-blue"
                                     />
                                 </motion.div>
