@@ -47,7 +47,7 @@ const OurServices = () => {
                             }}
                             className="mt-20 sm-font-16"
                         >
-                            Escrowly offers secure payments, digital protection, and seamless escrow services. Our platform ensures transparency by holding funds until all terms are met, making transactions safe and reliable for businesses and individuals
+                            Our services do not stop at cryptocurrencies. Escrowly.com is more than equipped to be your ideal escrow service for property sales, escrow for car dealership payments, and escrow service for high-value assets
                         </motion.p>
                     </div>
                 </div>
