@@ -158,7 +158,7 @@ const OurServices = () => {
                                         icon="/img/service-feature-3.svg"
                                         image="/images/service-feature-image-3.jpg"
                                         title="Digital Asset Protection"
-                                        text="We manage escrow for jewelry, luxury watches and much more"
+                                        text="We also manage escrow for jewelry, luxury watches and more"
                                         className="feature-bg"
                                     />
                                 </motion.div>
