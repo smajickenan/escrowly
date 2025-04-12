@@ -21,14 +21,14 @@ const Faq = () => {
                             label="FAQ'S"
                             title="Frequently Asked Questions"
                         />
-                        <motion.p
-                            variants={{
-                                hidden: { opacity: 0, y: 20 },
-                                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.5 } }
-                            }}
-                        >
-                                Escrowly is a cutting-edge crypto escrow service that equips individuals, enterprises, and business owners with the power to transfer their high-value assets safely in the decentralized space.
-                        </motion.p>
+                    <motion.p
+                        variants={{
+                            hidden: { opacity: 0, y: 20 },
+                            visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.5 } }
+                        }}
+                    >
+                        We offer SEO, social media marketing, and seamless integration with your existing systems. Escrowly ensures your business’s security with encrypted data protection
+                    </motion.p>
                         <Button
                             text="Get Started"
                             url="/get-started"
