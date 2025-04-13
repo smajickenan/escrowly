@@ -39,7 +39,7 @@ const WhatIsEscrowly = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidlines"
-                                        title="What is Escrow?"
+                                        title="What is Escrowly?"
                                         className=""
                                     />
                                     <div className="blog-article-content">
