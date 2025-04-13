@@ -72,7 +72,7 @@ const AllowedGoodsAndServices = () => {
                                             <li>3. Escrow for land and property auctions.</li>
                                             <li>4. Escrow for franchise business purchases.</li>
                                         </ol>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>Our escrow for international business deals and corporate mergers eliminates wire fraud and contract disputes through fast and precise services.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
