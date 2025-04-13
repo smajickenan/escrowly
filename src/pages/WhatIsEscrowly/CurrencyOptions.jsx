@@ -57,18 +57,19 @@ const CurrencyOptions = () => {
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
                                         <p>Regardless of what you are trading or where you are in the world, Escrowly grants you access to a secure blockchain escrow service provider for all transactions.</p>
                                         <ul>
-                                            <li>Bitcoin (BTC) - Escrowly’s Bitcoin escrow service enables protection for huge transactions and international P2P deals.</li>
-                                            <li>Ethereum (ETH) - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
-                                            <li>Tether (USDT) - Stable, dependable, and ideal for daily trades through our USDT escrow service.</li>
-                                            <li>USD Coin (USDC) - Recommended for crypto escrow for businesses and escrow for token sales.</li>
-                                            <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
-                                            <li>Ethereum (ETH) - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
-                                            <li>Tether (USDT) - Stable, dependable, and ideal for daily trades through our USDT escrow service.</li>
-                                            <li>USD Coin (USDC) - Recommended for crypto escrow for businesses and escrow for token sales.</li>
-                                            <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
+                                            <li>Escrow for crypto mining rigs</li>
+                                            <li>Escrow for DeFi transactions</li>
+                                            <li>Escrow for NFT marketplaces</li>
+                                            <li>Escrow for token sales</li>
+                                            <li>Escrow for crypto traders</li>
+                                            <li>Crypto payment protection escrow</li>
+                                            <li>Escrow for crypto exchanges</li>
+                                            <li>Secure crypto escrow for ICO projects</li>
+                                            <li>Escrow service for NFT transactions</li>
                                         </ul>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <p>All transactions use smart contract escrow and automated release conditions that can include optional dispute resolution by a third party.</p>
+                                        <h3>Cross-Border Crypto Escrow Just Got Better with Escrowly</h3>
+                                        <p>By dealing with cryptocurrencies, Escrowly enables international transactions while eliminating delays from banking institutions and fiat currency issues. Users from every region, including Asia, Africa, Europe, and the Americas, can utilize our platform to finalize transactions such as:</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
