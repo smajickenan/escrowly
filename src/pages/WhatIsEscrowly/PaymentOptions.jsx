@@ -42,7 +42,7 @@ const PaymentOptions = () => {
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <h3>100 Percent Crypto, Zero Fiat, Fully Secure</h3>
+                                        <h3>100 Percent Crypto - Zero Fiat - Fully Secure</h3>
                                         <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
                                         <ol>
                                             <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
