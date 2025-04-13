@@ -52,7 +52,7 @@ const CurrencyOptions = () => {
                                             <li><strong>Ethereum (ETH)</strong> - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
                                             <li><strong>USDT - Tether </strong> - Stable coins, dependable, and ideal for daily trades through our USDT escrow service.</li>
                                             <li><strong>USDC - Coin </strong> - Recommended for crypto escrow for businesses and escrow for token sales.</li>
-                                            <li><strong>Litecoin Coin - LTC </strong> - and many other cryptocurrencies.</li>
+                                            <li><strong>Litecoin Coin - LTC </strong> - Popular among gaming users and very low cost network fees.</li>
                                             <li><strong>Binance Coin (BNB)</strong> - and many other cryptocurrencies.</li>
                                         </ul>
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
