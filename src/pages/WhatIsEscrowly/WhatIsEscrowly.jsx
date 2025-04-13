@@ -59,10 +59,11 @@ const WhatIsEscrowly = () => {
                                         </ol>
                                         <p>Are you looking for a top-tier escrow service that caters to all your transactional demands? Introducing Escrowly - an escrow service that can be used in various sectors, like:</p>
                                         <ol>
-                                            <li>1. Industry-leading blockchain escrow service that prioritizes protecting your funds.</li>
-                                            <li>2. Integrated, AI-driven dispute resolution for neutral and quick conflict management.</li>
-                                            <li>3. Smooth support for crypto escrow for businesses, traders, and investors worldwide.</li>
-                                            <li>4. Cross-industry deployment, from escrow for NFT marketplaces and DeFi transactions to escrow for precious metals trade and escrow for aviation industry transactions.</li>
+                                            <li>a. Industry-leading blockchain escrow service that prioritizes protecting your funds.</li>
+                                            <li>b. Integrated, AI-driven dispute resolution for neutral and quick conflict management.</li>
+                                            <li>c. Smooth support for crypto escrow for businesses, traders, and investors worldwide.</li>
+                                            <li>d. Cross-industry deployment, from escrow for NFT marketplaces and DeFi transactions to escrow for precious metals trade and escrow for aviation industry transactions.</li>
+                                            <li>e. Cross-industry deployment, from escrow for NFT marketplaces and DeFi transactions to escrow for precious metals trade and escrow for aviation industry transactions.</li>
                                         </ol>
                                         <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
