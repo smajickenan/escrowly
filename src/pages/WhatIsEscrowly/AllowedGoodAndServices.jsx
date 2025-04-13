@@ -73,11 +73,13 @@ const AllowedGoodsAndServices = () => {
                                             <li>4. Escrow for franchise business purchases.</li>
                                         </ol>
                                         <p>Our escrow for international business deals and corporate mergers eliminates wire fraud and contract disputes through fast and precise services.</p>
+                                        <h3>Cars, Equipment & High-Value Goods</h3>
+                                        <p>Big-ticket items require big-time trust. Escrowly.com handles:</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
-                                    <h3>Start Buying or Selling Securelly</h3>
-                                    <p className="mb-40">Enter the purchase price of your goods to estimate the escrow fee</p>
+                                    <h3>Escrow Fee Calculator</h3>
+                                    <p className="mb-40">Enter your transaction amount to estimate fees in crypto</p>
                                     <FeeCalculator />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
