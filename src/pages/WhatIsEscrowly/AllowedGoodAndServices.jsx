@@ -73,7 +73,7 @@ const AllowedGoodsAndServices = () => {
                                             <li>Escrow for franchise business purchases.</li>
                                         </ul>
                                         <p>Our escrow for international business deals and corporate mergers eliminates wire fraud and contract disputes through fast and precise services.</p>
-                                        <h3>Cars, Equipment & High-Value Goods</h3>
+                                        <h3>Cars, Motor, Equipment & High-Value Goods</h3>
                                         <p>Big-ticket items require big-time trust. Escrowly.com handles:</p>
                                         <ul>
                                             <li>Escrow for second-hand car sales</li>
