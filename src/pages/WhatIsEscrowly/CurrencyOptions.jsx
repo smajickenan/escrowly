@@ -71,15 +71,15 @@ const CurrencyOptions = () => {
                                         <h3>Cross-Border Crypto Escrow Just Got Better with Escrowly</h3>
                                         <p>By dealing with cryptocurrencies, Escrowly enables international transactions while eliminating delays from banking institutions and fiat currency issues. Users from every region, including Asia, Africa, Europe, and the Americas, can utilize our platform to finalize transactions such as:</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Cross-border crypto escrow</li>
+                                            <li>Escrow for decentralized P2P exchanges</li>
+                                            <li>Escrow for businesses scaling globally</li>
+                                            <li>Escrow for website owners to plug-and-play</li>
+                                            <li>Escrow for domain holding</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>The choice of which crypto to deal in is entirely up to you!</p>
+                                        <h3>Automate Your Crypto Flow with Escrowly API</h3>
+                                        <p>The Escrowly API enables automated secure transactions among crypto exchanges, DeFi protocols, NFT marketplaces, and Web3 startups between supported coins and tokens.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
