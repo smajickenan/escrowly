@@ -44,6 +44,9 @@ const PaymentOptions = () => {
                                     <div className="blog-article-content">
                                         <h3>100 Percent Crypto - Zero Fiat - Fully Secure</h3>
                                         <p>At Escrowly, we don’t do banks, credit cards, or fiat. We only deal with crypto-driven transactions, which enable speed, openness, and security. When next you are closing a high-value exchange, trading NFTs, collecting payment in crypto, selling or buying a product.. tangible or digital item!.. make sure to use Escrowly for secure crypto transactions and automated smart contract escrow.</p>
+                                        <h3>Supported Cryptocurrencies on Escrowly</h3>
+                                        <p>We allow users to make payments with the most reliable cryptocurrencies and stable coins in the blockchain market because Escrowly provides secure methods of payment. Every transaction within our system guarantees protection through a multi-signature wallet, escrow smart contracts crypto services, and real-time tracking capabilities.</p>
+                                        <p>Once you open an account on Escrowly, you can access these payment options:</p>
                                         <ol>
                                             <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
                                             <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
