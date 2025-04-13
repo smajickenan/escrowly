@@ -48,7 +48,7 @@ const PaymentOptions = () => {
                                         <p>We allow users to make payments with the most reliable cryptocurrencies and stable coins in the blockchain market because Escrowly provides secure methods of payment. Every transaction within our system guarantees protection through a multi-signature wallet, escrow smart contracts crypto services, and real-time tracking capabilities.</p>
                                         <p>Once you open an account on Escrowly, you can access these payment options:</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
+                                            <li><strong> Bitcoin (BTC) - Of course, Escrowly supports the gold standard for crypto payments. Our Bitcoin escrow service enables secure fund holding and release for peer-to-peer trades, asset sales, and so much more. </strong></li>
                                             <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
                                             <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
                                             <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
