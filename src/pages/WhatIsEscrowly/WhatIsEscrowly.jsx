@@ -70,7 +70,7 @@ const WhatIsEscrowly = () => {
                                         <p>Do you need help on how to use escrow for crypto or escrow for crypto mining rigs? Head over to our Getting Started page on how to set up your account, set up an escrow account, and ensure a secure transfer from start to finish!</p>
                                         <h3>Ready to Enjoy a Secure Way to Transfer Your Assets?</h3>
                                         <p>Escrowly.com offers peace of mind and autonomy in all kinds of transactions, whether it is a $400 deal or a $40-million business acquisition. Enjoy our diverse selection of use cases - escrow for wholesale transactions, Ethereum escrow service, secure crypto escrow for ICO, and many more! - all on one platform!</p>
-                                        <p>Start your safe journey with Escrowly.com today!</p>
+                                        <h6>Start your safe journey with Escrowly.com today!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
