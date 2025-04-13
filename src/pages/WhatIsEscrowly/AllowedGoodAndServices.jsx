@@ -114,7 +114,7 @@ const AllowedGoodsAndServices = () => {
                                         </ul>
                                         <p>The platform at Escrowly.com adjusts its services to serve every market and asset class that exists worldwide.</p>
                                         <h3>Trade Anything. Anywhere. Securely</h3>
-                                        <p>The Escrowly.com portal provides customers with decentralized escrow services and conventional crypto payment services for all transaction types. The funds you use for token flipping and tractor purchases remain secure until the tasks get completed successfully.</p>
+                                        <p>The Escrowly.com portal provides customers with decentralized escrow services and conventional crypto payment services for all transaction types. The funds you use for token flipping and other digital asset purchases remain secure until the tasks get completed successfully.</p>
                                         <h6>If you are ready to trade securely, open your Escrowly account now!</h6>
                                     </div>
                                 </div>
