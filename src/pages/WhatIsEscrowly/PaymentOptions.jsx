@@ -57,13 +57,11 @@ const PaymentOptions = () => {
                                         </ol>
                                         <blockquote>Escrowly's mission is to empower small and mid-size businesses to have crypto payments enabled and making sure to give them the liberty to use digital payments to grow business without boundaries.</blockquote>
                                         <h3>Meet Our Clientele</h3>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <p>Escrowly’s users include professionals across various industries and users on all platforms. The Escrowly platform serves the trading needs of everyday traders and corporate clients.</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li><strong>1. Individuals:</strong> You can use the full protection system on Escrowly to trade digital goods, freelance services, and crypto mining rigs. The secure P2P crypto escrow service functions as a fraud prevention tool during business transactions to minimize disputes among parties.</li>
+                                            <li><strong>2. Startups & SMEs:</strong> The Escrowly platform provides crypto escrow for businesses, escrow for DeFi transactions, and escrow for e-commerce stores for encrypted escrow transactions. The platform allows API-based automated payment processing while guaranteeing confidence.</li>
+                                            <li><strong>3. Enterprises:</strong> Escrowly is more than capable of handling the large-scale crypto escrow requirements of enterprises and escrow for NFT marketplaces, which comes with complete legal transparency and contractual clarity.</li>
                                         </ul>
                                         <h6>Future-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
