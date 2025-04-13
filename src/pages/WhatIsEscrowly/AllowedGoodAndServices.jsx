@@ -52,6 +52,7 @@ const AllowedGoodsAndServices = () => {
                                             <li>3. Secure smart contract crypto escrow for personal or business transactions.</li>
                                             <li>4. Escrow wallet for crypto until agreed contractual conditions have been fulfilled.</li>
                                         </ol>
+                                        <p>Escrowly provides dependable tracking alongside full transparency on how to use escrow for crypto or require crypto escrow for businesses.</p>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
                                         <h4>Benefits of Using Escrowly</h4>
