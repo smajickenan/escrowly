@@ -56,6 +56,17 @@ const CurrencyOptions = () => {
                                         </ul>
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
                                         <p>Regardless of what you are trading or where you are in the world, Escrowly grants you access to a secure blockchain escrow service provider for all transactions.</p>
+                                        <ul>
+                                            <li>Bitcoin (BTC) - Escrowly’s Bitcoin escrow service enables protection for huge transactions and international P2P deals.</li>
+                                            <li>Ethereum (ETH) - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
+                                            <li>Tether (USDT) - Stable, dependable, and ideal for daily trades through our USDT escrow service.</li>
+                                            <li>USD Coin (USDC) - Recommended for crypto escrow for businesses and escrow for token sales.</li>
+                                            <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
+                                            <li>Ethereum (ETH) - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
+                                            <li>Tether (USDT) - Stable, dependable, and ideal for daily trades through our USDT escrow service.</li>
+                                            <li>USD Coin (USDC) - Recommended for crypto escrow for businesses and escrow for token sales.</li>
+                                            <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
+                                        </ul>
                                         <h4>Benefits of Using Escrowly</h4>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
                                         <ul>
