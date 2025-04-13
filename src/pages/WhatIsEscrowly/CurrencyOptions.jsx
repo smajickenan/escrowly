@@ -55,7 +55,7 @@ const CurrencyOptions = () => {
                                             <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
                                         </ul>
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
+                                        <p>Regardless of what you are trading or where you are in the world, Escrowly grants you access to a secure blockchain escrow service provider for all transactions.</p>
                                         <h4>Benefits of Using Escrowly</h4>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
                                         <ul>
