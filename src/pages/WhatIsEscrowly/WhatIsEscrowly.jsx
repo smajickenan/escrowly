@@ -59,10 +59,10 @@ const WhatIsEscrowly = () => {
                                         </ol>
                                         <p>Are you looking for a top-tier escrow service that caters to all your transactional demands? Introducing Escrowly - an escrow service that can be used in various sectors, like:</p>
                                         <ol>
-                                            <li><strong>1 - Escrow for freelancers and service providers</strong></li>
-                                            <li><strong>2 - Escrow for corporate mergers</strong></li>
-                                            <li><strong>3 - Escrow for agriculture and farming equipment</strong></li>
-                                            <li><strong>4 - Escrow for charity and donation transactions</strong></li>
+                                            <li>1 - <strong>Escrow for freelancers and service providers</strong></li>
+                                            <li>2 - <strong>Escrow for corporate mergers</strong></li>
+                                            <li>3 - <strong>Escrow for agriculture and farming equipment</strong></li>
+                                            <li>4 - <strong>Escrow for charity and donation transactions</strong></li>
                                             <li>5 - <strong>Escrow for land and property auctions</strong></li>
                                         </ol>
                                         <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
