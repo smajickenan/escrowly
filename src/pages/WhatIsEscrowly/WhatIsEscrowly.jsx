@@ -68,16 +68,9 @@ const WhatIsEscrowly = () => {
                                         <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
                                         <h4>Learn How to Use Escrowly</h4>
                                         <p>Do you need help on how to use escrow for crypto or escrow for crypto mining rigs? Head over to our Getting Started page on how to set up your account, set up an escrow account, and ensure a secure transfer from start to finish!</p>
-                                        <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                                        </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <h6>Ready to Enjoy a Secure Way to Transfer Your Assets?</h6>
+                                        <p>Escrowly.com offers peace of mind and autonomy in all kinds of transactions, whether it is a $400 deal or a $40-million business acquisition. Enjoy our diverse selection of use cases - escrow for wholesale transactions, Ethereum escrow service, secure crypto escrow for ICO, and many more! - all on one platform!</p>
+                                        <p>Start your safe journey with Escrowly.com today!</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
