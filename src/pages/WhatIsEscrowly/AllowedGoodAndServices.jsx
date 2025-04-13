@@ -63,8 +63,8 @@ const AllowedGoodsAndServices = () => {
                                             <li>Secure crypto escrow solutions for ICO campaign launches and decentralized fundraising procedures.</li>
                                             <li>Escrow for DeFi transactions through smart contracts on the Escrow platform.</li>
                                         </ul>
-                                        <p>xxxxxigital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <h3>Future-Proof Your Transactions with Escrowly</h3>
+                                        <p>Our platform simplifies trading operations while providing worldwide safety assurance for buyers, sellers, investors and platforms in the ever-growing Web3 world.</p>
+                                        <h3>Real Estate & Property Deals</h3>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
                                         <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                                     </div>
