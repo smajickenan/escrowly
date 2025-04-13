@@ -63,10 +63,14 @@ const PaymentOptions = () => {
                                             <li><strong>2. Startups & SMEs:</strong> The Escrowly platform provides crypto escrow for businesses, escrow for DeFi transactions, and escrow for e-commerce stores for encrypted escrow transactions. The platform allows API-based automated payment processing while guaranteeing confidence.</li>
                                             <li><strong>3. Enterprises:</strong> Escrowly is more than capable of handling the large-scale crypto escrow requirements of enterprises and escrow for NFT marketplaces, which comes with complete legal transparency and contractual clarity.</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
-                                    </div>
+                                        <h3>Why Crypto-Only Escrow?</h3>
+                                        <p>Sticking with crypto over fiat is in line with Escrowly’s mission of crypto payment protection escrow to transform the future of payments. We are committed to providing crypto escrow services that are:</p>
+                                        <ul>
+                                            <li><strong>Swift:</strong> Borderline instantaneous with no bank delays</li>
+                                            <li><strong>Transparent:</strong> On-chain records and automated checks</li>
+                                            <li><strong>Secure:</strong> Smart contract escrow, blockchain escrow service, and innovative escrow wallet for crypto infrastructure</li>
+                                            <li><strong>Global:</strong> No geographic restrictions, banking intermediaries, or currency conversion hassles</li>
+                                        </ul>                                    </div>
                                 </div>
                                 <div className="col col-right">
                                     <h3>Start Buying or Selling Securelly</h3>
