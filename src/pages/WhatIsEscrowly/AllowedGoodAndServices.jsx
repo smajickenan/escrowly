@@ -38,7 +38,7 @@ const AllowedGoodsAndServices = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidlines"
-                                        title="Allowed goods and services"
+                                        title="From $10 to $100 Million"
                                         className=""
                                     />
                                     <div className="blog-article-content">
