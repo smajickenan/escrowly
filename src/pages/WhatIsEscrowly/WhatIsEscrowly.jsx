@@ -49,6 +49,8 @@ const WhatIsEscrowly = () => {
                                         <h3>How Does Escrowly Work?</h3>
                                         <p>Escrowly acts as an unbiased third party, securing funds in an escrow wallet for crypto until both the buyer and the seller fulfill the terms of the agreement. This feature safeguards all entities from scams and payment defaults.</p>
                                         <p>At Escrowly.com, we offer everything, from Bitcoin escrow service and USDT escrow service to escrow for business acquisitions and escrow for rental property deposits. All exchanges on the platform run on its escrow smart contract crypto technology, offering real-time verification and reliable automation on a silver platter! The procedure is seamless and user-friendly, whether you are closing a secure P2P crypto escrow deal or using escrow for event ticket sales.</p>
+                                        <h3>Why You Should Use Escrowly</h3>
+                                        <p>Here is why Escrowly is the best option for your crypto escrow needs:</p>
                                         <ol>
                                             <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
                                             <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
