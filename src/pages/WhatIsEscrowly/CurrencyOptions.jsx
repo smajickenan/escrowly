@@ -48,11 +48,11 @@ const CurrencyOptions = () => {
                                         <p>Born out of a desire to offer secure P2P crypto escrow services, Escrowly supports popular digital currencies vetted by millions worldwide.</p>
                                         <p>Escrowly presently supports:</p>
                                         <ul>
-                                            <li>Bitcoin (BTC) - Escrowly’s Bitcoin escrow service enables protection for huge transactions and international P2P deals.</li>
-                                            <li>Ethereum (ETH) - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
-                                            <li>Tether (USDT) - Stable, dependable, and ideal for daily trades through our USDT escrow service.</li>
-                                            <li>USD Coin (USDC) - Recommended for crypto escrow for businesses and escrow for token sales.</li>
-                                            <li>Binance Coin (BNB) and many other cryptocurrencies.</li>
+                                            <li><strong>Bitcoin (BTC)</strong> - Escrowly’s Bitcoin escrow service enables protection for huge transactions and international P2P deals.</li>
+                                            <li><strong>Ethereum (ETH)</strong> - Suitable for escrow smart contracts crypto trades and Ethereum escrow service with swift confirmations.</li>
+                                            <li><strong>USDT - Tether </strong> - Stable coins, dependable, and ideal for daily trades through our USDT escrow service.</li>
+                                            <li><strong>USDC - Coin </strong> - Recommended for crypto escrow for businesses and escrow for token sales.</li>
+                                            <li><strong>Binance Coin (BNB)</strong> - and many other cryptocurrencies.</li>
                                         </ul>
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
                                         <p>Regardless of what you are trading or where you are in the world, Escrowly grants you access to a secure blockchain escrow service provider for all transactions.</p>
