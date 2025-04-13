@@ -54,9 +54,8 @@ const AllowedGoodsAndServices = () => {
                                         </ol>
                                         <p>Escrowly provides dependable tracking alongside full transparency on how to use escrow for crypto or require crypto escrow for businesses.</p>
                                         <blockquote>Escrowly.com allows almost all legal businesses to accept payments via crypto, either directly from customers or by connecting its simple API to start collecting crypto payments from clients directly from their websites or platforms like Wordpress or Shopify etc.</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <h3>NFTs and DeFi</h3>
+                                        <p>Escrowly exists to serve users operating in the Web3 space:</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
