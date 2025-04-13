@@ -57,7 +57,7 @@ const AllowedGoodsAndServices = () => {
                                         <h3>NFTs and DeFi</h3>
                                         <p>Escrowly exists to serve users operating in the Web3 space:</p>
                                         <ul>
-                                            <li>Escrow for NFT marketplaces and one-on-one collector deals</li>
+                                            <li>Escrow for NFT marketplaces and one-on-one collector deals.</li>
                                             <li>Escrow service for NFT transactions which defends both artists and their buyers during their deals.</li>
                                             <li>Escrow for token sales serves as a security measure for fair token launches.</li>
                                             <li>Secure crypto escrow solutions for ICO campaign launches and decentralized fundraising procedures.</li>
@@ -65,7 +65,13 @@ const AllowedGoodsAndServices = () => {
                                         </ul>
                                         <p>Our platform simplifies trading operations while providing worldwide safety assurance for buyers, sellers, investors and platforms in the ever-growing Web3 world.</p>
                                         <h3>Real Estate & Property Deals</h3>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
+                                        <p>Escrowly.com caters to real estate closings, property sales, and rentals, particularly when dealing with cross-border crypto escrow.</p>
+                                        <ol>
+                                            <li>1. Escrow for property sales with crypto.</li>
+                                            <li>2. Escrow for rental property deposits.</li>
+                                            <li>3. Escrow for land and property auctions.</li>
+                                            <li>4. Escrow for franchise business purchases.</li>
+                                        </ol>
                                         <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                                     </div>
                                 </div>
