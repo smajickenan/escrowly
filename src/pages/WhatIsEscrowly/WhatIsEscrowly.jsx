@@ -53,17 +53,17 @@ const WhatIsEscrowly = () => {
                                         <p>Here is why Escrowly is the best option for your crypto escrow needs:</p>
                                         <ol>
                                             <li>1. Industry-leading blockchain escrow service that prioritizes protecting your funds.</li>
-                                            <li>2. Integrated, AI-driven dispute resolution for neutral and quick conflict management.</li>
+                                            <li>2. Integrated AI-driven dispute resolution for neutral and quick conflict management.</li>
                                             <li>3. Smooth support for crypto escrow for businesses, traders, and investors worldwide.</li>
                                             <li>4. Cross-industry deployment, from escrow for NFT marketplaces and DeFi transactions to escrow for precious metals trade and escrow for aviation industry transactions.</li>
                                         </ol>
                                         <p>Are you looking for a top-tier escrow service that caters to all your transactional demands? Introducing Escrowly - an escrow service that can be used in various sectors, like:</p>
                                         <ol>
-                                            <li>a. Escrow for freelancers and service providers</li>
-                                            <li>b. Escrow for corporate mergers</li>
-                                            <li>c. Escrow for agriculture and farming equipment</li>
-                                            <li>d. Escrow for charity and donation transactions</li>
-                                            <li>e. Escrow for land and property auctions</li>
+                                            <li><strong>Escrow for freelancers and service providers</strong></li>
+                                            <li><strong>Escrow for corporate mergers</strong></li>
+                                            <li><strong>Escrow for agriculture and farming equipment</strong></li>
+                                            <li><strong>Escrow for charity and donation transactions</strong></li>
+                                            <li><strong>Escrow for land and property auctions</strong></li>
                                         </ol>
                                         <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
                                         <h3>Learn How to Use Escrowly</h3>
