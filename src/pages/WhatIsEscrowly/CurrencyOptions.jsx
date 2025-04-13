@@ -69,7 +69,7 @@ const CurrencyOptions = () => {
                                         </ul>
                                         <p>All transactions use smart contract escrow and automated release conditions that can include optional dispute resolution by a third party.</p>
                                         <h3>Cross-Border Crypto Escrow Just Got Better with Escrowly</h3>
-                                        <p>By dealing with cryptocurrencies, Escrowly enables international transactions while eliminating delays from banking institutions and fiat currency issues. Users from every region, including Asia, Africa, Europe, and the Americas, can utilize our platform to finalize transactions such as:</p>
+                                        <p>By dealing with cryptocurrencies, <strong>Escrowly enables international transactions while eliminating delays from banking institutions and fiat currency issues. Users from every region, including Asia, Africa, Europe, and the Americas</strong>, can utilize our platform to finalize transactions such as:</p>
                                         <ul>
                                             <li>Cross-border crypto escrow</li>
                                             <li>Escrow for decentralized P2P exchanges</li>
