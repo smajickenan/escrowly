@@ -53,7 +53,7 @@ const AllowedGoodsAndServices = () => {
                                             <li>4. Escrow wallet for crypto until agreed contractual conditions have been fulfilled.</li>
                                         </ol>
                                         <p>Escrowly provides dependable tracking alongside full transparency on how to use escrow for crypto or require crypto escrow for businesses.</p>
-                                        <blockquote>Escrowly.com allows almost all legal businesses to accept payments via crypto, either directly from customers or by connecting its simple API to start collecting crypto payments from clients directly from their websites or platforms like Wordpress or Shopify etc.</blockquote>
+                                        <blockquote>Escrowly.com allows all legal businesses to accept payments via crypto, either directly from customers or by connecting its simple API to start collecting crypto payments from clients directly from their websites like Wordpress or Shopify etc.</blockquote>
                                         <h3>NFTs and DeFi</h3>
                                         <p>Escrowly exists to serve users operating in the Web3 space:</p>
                                         <ul>
