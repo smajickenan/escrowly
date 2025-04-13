@@ -65,7 +65,7 @@ const WhatIsEscrowly = () => {
                                             <li><strong>Escrow for charity and donation transactions</strong></li>
                                             <li><strong>Escrow for land and property auctions</strong></li>
                                         </ol>
-                                        <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
+                                        <blockquote><strong>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</strong></blockquote>
                                         <h3>Learn How to Use Escrowly</h3>
                                         <p>Do you need help on how to use escrow for crypto or escrow for crypto mining rigs? Head over to our Getting Started page on how to set up your account, set up an escrow account, and ensure a secure transfer from start to finish!</p>
                                         <h3>Ready to Enjoy a Secure Way to Transfer Your Assets?</h3>
