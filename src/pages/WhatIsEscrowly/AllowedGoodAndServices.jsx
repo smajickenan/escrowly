@@ -57,11 +57,11 @@ const AllowedGoodsAndServices = () => {
                                         <h3>NFTs and DeFi</h3>
                                         <p>Escrowly exists to serve users operating in the Web3 space:</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Escrow for NFT marketplaces and one-on-one collector deals</li>
+                                            <li>Escrow service for NFT transactions which defends both artists and their buyers during their deals.</li>
+                                            <li>Escrow for token sales serves as a security measure for fair token launches.</li>
+                                            <li>Secure crypto escrow solutions for ICO campaign launches and decentralized fundraising procedures.</li>
+                                            <li>Escrow for DeFi transactions through smart contracts on the Escrow platform.</li>
                                         </ul>
                                         <h6>Future-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
