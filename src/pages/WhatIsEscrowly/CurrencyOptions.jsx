@@ -80,6 +80,17 @@ const CurrencyOptions = () => {
                                         <p>The choice of which crypto to deal in is entirely up to you!</p>
                                         <h3>Automate Your Crypto Flow with Escrowly API</h3>
                                         <p>The Escrowly API enables automated secure transactions among crypto exchanges, DeFi protocols, NFT marketplaces, and Web3 startups between supported coins and tokens.</p>
+                                        <p>You can integrate features like:</p>
+                                        <ul>
+                                            <li>Crypto escrow wallet setup</li>
+                                            <li>Automated release via smart contracts</li>
+                                            <li>Personalized crypto escrow for businesses</li>
+                                            <li>Decentralized escrow service support</li>
+                                        </ul>
+                                        <p>Our API serves developers who work independently and those who manage complete dApp infrastructure along with easy to connect API so you can have your website up and running in minutes.</p>
+                                        <h3>Escrow, The Crypto Way! No Middlemen, No Waiting</h3>
+                                        <p>Trust in crypto will evolve toward the direction of escrow. The crypto escrow service at Escrowly allows users to secure transactions with their cryptocurrencies, including Ethereum escrow service, Bitcoin escrow service, USDT escrow service and many more options beyond that.</p>
+                                        <h6>Get started with crypto escrow service today. Create your Escrowly account now!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
