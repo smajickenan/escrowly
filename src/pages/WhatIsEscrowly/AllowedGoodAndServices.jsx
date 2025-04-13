@@ -93,6 +93,18 @@ const AllowedGoodsAndServices = () => {
                                             <li>Escrow for art and collectibles</li>
                                         </ul>
                                         <p>The easy integration of Escrowly API and Escrowly Pay allows digital storefronts to provide instantaneous protection to both customers and vendors.</p>
+                                        <h3>Freelancers, Milestones & Contract Work</h3>
+                                        <p>The delivery of services depends completely on trust between buyers and sellers. Every agreement under Escrowly.com operates with complete equality for all parties involved:</p>
+                                        <ul>
+                                            <li>Escrow for freelancers and service providers</li>
+                                            <li>Escrow for contractor payments</li>
+                                            <li>Escrow for business acquisitions and consulting firms who negotiate contracts</li>
+                                            <li>Escrow for professional sports contracts</li>
+                                            <li>Escrow for film production financing</li>
+                                        </ul>
+                                        <p>Our dispute resolution system provides assurance to users during periods where deadlines and deliverables or creative projects need protection.</p>
+                                        <h3>Niche Markets & Industry-Specific Trades</h3>
+                                        <p>Escrowly.com extends its protection services into niche and novel market segments beyond standard modes of operation.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
