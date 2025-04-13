@@ -105,6 +105,17 @@ const AllowedGoodsAndServices = () => {
                                         <p>Our dispute resolution system provides assurance to users during periods where deadlines and deliverables or creative projects need protection.</p>
                                         <h3>Niche Markets & Industry-Specific Trades</h3>
                                         <p>Escrowly.com extends its protection services into niche and novel market segments beyond standard modes of operation.</p>
+                                        <ul>
+                                            <li>Escrow for agriculture and farming equipment</li>
+                                            <li>Escrow for precious metals trade</li>
+                                            <li>Escrow for aviation industry transactions</li>
+                                            <li>Escrow for charity and donation transactions</li>
+                                            <li>Escrow for event ticket sales</li>
+                                        </ul>
+                                        <p>The platform at Escrowly.com adjusts its services to serve every market and asset class that exists worldwide.</p>
+                                        <h3>Trade Anything. Anywhere. Securely</h3>
+                                        <p>The Escrowly.com portal provides customers with decentralized escrow services and conventional crypto payment services for all transaction types. The funds you use for token flipping and tractor purchases remain secure until the tasks get completed successfully.</p>
+                                        <h6>If you are ready to trade securely, open your Escrowly account now!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
