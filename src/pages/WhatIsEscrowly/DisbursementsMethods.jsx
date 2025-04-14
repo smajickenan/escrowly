@@ -75,6 +75,7 @@ const DisbursementsMethods = () => {
                                             <li><strong>Escrow service for online sales</strong></li>
                                             <li><strong>Escrow for all kind of business transactions</strong></li>
                                         </ul>
+                                        <p>All of these services are available on Escrowly strictly by crypto. No banks. No red tape. Just transparent, global, crypto-native disbursements</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
