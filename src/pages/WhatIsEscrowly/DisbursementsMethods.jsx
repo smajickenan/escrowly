@@ -76,6 +76,11 @@ const DisbursementsMethods = () => {
                                             <li><strong>Escrow for all kind of business transactions</strong></li>
                                         </ul>
                                         <p>All of these services are available on Escrowly strictly by crypto. No banks. No red tape. Just transparent, global, crypto-native disbursements</p>
+                                        <h3>Flexible Disbursement - It’s Entirely Up to You!</h3>
+                                        <p>You control how your funds are disbursed</p>
+                                        <p><strong>Single-Payout:</strong> You get all your payments once customers approve the job delivery. This is common in escrow for second-hand car sales, escrow for land auctions, and escrow for art and collectibles.</p>
+                                        <p><strong>Milestone-Based:</strong> Money can flow out in phases, making it ideal for escrow for contractor payments, crypto escrow for ICOs, and escrow for film production financing.</p>
+                                        <p><strong>Multi-Party Disbursement:</strong> You can opt to split payments between multiple parties. The payment system helps with escrow for franchise business purchases, escrow for corporate mergers, and escrow for professional sports contracts.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
