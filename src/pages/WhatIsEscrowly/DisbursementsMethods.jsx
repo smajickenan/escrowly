@@ -85,11 +85,11 @@ const DisbursementsMethods = () => {
                                         <p>Thanks to our Escrowly API, developers and companies can automate payments to initiate when specific criteria are fulfilled without needing human input.</p>
                                         <p>Our API system works well with platforms such as:</p>
                                         <ul>
-                                            <li>1. <strong>NFT Marketplaces</strong></li>
-                                            <li>2. <strong>Online Service Platforms</strong></li>
-                                            <li>3. <strong>Web3 Freelance Sites</strong></li>
-                                            <li>4. <strong>Token Sale Portals</strong></li>
-                                            <li>5. <strong>Escrow for Car Dealership Payments</strong></li>
+                                            <li><strong>NFT Marketplaces</strong></li>
+                                            <li><strong>Online Service Platforms</strong></li>
+                                            <li><strong>Web3 Freelance Sites</strong></li>
+                                            <li><strong>Token Sale Portals</strong></li>
+                                            <li><strong>Escrow for Car Dealership Payments</strong></li>
                                         </ul>
                                         <p>Through its API feature, the system conducts secure crypto escrow transactions by managing funds both before and after validation.</p>
                                         <h3>Our Crypto Disbursement System at Escrowly Offers Better Features</h3>
