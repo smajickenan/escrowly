@@ -55,11 +55,11 @@ const DisbursementsMethods = () => {
                                         <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
                                         <h3>Available Crypto Disbursement Options on Escrowly</h3>
                                         <ul>
-                                            <li>1. Bitcoin (BTC) - The BTC payment process takes place through secure multi-signature wallets. Ideal for escrow payment for Bitcoin, P2P transactions, and cross-border crypto escrow.</li>
-                                            <li>2. Ethereum (ETH) - Smart contract escrow technology enables ETH disbursements to serve NFT trades, DeFi transactions, and escrow for crypto mining rigs</li>
-                                            <li>3. Tether (USDT) - The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
-                                            <li>4. USD Coin (USDC) - Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
-                                            <li>5. Litecoin – (LTC) – lighter and faster and works with less gas fees so users can do low cost transactions without paying higher network fees, good for every day smaller payments</li>
+                                            <li><strong>1. Bitcoin (BTC) </strong>- The BTC payment process takes place through secure multi-signature wallets. Ideal for escrow payment for Bitcoin, P2P transactions, and cross-border crypto escrow.</li>
+                                            <li><strong>2. Ethereum (ETH) </strong>- Smart contract escrow technology enables ETH disbursements to serve NFT trades, DeFi transactions, and escrow for crypto mining rigs</li>
+                                            <li><strong>3. Tether (USDT) </strong>- The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
+                                            <li><strong>4. USD Coin (USDC) </strong>- Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
+                                            <li><strong>5. Litecoin (LTC) </strong>– lighter and faster and works with less gas fees so users can do low cost transactions without paying higher network fees, good for every day smaller payments</li>
                                         </ul>
                                         <p>You should note that Escrowly enables crypto disbursements as its only payment option which are instant and super-fast. No Fiat options. No Banks. No Delays</p>
                                         <h3>Escrowly Disburses Worldwide, Across Borders</h3>
