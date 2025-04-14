@@ -96,7 +96,7 @@ const DisbursementsMethods = () => {
                                         <p>The company operates on audited smart contracts and safe digital storage systems. Our technology suits more than 30 specific situations and works best when used for escrow for jewelry and luxury watches, escrow for rental property deposits, and escrow for event ticket sales. Escrowly is perfect for escrow for international property sales and cross-border crypto escrow.</p>
                                         <h3>Get Paid the Escrowly Way</h3>
                                         <p>Escrowly helps users avoid payment trouble and protects them from missing crypto transfers. Our payment distribution system uses next-generation technologies for international business deals.</p>
-                                        <h6>Open Escrowly account to enjoy safe crypto escrow protection as Escrowly proudly sets the benchmark as  the best in online crypto escrow service provider in the world.</h6>
+                                        <h6>Join Escrowly.com now for safe and secure crypto escrow, trusted worldwide as the best online escrow system</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
