@@ -44,11 +44,13 @@ const DisbursementsMethods = () => {
                                     <div className="blog-article-content">
                                         <h3>Sharing Money Just Got Easier!</h3>
                                         <p>Escrowly provides secure fund storage, coupled with fast and swift dissemination to the right recipients. The crypto escrow service at Escrowly ensures fund disbursement to the correct destinations after completing any transaction for freelancers, investors, business owners, and crypto traders. Our disbursement model uses instant crypto-native and decentralized operations through escrow smart contract crypto technology for fraud elimination and instantaneous financial settlement.</p>
+                                        <h3>How Does Escrowly Disburse Funds?</h3>
+                                        <p>At Escrowly, we achieve secure crypto transactions by taking the smart contract escrow approach. Escrowly processes crypto payouts through an automated system after all pre-defined conditions like asset verification and service completion become validated. The blockchain escrow service from Escrowly ensures secure payouts that include Bitcoin escrow service, Ethereum escrow service, and USDT escrow service, together with any other supported coin.</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>Instant and confirmed on-chain</li>
+                                            <li>Your preferred cryptocurrency wallet receives the payment</li>
+                                            <li>Distinct decentralized escrow service mechanisms protect owners</li>
+                                            <li>Transparent, traceable, and verifiable</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
