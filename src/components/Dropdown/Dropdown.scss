@@ -113,6 +113,11 @@
             li {
                 display: flex;
                 align-items: center;
+                &:hover {
+                    .currency-name {
+                        color: #ffffff;
+                    }
+                }
             }
         }
         .selected, .currency-item {
@@ -128,6 +133,9 @@
                 ;
                     justify-content: center;
                     align-items: center;
+            }
+            .currency-name {
+                color: #000000;
             }
         }
     }
