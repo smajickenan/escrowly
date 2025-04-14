@@ -91,6 +91,9 @@ const DisbursementsMethods = () => {
                                             <li>4. <strong>Token Sale Portals</strong></li>
                                             <li>5. <strong>Escrow for Car Dealership Payments</strong></li>
                                         </ul>
+                                        <p>Through its API feature, the system conducts secure crypto escrow transactions by managing funds both before and after validation.</p>
+                                        <h3>Our Crypto Disbursement System at Escrowly Offers Better Features</h3>
+                                        <p>The company operates on audited smart contracts and safe digital storage systems. Our technology suits more than 30 specific situations and works best when used for escrow for jewelry and luxury watches, escrow for rental property deposits, and escrow for event ticket sales. Escrowly is perfect for escrow for international property sales and cross-border crypto escrow.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
