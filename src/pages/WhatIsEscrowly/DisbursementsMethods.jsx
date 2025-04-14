@@ -55,8 +55,8 @@ const DisbursementsMethods = () => {
                                         <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
                                         <h3>Available Crypto Disbursement Options on Escrowly</h3>
                                         <ul>
-                                            <li>1. <strong>USDT Coin Tether (USDT) </strong>- The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
-                                            <li>2. <strong>USDC Coin (USDC) </strong>- Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
+                                            <li><strong>USDT Coin Tether (USDT)</strong>- The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
+                                            <li><strong>USDC Coin (USDC)</strong>- Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
                                         </ul>
                                         <p>You should note that Escrowly enables crypto disbursements as its only payment option which are instant and super-fast. No Fiat options. No Banks. No Delays</p>
                                         <h3>Escrowly Disburses Worldwide, Across Borders</h3>
