@@ -56,10 +56,10 @@ const DisbursementsMethods = () => {
                                         <h3>Available Crypto Disbursement Options on Escrowly</h3>
                                         <ul>
                                             <li>1. Bitcoin (BTC) - The BTC payment process takes place through secure multi-signature wallets. Ideal for escrow payment for Bitcoin, P2P transactions, and cross-border crypto escrow.</li>
-                                            <li>xxxxure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>2. Ethereum (ETH) - Smart contract escrow technology enables ETH disbursements to serve NFT trades, DeFi transactions, and escrow for crypto mining rigs</li>
+                                            <li>3. Tether (USDT) - The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
+                                            <li>4. USD Coin (USDC) - Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
+                                            <li>5. Litecoin – (LTC) – lighter and faster and works with less gas fees so users can do low cost transactions without paying higher network fees, good for every day smaller payments</li>
                                         </ul>
                                         <h6>Future-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
