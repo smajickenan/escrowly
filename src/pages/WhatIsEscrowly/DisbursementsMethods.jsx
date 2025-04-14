@@ -65,6 +65,16 @@ const DisbursementsMethods = () => {
                                         <h3>Escrowly Disburses Worldwide, Across Borders</h3>
                                         <p>Escrowly serves users operating in the current international business sector. The disbursement process works identically across Lagos, Lisbon, Los Angeles, and other cities worldwide: it is fast and secure since it operates on-chain.</p>
                                         <p>Escrowly is perfect for:</p>
+                                        <ul>
+                                            <li>1. <strong>1xxxx </strong></li>
+                                            <li>2. <strong>2. Ethereum (ETH) </strong></li>
+                                            <li>3. <strong>3. Tether (USDT) </strong></li>
+                                            <li>4. <strong>4. USD Coin (USDC) </strong></li>
+                                            <li>5. <strong>5. Litecoin (LTC) </strong></li>
+                                            <li>6. <strong>3. Tether (USDT) </strong></li>
+                                            <li>7. <strong>4. USD Coin (USDC) </strong></li>
+                                            <li>8. <strong>5. Litecoin (LTC) </strong></li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col col-right">
