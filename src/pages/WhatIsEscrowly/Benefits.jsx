@@ -38,7 +38,7 @@ const Benefits = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidlines"
-                                        title="Benefits"
+                                        title="Benefits of Escrowly - Why You Should Choose Escrowly"
                                         className=""
                                     />
                                     <div className="blog-article-content">
