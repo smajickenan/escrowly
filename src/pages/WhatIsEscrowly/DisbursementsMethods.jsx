@@ -52,10 +52,9 @@ const DisbursementsMethods = () => {
                                             <li>Distinct decentralized escrow service mechanisms protect owners</li>
                                             <li>Transparent, traceable, and verifiable</li>
                                         </ol>
-                                        <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and an escrow wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
+                                        <h3>Available Crypto Disbursement Options on Escrowly</h3>
+                                        <p>1.	Bitcoin (BTC) - The BTC payment process takes place through secure multi-signature wallets. Ideal for escrow payment for Bitcoin, P2P transactions, and cross-border crypto escrow.</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
