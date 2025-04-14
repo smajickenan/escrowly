@@ -81,6 +81,16 @@ const DisbursementsMethods = () => {
                                         <p><strong>Single-Payout:</strong> You get all your payments once customers approve the job delivery. This is common in escrow for second-hand car sales, escrow for land auctions, and escrow for art and collectibles.</p>
                                         <p><strong>Milestone-Based:</strong> Money can flow out in phases, making it ideal for escrow for contractor payments, crypto escrow for ICOs, and escrow for film production financing.</p>
                                         <p><strong>Multi-Party Disbursement:</strong> You can opt to split payments between multiple parties. The payment system helps with escrow for franchise business purchases, escrow for corporate mergers, and escrow for professional sports contracts.</p>
+                                        <h3>Enjoy Integrated Disbursement with Escrowly API</h3>
+                                        <p>Thanks to our Escrowly API, developers and companies can automate payments to initiate when specific criteria are fulfilled without needing human input.</p>
+                                        <p>Our API system works well with platforms such as:</p>
+                                        <ul>
+                                            <li>1. <strong>NFT Marketplaces</strong></li>
+                                            <li>2. <strong>Online Service Platforms</strong></li>
+                                            <li>3. <strong>Web3 Freelance Sites</strong></li>
+                                            <li>4. <strong>Token Sale Portals</strong></li>
+                                            <li>5. <strong>Escrow for Car Dealership Payments</strong></li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col col-right">
