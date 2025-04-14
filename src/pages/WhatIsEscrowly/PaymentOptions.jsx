@@ -48,8 +48,8 @@ const PaymentOptions = () => {
                                         <p>We allow users to make payments with the most reliable cryptocurrencies and stable coins in the blockchain market because Escrowly provides secure methods of payment. Every transaction within our system guarantees protection through a multi-signature wallet, escrow smart contracts crypto services, and real-time tracking capabilities.</p>
                                         <p>Once you open an account on Escrowly, you can access these payment options:</p>
                                         <ol>
-                                            <li><strong>USDT Tether (USDT) </strong>- Looking for stability? Businesses and e-commerce operators should leverage our USDT escrow service to execute significant stablecoin-based deals in crypto escrow operations.</li>
-                                            <li><strong>USD Coin (USDC) </strong>- This payment option is fast, reliable, and enterprise-ready. Our USDT escrow service is a great fit for the protection of crypto escrow and corporate payments.</li>
+                                            <li><strong>USDT Tether Coin (USDT) </strong>- Looking for stability? Businesses and e-commerce operators should leverage our USDT escrow service to execute significant stablecoin-based deals in crypto escrow operations.</li>
+                                            <li><strong>USDC Coin (USDC) </strong>- This payment option is fast, reliable, and enterprise-ready. Our USDT escrow service is a great fit for the protection of crypto escrow and corporate payments.</li>
                                             <li>More Stablecoins are being added - Escrowly aims to add BNB, DAI, MATIC, and other main tokens into its secure P2P crypto escrow system so users can store their assets all in one place.</li>
                                         </ol>
                                         <blockquote>Escrowly's mission is to empower small and mid-size businesses to have crypto payments enabled and making sure to give them the liberty to use digital payments to grow business without boundaries.</blockquote>
