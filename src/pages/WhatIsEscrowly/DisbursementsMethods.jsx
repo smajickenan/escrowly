@@ -52,7 +52,7 @@ const DisbursementsMethods = () => {
                                             <li>Distinct decentralized escrow service mechanisms protect owners</li>
                                             <li>Transparent, traceable, and verifiable</li>
                                         </ol>
-                                        <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and an escrow wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
+                                        <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
                                         <h3>Available Crypto Disbursement Options on Escrowly</h3>
                                         <p>1.	Bitcoin (BTC) - The BTC payment process takes place through secure multi-signature wallets. Ideal for escrow payment for Bitcoin, P2P transactions, and cross-border crypto escrow.</p>
                                         <ul>
