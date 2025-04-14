@@ -48,7 +48,7 @@ const CurrencyOptions = () => {
                                         <p>Born out of a desire to offer secure P2P crypto escrow services, Escrowly supports popular digital currencies vetted by millions worldwide.</p>
                                         <p>Escrowly presently supports:</p>
                                         <ul>
-                                            <li><strong>USDT - Tether </strong> - Stable coins, dependable, and ideal for daily trades through our USDT escrow service.</li>
+                                            <li><strong>USDT - Tether </strong> - Stablecoins, dependable, and ideal for daily trades through our USDT escrow service.</li>
                                             <li><strong>USDC - Coin </strong> - Recommended for crypto escrow for businesses and escrow for token sales.</li>
                                         </ul>
                                         <blockquote>Your assets are safeguarded with an ultra-secure multi-signature escrow wallet for crypto until the parties involved meet the predetermined terms - guaranteeing zero risk and complete transparency.</blockquote>
