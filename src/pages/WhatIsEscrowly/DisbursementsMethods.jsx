@@ -61,9 +61,10 @@ const DisbursementsMethods = () => {
                                             <li>4. USD Coin (USDC) - Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
                                             <li>5. Litecoin – (LTC) – lighter and faster and works with less gas fees so users can do low cost transactions without paying higher network fees, good for every day smaller payments</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>You should note that Escrowly enables crypto disbursements as its only payment option which are instant and super-fast. No Fiat options. No Banks. No Delays</p>
+                                        <h3>Escrowly Disburses Worldwide, Across Borders</h3>
+                                        <p>Escrowly serves users operating in the current international business sector. The disbursement process works identically across Lagos, Lisbon, Los Angeles, and other cities worldwide: it is fast and secure since it operates on-chain.</p>
+                                        <p>Escrowly is perfect for:</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
