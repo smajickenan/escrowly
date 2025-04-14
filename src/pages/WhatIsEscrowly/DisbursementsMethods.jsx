@@ -66,14 +66,14 @@ const DisbursementsMethods = () => {
                                         <p>Escrowly serves users operating in the current international business sector. The disbursement process works identically across Lagos, Lisbon, Los Angeles, and other cities worldwide: it is fast and secure since it operates on-chain.</p>
                                         <p>Escrowly is perfect for:</p>
                                         <ul>
-                                            <li>1. <strong>Escrow for international business deals</strong></li>
-                                            <li>2. <strong>Escrow for freelancers and service providers</strong></li>
-                                            <li>3. <strong>Escrow for wholesale transactions</strong></li>
-                                            <li>4. <strong>Escrowly for manufacturing supply chain payments</strong></li>
-                                            <li>5. <strong>Escrow for token sales</strong></li>
-                                            <li>6. <strong>Escrow for real estate closings</strong></li>
-                                            <li>7. <strong>Escrow service for online sales</strong></li>
-                                            <li>8. <strong>Escrow for all kind of business transactions</strong></li>
+                                            <li><strong>Escrow for international business deals</strong></li>
+                                            <li><strong>Escrow for freelancers and service providers</strong></li>
+                                            <li><strong>Escrow for wholesale transactions</strong></li>
+                                            <li><strong>Escrowly for manufacturing supply chain payments</strong></li>
+                                            <li><strong>Escrow for token sales</strong></li>
+                                            <li><strong>Escrow for real estate closings</strong></li>
+                                            <li><strong>Escrow service for online sales</strong></li>
+                                            <li><strong>Escrow for all kind of business transactions</strong></li>
                                         </ul>
                                     </div>
                                 </div>
