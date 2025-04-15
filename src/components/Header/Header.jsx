@@ -115,7 +115,7 @@ const Header = ({ className }) => {
                                     <Link>Become a Partner<span>Grow your business and revenue</span></Link>
                                 </li>
                                 <li>
-                                    <Link>Benefits<span>See the advantages of using Escrow</span></Link>
+                                    <Link to='/benefits'>Benefits<span>See the advantages of using Escrow</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/fee-calculator">Fees<span>Low transparent fees</span></Link>
