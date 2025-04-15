@@ -142,7 +142,7 @@ const OurServices = () => {
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-2.svg"
                                         image="/images/service-feature-image-2.jpg"
-                                        title="Real Estate Transactions"
+                                        title="Smart Contract Escrow"
                                         className="feature-image"
                                     />
                                 </motion.div>
@@ -173,7 +173,7 @@ const OurServices = () => {
                                     <ServiceFeatureCard
                                         icon="/img/service-feature-4.svg"
                                         image="/images/service-feature-image-4.jpg"
-                                        title="Smart Contract Escrow"
+                                        title="Real Estate Crypto Escrow"
                                         className="feature-image"
                                     />
                                 </motion.div>
