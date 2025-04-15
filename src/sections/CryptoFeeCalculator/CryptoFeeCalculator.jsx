@@ -1,6 +1,6 @@
 import React from "react";
 import './CryptoFeeCalculator.scss';
-import FeeCalculator2 from "../../components/FeeCalculator/FeeCalculator2";
+import FeeCalculator from "../../components/FeeCalculator/FeeCalculator";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
 
 const CryptoFeeCalculator = function () {
@@ -16,7 +16,7 @@ const CryptoFeeCalculator = function () {
                             className=""
                         />
                         <p>Enter the purchase price of your goods to estimate the escrow fee</p>
-                        <FeeCalculator2
+                        <FeeCalculator
                             paymentMethod={false}
                             animation={false}
                         />

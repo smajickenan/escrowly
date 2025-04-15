@@ -4,9 +4,10 @@ import './WhatIsEscrowly.scss';
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
-import FeeCalculator from "../../components/FeeCalculator/FeeCalculator";
+
 import Faq from "../../sections/Faq/Faq";
 import Innovate from "../../sections/Innovate/Innovate";
+import FeeCalculator2 from "../../components/FeeCalculator/FeeCalculator2";
 
 const AllowedGoodsAndServices = () => {
     return (
@@ -121,7 +122,7 @@ const AllowedGoodsAndServices = () => {
                                 <div className="col col-right">
                                     <h3>Escrow Fee Calculator</h3>
                                     <p className="mb-40">Enter your transaction amount to estimate fees in crypto</p>
-                                    <FeeCalculator />
+                                    <FeeCalculator2 />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
                                         <Link to="/what-is-escrowly">
