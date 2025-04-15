@@ -82,8 +82,8 @@ const AboutUs = () => {
                             >
                                 <FeatureCard
                                     imgSrc="/img/feature-card-icon-2.svg"
-                                    title="Bitcoin Escrow Service"
-                                    text="Secure bitcoin escrow services powered by blockchain technology"
+                                    title="USDT Escrow Service"
+                                    text="Secure USDT and USDC escrow services powered by blockchain technology"
                                 />
                             </motion.div>
                         </div>
