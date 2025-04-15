@@ -104,8 +104,21 @@ const Benefits = () => {
                                             <li>Escrow for agriculture and farming equipment</li>
                                             <li>Escrow for franchise business purchases</li>
                                         </ul>
-                                        <p>This product is perfect for escrow for online marketplace transactions, escrow service for online safe transactions, and escrow for professional sports contracts.</p>
-                                    </div>
+                                        <p>We are available to support you at all times during your transactions.</p>
+                                        <h3>Trusted by Users Worldwide</h3>
+                                        <p>Users across the globe find Escrowly to be an exceptional crypto escrow service, and they are making it their preferred option for today's digital assets. Customers from over 150 countries choose our platform for their deals doing business operations, online work, and enterprise needs.</p>
+                                        <p>Here are why our users love us:</p>
+                                        <ul>
+                                            <li>Transparent processes</li>
+                                            <li>Lightning-fast crypto payouts</li>
+                                            <li>Built-in conflict resolution</li>
+                                            <li>Wide asset support (Stablecoin like USDT, USDC etc.)</li>
+                                            <li>Zero chargebacks, ever</li>
+                                        </ul>
+                                        <h3>Are You Ready to Begin Using Escrowly Services?</h3>
+                                        <p>Join Escrowly so that you can complete blockchain escrow transactions safely for real estate purchases or handle secure crypto escrow for online payments.</p>
+                                        <p>Start your journey with us to safeguard your next deal as our leading crypto escrow service works better than any other platform in the industry!</p>
+                                        </div>
                                 </div>
                                 <div className="col col-right">
                                     <h3>Start Buying or Selling Securelly</h3>
