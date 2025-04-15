@@ -73,6 +73,18 @@ const Benefits = () => {
                                             <li>Escrow for second-hand car sales</li>
                                             <li>Escrow for yacht and boat sales</li>
                                         </ul>
+                                        <p>Using smart contracts and chain interoperability, Escrowly serves as the best platform for today’s international business transactions.</p>
+                                        <h3>Zero-FIAT Fuss, 100% Crypto Ecosystem</h3>
+                                        <p>As you may have notices, we are a crypto-only platform. Our platform functions exclusively in crypto and doesn’t work with traditional banking procedures. Every step of our service structure meets the requirements and preferences of people who use Crypto, DeFi networks, and Web3.</p>
+                                        <p>This makes us ideal for:</p>
+                                        <ul>
+                                            <li>Escrow for USDC sales</li>
+                                            <li>Escrow for DeFi transactions</li>
+                                            <li>Escrow for crypto mining rigs</li>
+                                            <li>Escrow for crypto exchanges</li>
+                                            <li>Escrow for USDT purchase</li>
+                                        </ul>
+                                        <p>Escrowly’s structure is in line with the principles of the decentralized environment. Conventional cash is the past. Crypto is now.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
