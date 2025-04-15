@@ -85,6 +85,17 @@ const Benefits = () => {
                                             <li>Escrow for USDT purchase</li>
                                         </ul>
                                         <p>Escrowly’s structure is in line with the principles of the decentralized environment. Conventional cash is the past. Crypto is now.</p>
+                                        <h3>Full Integration via Escrowly API</h3>
+                                        <p>Escrowly API assists developers who build DeFi services or platforms that sell cryptocurrency products or manage vehicle lease payments.</p>
+                                        <p>With Escrowly, you can automate:</p>
+                                        <ul>
+                                            <li>Escrow for USDC sales</li>
+                                            <li>Escrow for DeFi transactions</li>
+                                            <li>Escrow for crypto mining rigs</li>
+                                            <li>Escrow for crypto exchanges</li>
+                                            <li>Escrow for USDT purchase</li>
+                                        </ul>
+                                        <p>Escrowly’s structure is in line with the principles of the decentralized environment. Conventional cash is the past. Crypto is now.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
