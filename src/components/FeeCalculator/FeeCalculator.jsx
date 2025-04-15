@@ -6,20 +6,23 @@ import Dropdown from "../Dropdown/Dropdown";
 import { Helmet } from "react-helmet-async"
 import { useNavigate } from "react-router-dom";
 import 'flag-icons/css/flag-icons.min.css';
+const currencies = [
+    { code: 'us', name: 'USD', sign: "$"  },
+    { code: 'ca', name: 'CAD', sign: "$"  },
+    { code: 'eu', name: 'EUR' , sign: "€" },
+    { code: 'ae', name: 'AED', sign: "د"  },
+    { code: 'cn', name: 'CNY', sign: "¥" },
+    { code: 'jp', name: 'JPY', sign: "¥"  },
+    { code: 'au', name: 'AUD', sign: "$"  }
+];
 
 const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
+     const [selectedCurrency, setSelectedCurrency] = useState(currencies[0]);
     const navigate = useNavigate();
     const i = (animation) ? 1 : 0;
 
-    const currencies = [
-        { code: 'us', name: 'USD' },
-        { code: 'eu', name: 'EUR' },
-        { code: 'gb', name: 'GBP' },
-        { code: 'jp', name: 'JPY' },
-        { code: 'au', name: 'AUD' },
-        { code: 'ca', name: 'CAD' },
-    ];
+    
 
     useEffect(() => {
         // Check if user is authenticated
@@ -35,6 +38,13 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
             navigate('/dashboard');
         } else {
             navigate('/sign-in');
+        }
+    };
+    const handleCurrencySelect = (item) => {
+        const currencyName = item.props.children[1].props.children;
+        const currency = currencies.find(c => c.name === currencyName);
+        if (currency) {
+            setSelectedCurrency(currency);
         }
     };
 
@@ -101,13 +111,14 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                             <span className="currency-name">{currency.name}</span>
                         </div>
                     ))}
+                    onSelect={handleCurrencySelect}
                 />
 
 
                 <div className="from-separator"></div>
 
                 <div className="form-input">
-                    <span>For $</span>
+                     <span>For {selectedCurrency.sign}</span>
                     <input 
                         type="number" 
                         defaultValue="800"
