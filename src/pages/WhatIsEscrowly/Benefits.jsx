@@ -54,16 +54,17 @@ const Benefits = () => {
                                         </ol>
                                         <p>If you want the best crypto payment protection escrow on the market, choose Escrowly.com!</p>
                                         <blockquote>Users across the globe find Escrowly to be an exceptional crypto escrow service, and they are making it their preferred option for today's digital assets. Customers from over 150 countries choose our platform for their deals doing business operations, online work, and enterprise needs.</blockquote>
-                                        <h3>Fast and Foolproof Crypto Trades</h3>
+                                        <h3>Fast and Foolproof Online Deals</h3>
                                         <p>You can now receive your payment within minutes instead of waiting the usual several days. Through its services, Escrowly allows users to carry out secure P2P crypto escrow transactions in real-time - whether it is for escrow for car lease payments, cross-border crypto escrow deals, and many more.</p>
+                                        <p>It is suitable for:</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Escrow for freelancers and service providers</li>
+                                            <li>Escrow for wholesale transactions</li>
+                                            <li>Escrow for business marketplaces</li>
+                                            <li>Escrow for online marketplace transactions</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
+                                        <p>Our platform processes USDT, USDC, and their respective network payments instantly. No banks, no delays - just pure crypto efficiency at its best!</p>
+                                        <h3>xxxure-Proof Your Transactions with Escrowly</h3>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
                                         <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                                     </div>
