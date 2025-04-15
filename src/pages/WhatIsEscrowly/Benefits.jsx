@@ -89,13 +89,12 @@ const Benefits = () => {
                                         <p>Escrowly API assists developers who build DeFi services or platforms that sell cryptocurrency products or manage vehicle lease payments.</p>
                                         <p>With Escrowly, you can automate:</p>
                                         <ul>
-                                            <li>Escrow for USDC sales</li>
-                                            <li>Escrow for DeFi transactions</li>
-                                            <li>Escrow for crypto mining rigs</li>
-                                            <li>Escrow for crypto exchanges</li>
-                                            <li>Escrow for USDT purchase</li>
+                                            <li>Escrow creation</li>
+                                            <li>Fund holding</li>
+                                            <li>Condition verification</li>
+                                            <li>Crypto disbursement</li>
                                         </ul>
-                                        <p>Escrowly’s structure is in line with the principles of the decentralized environment. Conventional cash is the past. Crypto is now.</p>
+                                        <p>This product is perfect for escrow for online marketplace transactions, escrow service for online safe transactions, and escrow for professional sports contracts.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
