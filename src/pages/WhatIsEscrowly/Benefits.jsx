@@ -64,9 +64,15 @@ const Benefits = () => {
                                             <li>Escrow for online marketplace transactions</li>
                                         </ul>
                                         <p>Our platform processes USDT, USDC, and their respective network payments instantly. No banks, no delays - just pure crypto efficiency at its best!</p>
-                                        <h3>xxxure-Proof Your Transactions with Escrowly</h3>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <h3>Global Reach, Local Precision</h3>
+                                        <p>Escrowly serves people from different nations who use international payment methods. We provide cryptocurrency escrow services globally for companies and people, from property auctions across Africa to luxury items bought in Dubai.</p>
+                                        <p>We support:</p>
+                                        <ul>
+                                            <li>Escrow for international business deals</li>
+                                            <li>Escrow for manufacturing supply chain payments</li>
+                                            <li>Escrow for second-hand car sales</li>
+                                            <li>Escrow for yacht and boat sales</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col col-right">
