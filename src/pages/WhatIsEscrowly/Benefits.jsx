@@ -95,6 +95,16 @@ const Benefits = () => {
                                             <li>Crypto disbursement</li>
                                         </ul>
                                         <p>This product is perfect for escrow for online marketplace transactions, escrow service for online safe transactions, and escrow for professional sports contracts.</p>
+                                        <h3>Zero-Stress Dispute Resolution</h3>
+                                        <p>Sometimes, life can throw curveballs and unexpected challenges that need proper resolution. Our system features an alternative method to handle disagreements - one that serves buyers and sellers equally well. Our team resolves issues using data from blockchain technology as well as past chats and predetermined purchase terms.</p>
+                                        <p>The system defends buyers and sellers from possible risks during the following transactions:</p>
+                                        <ul>
+                                            <li>Escrow for art and collectibles</li>
+                                            <li>Escrow for charity and donation transactions</li>
+                                            <li>Escrow for agriculture and farming equipment</li>
+                                            <li>Escrow for franchise business purchases</li>
+                                        </ul>
+                                        <p>This product is perfect for escrow for online marketplace transactions, escrow service for online safe transactions, and escrow for professional sports contracts.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
