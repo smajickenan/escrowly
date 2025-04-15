@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import './FeeCalculator.scss';
+import './FeeCalculator2.scss';
 import { motion } from "motion/react";
 import FormButton from "../FormButton/FormButton";
-import Dropdown from "../Dropdown/Dropdown";
+import Dropdown2 from "../Dropdown/Dropdown2";
 import { Helmet } from "react-helmet-async"
 import { useNavigate } from "react-router-dom";
 import 'flag-icons/css/flag-icons.min.css';
 
-const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
+const FeeCalculator2 = ({ paymentMethod = false, animation = true }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const navigate = useNavigate();
     const i = (animation) ? 1 : 0;
@@ -62,7 +62,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                 transition={{ duration: 0.5 * i, delay: 2.6 * i }}
             >
-                <Dropdown
+                <Dropdown2
                     className="dropdown-selling"
                     placeholder="Selling"
                     label="I'm"
@@ -71,7 +71,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
 
                 <div className="from-separator"></div>
 
-                <Dropdown
+                <Dropdown2
                     className="dropdown-domain"
                     placeholder="Domain names, vehicles..."
                     items={[
@@ -92,7 +92,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                 transition={{ duration: 0.5 * i, delay: 2.8 * i }}
             >
-                               <Dropdown
+                               <Dropdown2
                     className="dropdown-coin-1"
                     placeholder={<><span className={`fi fi-${currencies[0].code}`}></span> {currencies[0].name}</>}
                     items={currencies.map(currency => (
@@ -104,11 +104,11 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 />
 
 
-                <div className="from-separator"></div>
+                <div className="from-separator2"></div>
 
-                <div className="form-input">
+                <div className="form-input2">
                     <span>For $</span>
-                    <input 
+                    <input  className="input2"
                         type="number" 
                         defaultValue="800"
                         min="0"
@@ -123,7 +123,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
 
                 <div className="from-separator"></div>
 
-                <Dropdown
+                <Dropdown2
                     className="dropdown-coin"
                     placeholder={[
                         '/img/icon-crypto-tether.svg',
@@ -135,6 +135,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                     ]}
                 />
             </motion.div>
+           
 
             {paymentMethod === true && (
                 <div className="form-payment-method">
@@ -146,7 +147,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                         animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
                         transition={{ duration: 0.5 * i, delay: 2.6 * i }}
                     >
-                        <Dropdown
+                        <Dropdown2
                             className="dropdown-payment-method"
                             placeholder="Wire"
                             label=""
@@ -157,14 +158,16 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                     <p><span>$50.00</span> Standard Fee</p>
                 </div>
             )}
-
+            <div className="form-payment-method">
+                <span>$50.00</span> Standard Fee
+            </div>
             <motion.div
                 initial={{ opacity: 0, filter: "blur(10px)", y: 20 }}
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
-                transition={{ duration: 0.5 * i, delay: 3 } * i}
+                transition={{ duration: 0.5 * i, delay: 3 * i }}
             >
                 <FormButton 
-                    text="Start Crypto Escrow" 
+                    text="Calculate Fees" 
                     onClick={handleStartEscrow}
                 />
             </motion.div>
@@ -173,4 +176,4 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
     );
 };
 
-export default FeeCalculator;
+export default FeeCalculator2;

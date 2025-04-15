@@ -1,5 +1,5 @@
 @use "../../styles/base/variables";
-.dropdown {
+.dropdown2 {
     display: flex;
     font-size: 14px;
     align-items: center;
@@ -29,7 +29,7 @@
         }
     }
     &.dropdown-selling {
-        flex: 0 0 29.5%;
+        flex: 0 0 34.5%;
         @media (max-width:1280px) {
             flex: 0 0 30.5%;
         }
@@ -52,8 +52,8 @@
         }
     }
     &.dropdown-coin {
-       margin-left: 20px;
-        flex: 0 0 21.8%;
+        margin-left: 10px;
+        flex: 0 0 22.8%;
         @media (max-width:1280px) {
             flex: 0 0 62.1%;
             margin-left: 0;
@@ -78,20 +78,12 @@
             img {
                 margin-right: 4px;
                 vertical-align: -7px;
-                &:nth-child(4),&:nth-child(5) {
-                    @media (max-width:1280px) {
-                        // display: none;
-                    }
-                    @media (max-width:1023px) {
-                        display: inline-block;
-                    }
-                }
             }
         }
     }
     &.dropdown-coin-1 {
-        margin-right: 30px;
-        flex: 0 0 23.3%;
+        margin-right: 18px;
+        flex: 0 0 27.0%;
         @media (max-width:1280px) {
             flex: 0 0 62.1%;
             margin-left: 0;
@@ -124,15 +116,13 @@
             display: flex;
             align-items: center;
             gap: 8px;
-          
             .fi {
                 width: 24px;
                 height: 24px;
                 flex-shrink: 0;
-                display: inline-flex
-                ;
-                    justify-content: center;
-                    align-items: center;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
             }
             .currency-name {
                 color: #000000;
@@ -140,8 +130,8 @@
         }
     }
     &.dropdown-domain {
-        flex: 0 0 67%;
-        padding-left: 4px;
+        flex: 0 0 59%;
+        padding-left: 1px;
         @media (max-width:1280px) {
             padding-left: 10px;
             flex: 0 0 68%;
@@ -199,10 +189,6 @@
             &:hover {
                 background: variables.$blue;
                 color: variables.$white;
-            }
-            img {
-                vertical-align: bottom;
-                margin-right: 3px;
             }
         }
     }
