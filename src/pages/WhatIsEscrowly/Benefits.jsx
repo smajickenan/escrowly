@@ -44,11 +44,13 @@ const Benefits = () => {
                                     <div className="blog-article-content">
                                         <h3>Escrowly: The Ultimate Crypto Escrow Platform for Secure, Smart, and Scalable Transactions</h3>
                                         <p>Escrowly keeps you secure from modern digital threats and payment problems across all crypto and DeFi trades and online collectible purchases. With our crypto escrow service, every transaction is held, verified, and disbursed securely, thanks to escrow smart contracts crypto and foolproof protocols.</p>
-                                        <h3>Ironclad Security for Every Transaction</h3>                                        <ol>
-                                            <li>xxxxx ransaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                        <p>Escrowly ensures the safekeeping of your deposited funds without any exceptions. For instance, our platform has an USDT and USDC escrow service to maintain your funds in a secure escrow wallet for crypto until the agreed business conditions are complete.</p>
+                                        <h3>Ironclad Security for Every Transaction</h3>                                        
+                                        <ol>
+                                            <li>Multi-layered encryption.</li>
+                                            <li>Blockchain transparency.</li>
+                                            <li>Stablecoin backbone protection.</li>
+                                            <li>Escrowly uses decentralized escrow methods to provide full security for each transaction.</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
