@@ -122,7 +122,7 @@ const Benefits = () => {
                                         </div>
                                 </div>
                                 <div className="col col-right">
-                                    <h3>Start Buying or Selling Securelly1</h3>
+                                    <h3>Start Buying or Selling Securelly</h3>
                                     <p className="mb-40">Enter the purchase price of your goods to estimate the escrow fee</p>
                                     <FeeCalculator2 />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
