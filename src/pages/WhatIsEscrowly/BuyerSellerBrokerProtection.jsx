@@ -42,14 +42,16 @@ const BuyerSellerBrokerProtection = () => {
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
-                                        <h3>How Escrowly Ensures Safe Transactions</h3>
-                                        <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
+                                        <p>In the crypto space, one single mistake can drain tens of thousands, if not millions, of dollars because there is no mechanism to reverse transactions. Therefore, all crypto payments become permanent because they cannot be reversed. Anytime you make the transfer and press "send", the funds vanish permanently. No bank to call. No chargeback to issue. No second chances.</p>
+                                        <p>This is where Escrowly comes into play. This platform is a breath of fresh air that was designed to change the entire game! Escrowly stands as the first crypto escrow platform because all its functions were designed specifically for the blockchain age as opposed to being adapted from traditional payment methods. We create a safe platform that uses Stablecoins like USDT and USDC to unite buyers and sellers together with brokers.</p>
+                                        <h3>For Buyers: Say Goodbye to Scams & Stress</h3>
+                                        <p>It can be frustrating to not receive anything from the seller, when you are using cryptocurrency to buy something online. You are most definitely not alone.</p>
+                                        <p>People who make purchases with cryptocurrency stand as the most endangered group in online transactions. The Escrowly crypto escrow platform utilizes a secure escrow wallet for crypto where payments remain safe until all conditions from both parties are satisfied. Funds are only released after you verify that either the delivery was successful or the work was properly completed.</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>Escrow smart contracts crypto technology securing the entire cryptocurrency transaction process</li>
+                                            <li>The platform accepts payments through two stablecoins USDT and USDC</li>
+                                            <li>Instant refunds in case of disputes</li>
+                                            <li>Every deal on Escrowly incorporates dispute resolution features which provide customers with peace of mind</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
