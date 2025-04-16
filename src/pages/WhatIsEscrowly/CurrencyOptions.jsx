@@ -4,7 +4,7 @@ import './WhatIsEscrowly.scss';
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import SectionHeader from "../../components/SectionHeader/SectionHeader";
-import FeeCalculator from "../../components/FeeCalculator/FeeCalculator";
+import FeeCalculator2 from "../../components/FeeCalculator/FeeCalculator2";
 import Faq from "../../sections/Faq/Faq";
 import Innovate from "../../sections/Innovate/Innovate";
 
@@ -93,7 +93,7 @@ const CurrencyOptions = () => {
                                 <div className="col col-right">
                                     <h3>Start Buying or Selling Securelly</h3>
                                     <p className="mb-40">Enter the purchase price of your goods to estimate the escrow fee</p>
-                                    <FeeCalculator />
+                                    <FeeCalculator2 />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
                                         <Link to="/what-is-escrowly">
