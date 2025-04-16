@@ -152,7 +152,34 @@ const FeesTransactions = function () {
                         <div className="transactions-content-item">7</div>
                     )}
                     {activeTab === 'tab8' && (
-                        <div className="transactions-content-item">8</div>
+                        <div className="transactions-table">
+                        <div className="th">
+                            <div className="td">Transaction Amount (Crypto Amount)</div>
+                            <div className="td">Fee Percentage</div>
+                            <div className="td">Minimum Fee</div>
+                            <div className="td">No Charges</div>
+                        </div>
+                        {transactionData.map((row, index) => (
+                            <div className="tr" key={index}>
+                                <div className="td">
+                                    <strong>Transaction Amount (Crypto Amount)</strong>
+                                    <span>{row.amount}</span>
+                                </div>
+                                <div className="td">
+                                    <strong>Standard</strong>
+                                    <span>{row.standard}</span>
+                                </div>
+                                <div className="td">
+                                    <strong>Concierge</strong>
+                                    <span>{row.concierge}</span>
+                                </div>
+                                <div className="td">
+                                    <strong>Payment Processing Fee</strong>
+                                    <span>{row.noCharges}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                     )}
                 </div>
 
