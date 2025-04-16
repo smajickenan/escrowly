@@ -92,10 +92,10 @@ const BuyerSellerBrokerProtection = () => {
                                             <li>Escrow for crypto exchanges</li>
                                             <li>Escrow for crypto mining rigs</li>
                                         </ul>
-                                        <p>Escrowly has established itself as the original crypto escrow platform. Its uniqueness stands out because it works as an exclusive, secure P2P crypto escrow platform which operates on blockchain transactions instead of being an additional service for different traditional platforms.</p>
-                                        <p>Escrowly has established itself as the original crypto escrow platform. Its uniqueness stands out because it works as an exclusive, secure P2P crypto escrow platform which operates on blockchain transactions instead of being an additional service for different traditional platforms.</p>
-                                        <p>Escrowly has established itself as the original crypto escrow platform. Its uniqueness stands out because it works as an exclusive, secure P2P crypto escrow platform which operates on blockchain transactions instead of being an additional service for different traditional platforms.</p>
-                                        <p>Escrowly has established itself as the original crypto escrow platform. Its uniqueness stands out because it works as an exclusive, secure P2P crypto escrow platform which operates on blockchain transactions instead of being an additional service for different traditional platforms.</p>
+                                        <p>You can trust the platform that eliminates risk from transactions while keeping the speed associated with cryptos, flexibility, and its global reach.</p>
+                                        <p>Lock In With Escrowly!</p>
+                                        <p>With Escrowly, our users establish trust while achieving operational efficiency and secure all deals that take place through the platform. No scams. No stress. No volatility.</p>
+                                        <p>Get started with Escrowly today!</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
