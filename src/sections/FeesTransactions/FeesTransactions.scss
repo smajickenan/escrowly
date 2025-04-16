@@ -11,12 +11,18 @@
         }
     }
 }
+
+.swiper-wrapper {
+    display: flex;
+   
+}
 .transactions-tabs {
     background: #eeeeee;
     padding: 8px;
     margin-top: 10px;
     border-radius: 12px;
     margin-bottom: 13px;
+   
     @media(max-width:767px) {
         margin-bottom: 10px;
     }
@@ -28,6 +34,8 @@
         font-size: 14px;
         letter-spacing: -0.4px;
         border-radius: 8px;
+        width: 37vw;
+        justify-content: center;
         cursor: pointer;
         transition: 0.3s;
         &.active, &:hover {

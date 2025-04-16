@@ -6,12 +6,12 @@ import 'swiper/css';
 const FeesTransactions = function () {
     const cryptoTabs = [
         { id: 'tab1', icon: "/img/icon-crypto-tether.svg", label: "Tether (USDT)" },
-        { id: 'tab2', icon: "/img/icon-crypto-cardano.svg", label: "Litecoin (LTC)" },
-        { id: 'tab3', icon: "/img/icon-crypto-bitcoin.svg", label: "Bitcoin (BTC)" },
-        { id: 'tab4', icon: "/img/icon-crypto-etherium.svg", label: "Ethereum (ETH)" },
-        { id: 'tab5', icon: "/img/icon-crypto-solana.svg", label: "Solana (SOL)" },
-        { id: 'tab6', icon: "/img/icon-crypto-binance.svg", label: "Binance Coin (BNB)" },
-        { id: 'tab7', icon: "/img/icon-crypto-xrp.svg", label: "XRP (XRP)" },
+        // { id: 'tab2', icon: "/img/icon-crypto-cardano.svg", label: "Litecoin (LTC)" },
+        // { id: 'tab3', icon: "/img/icon-crypto-bitcoin.svg", label: "Bitcoin (BTC)" },
+        // { id: 'tab4', icon: "/img/icon-crypto-etherium.svg", label: "Ethereum (ETH)" },
+        // { id: 'tab5', icon: "/img/icon-crypto-solana.svg", label: "Solana (SOL)" },
+        // { id: 'tab6', icon: "/img/icon-crypto-binance.svg", label: "Binance Coin (BNB)" },
+        // { id: 'tab7', icon: "/img/icon-crypto-xrp.svg", label: "XRP (XRP)" },
         { id: 'tab8', icon: "/img/icon-crypto-usdc.svg", label: "U.S. Dollar Coin (USDC)" },
     ];
 
@@ -82,6 +82,7 @@ const FeesTransactions = function () {
             <div className="container">
                 <div className="transactions-tabs">
                     <Swiper
+                    className="swipper"
                         spaceBetween={13} 
                         loop={false} 
                         speed={"1000"}
