@@ -53,10 +53,9 @@ const BuyerSellerBrokerProtection = () => {
                                             <li>Instant refunds in case of disputes</li>
                                             <li>Every deal on Escrowly incorporates dispute resolution features which provide customers with peace of mind</li>
                                         </ul>
-                                        <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <blockquote>Escrowly protects your money securely in escrow wallets until all conditions for satisfaction are achieved across different transaction types. You can use it for escrow for car dealership payments, escrow for business acquisitions, escrow for wholesale transactions, escrow for online business and many more.</blockquote>
+                                        <h3>For Sellers: Get Paid Without the Risk</h3>
+                                        <p>Crypto sellers encounter several additional difficulties because they must manage fake buyers as well as bounced payments and delayed payment settlements. With Escrowly, you can be rest assured that you will get the money you are owed because buyers must place their funds in escrow upon making their transaction.</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
