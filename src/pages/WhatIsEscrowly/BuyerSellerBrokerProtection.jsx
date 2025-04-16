@@ -47,12 +47,12 @@ const BuyerSellerBrokerProtection = () => {
                                         <h3>For Buyers: Say Goodbye to Scams & Stress</h3>
                                         <p>It can be frustrating to not receive anything from the seller, when you are using cryptocurrency to buy something online. You are most definitely not alone.</p>
                                         <p>People who make purchases with cryptocurrency stand as the most endangered group in online transactions. The Escrowly crypto escrow platform utilizes a secure escrow wallet for crypto where payments remain safe until all conditions from both parties are satisfied. Funds are only released after you verify that either the delivery was successful or the work was properly completed.</p>
-                                        <ol>
+                                        <ul>
                                             <li>Escrow smart contracts crypto technology securing the entire cryptocurrency transaction process</li>
                                             <li>The platform accepts payments through two stablecoins USDT and USDC</li>
                                             <li>Instant refunds in case of disputes</li>
                                             <li>Every deal on Escrowly incorporates dispute resolution features which provide customers with peace of mind</li>
-                                        </ol>
+                                        </ul>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
                                         <h4>Benefits of Using Escrowly</h4>
