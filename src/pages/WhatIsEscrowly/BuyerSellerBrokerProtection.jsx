@@ -57,11 +57,10 @@ const BuyerSellerBrokerProtection = () => {
                                         <h3>For Sellers: Get Paid Without the Risk</h3>
                                         <p>Crypto sellers encounter several additional difficulties because they must manage fake buyers as well as bounced payments and delayed payment settlements. With Escrowly, you can be rest assured that you will get the money you are owed because buyers must place their funds in escrow upon making their transaction.</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Using our blockchain escrow service allows you to instantly lock funds in escrow.</li>
+                                            <li>Guaranteed payment for both success in delivery and complete execution of tasks.</li>
+                                            <li>Escrow technology provides sellers with risk-free payments since crypto transactions cannot be reversed but escrow gives you control.</li>
+                                            <li>Credibility with every deal</li>
                                         </ul>
                                         <h6>Future-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
