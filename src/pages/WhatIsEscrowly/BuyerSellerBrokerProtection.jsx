@@ -64,8 +64,16 @@ const BuyerSellerBrokerProtection = () => {
                                         </ul>
                                         <p>Escrowly is the best solution for those looking for escrow for freelancers and service providers and contractors who sell high-value services or business goods online. Our platform functions as an escrow service for industrial equipment purchases, escrow for real estate closings, and escrow for agriculture equipment deals. We serve all your needs!</p>
                                         <h3>For Brokers: Stay in the Middle, Safely!</h3>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>As a broker, you should maintain a secure standing if you choose to serve as the middle connection between the trading parties.</p>
+                                        <p>Brokers who act as intermediaries in crypto transactions require powerful protections which Escrowly can provide. Escrowly provides advanced security measures which safeguard payment distributions for brokers while preserving their commission and role status.</p>
+                                        <ul>
+                                            <li>Transparent multi-party smart contract escrow</li>
+                                            <li>Role-specific permissions (buyer, seller, broker)</li>
+                                            <li>A middleware broker obtains commission payments automatically after determining their fees.</li>
+                                            <li>Audit trail for every transaction</li>
+                                        </ul>
+                                        <p>Individuals who broker and need escrow for car lease payments, escrow for machinery sales, and escrow for corporate mergers should use Escrowly to protect their financial role in transactions.</p>
+                                        <h3>Why Only USDT & USDC? Stability = Safety</h3>
                                     </div>
                                 </div>
                                 <div className="col col-right">
