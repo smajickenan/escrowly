@@ -54,7 +54,7 @@ const HowItWorksBroker = () => {
                                             <li>2. Item or Service Description</li>
                                             <li>3. Agreed Terms</li>
                                             <li>4. Your Broker Commission</li>
-                                            <li>4. Confidential Deal (Optional) - A private deal where Buyer and Seller emails are hidden.</li>
+                                            <li>5. Confidential Deal (Optional) - A private deal where Buyer and Seller emails are hidden.</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
