@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import FormButton from "../FormButton/FormButton";
 import Dropdown from "../Dropdown/Dropdown";
 import { Helmet } from "react-helmet-async"
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import 'flag-icons/css/flag-icons.min.css';
 const currencies = [
     { code: 'us', name: 'USD', sign: "$"  },
@@ -45,7 +45,9 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
       const [amount, setAmount] = useState(800);
          const [fee, setFee] = useState(calculateFee(800));
     const navigate = useNavigate();
+    const location = useLocation();
     const i = (animation) ? 1 : 0;
+    const isHomePage = location.pathname === "/";
 
     
 
@@ -180,6 +182,12 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 />
             </motion.div>
 
+            {!isHomePage && (
+                <div className="form-payment-method">
+                    <span>{typeof fee === 'number' ? `${selectedCurrency.sign}${fee.toFixed(2)}` : fee}</span> Standard Fee
+                </div>
+            )}
+
             {paymentMethod === true && (
                 <div className="form-payment-method">
                     <p>The buyer will pay with :</p>
@@ -201,9 +209,6 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                     <p><span>$50.00</span> Standard Fee</p>
                 </div>
             )}
-  <div className="form-payment-method">
-                <span>{typeof fee === 'number' ? `${selectedCurrency.sign}${fee.toFixed(2)}` : fee}</span> Standard Fee
-            </div>
             <motion.div
                 initial={{ opacity: 0, filter: "blur(10px)", y: 20 }}
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
