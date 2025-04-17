@@ -44,14 +44,17 @@ const HowItWorksBroker = () => {
                                     <div className="blog-article-content">
                                         <h3>Facilitate Crypto Deals. Earn Trust. Get Paid.</h3>
                                         <p>People constantly rely on brokers to bring stability to the world of crypto deals, which is in a state of constant uncertainty. You can feel protected as well as obtain compensation through Escrowly whether you guide secure P2P crypto escrow transactions, handle cross-border crypto escrow services, or arrange high-value crypto deals between buyers and sellers.</p>
-                                        <p>The pioneering crypto-only escrow platform Escrowly delivers an easy method for brokers to handle transactions that combine USDT and USDC, which are the most secure and reliable digital assets.</p>
+                                        <p>The pioneering crypto-only escrow platform Escrowly.com delivers an easy method for brokers to handle transactions that combine USDT and USDC, which are the most secure and reliable digital assets.</p>
                                         <p>Either you are brokering domain name deals, digital items? Online Art etc, Escrowly.com is your perfect partner in making it easily to close the deal!</p>
                                         <p>Here’s how it works:</p>
+                                        <h3>Step 1: Set Up the Deal</h3>
+                                        <p>By finding your way to your Escrowly dashboard, you can initiate an exchange. All you need to do is enter the following transaction details:</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>1. Buyer and Seller Info</li>
+                                            <li>2. Item or Service Description</li>
+                                            <li>3. Agreed Terms</li>
+                                            <li>4. Your Broker Commission</li>
+                                            <li>4. Confidential Deal (Optional) - A private deal where Buyer and Seller emails are hidden.</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
