@@ -91,8 +91,8 @@ const CurrencyOptions = () => {
                                     </div>
                                 </div>
                                 <div className="col col-right">
-                                    <h3>Start Buying or Selling Securelly</h3>
-                                    <p className="mb-40">Enter the purchase price of your goods to estimate the escrow fee</p>
+                                    <h3>Escrow Fee Calculator</h3>
+                                    <p className="mb-40">Enter your transaction amount to estimate fees in crypto</p>
                                     <FeeCalculator2 />
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
