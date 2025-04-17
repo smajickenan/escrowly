@@ -47,7 +47,7 @@ const HowItWorksBroker = () => {
                                         <p>The pioneering crypto-only escrow platform Escrowly.com delivers an easy method for brokers to handle transactions that combine USDT and USDC, which are the most secure and reliable digital assets.</p>
                                         <p>Either you are brokering domain name deals, digital items? Online Art etc, Escrowly.com is your perfect partner in making it easily to close the deal!</p>
                                         <p>Here’s how it works:</p>
-                                        <h3><strong>Step 1</strong>: Set Up the Deal</h3>
+                                        <h3>Step 1: Set Up the Deal</h3>
                                         <p>By finding your way to your Escrowly dashboard, you can initiate an exchange. All you need to do is enter the following transaction details:</p>
                                         <ol>
                                             <li>1. Buyer and Seller Info</li>
@@ -57,7 +57,7 @@ const HowItWorksBroker = () => {
                                             <li>5. Confidential Deal - Conceals Buyer and Seller emails for an enhanced transaction privacy</li>
                                         </ol>
                                         <p>The Escrowly.com platform develops a specific smart contract escrow, which establishes secure terms and funds distribution for every participant.</p>
-                                        <h3><strong>Step 2</strong>: Buyer Deposits Funds</h3>
+                                        <h3>Step 2: Buyer Deposits Funds</h3>
                                         <p>At this stage, the buyer has to securely deposit USDT or USDC funds into the escrow wallet for crypto. Stablecoins maintain a constant value during transactions, which eliminates unexpected price changes during the process. Everyone maintains confidence in the transaction because the funds are locked down safely in decentralized escrow services.</p>
                                         <h3>Step 3: Seller Delivers, Broker Oversees</h3>
                                         <p>Once the security of the funds is confirmed, the seller executes the delivery of their goods or service completion. During the exchange, the broker has to verify that the transaction follows all stated terms. The control you maintain in escrow transactions prevails in every case, including escrow for car lease payments, escrow for real estate closings, and escrow for business acquisitions - all while your exposure remains minimal.</p>
