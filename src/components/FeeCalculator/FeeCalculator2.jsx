@@ -209,7 +209,7 @@ const FeeCalculator2 = ({ paymentMethod = false, animation = true }) => {
                 transition={{ duration: 0.5 * i, delay: 3 * i }}
             >
                 <FormButton 
-                    text="Calculate Fees" 
+                    text="Start Crypto Escrow" 
                     onClick={handleStartEscrow}
                 />
             </motion.div>

@@ -7,7 +7,7 @@ const UserLocation = () => {
     useEffect(() => {
         const fetchUserLocation = async () => {
             try {
-                const response = await fetch(`https://ipinfo.io/lite/json?token=${process.env.REACT_APP_IPINFO_TOKEN}`);
+                const response = await fetch(`https://ipinfo.io/json?token=${process.env.REACT_APP_IPINFO_TOKEN}`);
                 const data = await response.json();
                 console.log('IPINFO API Response:', data);
                 const code = data.country.toLowerCase();

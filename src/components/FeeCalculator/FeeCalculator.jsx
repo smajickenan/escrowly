@@ -16,9 +16,34 @@ const currencies = [
     { code: 'au', name: 'AUD', sign: "$"  }
 ];
 
+
+const calculateFee = (amount) => {
+    if (amount <= 500) {
+        return Math.max(amount * 0.035, 10); // 3.5% with $10 minimum
+    } else if (amount <= 5000) {
+        return Math.max(amount * 0.025, 15); // 2.5% with $15 minimum
+    } else if (amount <= 10000) {
+        return Math.max(amount * 0.022, 75); // 2.2% with $75 minimum
+    } else if (amount <= 100000) {
+        return Math.max(amount * 0.018, 150); // 1.8% with $150 minimum
+    } else if (amount <= 500000) {
+        return Math.max(amount * 0.015, 600); // 1.5% with $600 minimum
+    } else if (amount <= 1000000) {
+        return Math.max(amount * 0.01, 2000); // 1.0% with $2000 minimum
+    } else if (amount <= 5000000) {
+        return Math.max(amount * 0.007, 4500); // 0.7% with $4500 minimum
+    } else if (amount <= 10000000) {
+        return Math.max(amount * 0.004, 7500); // 0.4% with $7500 minimum
+    } else {
+        return "Custom Quote"; // For amounts over $10M
+    }
+};
+
 const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
      const [selectedCurrency, setSelectedCurrency] = useState(currencies[0]);
+      const [amount, setAmount] = useState(800);
+         const [fee, setFee] = useState(calculateFee(800));
     const navigate = useNavigate();
     const i = (animation) ? 1 : 0;
 
@@ -45,6 +70,18 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
         const currency = currencies.find(c => c.name === currencyName);
         if (currency) {
             setSelectedCurrency(currency);
+        }
+    };
+
+    const handleAmountChange = (e) => {
+        const value = parseFloat(e.target.value);
+        if (value > 10000000) {
+            e.target.value = 10000000;
+            setAmount(10000000);
+            setFee(calculateFee(10000000));
+        } else {
+            setAmount(value);
+            setFee(calculateFee(value));
         }
     };
 
@@ -118,17 +155,13 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                 <div className="from-separator"></div>
 
                 <div className="form-input">
-                     <span>For {selectedCurrency.sign}</span>
-                    <input 
+                    <span>For {selectedCurrency.sign}</span>
+                    <input
                         type="number" 
-                        defaultValue="800"
+                        defaultValue={amount}
                         min="0"
                         max="10000000"
-                        onInput={(e) => {
-                            if (e.target.value > 10000000) {
-                                e.target.value = 10000000;
-                            }
-                        }}
+                        onChange={handleAmountChange}
                     />
                 </div>
 
@@ -168,7 +201,9 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
                     <p><span>$50.00</span> Standard Fee</p>
                 </div>
             )}
-
+  <div className="form-payment-method">
+                <span>{typeof fee === 'number' ? `${selectedCurrency.sign}${fee.toFixed(2)}` : fee}</span> Standard Fee
+            </div>
             <motion.div
                 initial={{ opacity: 0, filter: "blur(10px)", y: 20 }}
                 animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}

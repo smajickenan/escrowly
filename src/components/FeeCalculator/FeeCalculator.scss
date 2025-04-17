@@ -6,7 +6,10 @@ input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
+.form-payment-method{
+    color: #254499;
+    font-weight:500;
+}
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
