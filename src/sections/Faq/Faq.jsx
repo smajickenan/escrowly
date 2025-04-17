@@ -68,7 +68,7 @@ const Faq = () => {
                             }}
                         >
                             <AccordionItem
-                                title="Can I use Escrowly.com directly or connect my site to accept crypto?"
+                                title="Can I connect Escrowly.com to my website to accept crypto?"
                                 text="Absolutely yes! Our Escrowly Plug and Play Simple Connect API makes it easy to integrate crypto escrow into e-commerce stores and other business platforms, helping businesses become crypto compliant."
                                 active={false}
                             />
