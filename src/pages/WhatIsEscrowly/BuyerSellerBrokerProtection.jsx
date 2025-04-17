@@ -95,7 +95,7 @@ const BuyerSellerBrokerProtection = () => {
                                         <p>You can trust the platform that eliminates risk from transactions while keeping the speed associated with cryptos, flexibility, and its global reach.</p>
                                         <p>Lock In With Escrowly!</p>
                                         <p>With Escrowly, our users establish trust while achieving operational efficiency and secure all deals that take place through the platform. No scams. No stress. No volatility.</p>
-                                        <p>Get started with Escrowly today!</p>
+                                        <h6>Get started with Escrowly today!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
