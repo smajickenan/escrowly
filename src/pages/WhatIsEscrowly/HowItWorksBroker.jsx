@@ -57,9 +57,17 @@ const HowItWorksBroker = () => {
                                             <li>5. Confidential Deal - Conceals Buyer and Seller emails for an enhanced transaction privacy</li>
                                         </ol>
                                         <p>The Escrowly.com platform develops a specific smart contract escrow, which establishes secure terms and funds distribution for every participant.</p>
+                                        <h3>Step 2: Buyer Deposits Funds</h3>
+                                        <p>At this stage, the buyer has to securely deposit USDT or USDC funds into the escrow wallet for crypto. Stablecoins maintain a constant value during transactions, which eliminates unexpected price changes during the process. Everyone maintains confidence in the transaction because the funds are locked down safely in decentralized escrow services.</p>
+                                        <h3>Step 3: Seller Delivers, Broker Oversees</h3>
+                                        <p>Once the security of the funds is confirmed, the seller executes the delivery of their goods or service completion. During the exchange, the broker has to verify that the transaction follows all stated terms. The control you maintain in escrow transactions prevails in every case, including escrow for car lease payments, escrow for real estate closings, and escrow for business acquisitions - all while your exposure remains minimal.</p>
+                                        <h3>Step 4: Funds are Disbursed & Commission is Paid</h3>
+                                        <p>Both the buyer and the seller confirm the transaction, or you, as the verified broker, verify the agreement for the contract to disburse payments to the seller and send your commission automatically. No chasing clients. No manual splits. Every commercial deal features automatic trust mechanisms.</p>
+                                        <h3>Wanted to Keep the Deal Confidential?</h3>
+                                        <p>The broker can open up a “Confidential Transaction” which means that the Buyer and Seller are not visible to each other and Broker will be handling from A to Z the whole process of the transactions and the buyer and seller will be able to see the mask emails so that means fully confidentiality on the deals making broker a super broker to manage and control the deal.</p>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                                        <h4>Benefits of Using Escrowly</h4>
+                                        <h3>Benefits of Using Escrowly</h3>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
