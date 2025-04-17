@@ -65,17 +65,14 @@ const HowItWorksBroker = () => {
                                         <p>Both the buyer and the seller confirm the transaction, or you, as the verified broker, verify the agreement for the contract to disburse payments to the seller and send your commission automatically. No chasing clients. No manual splits. Every commercial deal features automatic trust mechanisms.</p>
                                         <blockquote>The broker can create a “Confidential Transaction” assuring the Buyer and Seller are not visible to each other, The Broker will be handling from Start to Finish the whole process of the transactions that means full confidentiality on the deals making the broker a super broker to manage and control the deal.</blockquote>
                                         <h3>Why Use Escrowly as a Broker?</h3>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>The platform allows you to serve as a trustworthy bridge between crypto buyers and sellers.</li>
+                                            <li>Escrowly facilitates financial agreements for escrow for industrial equipment purchases, escrow for jewelry or luxury watches, and escrow for contractor services.</li>
+                                            <li>The platform uses crypto-specific features, unlike traditional fiat currency systems.</li>
+                                            <li>Crypto payment protection escrow features constitute an authentic service to client’s</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>Brokers can now secure their trades at Escrowly - A secure P2P crypto escrow platform - that honors their position, safeguards money, and offers the best crypto escrow services.</p>
+                                        <h6>Get Started as a Broker with Escrowly!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
