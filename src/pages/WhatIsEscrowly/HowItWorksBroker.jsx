@@ -45,6 +45,7 @@ const HowItWorksBroker = () => {
                                         <h3>Facilitate Crypto Deals. Earn Trust. Get Paid.</h3>
                                         <p>People constantly rely on brokers to bring stability to the world of crypto deals, which is in a state of constant uncertainty. You can feel protected as well as obtain compensation through Escrowly whether you guide secure P2P crypto escrow transactions, handle cross-border crypto escrow services, or arrange high-value crypto deals between buyers and sellers.</p>
                                         <p>The pioneering crypto-only escrow platform Escrowly.com delivers an easy method for brokers to handle transactions that combine USDT and USDC, which are the most secure and reliable digital assets.</p>
+                                        <blockquote>The broker can create a “Confidential Transaction” assuring the Buyer and Seller are not visible to each other, The Broker will be handling from Start to Finish the whole process of the transactions that means full confidentiality on the deals making the broker a super broker to manage and control the deal.</blockquote>
                                         <p>Either you are brokering domain name deals, digital items? Online Art etc, Escrowly.com is your perfect partner in making it easily to close the deal!</p>
                                         <p>Here’s how it works:</p>
                                         <h3>Step 1: Set Up the Deal</h3>
@@ -63,7 +64,6 @@ const HowItWorksBroker = () => {
                                         <p>Once the security of the funds is confirmed, the seller executes the delivery of their goods or service completion. During the exchange, the broker has to verify that the transaction follows all stated terms. The control you maintain in escrow transactions prevails in every case, including escrow for car lease payments, escrow for real estate closings, and escrow for business acquisitions - all while your exposure remains minimal.</p>
                                         <h3>Step 4: Funds are Disbursed & Commission is Paid</h3>
                                         <p>Both the buyer and the seller confirm the transaction, or you, as the verified broker, verify the agreement for the contract to disburse payments to the seller and send your commission automatically. No chasing clients. No manual splits. Every commercial deal features automatic trust mechanisms.</p>
-                                        <blockquote>The broker can create a “Confidential Transaction” assuring the Buyer and Seller are not visible to each other, The Broker will be handling from Start to Finish the whole process of the transactions that means full confidentiality on the deals making the broker a super broker to manage and control the deal.</blockquote>
                                         <h3>Why Use Escrowly as a Broker?</h3>
                                         <ul>
                                             <li>The platform allows you to serve as a trustworthy bridge between crypto buyers and sellers.</li>
