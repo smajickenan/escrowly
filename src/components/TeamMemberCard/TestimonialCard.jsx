@@ -1,5 +1,4 @@
 import React from "react";
-// import { motion } from "motion/react";
 import "./TestimonialCard.scss";
 
 const TestimonialCard = ({ img, title, text, name, address}) => {

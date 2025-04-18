@@ -1,5 +1,4 @@
 import React from "react";
-// import { motion } from "motion/react";
 import "./ServiceCard.scss";
 import { Link } from "react-router-dom";
 

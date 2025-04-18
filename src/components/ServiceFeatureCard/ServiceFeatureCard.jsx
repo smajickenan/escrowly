@@ -1,6 +1,5 @@
 import React from 'react';
 import './ServiceFeatureCard.scss';
-// import { motion } from "motion/react";
 const ServiceFeatureCard = ({ icon, image, title, text, className = '', delay }) => {
     return (
         <div 

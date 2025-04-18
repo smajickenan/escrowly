@@ -2,7 +2,6 @@ import React from "react";
 import './LanguageDropdown.scss';
 
 const LanguageDropdown = ({dark}) => {
-    console.log("Dark mode:", dark);
     return (
         
         <div className="language-dropdown">

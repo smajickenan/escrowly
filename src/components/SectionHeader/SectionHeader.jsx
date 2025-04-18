@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import "./SectionHeader.scss";
 
 const SectionHeader = ({ label, title, className }) => {
-    const lines = title.split("<br>").map(line => line.trim()).filter(line => line); // Убираем пустые строки
+    const lines = title.split("<br>").map(line => line.trim()).filter(line => line);
 
     return (
         <div className={`section-header ${className}`}>
