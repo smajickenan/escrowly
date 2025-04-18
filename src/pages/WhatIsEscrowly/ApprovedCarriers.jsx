@@ -44,11 +44,14 @@ const ApprovedCarriers = () => {
                                     <div className="blog-article-content">
                                         <h3>Safe, Trusted, and Verified Transport for Every Escrow Transaction</h3>
                                         <p>The secure delivery process holds equal importance to payment security during the transfer of valuable goods from watches to industrial equipment and used cars. Our partner network of specific carriers collaborates with Escrowly to provide secure delivery that supports our cryptographic escrow service and proven carrier service. Escrowly provides end-to-end protected services that extend from cryptocurrency transactions to secure cargo delivery across all escrow payment types, such as escrow for car dealership payments, escrow for second-hand car sales, and escrow and machinery and heavy equipment purchases.</p>
+                                        <h3>Why Use Approved Carriers?</h3>
+                                        <p>The Escrowly platform establishes an ecosystem that safeguards all groups involved in trade transactions, from buyers to sellers and brokers, regardless of industry. The transaction security provided by smart contract escrow and blockchain escrow works with our approved carrier network to secure physical goods transfer.</p>
+                                        <p>Using Escrowly's logistics partners means:</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>1. Real-time tracking</li>
+                                            <li>2. Verified pickup and delivery</li>
+                                            <li>3. Chain-of-custody documentation</li>
+                                            <li>4. Insurance options for high-value goods</li>
                                         </ol>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
