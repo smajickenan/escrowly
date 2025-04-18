@@ -48,12 +48,14 @@ const Security = () => {
                                         <p>Escrowly was developed exclusively for the blockchain space instead of transforming existing services to function with digital currencies. Escrow smart contracts crypto technology, with tamper-proof features, protects locked funds, which are automatically released once each party fulfills their agreed contractual conditions. These smart contracts provide three key benefits for decentralized escrow services: crypto escrow for businesses, high-stakes cross-border crypto escrow, and many more. These benefits include eliminating errors, preventing fraud, and reducing bias.</p>
                                         <h3>Dispute Resolution with Human Oversight</h3>
                                         <p>Operations do not always follow the anticipated course of events. As a solution, Escrowly provides professional mediation services, as its mediators are trained to work with cryptocurrency and commercial deals. Our specialized team members help users settle disputes regarding escrow services, like escrow for contractor payments and escrow for international business deals, through secure, fast, and just methods.</p>
+                                        <h3>Transparent and Traceable</h3>
+                                        <p>Every transaction on Escrowly is:</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>1. Blockchain-logged</li>
+                                            <li>2. Fully auditable</li>
+                                            <li>3. Transparent to all parties</li>
                                         </ol>
+                                        <p>The system ensures complete accountability for industries like those that seek escrow for real estate closings, escrow for wholesale transactions, and escrow for business acquisitions.</p>
                                         <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
                                         <h4>Benefits of Using Escrowly</h4>
