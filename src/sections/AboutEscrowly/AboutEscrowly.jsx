@@ -18,10 +18,10 @@ const AboutEscrowly = () => {
                 <div className="col">
                 <SectionHeader 
                     label="About Us"
-                    title="About Escrowly"
+                    title="The World’s First Fully Crypto-Native Escrow Platform"
                     className=""
                 />
-                <h3>The World’s First Fully Crypto-Native Escrow Platform</h3>
+                <p>The World’s First Fully Crypto-Native Escrow Platform</p>
                 </div>
                 <div className="col"></div>
             </div>
