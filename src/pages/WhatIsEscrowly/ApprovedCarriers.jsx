@@ -42,9 +42,8 @@ const ApprovedCarriers = () => {
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
-                                        <h3>How Escrowly Ensures Safe Transactions</h3>
-                                        <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
+                                        <h3>Safe, Trusted, and Verified Transport for Every Escrow Transaction</h3>
+                                        <p>The secure delivery process holds equal importance to payment security during the transfer of valuable goods from watches to industrial equipment and used cars. Our partner network of specific carriers collaborates with Escrowly to provide secure delivery that supports our cryptographic escrow service and proven carrier service. Escrowly provides end-to-end protected services that extend from cryptocurrency transactions to secure cargo delivery across all escrow payment types, such as escrow for car dealership payments, escrow for second-hand car sales, and escrow and machinery and heavy equipment purchases.</p>
                                         <ol>
                                             <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
                                             <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
