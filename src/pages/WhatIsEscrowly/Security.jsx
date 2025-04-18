@@ -56,20 +56,12 @@ const Security = () => {
                                             <li>3. Transparent to all parties</li>
                                         </ol>
                                         <p>The system ensures complete accountability for industries like those that seek escrow for real estate closings, escrow for wholesale transactions, and escrow for business acquisitions.</p>
-                                        <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
-                                        <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                                        </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <blockquote>There is no need to ‘hope’ for secure payments when you use Escrowly.com because our platform guarantees payment security for every transaction. Our system integrates blockchain escrow service with smart contracts and human expertise to ensure security during all transactions.</blockquote>
+                                        <h3>Designed for Businesses and Brokers</h3>
+                                        <p>Escrowly isn’t just for individuals. The platform functions perfectly for organizations that need secure crypto escrow features for their websites or platforms. Businesses and brokers can add security to their websites by using our Escrowly.com API as an integration solution. Every business can access crypto payment protection escrow through Escrowly when providing escrow for e-commerce stores, escrow for car dealerships, and escrow for professional service providers.</p>
+                                        <h3>Why No Fiat?</h3>
+                                        <p>Fiat-based payments bring about several issues: prolonged delays, refund requests, and the involvement of external parties. Thanks to Escrowly, you can bypass traditional banking institutions while utilizing stablecoins that function more quickly, decrease expenses, and improve management capabilities. It is the future of escrow for crypto traders - and we are already there.</p>
+                                        <h6>Start a Secure Crypto Escrow Transaction Now!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
