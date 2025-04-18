@@ -55,14 +55,16 @@ const InspectionPeriod = () => {
                                         </ol>
                                         <p>Enterprises using decentralized escrow services and escrow for business acquisition benefit from this basic process, which delivers equilibrium and unbiased treatment to the deals.</p>
                                         <blockquote>Crypto payments have an irreversible nature, which makes the inspection period one of the maximum protection layers for sellers and buyers.</blockquote>
-                                        <h4>Benefits of Using Escrowly</h4>
-                                        <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                                        <h3>What if the Buyer Does Not Click on “Confirm Receipt”?</h3>
+                                        <p>If the buyer does not click on “Confirm Receipt” the payment will still be automatically released to the seller at the end of the inspection period agreed upon when the deal was opened.</p>
+                                        <h3>Why It Matters in Crypto Deals</h3>
+                                        <p>The inspection period reduces risks of fraudulent practices as well as incorrect charges or substandard service in the following cases:</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Escrow for e-commerce stores</li>
+                                            <li>Crypto escrow for luxury items</li>
+                                            <li>Escrow for high-value goods</li>
+                                            <li>Escrow for international business deals</li>
+                                            <li>Escrow for</li>
                                         </ul>
                                         <h6>Future-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
