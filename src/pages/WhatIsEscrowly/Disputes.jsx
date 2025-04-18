@@ -59,16 +59,13 @@ const Disputes = () => {
                                         <p>Our process maintains a straightforward and fast system that stays transparent at all times.</p>
                                         <p><strong>1. Initiate the Dispute</strong></p>
                                         <p>Either party may initiate a dispute to address problems that occur during the inspection time. Customers can initiate disputes through the escrow system across various transactions starting from marketplace escrow and including crypto mining rigs escrow.</p>
-                                        <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                                        </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p><strong>2. Submit Evidence</strong></p>
+                                        <p>The parties can submit documents combined with screenshots and proof consisting of delivery records and smart contract logs, along with supporting documents about the transaction.</p>
+                                        <p><strong>3. Escrowly Review</strong></p>
+                                        <p>The dispute resolution team at Escrowly conducts a neutral assessment of every submitted piece of evidence. A complete transparent evaluation includes the examination of platform logs, smart contract activity, timestamped material, and blockchain documentation.</p>
+                                        <p><strong>4. Final Decision</strong></p>
+                                        <p>The team makes its judgment decision by evaluating the evidence against the contract terms. The banking system follows blockchain escrow service records to transfer payment funds either for release to both parties or to refund the purchaser.</p>
+                                        <p>Do you have a concern about a transaction? Contact Our Dispute Team. Or visit our Help Center for a step-by-step guide on submitting disputes.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
