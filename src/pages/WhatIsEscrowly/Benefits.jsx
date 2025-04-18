@@ -48,10 +48,10 @@ const Benefits = () => {
                                         <h3>Ironclad Security for Every Transaction</h3>
                                         <p>Escrowly ensures the safekeeping of your deposited funds without any exceptions. For instance, our platform has an USDT and USDC escrow service to maintain your funds in a secure escrow wallet for crypto until the agreed business conditions are complete.</p>
                                         <ol>
-                                            <li><strong>Multi-layered encryption.</strong></li>
-                                            <li><strong>Blockchain transparency.</strong></li>
-                                            <li><strong>Stablecoin backbone protection.</strong></li>
-                                            <li><strong>Escrowly uses decentralized escrow methods to provide full security for each transaction.</strong></li>
+                                            <li>Multi-layered encryption.</li>
+                                            <li>Blockchain transparency.</li>
+                                            <li>Stablecoin backbone protection.</li>
+                                            <li>Escrowly uses decentralized escrow methods to provide full security for each transaction.</li>
                                         </ol>
                                         <p>If you want the best crypto payment protection escrow on the market, choose Escrowly.com!</p>
                                         <blockquote>Users across the globe find Escrowly to be an exceptional crypto escrow service, and they are making it their preferred option for today's digital assets. Customers from over 150 countries choose our platform for their deals doing business operations, online work, and enterprise needs.</blockquote>
