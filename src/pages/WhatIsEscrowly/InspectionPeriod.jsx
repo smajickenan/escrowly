@@ -46,14 +46,15 @@ const InspectionPeriod = () => {
                                         <h3>What Is the Inspection Period?</h3>
                                         <p>During the inspection period, buyers have the ability to check and verify that the delivered product satisfies their agreed specifications. Payment from the escrow wallet will be released to the seller only after the approving buyer warrants everything is in order.</p>
                                         <p>The inspection period ensures secure crypto transactions and stops both parties from being rushed, especially in cases where trust is vital such as crypto escrow for businesses, crypto escrow for online, escrow for second-hand car sales, and many others.</p>
+                                        <h3>How It Works?</h3>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>1. The transaction starts with the seller and the buyer establishing terms. Subsequently, the buyer makes a deposit to the crypto escrow platform.</li>
+                                            <li>2. The seller transfers the goods or services to meet the conditions outlined in the agreement.</li>
+                                            <li>3. The inspection period begins when the buyer performs checks to confirm the quality and performance or authenticity of the goods.</li>
+                                            <li>4. The transaction reaches its end when the buyer chooses to release funds following their approval. The dispute resolution team from Escrowly will intervene when buyers do not approve the transaction.</li>
                                         </ol>
-                                        <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                                        <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
+                                        <p>Enterprises using decentralized escrow services and escrow for business acquisition benefit from this basic process, which delivers equilibrium and unbiased treatment to the deals.</p>
+                                        <blockquote>Crypto payments have an irreversible nature, which makes the inspection period one of the maximum protection layers for sellers and buyers.</blockquote>
                                         <h4>Benefits of Using Escrowly</h4>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
                                         <ul>
