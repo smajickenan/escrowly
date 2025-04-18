@@ -21,7 +21,7 @@ const AboutEscrowly = () => {
                     title="About Escrowly"
                     className=""
                 />
-                <p>We are creating a safer digital economy by enabling secure and transparent transactions for everyone, ensuring that both buyers and sellers can confidently engage in their deals without fear of fraud or dishonesty</p>
+                <h3>The World’s First Fully Crypto-Native Escrow Platform</h3>
                 </div>
                 <div className="col"></div>
             </div>
