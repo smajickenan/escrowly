@@ -43,8 +43,9 @@ const InspectionPeriod = () => {
                                     />
                                     <div className="blog-article-content">
                                         <p>Escrowly recognizes the necessity for complete agreement between all parties prior to money transactions. Every transaction at Escrowly.com includes an inspection period that provides sufficient time for both buyers and sellers to confirm the successful delivery of goods or services. Whether you are seeking a secure P2P crypto escrow purchase or escrow for industrial equipment, Escrowly allows you to inspect, and approve.</p>
-                                        <h3>How Escrowly Ensures Safe Transactions</h3>
-                                        <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
+                                        <h3>What Is the Inspection Period?</h3>
+                                        <p>During the inspection period, buyers have the ability to check and verify that the delivered product satisfies their agreed specifications. Payment from the escrow wallet will be released to the seller only after the approving buyer warrants everything is in order.</p>
+                                        <p>The inspection period ensures secure crypto transactions and stops both parties from being rushed, especially in cases where trust is vital such as crypto escrow for businesses, crypto escrow for online, escrow for second-hand car sales, and many others.</p>
                                         <ol>
                                             <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
                                             <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
