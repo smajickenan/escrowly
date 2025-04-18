@@ -44,6 +44,7 @@ const ApprovedCarriers = () => {
                                     <div className="blog-article-content">
                                         <h3>Safe, Trusted, and Verified Transport for Every Escrow Transaction</h3>
                                         <p>The secure delivery process holds equal importance to payment security during the transfer of valuable goods from watches to industrial equipment and used cars. Our partner network of specific carriers collaborates with Escrowly to provide secure delivery that supports our cryptographic escrow service and proven carrier service. Escrowly provides end-to-end protected services that extend from cryptocurrency transactions to secure cargo delivery across all escrow payment types, such as escrow for car dealership payments, escrow for second-hand car sales, and escrow and machinery and heavy equipment purchases.</p>
+                                        <blockquote>Crypto may move at the speed of light—but physical items still need wheels. Escrowly bridges both worlds: using smart contracts for secure crypto transactions, and approved carriers for safe delivery.</blockquote>
                                         <h3>Why Use Approved Carriers?</h3>
                                         <p>The Escrowly platform establishes an ecosystem that safeguards all groups involved in trade transactions, from buyers to sellers and brokers, regardless of industry. The transaction security provided by smart contract escrow and blockchain escrow works with our approved carrier network to secure physical goods transfer.</p>
                                         <p>Using Escrowly's logistics partners means:</p>
@@ -53,7 +54,6 @@ const ApprovedCarriers = () => {
                                             <li>3. Chain-of-custody documentation</li>
                                             <li>4. Insurance options for high-value goods</li>
                                         </ol>
-                                        <blockquote>Crypto may move at the speed of light—but physical items still need wheels. Escrowly bridges both worlds: using smart contracts for secure crypto transactions, and approved carriers for safe delivery.</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
                                         <h4>Benefits of Using Escrowly</h4>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
