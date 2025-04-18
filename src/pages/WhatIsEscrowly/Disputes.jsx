@@ -58,7 +58,7 @@ const Disputes = () => {
                                         <h3>How Our Dispute Process Works</h3>
                                         <p>Our process maintains a straightforward and fast system that stays transparent at all times.</p>
                                         <p><strong>1. Initiate the Dispute</strong></p>
-                                        <p>Our process maintains a straightforward and fast system that stays transparent at all times.</p>
+                                        <p>Either party may initiate a dispute to address problems that occur during the inspection time. Customers can initiate disputes through the escrow system across various transactions starting from marketplace escrow and including crypto mining rigs escrow.</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
