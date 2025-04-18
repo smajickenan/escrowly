@@ -42,7 +42,7 @@ const InspectionPeriod = () => {
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
+                                        <p>Escrowly recognizes the necessity for complete agreement between all parties prior to money transactions. Every transaction at Escrowly.com includes an inspection period that provides sufficient time for both buyers and sellers to confirm the successful delivery of goods or services. Whether you are seeking a secure P2P crypto escrow purchase or escrow for industrial equipment, Escrowly allows you to inspect, and approve.</p>
                                         <h3>How Escrowly Ensures Safe Transactions</h3>
                                         <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
                                         <ol>
