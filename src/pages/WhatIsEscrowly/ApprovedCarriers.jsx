@@ -67,7 +67,14 @@ const ApprovedCarriers = () => {
                                         </ul>
                                         <h3>Can I Use My Own Carrier?</h3>
                                         <p>The use of Escrowly-approved carriers is recommended strongly for complete protection; however, you can still choose your own carrier. Using your own shipping provider provides flexibility, but Escrowly recommends its selected carriers for full coverage.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <ul>
+                                            <li>The Tracking system does not support integration with Escrowly.</li>
+                                            <li>Chain-of-custody documentation might be incomplete.</li>
+                                            <li>Increased difficulties will occur in dispute settlement when there is no verification of shipping logs.</li>
+                                            <li>Escrowly prefers shipping carriers that demonstrate the ability to produce blockchain-traceable audit logs for crypto payment protection escrow systems.</li>
+                                        </ul>
+                                        <p>Logistics or transport providers who want to join Escrowly as authorized carriers should apply right here.</p>
+                                        <h6>Are you ready to ship smarter? Use Escrowly with approved carriers for seamless, secure escrow payments from start to finish</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
