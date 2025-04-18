@@ -69,7 +69,7 @@ const FraudPrevention = () => {
                                             <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
                                             <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
+                                        <h6>xxxFuture-Proof Your Transactions with Escrowly</h6>
                                         <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
                                         <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                                     </div>
