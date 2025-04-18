@@ -42,16 +42,19 @@ const Disputes = () => {
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
-                                        <h3>How Escrowly Ensures Safe Transactions</h3>
-                                        <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>
+                                        <h3>Fair, Fast, and Transparent Resolution - Powered by Escrowly</h3>
+                                        <p>Disagreement can happen even in the safest online platforms. The dispute resolution system at Escrowly offers an unbiased framework to safeguard buyers and their assets, sellers and their brokers in all crypto and non-crypto transactions. Escrowly provides fair resolution of disputes no matter if users trade through USDT escrow services, use escrow for internet purchase, or conduct real estate high value crypto escrow deals.</p>
+                                        <p>Using smart contracts in our escrow process stops early fund transfers and lets users resolve disputes speedily. All transactions under the USDT and USDC stablecoin exclusions maintain dependable stability as well as low volatility due to their fixed-currency approach.</p>
+                                        <h3>What Can Lead to a Dispute?</h3>
+                                        <p>Users generally create disputes when the following problems occur:</p>
                                         <ol>
-                                            <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                            <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                            <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                            <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                            <li>1. The failure of both delivery on time and the delivery of expected goods or service items</li>
+                                            <li>2. Misrepresentation or incorrect product description</li>
+                                            <li>3. Breach of pre-agreed terms</li>
+                                            <li>4. Payment discrepancies</li>
+                                            <li>5. Quality issues for high-value transactions</li>
                                         </ol>
-                                        <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
+                                        <blockquote>Dubito provides escrow management services for all types of markets, including heavy machinery and freelance work payments.</blockquote>
                                         <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
                                         <h4>Benefits of Using Escrowly</h4>
                                         <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
