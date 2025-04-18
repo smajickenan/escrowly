@@ -64,11 +64,15 @@ const InspectionPeriod = () => {
                                             <li>Crypto escrow for luxury items</li>
                                             <li>Escrow for high-value goods</li>
                                             <li>Escrow for international business deals</li>
-                                            <li>Escrow for</li>
+                                            <li>Escrow for domain names</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <p>Escrowly implements smart contracts that enable fund release control and easy tracing.</p>
+                                        <h3>Customizable Periods for Every Use Case</h3>
+                                        <p>Each crypto transaction has its own unique features. With our system, users can determine inspection timelines that match the complexity level and timelines of their projects for cross-border crypto escrow and escrow for film production financing. Our flexibility draws users from personal applications, corporate deals, yacht sales, and franchise acquisitions.</p>
+                                        <h3>Full Peace of Mind</h3>
+                                        <p>During Escrowly.com inspection period, both parties remain responsible and funds stay secure before full release. The additional controlling mechanism in operation protects escrow for crypto exchanges, secure crypto escrow for ICO, and other services. The cautious approach to funding during inspections gives Escrowly an unchallengeable position as the top provider of the best crypto escrow services.</p>
+                                        <p>The time has come to try doing crypto escrow at its best level.</p>
+                                        <h6>Start a secure transaction with Escrowly today!</h6>
                                     </div>
                                 </div>
                                 <div className="col col-right">
