@@ -47,30 +47,30 @@ const DisbursementsMethods = () => {
                                         <h3>How Does Escrowly Disburse Funds?</h3>
                                         <p>At Escrowly, we achieve secure crypto transactions by taking the smart contract escrow approach. Escrowly processes crypto payouts through an automated system after all pre-defined conditions like asset verification and service completion become validated. The blockchain escrow service from Escrowly ensures secure payouts that include Bitcoin escrow service, Ethereum escrow service, and USDT escrow service, together with any other supported coin.</p>
                                         <ul>
-                                            <li><strong>Instant and confirmed on-chain</strong></li>
-                                            <li><strong>Your preferred cryptocurrency wallet receives the payment</strong></li>
-                                            <li><strong>Distinct decentralized escrow service mechanisms protect owners</strong></li>
-                                            <li><strong>Transparent, traceable, and verifiable</strong></li>
+                                            <li>Instant and confirmed on-chain</li>
+                                            <li>Your preferred cryptocurrency wallet receives the payment</li>
+                                            <li>Distinct decentralized escrow service mechanisms protect owners</li>
+                                            <li>Transparent, traceable, and verifiable</li>
                                         </ul>
                                         <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
                                         <h3>Available Crypto Disbursement Options on Escrowly</h3>
                                         <ul>
-                                            <li><strong>USDT Coin Tether (USDT)</strong>- The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
-                                            <li><strong>USDC Coin (USDC)</strong>- Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
+                                            <li><strong>USDT Coin Tether (USDT):</strong> The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
+                                            <li><strong>USDC Coin (USDC):</strong> Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
                                         </ul>
                                         <p>You should note that Escrowly enables crypto disbursements as its only payment option which are instant and super-fast. No Fiat options. No Banks. No Delays</p>
                                         <h3>Escrowly Disburses Worldwide, Across Borders</h3>
                                         <p>Escrowly serves users operating in the current international business sector. The disbursement process works identically across Lagos, Lisbon, Los Angeles, and other cities worldwide: it is fast and secure since it operates on-chain.</p>
                                         <p>Escrowly is perfect for:</p>
                                         <ul>
-                                            <li><strong>Escrow for international business deals</strong></li>
-                                            <li><strong>Escrow for freelancers and service providers</strong></li>
-                                            <li><strong>Escrow for wholesale transactions</strong></li>
-                                            <li><strong>Escrowly for manufacturing supply chain payments</strong></li>
-                                            <li><strong>Escrow for token sales</strong></li>
-                                            <li><strong>Escrow for real estate closings</strong></li>
-                                            <li><strong>Escrow service for online sales</strong></li>
-                                            <li><strong>Escrow for all kind of business transactions</strong></li>
+                                            <li>Escrow for international business deals</li>
+                                            <li>Escrow for freelancers and service providers</li>
+                                            <li>Escrow for wholesale transactions</li>
+                                            <li>Escrowly for manufacturing supply chain payments</li>
+                                            <li>Escrow for token sales</li>
+                                            <li>Escrow for real estate closings</li>
+                                            <li>Escrow service for online sales</li>
+                                            <li>Escrow for all kind of business transactions</li>
                                         </ul>
                                         <p>All of these services are available on Escrowly strictly by crypto. No banks. No red tape. Just transparent, global, crypto-native disbursements</p>
                                         <h3>Flexible Disbursement - It’s Entirely Up to You!</h3>
@@ -82,11 +82,11 @@ const DisbursementsMethods = () => {
                                         <p>Thanks to our Escrowly API, developers and companies can automate payments to initiate when specific criteria are fulfilled without needing human input.</p>
                                         <p>Our API system works well with platforms such as:</p>
                                         <ul>
-                                            <li><strong>Online Webstore</strong></li>
-                                            <li><strong>Online Marketplaces</strong></li>
-                                            <li><strong>Web3 Freelance Sites</strong></li>
-                                            <li><strong>Shopping Websites</strong></li>
-                                            <li><strong>Escrow for Car Dealership Payments</strong></li>
+                                            <li>Online Webstore</li>
+                                            <li>Online Marketplaces</li>
+                                            <li>Web3 Freelance Sites</li>
+                                            <li>Shopping Websites</li>
+                                            <li>Escrow for Car Dealership Payments</li>
                                         </ul>
                                         <p>Through its API feature, the system conducts secure crypto escrow transactions by managing funds both before and after validation.</p>
                                         <h3>Our Crypto Disbursement System at Escrowly Offers Better Features</h3>
