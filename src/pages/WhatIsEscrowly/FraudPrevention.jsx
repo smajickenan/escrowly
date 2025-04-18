@@ -56,6 +56,12 @@ const FraudPrevention = () => {
                                         <h3>How Escrowly Prevents Fraud</h3>
                                         <p><strong>1. Funds Held in Escrow</strong></p>
                                         <p>Right after a buyer starts a transaction, their funds move into a Escrowly’s secure escrow wallet for crypto currencies such as USDT and USDC, which minimize price volatility. The funds remain out of reach for the seller until both delivery verification and customer approval occur.</p>
+                                        <p><strong>2. Smart Contract Automation</strong></p>
+                                        <p>Escrowly applies escrow smart contracts crypto functionality for automatic agreement implementation. These unalterable blockchain protocols confirm contractual conditions are fulfilled before adding funds to wallet operations so users avoid mistakes and scheming behavior.</p>
+                                        <p><strong>3. Built-in Dispute Resolution</strong></p>
+                                        <p>Our dispute resolution system provides objective reviews to help resolve errors that may occur. Parties present evidence to an expert team which quickly handles disputes with impartiality.</p>
+                                        <p><strong>4. Verified Users & Activity Logs</strong></p>
+                                        <p>Every user undergoes verification before participating, and all transactions carry timestamps for full traceability and accountability across dealership payments through escrow and service provider or freelancer escrow processes.</p>
                                         <ul>
                                             <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                             <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
