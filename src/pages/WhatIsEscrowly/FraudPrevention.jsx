@@ -62,16 +62,18 @@ const FraudPrevention = () => {
                                         <p>Our dispute resolution system provides objective reviews to help resolve errors that may occur. Parties present evidence to an expert team which quickly handles disputes with impartiality.</p>
                                         <p><strong>4. Verified Users & Activity Logs</strong></p>
                                         <p>Every user undergoes verification before participating, and all transactions carry timestamps for full traceability and accountability across dealership payments through escrow and service provider or freelancer escrow processes.</p>
-                                        <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                                        </ul>
-                                        <h6>xxxFuture-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                                        <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                                        <h3>Industry-Leading Security Layers</h3>
+                                        <p>The crypto escrow services offered by Escrowly.com operates a bit dissimilar to standard services. Customers gain protection for their crypto transactions through the combined use of multi-factor authentication, SSL encryption, and blockchain tracking systems. All security layers exist to protect users! Our platform remains the first and the best platform that operates only for crypto escrow functions rather than traditional services with crypto attachments. Escrowly incorporates fraud prevention at all stages of operation.</p>
+                                        <h3>Safety First. Always Escrowly!</h3>
+                                        <ol>
+                                            <li>1. Pioneers in crypto escrow</li>
+                                            <li>2. The service is reversible using proper contract terms instead of attempts at fraud</li>
+                                            <li>3. Fraud-resistant smart contracts</li>
+                                            <li>4. Audit trails for all transactions</li>
+                                            <li>5. Dispute resolution when needed</li>
+                                        </ol>                                        
+                                        <p>Our organization exists to safeguard individuals through crypto escrow services, which empower businesses to work securely on transactions on an expansive scale.</p>
+                                        <p>As the most trusted crypto escrow system ever, Escrowly exists to protect your payments. You can start using Escrowly.com today because fraud becomes impossible to succeed on this platform.</p>
                                     </div>
                                 </div>
                                 <div className="col col-right">
