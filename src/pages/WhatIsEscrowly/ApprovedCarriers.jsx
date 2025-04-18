@@ -59,14 +59,14 @@ const ApprovedCarriers = () => {
                                         <h3>How Carrier Approval Works</h3>
                                         <p>We perform inspection on all carriers in a process similar to the security procedures we use in our crypto escrow operations. Escrowly’s network requires partners to fulfill rigorous quality standards that must be satisfied before joining.</p>
                                         <ul>
-                                            <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                            <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                            <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                            <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                            <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                            <li>Compliance and Licensing: Every transportation company must adhere to transport legislation at both regional and international standards.</li>
+                                            <li>Reputation and Reviews: Our team investigates customer evaluations, examines delivery performance and past dispute occurrences.</li>
+                                            <li>Secure Handling: Companies operating in different industry categories must establish specific guidelines to handle their shipment types.</li>
+                                            <li>API Integration: The best carriers within Escrowly provide live shipment tracking as an API feature that feeds directly into their dashboard.</li>
+                                            <li>Insurance and Dispute Support: Escrowly requires providers to deliver protection plans and their staff participation for dispute management.</li>
                                         </ul>
-                                        <h6>Future-Proof Your Transactions with Escrowly</h6>
-                                        <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
+                                        <h3>Can I Use My Own Carrier?</h3>
+                                        <p>The use of Escrowly-approved carriers is recommended strongly for complete protection; however, you can still choose your own carrier. Using your own shipping provider provides flexibility, but Escrowly recommends its selected carriers for full coverage.</p>
                                         <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                                     </div>
                                 </div>
