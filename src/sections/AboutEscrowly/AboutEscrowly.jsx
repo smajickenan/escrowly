@@ -21,7 +21,7 @@ const AboutEscrowly = () => {
                     title="The World’s First Fully Crypto-Native Escrow Platform"
                     className=""
                 />
-                <p>The World’s First Fully Crypto-Native Escrow Platform</p>
+                <p>At Escrowly, users can enjoy risk-free crypto transactions because our platform ensures secure transactions all the time. Our platform serves customers beyond the role of traditional payment processing services and digital wallets. Escrowly serves as the initial fully cryptocurrency-based escrow ecosystem designed to shield peer-to-peer and business-to-business deals in decentralized economies.</p>
                 </div>
                 <div className="col"></div>
             </div>
