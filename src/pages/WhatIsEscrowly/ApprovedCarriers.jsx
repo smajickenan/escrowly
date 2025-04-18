@@ -59,11 +59,11 @@ const ApprovedCarriers = () => {
                                         <h3>How Carrier Approval Works</h3>
                                         <p>We perform inspection on all carriers in a process similar to the security procedures we use in our crypto escrow operations. Escrowly’s network requires partners to fulfill rigorous quality standards that must be satisfied before joining.</p>
                                         <ul>
-                                            <li>Compliance and Licensing: Every transportation company must adhere to transport legislation at both regional and international standards.</li>
-                                            <li>Reputation and Reviews: Our team investigates customer evaluations, examines delivery performance and past dispute occurrences.</li>
-                                            <li>Secure Handling: Companies operating in different industry categories must establish specific guidelines to handle their shipment types.</li>
-                                            <li>API Integration: The best carriers within Escrowly provide live shipment tracking as an API feature that feeds directly into their dashboard.</li>
-                                            <li>Insurance and Dispute Support: Escrowly requires providers to deliver protection plans and their staff participation for dispute management.</li>
+                                            <li><strong>Compliance and Licensing:</strong> Every transportation company must adhere to transport legislation at both regional and international standards.</li>
+                                            <li><strong>Reputation and Reviews:</strong> Our team investigates customer evaluations, examines delivery performance and past dispute occurrences.</li>
+                                            <li><strong>Secure Handling:</strong> Companies operating in different industry categories must establish specific guidelines to handle their shipment types.</li>
+                                            <li><strong>API Integration:</strong> The best carriers within Escrowly provide live shipment tracking as an API feature that feeds directly into their dashboard.</li>
+                                            <li><strong>Insurance and Dispute Support:</strong> Escrowly requires providers to deliver protection plans and their staff participation for dispute management.</li>
                                         </ul>
                                         <h3>Can I Use My Own Carrier?</h3>
                                         <p>The use of Escrowly-approved carriers is recommended strongly for complete protection; however, you can still choose your own carrier. Using your own shipping provider provides flexibility, but Escrowly recommends its selected carriers for full coverage.</p>
