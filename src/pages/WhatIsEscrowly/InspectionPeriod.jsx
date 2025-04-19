@@ -12,12 +12,12 @@ const InspectionPeriod = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Inspection Period – Secure Buyer Approval | Escrowly.com</title>
+                <meta name="description" content="Escrowly’s inspection period ensures buyers verify goods or services before funds are released. Secure smart contract escrow for crypto payments, online sales, and high-value deals." />
+                <meta name="keywords" content="crypto escrow inspection period, buyer protection crypto, confirm receipt crypto escrow, Escrowly smart contract, escrow approval process, secure crypto transactions, P2P escrow verification, USDT escrow with inspection, escrow for domain names, escrow for luxury items, smart contract fund release, decentralized escrow platform" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Verify Before You Pay – Escrowly Inspection Period for Crypto Escrow" />
+                <meta property="og:description" content="With Escrowly.com, inspect before approving payment. Our smart contract escrow gives buyers time to verify delivery before releasing funds - perfect for secure crypto deals." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -12,12 +12,12 @@ const ApprovedCarriers = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Escrowly Approved Carriers – Secure Delivery for Crypto Escrow Transactions</title>
+                <meta name="description" content="Escrowly.com ensures safe delivery of high-value items through verified carriers. Our approved logistics partners support secure crypto escrow transactions with real-time tracking and insurance." />
+                <meta name="keywords" content="approved escrow carriers, crypto escrow delivery, secure logistics for crypto transactions, Escrowly delivery partners, verified shipping for crypto deals, chain-of-custody shipping, high-value item transport, USDT escrow delivery, car dealership escrow transport, heavy equipment escrow shipping, blockchain audit delivery, insured crypto escrow logistics" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com | Verified Carriers for Secure Escrow Deliveries" />
+                <meta property="og:description" content="Connect smart contract escrow with trusted physical delivery. Escrowly’s approved carriers ensure insured, trackable logistics for all high-value crypto-linked transactions." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

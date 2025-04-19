@@ -12,12 +12,12 @@ const FraudPrevention = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Fraud Prevention – Trusted Payment Protection | Escrowly.com</title>
+                <meta name="description" content="Escrowly protects your crypto transactions with smart contract automation, verified users, and built-in dispute resolution. Eliminate fraud with USDT and USDC escrow security." />
+                <meta name="keywords" content="crypto escrow fraud prevention, Escrowly payment protection, secure USDT escrow, USDC escrow platform, blockchain escrow service, smart contract anti-fraud, verified crypto escrow users, escrow for online transactions, prevent crypto payment fraud, fast domain escrow, fraud-proof smart contract escrow, crypto escrow dispute resolution" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com | Prevent Crypto Payment Fraud with Secure Escrow" />
+                <meta property="og:description" content="Escrowly.com safeguards every transaction with verified users, automated smart contracts, and a transparent dispute resolution system. Trust crypto escrow done right." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

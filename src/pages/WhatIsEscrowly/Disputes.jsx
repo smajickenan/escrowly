@@ -12,12 +12,12 @@ const Disputes = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Dispute Resolution – Fair & Transparent | Escrowly.com</title>
+                <meta name="description" content="Escrowly.com offers unbiased, fast, and transparent dispute resolution for crypto transactions. Protect your funds with smart contract escrow and stablecoins backing reviews." />
+                <meta name="keywords" content="crypto escrow disputes, escrow dispute resolution, smart contract dispute handling, Escrowly dispute process, USDT escrow resolution, USDC transaction disputes, blockchain escrow conflict resolution, crypto payment issues, secure escrow mediation, real estate crypto escrow, refund crypto escrow, escrow transaction support" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com | Fast & Fair Dispute Resolution for Crypto Escrow" />
+                <meta property="og:description" content="Resolve crypto escrow disputes fairly with Escrowly. Our transparent process uses smart contracts and expert reviews to ensure justice for all parties." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
