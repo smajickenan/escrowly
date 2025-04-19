@@ -12,12 +12,12 @@ const CurrencyOptions = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Supported Currencies for Crypto Escrow | Escrowly</title>
+                <meta name="description" content="Discover all the cryptocurrencies Escrowly.com supports for secure escrow transactions. From USDT, USDC to Bitcoin, explore crypto escrow options built for global and borderless transactions." />
+                <meta name="keywords" content="crypto escrow currencies, USDT escrow service, USDC escrow, Ethereum escrow, Bitcoin escrow, secure crypto payments, smart contract escrow, blockchain escrow wallet, cross-border crypto escrow, crypto escrow for businesses, Escrowly API, decentralized escrow service, crypto escrow platform" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Crypto Escrow Currency Options | Escrowly.com" />
+                <meta property="og:description" content="Escrowly.com supports top cryptocurrencies like USDT, USDC, ETH, and BTC for super fast, secure, and global escrow transactions. Use our API for perfect automation." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

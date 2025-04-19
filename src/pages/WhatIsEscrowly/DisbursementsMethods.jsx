@@ -12,12 +12,12 @@ const DisbursementsMethods = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Disbursements – Fast, Global, Automated | Escrowly.com</title>
+                <meta name="description" content="Escrowly.com delivers secure, crypto-native escrow disbursements for global payouts, freelancers, business deals, token sales, and milestone-based contracts using USDT, USDC, and smart contract automation." />
+                <meta name="keywords" content="crypto escrow disbursement, smart contract payouts, global crypto payments, Escrowly API, automated crypto disbursement, USDT escrow payouts, USDC escrow payments, milestone escrow, escrow for freelancers, crypto escrow platform, secure blockchain payments, escrow wallet, domain escrow service" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com | Secure Crypto Disbursement via Smart Contracts" />
+                <meta property="og:description" content="From freelancers to enterprise payouts, Escrowly automates crypto disbursements using smart contract escrow and real-time settlement – no banks, no delays." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
