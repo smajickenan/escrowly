@@ -23,7 +23,7 @@ const OurBlogs = ({label, title}) => {
                 <div className="col">
                     <PostCard
                         image="/images/post-image-1.jpg"
-                        title="The Future of Secure Crypto Transactions"
+                        title="What Is a Crypto Escrow Service and How Does It Work"
                         category="Blockchain & Security"
                         date="December 27, 2024"
                         url="#url"
@@ -32,7 +32,7 @@ const OurBlogs = ({label, title}) => {
                 <div className="col">
                     <PostCard
                         image="/images/post-image-2.jpg"
-                        title="How Escrowly Ensures Secure Crypto Payments"
+                        title="How Do Escrow Services Provide Secure Crypto Transactions"
                         category="Crypto Transactions"
                         date="December 27, 2024"
                         url="#url"
