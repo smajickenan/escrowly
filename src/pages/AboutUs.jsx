@@ -12,7 +12,7 @@ import OurBlogs from "../sections/OurBlogs/OurBlogs";
 const AboutUs = () => (
     <>
         <Helmet>
-            <title>About Escrowly.com | The First Fully Crypto-Native Escrow Platform</title>
+            <title>The First Fully Crypto-Native Escrow Platform | Escrowly.com</title>
             <meta name="description" content="Learn about Escrowly, the world’s first fully crypto-native escrow platform. Secure USDT & USDC escrow, FinCEN-registered, compliant, and built for decentralized transactions." />
             <meta name="keywords" content="about Escrowly, crypto-native escrow, decentralized escrow, USDT escrow service, USDC escrow platform, FinCEN MSB escrow, AML KYC crypto, compliant crypto escrow, blockchain escrow platform, peer to peer crypto escrow, crypto escrow for businesses, stablecoin escrow services, Escrowly mission, secure crypto transactions" />
             <meta name="author" content="Escrowly Crypto Escrow Team" />
@@ -35,7 +35,7 @@ const AboutUs = () => (
                 <Businesses/>
                 <OurBlogs
                     label="Our blogs"
-                    title="Crypto Escrow Insights & Resources"
+                    title="Escrow Insights & Resources"
                 />
                 <Faq/>
                 <Innovate/>
