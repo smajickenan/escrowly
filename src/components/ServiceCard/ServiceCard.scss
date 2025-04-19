@@ -9,11 +9,13 @@
     @media(max-width:767px) {
         margin-bottom: 10px;
     }
-    // &:hover {
-    //     .service-card-link {
-    //         opacity: 1;
-    //     }
-    // }
+    @media(min-width:768px) {
+        &:hover {
+            .service-card-link {
+                opacity: 1;
+            }
+        }
+    }
     img {
         margin-bottom: 20px;
     }
@@ -36,6 +38,9 @@
         opacity: 0;
         transition: 0.3s;
         color: variables.$heading-color;
+        @media(max-width:767px) {
+            display: none;
+        }
         img {
             margin-bottom: 0;
             vertical-align: -3px;
