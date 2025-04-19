@@ -34,7 +34,7 @@ const Footer = () => {
                     <div className="col footer-col-3">
                         <ul className="footer-menu">
                             <li>
-                                <a href="#url">Escrowly Services</a>
+                                <a href="/services">Escrowly Services</a>
                                 <ul>
                                     <li><Link to="/service-page2">General Escrow Services</Link></li>
                                     <li><Link to="/service-page">Domain Name Escrow</Link></li>
