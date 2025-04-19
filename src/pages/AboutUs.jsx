@@ -32,7 +32,6 @@ const AboutUs = () => (
                 />
                 <AboutEscrowly/>
                 <OurVision/>
-
                 <Businesses/>
                 <OurBlogs
                     label="Our blogs"

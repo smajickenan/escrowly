@@ -15,8 +15,8 @@ const Businesses = () => {
         <div className="container">
             <div className="row">
                 <div className="col col-left">
-                    <h3>Empowering businesses with secure crypto transactions</h3>
-                    <p>Escrowly is more than just a platform for digital deals. We are a trusted partner committed to secure, transparent, and seamless crypto transactions for businesses and individuals.</p>   
+                    <h3>Designed and Built for a Decentralized World</h3>
+                    <p>Humans developed trusted escrow solutions for traditional monetary systems; however, these solutions operate under slow processing times and bear substantial charges while depending on centralized management. Escrowly flips the model. Our development of escrow started through implementing crypto infrastructure, which allows automated smart contracts in a decentralized system that operates in real time.</p>   
                     <div className="integrations">
                         <span className="num">100+</span>
                         Integrations with Top Platforms
