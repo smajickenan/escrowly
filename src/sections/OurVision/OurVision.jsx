@@ -21,10 +21,10 @@ const OurVision = () => {
                 <div className="col col-left">
                     <SectionHeader 
                         label="Our vision"
-                        title="Our Vision for a Secure Digital Future"
+                        title="Our Vision for a Secure Crypto World"
                         className=""
                     />
-                    <p>Our vision is to lead the way in secure crypto transactions by providing innovative solutions that enable businesses and individuals to thrive. We aim to create a future where transparency, trust, and security work seamlessly to empower users in the digital economy</p>
+                    <p>We developed our platform to establish trust for every crypto payment through which users can securely deal and conduct transactions despite concerns about loss, scams, or counterfeit transactions. Users who need USDT and USDC Stablecoin escrow along with business-to-business crypto payment solutions should choose Escrowly as their secure financial transaction platform</p>
                     <Button 
                         url="#get-started"
                         text="Get Started"
@@ -74,8 +74,8 @@ const OurVision = () => {
                 <div className="col col-right">
                     <VisionCard
                         icon="/img/icon-vision-1.svg"
-                        title="Empowering Businesses"
-                        text="We aim to provide businesses with a secure and reliable platform to conduct digital transactions safely and efficiently"
+                        title="Registered, Compliant & Secure"
+                        text="Our commitment to trustworthiness exists beyond words - we demonstrate it consistently. As an authentic Money Services Business (MSB), Escrowly holds a legitimate registration from the U.S. Financial Crimes Enforcement Network (FinCEN). Through its registration with FinCEN our users experience security knowing they work with a platform which strictly follows anti-money laundering (AML) and Know Your Customer (KYC) rules."
                         url="#url"
                     />
                     <VisionCard
