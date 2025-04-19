@@ -52,7 +52,7 @@ const AboutEscrowly = () => {
                                     <img src="/images/user-2.jpg" alt="" />
                                     <img src="/images/user-3.jpg" alt="" />
                                 </div>
-                                <span>We envision a future where businesses thrive through secure crypto transactions</span>
+                                <span>Hundreds of transactions processed every hour on Escrowly</span>
                             </div>
                         </div>
                     </div>
@@ -70,8 +70,7 @@ const AboutEscrowly = () => {
                     <div className="col">
                         <div className="about-counter">
                             <div className="num">1M+</div>
-                            <p>Trusted users who rely on our platform for safe
-                            and secure crypto deals</p>
+                            <p>Shared with personal and businesses escrow for online users and platforms</p>
                         </div>
                     </div>
                     <div className="col">
