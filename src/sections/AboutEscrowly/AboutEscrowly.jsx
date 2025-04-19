@@ -35,7 +35,7 @@ const AboutEscrowly = () => {
                         <div className="col">
                             <div className="about-card">
                                 <h5>Our Purpose</h5>
-                                <p>Our organization aims to establish a secure, intelligent crypto economy that enables every person to perform transactions safely. Our team strives to build technologies that help create an electronic payment system which functions instantaneously, provides absolute security, and is generally accepted worldwide.</p>   
+                                <p>Our organization aims to establish a secure, intelligent crypto economy that enables every person to perform transactions safely.</p>   
                                 <Button 
                                     url="/sign-in"
                                     text="Start A Transaction"
