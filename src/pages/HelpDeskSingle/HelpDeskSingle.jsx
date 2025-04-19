@@ -23,12 +23,12 @@ const HelpDeskSingle = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Live Help Desk & Contact Center | Escrowly.com Support</title>
+                <meta name="description" content="Need help with your crypto escrow transaction? Contact Escrowly’s 24/7 support team. Live chat, instant help, and fast resolution for all crypto-related inquiries." />
+                <meta name="keywords" content="Escrowly.com help desk, contact Escrowly, crypto support 24/7, live chat crypto escrow, Escrowly support center, crypto payment help, online escrow support, instant chat support, USDT support, USDC escrow support, secure crypto support, support for crypto deals" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="24/7 Crypto Escrow Support & Live Chat Help | Escrowly.com" />
+                <meta property="og:description" content="Reach out to Escrowly’s dedicated support team for live chat, 24/7 assistance, and fast help with your escrow transactions. We’re here to assist you every step of the way." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
