@@ -28,24 +28,24 @@ const Businesses = () => {
                 <div className="col col-right">
                     <ul className="check-list">
                         <li>
-                            <p>Creative Minds</p>
-                            <span>Finding new ways to enhance crypto transactions</span>
+                            <p>Crypto Escrow Revolution</p>
+                            <span>First fully crypto-native escrow platform</span>
                         </li>
                         <li>
-                            <p>Tech Gurus</p>
-                            <span>Mastering blockchain and crypto security</span>
+                            <p>Licensed and Registered</p>
+                            <span>Compliant with U.S. Money Services Business</span>
                         </li>
                         <li>
-                            <p>Client-Centric</p>
-                            <span>Focusing on secure, reliable transactions for you</span>
+                            <p>Price Protection</p>
+                            <span>Powered by stable coins (USDT, USDC)</span>
                         </li>
                         <li>
-                            <p>Focused on Achievements</p>
-                            <span>Delivering growth through safe digital solutions</span>
+                            <p>Fast Dispute Resolution</p>
+                            <span>Built-in fraud prevention and dispute resolution</span>
                         </li>
                         <li>
-                            <p>Teamwork</p>
-                            <span>Providing seamless crypto solutions together</span>
+                            <p>Connect Your Website</p>
+                            <span>API-ready for fast integrations</span>
                         </li>
                     </ul>
                 </div>    
