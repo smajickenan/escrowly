@@ -13,12 +13,12 @@ const WhatIsEscrowly = () => {
     return (
         <>
             <Helmet>
-                <title>What is Escrowly | Escrowly.com</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Services for Safe Transactions | Escrowly</title>
+                <meta name="description" content="Escrowly is a next-gen crypto escrow platform offering secure, transparent transactions for Stablecoins, Bitcoin, Ethereum, USDT, USDC etc, property deals, etc. Buy & Sell with confidence." />
+                <meta name="keywords" content="crypto escrow service, Bitcoin escrow, Ethereum escrow, USDT escrow, USDC escrow, secure crypto transactions, escrow smart contract, blockchain escrow, secure crypto escrow, escrow for real estate, Domain escrow, escrow for freelancers, DeFi escrow, escrow for businesses" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com – Secure Crypto Escrow for Digital and Real World Transactions" />
+                <meta property="og:description" content="Buy, Sell, and Broker with peace of mind using Escrowly.com – the most trusted platform for secure crypto escrow services." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
