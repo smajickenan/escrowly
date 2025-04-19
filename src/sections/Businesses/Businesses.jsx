@@ -23,7 +23,7 @@ const Businesses = () => {
                     </div>
                 </div>    
                 <div className="col col-center">
-                    <img className='content-image' src="/images/integrations.jpg" alt="" />
+                    <img className='content-image' src="/images/integrations.jpg" alt="Escrowly API Guide" />
                 </div>    
                 <div className="col col-right">
                     <ul className="check-list">

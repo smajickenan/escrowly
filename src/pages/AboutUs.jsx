@@ -35,7 +35,7 @@ const AboutUs = () => (
                 <Businesses/>
                 <OurBlogs
                     label="Our blogs"
-                    title="Crypto Insights & Resources"
+                    title="Crypto Escrow Insights & Resources"
                 />
                 <Faq/>
                 <Innovate/>
