@@ -38,7 +38,7 @@ const BuyerSellerBrokerProtection = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidelines"
-                                        title="Buyer, Seller & Broker Protections"
+                                        title="Buyer, Seller & Broker Protection"
                                         className=""
                                     />
                                     <div className="blog-article-content">
