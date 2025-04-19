@@ -64,13 +64,13 @@ const AboutEscrowly = () => {
                     <div className="col">
                         <div className="about-counter">
                             <div className="num">99%</div>
-                            <p>Secure transactions with every use, ensuring peace of mind for all parties</p>
+                            <p>Secure crypto escrow transactions backed by smart contract technology</p>
                         </div>
                     </div>
                     <div className="col">
                         <div className="about-counter">
                             <div className="num">1M+</div>
-                            <p>More than 1 million users and businesses internationally uses Escrowly for secure transactions</p>
+                            <p>More than 1 million individuals and businesses internationally uses Escrowly</p>
                         </div>
                     </div>
                     <div className="col">
