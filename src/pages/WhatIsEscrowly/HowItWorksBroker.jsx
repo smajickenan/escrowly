@@ -12,12 +12,12 @@ const HowItWorksBroker = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>How Escrow Works for Brokers at Escrowly.com</title>
+                <meta name="description" content="Escrowly.com empowers brokers to manage secure crypto deals, earn commissions, and maintain confidentiality. Use smart contract escrow with USDT & USDC for trusted transactions." />
+                <meta name="keywords" content="crypto escrow for brokers, broker crypto escrow, smart contract broker platform, Escrowly for brokers, USDT broker escrow, USDC crypto escrow, broker commission crypto, secure crypto brokerage, confidential crypto transactions, currency crypto escrow, blockchain escrow platform, cross-border crypto escrow" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Broker Crypto Deals Securely with Escrowly.com | Smart Contract Escrow" />
+                <meta property="og:description" content="Learn how brokers can facilitate crypto transactions securely using Escrowly. Lock funds, oversee deals, and earn commission automatically – all with stablecoins and smart contracts." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

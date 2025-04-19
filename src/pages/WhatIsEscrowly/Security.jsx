@@ -12,12 +12,12 @@ const Security = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow - Escrowly</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+                <title>Crypto Escrow Security You Can Trust | Escrowly.com</title>
+                <meta name="description" content="Escrowly.com ensures ironclad crypto transaction security using smart contracts, blockchain escrow, and stablecoin protection. No Banks, No Chargebacks! just verified safety." />
+                <meta name="keywords" content="crypto escrow security, blockchain escrow service, Escrowly smart contract, USDT escrow protection, USDC escrow security, secure crypto transactions, crypto escrow for businesses, dispute resolution crypto, military-grade encryption, secure currency crypto escrow, smart contract escrow platform, tamper-proof escrow, crypto escrow API" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-                <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+                <meta property="og:title" content="Escrowly.com | Secure Blockchain-Based Crypto Escrow" />
+                <meta property="og:description" content="Experience unmatched crypto escrow security with Escrowly’s blockchain-powered platform. All transactions are encrypted, auditable, and stablecoin backed for trust and peace of mind." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
