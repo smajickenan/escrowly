@@ -39,11 +39,11 @@ const Benefits = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidelines"
-                                        title="Benefits of Escrowly - Why You Should Choose Escrowly"
+                                        title="Benefits of Escrowly - The Smart Choice"
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <h3>Escrowly: The Ultimate Crypto Escrow Platform for Secure, Smart, and Scalable Transactions</h3>
+                                        <p><strong>The Ultimate Crypto Escrow Platform for Secure, Smart, and Scalable Transactions</strong></p>
                                         <p>Escrowly keeps you secure from modern digital threats and payment problems across all crypto and DeFi trades and online collectible purchases. With our crypto escrow service, every transaction is held, verified, and disbursed securely, thanks to escrow smart contracts crypto and foolproof protocols.</p>
                                         <h3>Ironclad Security for Every Transaction</h3>
                                         <p>Escrowly ensures the safekeeping of your deposited funds without any exceptions. For instance, our platform has an USDT and USDC escrow service to maintain your funds in a secure escrow wallet for crypto until the agreed business conditions are complete.</p>
