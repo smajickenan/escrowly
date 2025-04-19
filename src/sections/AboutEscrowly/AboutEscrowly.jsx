@@ -75,7 +75,7 @@ const AboutEscrowly = () => {
                     </div>
                     <div className="col">
                         <div className="about-counter">
-                            <div className="num">5K+</div>
+                            <div className="num">50K+</div>
                             <p>Successful transactions processed, helping businesses grow and thrive</p>
                         </div>
                     </div>
