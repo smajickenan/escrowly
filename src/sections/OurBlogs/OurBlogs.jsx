@@ -25,7 +25,7 @@ const OurBlogs = ({label, title}) => {
                         image="/images/post-image-1.jpg"
                         title="What Is a Crypto Escrow Service and How Does It Work"
                         category="Blockchain & Security"
-                        date="December 27, 2024"
+                        date="April 27, 2025"
                         url="#url"
                     />
                 </div> 
@@ -34,7 +34,7 @@ const OurBlogs = ({label, title}) => {
                         image="/images/post-image-2.jpg"
                         title="How Do Escrow Services Provide Secure Crypto Transactions"
                         category="Crypto Transactions"
-                        date="December 27, 2024"
+                        date="May 11, 2025"
                         url="#url"
                     />
                 </div>    
