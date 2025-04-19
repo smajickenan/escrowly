@@ -31,18 +31,18 @@ const ServicePage2 = () => (
                     breadcrumbs={[
                         { title: "Home", url: "/" },
                         { title: "Escrowly Services", url: "/escrowly-services" },
-                        { title: "General Escrow Services ", url: "/secure-domain" },
+                        { title: "Crypto Escrow Services", url: "/secure-domain" },
                     ]}
                 />  
                 <section className="section-service-page">
                     <div className="container">
                         <SectionHeader 
-                            label="General Escrow Services "
-                            title="General Escrow Services - Secure Your Crypto Transactions"
+                            label="Crypto Escrow Services "
+                            title="What Is a Crypto Escrow Service and How Does It Work?"
                             className="centered"
                         />
                         <p className="service-page-description">When making large purchases or sales online, ensuring the security of the transaction is crucial. In the case of cryptocurrency deals, the risk is even higher due to the irreversible nature of crypto transactions and the potential for fraud. This is where our General Escrow Services come in.</p>
-                        <img className="service-page-image" src="/images/service-page-2.jpg" alt="" />
+                        <img className="service-page-image" src="/images/service-page-2.jpg" alt="Crypto Escrow Services by Escrowly.com" />
                         <div className="service-page-content row">
                             <div className="col col-left">
                                 <h3>How Escrowly Protects Your Transactions</h3>
