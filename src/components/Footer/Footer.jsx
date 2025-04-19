@@ -36,7 +36,7 @@ const Footer = () => {
                             <li>
                                 <a href="/services">Escrowly Services</a>
                                 <ul>
-                                    <li><Link to="/service-page2">General Escrow Services</Link></li>
+                                    <li><Link to="/service-page2">Crypto Escrow Services</Link></li>
                                     <li><Link to="/service-page">Domain Name Escrow</Link></li>
                                     <li><Link to="/service-page3">Motor Vehicle Escrow</Link></li>
                                     <li><Link to="/service-page4">Milestone Transactions</Link></li>
