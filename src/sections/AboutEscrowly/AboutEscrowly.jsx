@@ -56,7 +56,7 @@ const AboutEscrowly = () => {
                             </div>
                         </div>
                     </div>
-                    <p className="mt-20">Escrowly is a trusted platform for secure crypto transactions, offering modern payment solutions and seamless escrow services. We ensure safe and reliable deals for all users</p>
+                    <p className="mt-20">Escrowly exists as more than a crypto payment escrow solution - it represents a modern approach to cryptographic trust for digital transactions.</p>
                 </div>
             </div>
             <div className="about-counters">
