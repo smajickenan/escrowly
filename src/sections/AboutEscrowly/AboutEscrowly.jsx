@@ -52,7 +52,7 @@ const AboutEscrowly = () => {
                                     <img src="/images/user-2.jpg" alt="" />
                                     <img src="/images/user-3.jpg" alt="" />
                                 </div>
-                                <span>Hundreds of transactions processed every hour on Escrowly</span>
+                                <span>Hundreds of transactions processed every hour by individual and businesses on Escrowly</span>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const AboutEscrowly = () => {
                     <div className="col">
                         <div className="about-counter">
                             <div className="num">1M+</div>
-                            <p>Shared with personal and businesses escrow for online users and platforms</p>
+                            <p>More than 1 million users and businesses internationally uses Escrowly for secure transactions</p>
                         </div>
                     </div>
                     <div className="col">
