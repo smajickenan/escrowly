@@ -16,7 +16,7 @@ const Businesses = () => {
             <div className="row">
                 <div className="col col-left">
                     <h3>Designed and Built for a Decentralized World</h3>
-                    <p>Humans developed trusted escrow solutions for traditional monetary systems; however, these solutions operate under slow processing times and bear substantial charges while depending on centralized management. Escrowly flips the model. Our development of escrow started through implementing crypto infrastructure, which allows automated smart contracts in a decentralized system that operates in real time.</p>   
+                    <p>Humans developed escrow solutions for traditional monetary systems; however, these solutions operate under slow processing times and bear substantial charges under centralized management. Escrowly flips the model. Our development of escrow started through implementing crypto infrastructure, which allows automated smart contracts in a decentralized system that operates in real time.</p>   
                     <div className="integrations">
                         <span className="num">100+</span>
                         Integrations with Top Platforms
