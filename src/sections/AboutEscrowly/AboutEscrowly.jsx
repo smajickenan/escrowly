@@ -28,7 +28,7 @@ const AboutEscrowly = () => {
             
             <div className="row sm-direction-column">
                 <div className="col">
-                    <img className="content-image" src="/images/about-escrowly-image.jpg" alt="" />
+                    <img className="content-image" src="/images/about-escrowly-image.jpg" alt="About Escrowly Mission" />
                 </div>
                 <div className="col">
                     <div className="row xs-direction-column-reverse">
@@ -48,9 +48,9 @@ const AboutEscrowly = () => {
                             <div className="about-card">
                                 <img src="/images/about-card-1.jpg" alt="" className="about-card-image" />
                                 <div className="about-users">
-                                    <img src="/images/user-1.jpg" alt="" />
-                                    <img src="/images/user-2.jpg" alt="" />
-                                    <img src="/images/user-3.jpg" alt="" />
+                                    <img src="/images/user-1.jpg" alt="Escrowly Users" />
+                                    <img src="/images/user-2.jpg" alt="Escrowly Users" />
+                                    <img src="/images/user-3.jpg" alt="Escrowly Users" />
                                 </div>
                                 <span>Hundreds of transactions processed every hour by individual and businesses on Escrowly</span>
                             </div>
