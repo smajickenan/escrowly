@@ -75,7 +75,7 @@ const OurVision = () => {
                     <VisionCard
                         icon="/img/icon-vision-1.svg"
                         title="Registered, Compliant & Secure"
-                        text="Our commitment to trustworthiness exists beyond words - we demonstrate it consistently. As an authentic Money Services Business (MSB), Escrowly holds a legitimate registration from the U.S. Financial Crimes Enforcement Network (FinCEN). Through its registration with FinCEN our users experience security knowing they work with a platform which strictly follows anti-money laundering (AML) and Know Your Customer (KYC) rules."
+                        text="Our commitment to trustworthiness exists beyond words - we demonstrate it consistently. As an authentic Money Services Business (MSB), Escrowly holds a legitimate registration from the U.S. Financial Crimes Enforcement Network (FinCEN). Through its registration with FinCEN our users experience security knowing they work with a platform which strictly follows anti-money laundering AML and Know Your Customer KYC rules."
                         url="/sign-up"
                     />
                     <VisionCard
