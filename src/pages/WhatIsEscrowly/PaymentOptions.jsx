@@ -37,7 +37,7 @@ const PaymentOptions = () => {
                             <div className="row">
                                 <div className="col col-left">
                                     <SectionHeader
-                                        label="Guidlines"
+                                        label="Guidelines"
                                         title="Payment Options"
                                         className=""
                                     />

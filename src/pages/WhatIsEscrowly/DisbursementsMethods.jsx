@@ -37,7 +37,7 @@ const DisbursementsMethods = () => {
                             <div className="row">
                                 <div className="col col-left">
                                     <SectionHeader
-                                        label="Guidlines"
+                                        label="Guidelines"
                                         title="Disbursements Methods"
                                         className=""
                                     />

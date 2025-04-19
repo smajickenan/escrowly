@@ -37,7 +37,7 @@ const Security = () => {
                             <div className="row">
                                 <div className="col col-left">
                                     <SectionHeader
-                                        label="Guidlines"
+                                        label="Guidelines"
                                         title="Security"
                                         className=""
                                     />

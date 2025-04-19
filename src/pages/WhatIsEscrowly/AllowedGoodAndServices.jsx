@@ -38,7 +38,7 @@ const AllowedGoodsAndServices = () => {
                             <div className="row">
                                 <div className="col col-left">
                                     <SectionHeader
-                                        label="Guidlines"
+                                        label="Guidelines"
                                         title="Goods and Services You Can Trade on Escrowly"
                                         className=""
                                     />
