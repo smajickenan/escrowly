@@ -13,12 +13,12 @@ const AllowedGoodsAndServices = () => {
     return (
         <>
             <Helmet>
-                <title>What You Can Trade with Crypto Escrow | Escrowly</title>
+                <title>What You Can Trade with Crypto Escrow | Escrowly.com</title>
                 <meta name="description" content="Discover all the goods and services you can securely trade on Escrowly.com. From domain names to real estate, vehicles, and freelance work etc, We enables safe crypto escrow transactions in over 100 industries." />
                 <meta name="keywords" content="crypto escrow for goods, crypto escrow for services, escrow for domains, escrow for real estate, escrow for vehicles, secure escrow transactions, Bitcoin escrow, Ethereum escrow, escrow for freelancers, smart contract escrow, Escrowly escrow service, P2P escrow, escrow for online marketplaces" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
-                <meta property="og:title" content="Trade Goods & Services Securely with Crypto Escrow | Escrowly" />
-                <meta property="og:description" content="From $10 to $100 million+, Escrowly lets you securely trade crypto, property, domains, cars, services, and more across 100+ sectors using trusted crypto escrow." />
+                <meta property="og:title" content="Trade Goods & Services Securely with Crypto Escrow | Escrowly.com" />
+                <meta property="og:description" content="From $10 to $100 million+, Escrowly.com lets you securely trade crypto, property, domains, cars, services, and more across 100+ sectors using trusted crypto escrow." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />

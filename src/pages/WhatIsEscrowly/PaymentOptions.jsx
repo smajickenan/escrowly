@@ -13,7 +13,7 @@ const PaymentOptions = () => {
         <>
             <Helmet>
                 <title>Crypto Escrow Services – Fast, Secure, & Trusted | Escrowly.com</title>
-                <meta name="description" content="Escrowly offers secure crypto-only escrow services for digital payments, freelance trades, and cross-border crypto transactions using stablecoins like USDT and USDC." />
+                <meta name="description" content="Escrowly.com offers secure crypto-only escrow services for digital payments, freelance trades, and cross-border crypto transactions using stablecoins like USDT and USDC." />
                 <meta name="keywords" content="crypto escrow service, USDT escrow, secure crypto transactions, blockchain escrow, smart contract escrow, P2P crypto escrow, Escrowly, stablecoin escrow, crypto payments, stablecoin escrow, Bitcoin escrow, crypto escrow platform, digital escrow for crypto, automated escrow payments" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
                 <meta property="og:title" content="Escrowly.com | Secure Crypto Escrow for Payments & More" />

@@ -13,8 +13,8 @@ const WhatIsEscrowly = () => {
     return (
         <>
             <Helmet>
-                <title>Crypto Escrow Services for Safe Transactions | Escrowly</title>
-                <meta name="description" content="Escrowly is a next-gen crypto escrow platform offering secure, transparent transactions for Stablecoins, Bitcoin, Ethereum, USDT, USDC etc, property deals, etc. Buy & Sell with confidence." />
+                <title>Crypto Escrow Services for Safe Transactions | Escrowly.com</title>
+                <meta name="description" content="Escrowly.com is a next-gen crypto escrow platform offering secure, transparent transactions for Stablecoins, Bitcoin, Ethereum, USDT, USDC etc, property deals, etc. Buy & Sell with confidence." />
                 <meta name="keywords" content="crypto escrow service, Bitcoin escrow, Ethereum escrow, USDT escrow, USDC escrow, secure crypto transactions, escrow smart contract, blockchain escrow, secure crypto escrow, escrow for real estate, Domain escrow, escrow for freelancers, DeFi escrow, escrow for businesses" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
                 <meta property="og:title" content="Escrowly.com – Secure Crypto Escrow for Digital and Real World Transactions" />

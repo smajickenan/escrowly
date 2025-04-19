@@ -12,8 +12,8 @@ const CurrencyOptions = () => {
     return (
         <>
             <Helmet>
-                <title>Supported Currencies for Crypto Escrow | Escrowly</title>
-                <meta name="description" content="Discover all the cryptocurrencies Escrowly.com supports for secure escrow transactions. From USDT, USDC to Bitcoin, explore crypto escrow options built for global and borderless transactions." />
+                <title>Supported Currencies for Crypto Escrow | Escrowly.com</title>
+                <meta name="description" content="Explore all the cryptocurrencies Escrowly.com supports for secure escrow transactions. From USDT, USDC to Bitcoin, explore crypto escrow options built for global and borderless transactions." />
                 <meta name="keywords" content="crypto escrow currencies, USDT escrow service, USDC escrow, Ethereum escrow, Bitcoin escrow, secure crypto payments, smart contract escrow, blockchain escrow wallet, cross-border crypto escrow, crypto escrow for businesses, Escrowly API, decentralized escrow service, crypto escrow platform" />
                 <meta name="author" content="Escrowly Crypto Escrow Team" />
                 <meta property="og:title" content="Crypto Escrow Currency Options | Escrowly.com" />
