@@ -13,12 +13,12 @@ const Benefits = () => {
     return (
         <>
             <Helmet>
-                <title>Best Crypto Escrow Service - Escrowly for Secure Transactions</title>
-                <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-                <meta name="keywords" content="crypto escrow, secure crypto escrow, Bitcoin escrow, Ethereum escrow, USDT escrow, crypto escrow service, blockchain escrow, smart contract escrow, crypto escrow platform, P2P crypto escrow, escrow wallet, crypto escrow for businesses, digital asset escrow, escrow for digital goods, escrow for domain names, escrow for services, escrow for real estate, crypto buyer protection, online escrow for crypto, Escrowly" />
+                <title>Why Choose Escrowly – Secure Crypto Escrow for Any Transaction</title>
+                <meta name="description" content="Discover the advantages of using Escrowly.com  - the leading crypto escrow platform offering secure smart contract escrow, instant payouts, international reach, and zero-fiat restrictions." />
+                <meta name="keywords" content="crypto escrow benefits, why use crypto escrow, Escrowly advantages, smart contract escrow, USDT escrow service, secure crypto payments, global crypto escrow, dispute resolution crypto, escrow for freelancers, escrow for domains, crypto escrow for businesses, blockchain escrow platform, property crypto escrow, zero fiat escrow service" />
                 <meta name="author" content="Escrowly - Crypto Escrow Team" />
-                <meta property="og:title" content="Why Use Escrowly – Benefits of Secure Crypto Escrow" />
-                <meta property="og:description" content="Secure and instant crypto escrow for digital goods, services, and assets. Escrowly ensures every deal is verified, safe, and fast." />
+                <meta property="og:title" content="Benefits of Escrowly | Trusted Crypto Escrow Platform" />
+                <meta property="og:description" content="Realize why thousands trust Escrowly for their crypto escrow needs. From automated payouts to business escrow, Escrowly.com delivers unmatched security and efficiency." />
                 <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
                 <meta property="og:url" content="https://escrowly.com" />
                 <meta name="twitter:card" content="summary_large_image" />
