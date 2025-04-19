@@ -80,7 +80,7 @@ const OurVision = () => {
                     />
                     <VisionCard
                         icon="/img/icon-vision-2.svg"
-                        title="Mission"
+                        title="Our Mission"
                         text="Our team strives to build technologies that help create an electronic payment system which functions instantaneously, provides absolute security, and is generally accepted worldwide."
                         url="/sign-up"
                     />
