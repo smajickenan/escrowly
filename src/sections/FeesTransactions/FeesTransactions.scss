@@ -10,6 +10,92 @@
             font-size: 20px;
         }
     }
+
+    .fees-content {
+        margin-top: 60px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1E274A;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1E274A;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1E274A;
+            margin: 40px 0 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #4A5568;
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+
+            li {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #4A5568;
+                margin-bottom: 10px;
+            }
+        }
+
+        .call-to-action {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1E274A;
+            text-align: center;
+            margin: 40px 0 20px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            font-weight: 500;
+            color: #4A5568;
+            text-align: center;
+            font-style: italic;
+        }
+
+        @media (max-width: 767px) {
+            margin-top: 40px;
+            padding: 0 20px;
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p, ul li, ol li {
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 .swiper-wrapper {

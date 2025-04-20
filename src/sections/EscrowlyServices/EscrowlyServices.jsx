@@ -18,7 +18,7 @@ const EscrowlyServices = () => (
                         icon="/img/service-1.svg"
                         title="General Escrow Services "
                         text="Secure transactions for goods, services, and contracts with full protection"
-                        url="/service-page2"
+                        url="/crypto-escrow-services"
                     />
                 </div>
                 <div className="col">

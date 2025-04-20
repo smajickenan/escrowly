@@ -78,7 +78,7 @@ function MainLayout() {
         <Route path="/blog-article" element={<BlogArticle />} />
         <Route path="/services" element={<Services />} />
         <Route path="/service-page" element={<ServicePage />} />
-        <Route path="/service-page2" element={<ServicePage2 />} />
+        <Route path="/crypto-escrow-services" element={<ServicePage2 />} />
         <Route path="/service-page3" element={<ServicePage3 />} />
         <Route path="/service-page4" element={<ServicePage4 />} />
         <Route path="/service-page5" element={<ServicePage5 />} />

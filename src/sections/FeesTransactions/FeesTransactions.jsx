@@ -183,6 +183,70 @@ const FeesTransactions = function () {
                     )}
                 </div>
 
+                <div className="fees-content">
+                    <h1>Fee Calculator</h1>
+                    <h2>Instantly Estimate Escrow Fees for Your Secure Crypto Transactions</h2>
+                    <p>
+                        If you want to enjoy secure P2P crypto escrow transactions, you should know how much it costs to run your transactions. 
+                        Users can get cost estimates before starting their secure crypto trade with Escrowly's Fee Calculator. Through its Fee Calculator system, 
+                        Escrowly provides real-time estimates of payment costs that eliminate secret costs or unexpected charges.
+                    </p>
+                    <p>
+                        Our platform enables users to evaluate the cost of our crypto escrow service, escrow for business acquisition, 
+                        and escrow for machinery and heavy equipment before payments.
+                    </p>
+
+                    <h3>How Escrow Fees Work</h3>
+                    <p>
+                        Escrowly requires customers to pay a fee when using its services for secure crypto transactions. This fee covers:
+                    </p>
+                    <ul>
+                        <li>Transaction monitoring</li>
+                        <li>Smart contract execution</li>
+                        <li>Dispute resolution services</li>
+                        <li>Buyer, seller, and broker protection</li>
+                    </ul>
+                    <p>
+                        The fee gets taken from the escrow funds before the release of money to the parties involved. It depends on transaction size, 
+                        currency type, and the additional agreed-upon services. Users can divide the fee payment or assign it to any party involved in the transaction. 
+                        You can make these arrangements with complete transparency.
+                    </p>
+
+                    <h3>Try the Calculator</h3>
+                    <p>
+                        Users need to provide their deal value and their choice of crypto escrow service to receive a specific charge amount instantly.
+                    </p>
+                    <p>We currently support:</p>
+                    <ul>
+                        <li>USDT (Tether)</li>
+                        <li>USDC (USD Coin)</li>
+                    </ul>
+                    <p>No fiat. No volatility. Just stable, reliable crypto escrow.</p>
+
+                    <h3>Example Scenarios</h3>
+                    <ol>
+                        <li>Escrow for token sales: $50,000 in USDT → Estimated fee: $900</li>
+                        <li>Escrow for Art and Collectables: $10,000 in USDC → Estimated fee: $220</li>
+                        <li>Escrow for International Business Deals: $250,000 in USDT → Estimated fee: $3,750</li>
+                    </ol>
+                    <p>The calculator will allow you to simulate transaction processes and plan for future costs.</p>
+
+                    <h3>Transparent Crypto Escrow - No Surprises</h3>
+                    <p>
+                        Escrowly operates as a platform specifically designed to remove all hidden charges, complex contractual obligations, 
+                        and payment visibility concerns. Our platform prides itself on being the first completely crypto-founded escrow platform 
+                        which transforms trading safety standards during modern digital times.
+                    </p>
+                    <p>It is perfect for:</p>
+                    <ul>
+                        <li>Escrow for Real Estate Closings</li>
+                        <li>Escrow for E-commerce Stores</li>
+                        <li>Escrow for Domain Name Marketplaces</li>
+                        <li>Escrow for Digital items & Games and many more.</li>
+                    </ul>
+                    <p className="call-to-action">Use the Escrowly Fee Calculator</p>
+                    <p className="tagline">Plan Smarter. Trade Safer. Only Pay What's Fair.</p>
+                </div>
             </div>
         </section>
     )
