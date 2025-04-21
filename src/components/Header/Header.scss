@@ -51,10 +51,37 @@
     }
     
     .logo {
-        @media (max-width: 1023px) {
-            margin-left: -8px; 
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        img {
+            height: 24px;
+            width: auto;
         }
-    } 
+
+        .logo-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        img[src*="logo-dark"] + .logo-text {
+            color: #ffffff;
+        }
+
+        img[src*="g10"] + .logo-text {
+            color: #1E274A;
+        }
+    }
+
+    &.header-dark {
+        .logo-text {
+            color: #ffffff;
+        }
+    }
+
     .main-menu {
         display: flex;
         margin-top: 15px;
