@@ -63,8 +63,18 @@
         .logo-text {
             font-family: 'Inter', sans-serif;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 700;
             margin-left: 8px;
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            .tm {
+                font-size: 16px;
+                font-weight: 700;
+                margin-left: 2px;
+                vertical-align: super;
+            }
         }
 
         img[src*="logo-dark"] + .logo-text {
