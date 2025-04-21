@@ -65,7 +65,7 @@ const Header = ({ className }) => {
             <div className="container">
                 <div className="header-wrapper">
                     <div className="logo-container">
-                        <Link to="/" className="logo"><img src={((className === "header-dark" && !mobileMenu) && !scrolled) ? "/img/logo-dark.svg" : "/img/logo.svg"} alt="" /></Link>
+                        <Link to="/" className="logo"><img src={((className === "header-dark" && !mobileMenu) && !scrolled) ? "/img/g10.svg" : "/img/logo-dark.svg"} alt="" /></Link>
                         <UserLocation />
                     </div>
                     <ul className="main-menu">
