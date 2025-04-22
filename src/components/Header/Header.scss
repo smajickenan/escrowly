@@ -45,6 +45,12 @@
         }
     }
     
+    .container {
+        @media (max-width: 1023px) {
+            padding: 0 36px;
+        }
+    }
+    
     .logo-container {
         display: flex;
         align-items: center;
@@ -60,7 +66,7 @@
 
     .main-menu {
         display: flex;
-        margin-top: 15px;
+        margin-top: 12px;
         list-style: none;
         padding-left: 23px;
         position: relative;
