@@ -99,7 +99,14 @@ const ServicePage2 = () => (
                                     <li><strong>Cost Reduction:</strong> Smart contracts eliminate the need for conventional escrow service costs, ensuring that transfers are cheaper.</li>
                                     <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
                                 </ul>
-                                <p>Escrowly offers a reliable and secure way to handle crypto transactions. We protect both buyers and sellers, ensuring that the terms of the deal are fulfilled every time.</p>
+                                <p>Let us imagine that Martha wants to buy Bitcoin from James using an escrow service run by a smart contract. Here is how the transaction would go down:</p>
+                                <ul>
+                                    <li>Martha deposits into a smart contract escrow account</li>
+                                    <li>James receives verification that Martha’s funds are secured in escrow and sends the Bitcoin to Martha</li>
+                                    <li><strong>Cost Reduction:</strong> Smart contracts eliminate the need for conventional escrow service costs, ensuring that transfers are cheaper.</li>
+                                    <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
+                                    <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
+                                </ul>
                                 <Button 
                                     url="#get-started"
                                     text="Get Started Now"
