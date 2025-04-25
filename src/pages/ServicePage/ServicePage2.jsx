@@ -91,7 +91,7 @@ const ServicePage2 = () => (
                                 </ol>
                                 <h4>The Role of Smart Contracts in a Crypto Escrow Service</h4>
                                 <p>Smart contracts are advancing crypto escrow services with automated transactions and eliminating the need for middlemen. Created with blockchain technology, smart contracts automatically implement agreements when the stipulated conditions are met.</p>
-                                <h5>How Do Smart Contracts Improve Crypto Escrow Services</h5>
+                                <h3>How Do Smart Contracts Improve Crypto Escrow Services</h3>
                                 <p></p>
                                 <ul>
                                     <li><strong>Trustless Exchanges:</strong> Since smart contracts automatically execute, users do not have to depend on a third party to process transfers.</li>
@@ -103,10 +103,11 @@ const ServicePage2 = () => (
                                 <ul>
                                     <li>Martha deposits into a smart contract escrow account</li>
                                     <li>James receives verification that Martha’s funds are secured in escrow and sends the Bitcoin to Martha</li>
-                                    <li><strong>Cost Reduction:</strong> Smart contracts eliminate the need for conventional escrow service costs, ensuring that transfers are cheaper.</li>
-                                    <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
-                                    <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
+                                    <li>The smart contract automatically confirms that Martha is now a proud owner of the exchanged Bitcoin</li>
+                                    <li>Once verified, the smart contract lets go of Martha’s funds to James</li>
+                                    <li>If there is any dispute, an arbitrator can evaluate the blockchain records and implement necessary measures</li>
                                 </ul>
+                                <p>A crypto escrow service allows you to conduct fair and secure transactions on the blockchain, offering a well-coveted layer of protection against fraudulent activities. Whether through conventional third parties or smart contracts, these services build trust in the ever-growing crypto industry. As more businesses and individuals embrace the dynamic force of cryptocurrencies, escrow services will increasingly play a crucial role in promoting safe and effective transfers.</p>
                                 <Button 
                                     url="#get-started"
                                     text="Get Started Now"
