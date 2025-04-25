@@ -128,6 +128,7 @@ const ServicePage2 = () => (
                                 </ul>
                                 <p>Decentralized escrow services remove the need for a third-party intermediary by using smart contracts—self-executing contracts that are programmed on a blockchain. The contracts automatically release funds once specific conditions have been met and without the need for human intervention in the process.</p>
                                 <h4>Benefits of Decentralized Crypto Escrow Services</h4>
+                                <p></p>
                                 <ul>
                                     <li><strong>Trustless Transactions:</strong> Users can make transactions without trusting a third party; the blockchain provides transparency and security.</li>
                                     <li><strong>Low Fees:</strong> There is no intermediary, and therefore, transaction fees are usually lower.</li>
@@ -149,7 +150,14 @@ const ServicePage2 = () => (
                                     <li><strong>Multi-Signature Wallets:</strong> Some services employ multi-signature wallets, which require several signatures before the funds can be released.</li>
                                 </ul>
                                 <p></p>
-                                <p>There are several types of crypto escrow services:</p>
+                                <h4>3 - Automated Smart Contract-Based Escrow Services</h4>
+                                <p>The execution of transactions within automated escrow services depends exclusively on blockchain technology and smart contracts. Such services eliminate the necessity of manual handling while guaranteeing transaction safety by enforcing the fulfillment of specific conditions.</p>
+                                <p><strong>Benefits of Automated Smart Contract-Based Escrow Services</strong></p>
+                                <ul>
+                                    <li>Automatic code execution eliminates both human-related mistakes and fraudulent activities from the process.</li>
+                                    <li>Fund distribution happens immediately after smart contract conditions are fulfilled.</li>
+                                    <li>Blockchain technology provides tamper-free security because of its integrated smart contracts.</li>
+                                </ul>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
