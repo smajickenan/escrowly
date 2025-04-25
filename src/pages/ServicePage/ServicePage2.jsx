@@ -113,26 +113,26 @@ const ServicePage2 = () => (
                                 <h4>1 - Centralized and Decentralized Crypto Escrow Services</h4>
                                 <p>A crypto escrow service can either be centralized or decentralized. You can choose between the two, depending on the amount of trust you are willing to place in a third party.</p>
                                 <p>Centralized escrow services are controlled by third-party organizations that supervise and facilitate exchanges. These services run in a similar manner as traditional escrow service platforms, where the middleman secures the funds until all stipulated terms are met.</p>
-                                <h6>2 - Advantages of a Centralized Crypto Escrow Service</h6>
+                                <p>Advantages of a Centralized Crypto Escrow Service</p>
                                 <ul>
                                     <li><strong>Reliability and Trust:</strong> Successful companies with a long history provide users with assurance.</li>
                                     <li><strong>Customer Support:</strong> Users are given customer service representatives who can solve disputes.</li>
                                     <li><strong>Ease of Use:</strong> Centralized services have user-friendly interfaces, making them easy to use even for beginners.</li>
                                 </ul>
-                                <h6>3 - Disadvantages of a Centralized Crypto Escrow Service</h6>
+                                <p>Disadvantages of a Centralized Crypto Escrow Service</p>
                                 <ul>
                                     <li><strong>Control Over Funds:</strong> Users are forced to trust the service to hold and release their funds.</li>
                                     <li><strong>Regulatory Risks:</strong> Some of the centralized escrow websites might be regulated and bound by prohibitive laws within other jurisdictions.</li>
                                     <li><strong>Risk of Hacking:</strong> Since custodial accounts carry money, centralized services have become the immediate target for hacking.</li>
                                 </ul>
                                 <p>Decentralized escrow services remove the need for a third-party intermediary by using smart contracts—self-executing contracts that are programmed on a blockchain. The contracts automatically release funds once specific conditions have been met and without the need for human intervention in the process.</p>
-                                <h4>4 - Benefits of Decentralized Crypto Escrow Services</h4>
+                                <h4>Benefits of Decentralized Crypto Escrow Services</h4>
                                 <ul>
                                     <li><strong>Trustless Transactions:</strong> Users can make transactions without trusting a third party; the blockchain provides transparency and security.</li>
                                     <li><strong>Low Fees:</strong> There is no intermediary, and therefore, transaction fees are usually lower.</li>
                                     <li><strong>Global Availability:</strong> Decentralized services are operating on a blockchain and are consequently accessible to anyone who has internet access, regardless of geographical location.</li>
                                 </ul>
-                                <h4>5 - Disadvantages of Decentralized Crypto Escrow Services</h4>
+                                <p>Disadvantages of Decentralized Crypto Escrow Services</p>
                                 <ul>
                                     <li><strong>Technical Complexity:</strong> Clients need to have an understanding of how smart contracts function and how to write them to be free from exposure.</li>
                                     <li><strong>Irreversibility:</strong> Once money is paid through a smart contract, it cannot be reversed, and this might lead to issues in the event of disputes.</li>
@@ -140,7 +140,7 @@ const ServicePage2 = () => (
                                 </ul>
                                 <h4>2 - Third-Party Escrow Providers</h4>
                                 <p>Third-party crypto escrow services or companies are mediators who ensure secure transactions. They often possess legal support, regulatory systems, and dispute resolution.</p>
-                                <h4>Key Features of Third-Party Escrow Websites/Companies</h4>
+                                <p>Key Features of Third-Party Escrow Websites/Companies</p>
                                 <ul>
                                     <li><strong>Identity Verification:</strong> Most of them follow Know Your Customer (KYC) and Anti-Money Laundering (AML) policies to enhance security.</li>
                                     <li><strong>Arbitration Services:</strong> In the event of a dispute, there is a designated arbitrator who checks the transaction and makes a ruling.</li>
