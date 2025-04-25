@@ -92,6 +92,7 @@ const ServicePage2 = () => (
                                 <h4>The Role of Smart Contracts in a Crypto Escrow Service</h4>
                                 <p>Smart contracts are advancing crypto escrow services with automated transactions and eliminating the need for middlemen. Created with blockchain technology, smart contracts automatically implement agreements when the stipulated conditions are met.</p>
                                 <h5>How Do Smart Contracts Improve Crypto Escrow Services</h5>
+                                <p></p>
                                 <ul>
                                     <li><strong>Trustless Exchanges:</strong> Since smart contracts automatically execute, users do not have to depend on a third party to process transfers.</li>
                                     <li><strong>Transparent:</strong> Smart contracts are built on the blockchain, leading them to be foolproof and publicly confirmable.</li>
