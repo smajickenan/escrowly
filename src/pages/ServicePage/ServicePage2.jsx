@@ -81,19 +81,22 @@ const ServicePage2 = () => (
                                 <h4>Step-by-Step Process of a Crypto Escrow Service</h4>
                                 <p>For a crypto escrow service to function properly, there must be an organized workflow to ensure security and transparency.</p>
                                 <ol>
-                                    <li><strong>Mutual Agreement between Interested Parties</strong>: Both entities need to come to an agreement on the terms of the exchange, including the price, the timeframe, and other details that must be met before funds are transferred.</li>
-                                    <li><strong>Creation of an Escrowly Account</strong>: The buyer transfers the stated amount of crypto into a secure escrow account monitored by the escrow provider.</li>
-                                    <li><strong>Verification</strong>: The escrow provider confirms the receipt of funds and informs both parties that the exchange is in progress.</li>
-                                    <li><strong>Delivery</strong>: The seller presents the stipulated cryptocurrencies as per the contract.</li>
-                                    <li><strong>Inspection</strong>: The buyer confirms that the received digital assets meet the pre-determined requirements. If they do, the buyer approves the transaction.</li>
-                                    <li><strong>Disbursement of Funds</strong>: Once both the buyer and the seller confirm that the terms of the contract are met, the escrow provider then releases the funds to the seller, completing the transaction.</li>
-                                    <li><strong>Dispute Resolution</strong>: In the event of a disagreement, the escrow provider manages the situation by mediating and deciding the fair outcome based on the evidence provided.</li>
+                                    <li><strong>Mutual Agreement between Interested Parties:</strong> Both entities need to come to an agreement on the terms of the exchange, including the price, the timeframe, and other details that must be met before funds are transferred.</li>
+                                    <li><strong>Creation of an Escrowly Account:</strong> The buyer transfers the stated amount of crypto into a secure escrow account monitored by the escrow provider.</li>
+                                    <li><strong>Verification:</strong> The escrow provider confirms the receipt of funds and informs both parties that the exchange is in progress.</li>
+                                    <li><strong>Delivery:</strong> The seller presents the stipulated cryptocurrencies as per the contract.</li>
+                                    <li><strong>Inspection:</strong> The buyer confirms that the received digital assets meet the pre-determined requirements. If they do, the buyer approves the transaction.</li>
+                                    <li><strong>Disbursement of Funds:</strong> Once both the buyer and the seller confirm that the terms of the contract are met, the escrow provider then releases the funds to the seller, completing the transaction.</li>
+                                    <li><strong>Dispute Resolution:</strong> In the event of a disagreement, the escrow provider manages the situation by mediating and deciding the fair outcome based on the evidence provided.</li>
                                 </ol>
                                 <h4>The Role of Smart Contracts in a Crypto Escrow Service</h4>
+                                <p>Smart contracts are advancing crypto escrow services with automated transactions and eliminating the need for middlemen. Created with blockchain technology, smart contracts automatically implement agreements when the stipulated conditions are met.</p>
+                                <h5>How Do Smart Contracts Improve Crypto Escrow Services</h5>
                                 <ul>
-                                    <li>Confidence for Buyers: You can be sure that you’ll receive what was agreed upon. If the item doesn’t match the description, you can return it and receive a refund.</li>
-                                    <li>Security for Sellers: Fraudulent payments are eliminated since funds are held in escrow and only released once the buyer confirms the item’s condition.</li>
-                                    <li>Low Fees: Our fees are minimal and can be split between the buyer and seller, making the service affordable and beneficial for both parties.</li>
+                                    <li><strong>Trustless Exchanges:</strong> Since smart contracts automatically execute, users do not have to depend on a third party to process transfers.</li>
+                                    <li><strong>Transparent:</strong> Smart contracts are built on the blockchain, leading them to be foolproof and publicly confirmable.</li>
+                                    <li><strong>Cost Reduction:</strong> Smart contracts eliminate the need for conventional escrow service costs, ensuring that transfers are cheaper.</li>
+                                    <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
                                 </ul>
                                 <p>Escrowly offers a reliable and secure way to handle crypto transactions. We protect both buyers and sellers, ensuring that the terms of the deal are fulfilled every time.</p>
                                 <Button 
