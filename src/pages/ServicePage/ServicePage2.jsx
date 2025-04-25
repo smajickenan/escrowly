@@ -132,8 +132,20 @@ const ServicePage2 = () => (
                                     <li><strong>Low Fees:</strong> There is no intermediary, and therefore, transaction fees are usually lower.</li>
                                     <li><strong>Global Availability:</strong> Decentralized services are operating on a blockchain and are consequently accessible to anyone who has internet access, regardless of geographical location.</li>
                                 </ul>
-                                <p>There are several types of crypto escrow services:</p>
-                                <p>There are several types of crypto escrow services:</p>
+                                <h4>5 - Disadvantages of Decentralized Crypto Escrow Services</h4>
+                                <ul>
+                                    <li><strong>Technical Complexity:</strong> Clients need to have an understanding of how smart contracts function and how to write them to be free from exposure.</li>
+                                    <li><strong>Irreversibility:</strong> Once money is paid through a smart contract, it cannot be reversed, and this might lead to issues in the event of disputes.</li>
+                                    <li><strong>Limited Dispute Resolution:</strong> Although there are a few decentralized platforms that offer arbitration facilities, they are not as strong as the ones in the centralized alternatives.</li>
+                                </ul>
+                                <h4>2 - Third-Party Escrow Providers</h4>
+                                <p>Third-party crypto escrow services or companies are mediators who ensure secure transactions. They often possess legal support, regulatory systems, and dispute resolution.</p>
+                                <h4>Key Features of Third-Party Escrow Websites/Companies</h4>
+                                <ul>
+                                    <li><strong>Identity Verification:</strong> Most of them follow Know Your Customer (KYC) and Anti-Money Laundering (AML) policies to enhance security.</li>
+                                    <li><strong>Arbitration Services:</strong> In the event of a dispute, there is a designated arbitrator who checks the transaction and makes a ruling.</li>
+                                    <li><strong>Multi-Signature Wallets:</strong> Some services employ multi-signature wallets, which require several signatures before the funds can be released.</li>
+                                </ul>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
