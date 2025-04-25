@@ -15,12 +15,12 @@ import Innovate from "../../sections/Innovate/Innovate";
 const ServicePage2 = () => (
     <>
         <Helmet>
-            <title>Crypto Escrow Services | Escrowly.com</title>
-            <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-            <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+            <title>Crypto Escrow Services | Secure Bitcoin & USDT Escrow – Escrowly</title>
+            <meta name="description" content="Escrowly offers secure crypto escrow services for Bitcoin, USDT, Ethereum, NFTs, and DeFi transactions. Protect your assets with smart contracts." />
+            <meta name="keywords" content="crypto escrow service, bitcoin escrow service, secure crypto transactions, smart contract escrow, blockchain escrow service, crypto escrow platform, decentralized escrow, USDT escrow service, Ethereum escrow, escrow wallet for crypto, NFT escrow, secure P2P crypto escrow, DeFi escrow, token sale escrow, cross-border crypto escrow, escrow for crypto traders, crypto payment protection" />
             <meta name="author" content="Escrowly Crypto Escrow Team" />
-            <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-            <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+            <meta property="og:title" content="Escrowly – Secure Crypto Escrow for Bitcoin, Ethereum, and NFTs" />
+            <meta property="og:description" content="Trade safely with Escrowly. A trusted crypto escrow platform for Bitcoin, Ethereum, USDT, NFTs, and smart contract-based transactions." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
             <meta property="og:url" content="https://escrowly.com" />
             <meta name="twitter:card" content="summary_large_image" />
