@@ -58,13 +58,18 @@ const ServicePage2 = () => (
                                 </ol>
                                 <p>For instance, freelancers are often known to accept cryptocurrencies as payment for their services. With the aid of a crypto escrow service, they can receive payment after they have delivered the work as per the agreed terms.</p>
                                 <h3>The Increasing Demand for Crypto Escrow Services</h3>
-                                <p>There are several steps you can take to minimize the risks when engaging in online crypto transactions:</p>
+                                <p>Crypto escrow services are gaining popularity thanks to the record-breaking adoption of cryptocurrencies across several industries. These are some of the reasons why industries are searching for a crypto escrow service:</p>
                                 <ul>
-                                    <li>Use Trusted Platforms: Many online marketplaces offer a rating system for sellers, helping you identify reputable sellers and avoid potential scammers.</li>
-                                    <li>Use Secure Payment Methods: While cryptocurrencies offer anonymity, it's essential to use trusted services that protect your transaction. Escrowly ensures that your funds are safe until all conditions of the deal are met.</li>
-                                    <li>Inspection Terms: Our escrow service allows you to set inspection terms to verify that the item matches its description. If it doesn't pass inspection, you can return it and get your funds back.</li>
+                                    <li>Increasing Cryptocurrency Adoption: With most of the world employing cryptocurrencies for transactions, there is a significant demand for trust and security.</li>
+                                    <li>Increase in Online Platforms: Marketplaces that deal with NFTs (non-fungible tokens), and cryptocurrencies and offer decentralized finance (DeFi) services require reliable transaction mechanisms.</li>
+                                    <li>Smart Contract Developments: Advancements in smart contract-based escrow services, such as automation, offer transparency and eliminate dependence on middlemen.</li>
+                                    <li>Uncertainty in Regulations: Several countries have not clearly defined their regulations for cryptocurrency transactions, leading to a need for a safe crypto escrow service that guarantees regulatory compliance.</li>
                                 </ul>
-                                <h3>Why Use Escrowly for Crypto Transactions</h3>
+                                <p>The use of crypto escrow services is prevalent in peer-to-peer (P2P) transactions, where parties exchange crypto directly. Without a crypto escrow service, the buyer stands a chance of losing money if the seller defaults on their promise, and vice versa. With the evolution of the crypto industry, crypto escrow services will be key players in safeguarding exchanges and building trust.</p>
+                                <h3>How Does a Crypto Escrow Service Work?</h3>
+                                <p>Blockchain transactions have their fair share of risks, especially when the parties of an exchange are unknown. A crypto escrow service serves as a ‘safe space’ that keeps the funds until the terms of an agreement are met. This mechanism offers security, trust, and openness, qualities that are highly sought after in every crypto transaction.</p>
+                                <h3>Who Are The Key Players in a Crypto Escrow Transaction?</h3>
+                                <p>A<strong>crypto escrow service</strong> involves several shareholders, each of whom plays a major role in ensuring a safe and seamless transaction. They are:</p>
                                 <ul>
                                     <li>Security & Confidence: Our escrow service guarantees that funds will only be transferred when all deal conditions are satisfied.</li>
                                     <li>Additional Services: We offer extra services like ownership verification and lien checks, ensuring that your transaction is as secure as possible.</li>
