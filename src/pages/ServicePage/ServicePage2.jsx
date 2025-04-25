@@ -113,13 +113,13 @@ const ServicePage2 = () => (
                                 <h4>1 - Centralized and Decentralized Crypto Escrow Services</h4>
                                 <p>A crypto escrow service can either be centralized or decentralized. You can choose between the two, depending on the amount of trust you are willing to place in a third party.</p>
                                 <p>Centralized escrow services are controlled by third-party organizations that supervise and facilitate exchanges. These services run in a similar manner as traditional escrow service platforms, where the middleman secures the funds until all stipulated terms are met.</p>
-                                <h4>2 - Advantages of a Centralized Crypto Escrow Service</h4>
+                                <h6>2 - Advantages of a Centralized Crypto Escrow Service</h6>
                                 <ul>
                                     <li><strong>Reliability and Trust:</strong> Successful companies with a long history provide users with assurance.</li>
                                     <li><strong>Customer Support:</strong> Users are given customer service representatives who can solve disputes.</li>
                                     <li><strong>Ease of Use:</strong> Centralized services have user-friendly interfaces, making them easy to use even for beginners.</li>
                                 </ul>
-                                <h4>3 - Disadvantages of a Centralized Crypto Escrow Service</h4>
+                                <h6>3 - Disadvantages of a Centralized Crypto Escrow Service</h6>
                                 <ul>
                                     <li><strong>Control Over Funds:</strong> Users are forced to trust the service to hold and release their funds.</li>
                                     <li><strong>Regulatory Risks:</strong> Some of the centralized escrow websites might be regulated and bound by prohibitive laws within other jurisdictions.</li>
