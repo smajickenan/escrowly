@@ -45,10 +45,11 @@ const ServicePage2 = () => (
                         <img className="service-page-image" src="/images/service-page-2.jpg" alt="Crypto Escrow Services by Escrowly.com" />
                         <div className="service-page-content row">
                             <div className="col col-left">
-                                <h3>What is a Crypto Escrow Service?</h3>
+                                <h2>Introduction to Crypto Escrow Services</h2>
+                                <h4>What is a Crypto Escrow Service?</h4>
                                 <p>A <strong>crypto escrow service</strong> is a secure mechanism built to safeguard all parties in crypto transactions. It involves a reliable third party or a smart contract that keeps the digital assets in escrow until the terms of the agreement are met. The main purpose of a crypto escrow service is to reduce the risks associated with fraudulent activities or non-fulfillment of contractual obligations.</p>
                                 <p>For example, if you want to buy some Bitcoin, the first phase of the <strong>crypto escrow service</strong> is to hold the funds from you (the buyer) in escrow. Once the vendor (the seller) produces the agreed-upon quantity of digital currencies, the crypto escrow service releases the payment. This mechanism guarantees that all parties are satisfied, creating a safe and reliable transaction environment.</p>
-                                <h3>Why do you need a Crypto Escrow Service?</h3>
+                                <h4>Why do you need a Crypto Escrow Service?</h4>
                                 <p>The irreversible nature of blockchain transactions has birthed the need for <strong>crypto escrow services</strong>. Unlike conventional methods of payment, crypto transactions cannot be reversed once completed. This trait increases the demand for a crypto escrow service for high-value transactions, making sure that neither the buyer nor the seller can flee with the funds before meeting their end of the deal.</p>
                                 <p>The major roles of a crypto escrow service are:</p>
                                 <ol>
@@ -57,7 +58,7 @@ const ServicePage2 = () => (
                                     <li><strong>Trust Cultivation</strong>: Individuals and businesses that engage in digital assets are more confident when there is a crypto escrow service to protect their funds.</li>
                                 </ol>
                                 <p>For instance, freelancers are often known to accept cryptocurrencies as payment for their services. With the aid of a crypto escrow service, they can receive payment after they have delivered the work as per the agreed terms.</p>
-                                <h3>The Increasing Demand for Crypto Escrow Services</h3>
+                                <h4>The Increasing Demand for Crypto Escrow Services</h4>
                                 <p>Crypto escrow services are gaining popularity thanks to the record-breaking adoption of cryptocurrencies across several industries. These are some of the reasons why industries are searching for a crypto escrow service:</p>
                                 <ul>
                                     <li>Increasing Cryptocurrency Adoption: With most of the world employing cryptocurrencies for transactions, there is a significant demand for trust and security.</li>
@@ -69,12 +70,14 @@ const ServicePage2 = () => (
                                 <h3>How Does a Crypto Escrow Service Work?</h3>
                                 <p>Blockchain transactions have their fair share of risks, especially when the parties of an exchange are unknown. A crypto escrow service serves as a ‘safe space’ that keeps the funds until the terms of an agreement are met. This mechanism offers security, trust, and openness, qualities that are highly sought after in every crypto transaction.</p>
                                 <h4>Who Are The Key Players in a Crypto Escrow Transaction?</h4>
-                                <p>A<strong>crypto escrow service</strong> involves several shareholders, each of whom plays a major role in ensuring a safe and seamless transaction. They are:</p>
+                                <p>A <strong>crypto escrow service</strong> involves several shareholders, each of whom plays a major role in ensuring a safe and seamless transaction. They are:</p>
                                 <ul>
-                                    <li>Security & Confidence: Our escrow service guarantees that funds will only be transferred when all deal conditions are satisfied.</li>
-                                    <li>Additional Services: We offer extra services like ownership verification and lien checks, ensuring that your transaction is as secure as possible.</li>
+                                    <li><strong>Buyer</strong>: This entity is the one purchasing the cryptocurrency.</li>
+                                    <li><strong>Seller</strong>: This entity is the one offering the cryptocurrency.</li>
+                                    <li><strong>Escrow Provider</strong>: A trusted entity, which can be either a third-party service or a smart contract, that keeps the funds until the conditions of the agreement are fulfilled.</li>
                                 </ul>
-                                <h3>Escrowly Process in 5 Simple Steps</h3>
+                                <p>The relationship among these parties makes sure that the funds are only released when both the buyer and the seller keep to the stipulated conditions.</p>
+                                <h4>Escrowly Process in 5 Simple Steps</h4>
                                 <ol>
                                     <li><strong>Agree on Terms</strong>: The buyer and seller agree on the price, shipping terms, and inspection conditions. All details of the transaction are confirmed in advance.</li>
                                     <li><strong>Payment</strong>: The buyer sends cryptocurrency to a secure escrow account. Once the payment is verified, the seller is notified that funds have been secured in escrow.</li>
