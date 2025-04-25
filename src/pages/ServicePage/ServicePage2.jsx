@@ -45,8 +45,8 @@ const ServicePage2 = () => (
                         <img className="service-page-image" src="/images/service-page-2.jpg" alt="Crypto Escrow Services by Escrowly.com" />
                         <div className="service-page-content row">
                             <div className="col col-left">
-                                <h3>How Escrowly Protects Your Transactions</h3>
-                                
+                                <h3>What is a Crypto Escrow Service?</h3>
+                                <p>A <strong>crypto escrow service</strong> is a secure mechanism built to safeguard all parties in crypto transactions. It involves a reliable third party or a smart contract that keeps the digital assets in escrow until the terms of the agreement are met. The main purpose of a crypto escrow service is to reduce the risks associated with fraudulent activities or non-fulfillment of contractual obligations.</p>
                                 <ol>
                                     <li><strong>Buyer Protection</strong>: With our escrow service, you can rest assured that funds will only be released once all conditions of the transaction are met. If the item doesn't match the description, you can return it and receive a full refund.</li>
                                     <li><strong>Seller Confidence</strong>: Sellers can trust that funds will only be disbursed after the buyer confirms the item was received in the agreed-upon condition.</li>
