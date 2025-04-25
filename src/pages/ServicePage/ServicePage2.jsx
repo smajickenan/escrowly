@@ -151,6 +151,7 @@ const ServicePage2 = () => (
                                 </ul>
                                 <p></p>
                                 <h4>3 - Automated Smart Contract-Based Escrow Services</h4>
+                                <p></p>
                                 <p>The execution of transactions within automated escrow services depends exclusively on blockchain technology and smart contracts. Such services eliminate the necessity of manual handling while guaranteeing transaction safety by enforcing the fulfillment of specific conditions.</p>
                                 <p><strong>Benefits of Automated Smart Contract-Based Escrow Services</strong></p>
                                 <ul>
@@ -158,7 +159,6 @@ const ServicePage2 = () => (
                                     <li>Fund distribution happens immediately after smart contract conditions are fulfilled.</li>
                                     <li>Blockchain technology provides tamper-free security because of its integrated smart contracts.</li>
                                 </ul>
-                                <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
