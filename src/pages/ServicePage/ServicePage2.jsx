@@ -45,9 +45,10 @@ const ServicePage2 = () => (
                         <img className="service-page-image" src="/images/service-page-2.jpg" alt="Crypto Escrow Services by Escrowly.com" />
                         <div className="service-page-content row">
                             <div className="col col-left">
-                                <h2>Introduction to Crypto Escrow Services</h2>
+                                <h3>Introduction to Crypto Escrow Services</h3>
+                                <p></p>
                                 <h4>What is a Crypto Escrow Service?</h4>
-                                <p>A <strong>crypto escrow service</strong> is a secure mechanism built to safeguard all parties in crypto transactions. It involves a reliable third party or a smart contract that keeps the digital assets in escrow until the terms of the agreement are met. The main purpose of a crypto escrow service is to reduce the risks associated with fraudulent activities or non-fulfillment of contractual obligations.</p>
+                                <p>A crypto escrow service is a secure mechanism built to safeguard all parties in crypto transactions. It involves a reliable third party or a smart contract that keeps the digital assets in escrow until the terms of the agreement are met. The main purpose of a crypto escrow service is to reduce the risks associated with fraudulent activities or non-fulfillment of contractual obligations.</p>
                                 <p>For example, if you want to buy some Bitcoin, the first phase of the <strong>crypto escrow service</strong> is to hold the funds from you (the buyer) in escrow. Once the vendor (the seller) produces the agreed-upon quantity of digital currencies, the crypto escrow service releases the payment. This mechanism guarantees that all parties are satisfied, creating a safe and reliable transaction environment.</p>
                                 <h4>Why do you need a Crypto Escrow Service?</h4>
                                 <p>The irreversible nature of blockchain transactions has birthed the need for <strong>crypto escrow services</strong>. Unlike conventional methods of payment, crypto transactions cannot be reversed once completed. This trait increases the demand for a crypto escrow service for high-value transactions, making sure that neither the buyer nor the seller can flee with the funds before meeting their end of the deal.</p>
