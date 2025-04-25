@@ -91,7 +91,7 @@ const ServicePage2 = () => (
                                 </ol>
                                 <h4>The Role of Smart Contracts in a Crypto Escrow Service</h4>
                                 <p>Smart contracts are advancing crypto escrow services with automated transactions and eliminating the need for middlemen. Created with blockchain technology, smart contracts automatically implement agreements when the stipulated conditions are met.</p>
-                                <h3>How Do Smart Contracts Improve Crypto Escrow Services</h3>
+                                <h4>How Do Smart Contracts Improve Crypto Escrow Services</h4>
                                 <p></p>
                                 <ul>
                                     <li><strong>Trustless Exchanges:</strong> Since smart contracts automatically execute, users do not have to depend on a third party to process transfers.</li>
@@ -108,6 +108,30 @@ const ServicePage2 = () => (
                                     <li>If there is any dispute, an arbitrator can evaluate the blockchain records and implement necessary measures</li>
                                 </ul>
                                 <p>A crypto escrow service allows you to conduct fair and secure transactions on the blockchain, offering a well-coveted layer of protection against fraudulent activities. Whether through conventional third parties or smart contracts, these services build trust in the ever-growing crypto industry. As more businesses and individuals embrace the dynamic force of cryptocurrencies, escrow services will increasingly play a crucial role in promoting safe and effective transfers.</p>
+                                <h3>Types of Crypto Escrow Services</h3>
+                                <p>There are several types of crypto escrow services:</p>
+                                <h4>1 - Centralized and Decentralized Crypto Escrow Services</h4>
+                                <p>A crypto escrow service can either be centralized or decentralized. You can choose between the two, depending on the amount of trust you are willing to place in a third party.</p>
+                                <p>Centralized escrow services are controlled by third-party organizations that supervise and facilitate exchanges. These services run in a similar manner as traditional escrow service platforms, where the middleman secures the funds until all stipulated terms are met.</p>
+                                <h4>Advantages of a Centralized Crypto Escrow Service</h4>
+                                <p>Reliability and Trust: Successful companies with a long history provide users with assurance.</p>
+                                <p>Customer Support: Users are given customer service representatives who can solve disputes.</p>
+                                <p>Ease of Use: Centralized services have user-friendly interfaces, making them easy to use even for beginners.</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+                                <p>There are several types of crypto escrow services:</p>
+
                                 <Button 
                                     url="#get-started"
                                     text="Get Started Now"
