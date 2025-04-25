@@ -111,6 +111,7 @@ const ServicePage2 = () => (
                                 <h3>Types of Crypto Escrow Services</h3>
                                 <p>There are several types of crypto escrow services:</p>
                                 <h4>1 - Centralized and Decentralized Crypto Escrow Services</h4>
+                                <p></p>
                                 <p>A crypto escrow service can either be centralized or decentralized. You can choose between the two, depending on the amount of trust you are willing to place in a third party.</p>
                                 <p>Centralized escrow services are controlled by third-party organizations that supervise and facilitate exchanges. These services run in a similar manner as traditional escrow service platforms, where the middleman secures the funds until all stipulated terms are met.</p>
                                 <p>Advantages of a Centralized Crypto Escrow Service</p>
@@ -139,6 +140,7 @@ const ServicePage2 = () => (
                                     <li><strong>Limited Dispute Resolution:</strong> Although there are a few decentralized platforms that offer arbitration facilities, they are not as strong as the ones in the centralized alternatives.</li>
                                 </ul>
                                 <h4>2 - Third-Party Escrow Providers</h4>
+                                <p></p>
                                 <p>Third-party crypto escrow services or companies are mediators who ensure secure transactions. They often possess legal support, regulatory systems, and dispute resolution.</p>
                                 <p>Key Features of Third-Party Escrow Websites/Companies</p>
                                 <ul>
@@ -146,7 +148,7 @@ const ServicePage2 = () => (
                                     <li><strong>Arbitration Services:</strong> In the event of a dispute, there is a designated arbitrator who checks the transaction and makes a ruling.</li>
                                     <li><strong>Multi-Signature Wallets:</strong> Some services employ multi-signature wallets, which require several signatures before the funds can be released.</li>
                                 </ul>
-                                <p>There are several types of crypto escrow services:</p>
+                                <p></p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
                                 <p>There are several types of crypto escrow services:</p>
