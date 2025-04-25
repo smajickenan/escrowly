@@ -68,7 +68,7 @@ const ServicePage2 = () => (
                                 <p>The use of crypto escrow services is prevalent in peer-to-peer (P2P) transactions, where parties exchange crypto directly. Without a crypto escrow service, the buyer stands a chance of losing money if the seller defaults on their promise, and vice versa. With the evolution of the crypto industry, crypto escrow services will be key players in safeguarding exchanges and building trust.</p>
                                 <h3>How Does a Crypto Escrow Service Work?</h3>
                                 <p>Blockchain transactions have their fair share of risks, especially when the parties of an exchange are unknown. A crypto escrow service serves as a ‘safe space’ that keeps the funds until the terms of an agreement are met. This mechanism offers security, trust, and openness, qualities that are highly sought after in every crypto transaction.</p>
-                                <h3>Who Are The Key Players in a Crypto Escrow Transaction?</h3>
+                                <h4>Who Are The Key Players in a Crypto Escrow Transaction?</h4>
                                 <p>A<strong>crypto escrow service</strong> involves several shareholders, each of whom plays a major role in ensuring a safe and seamless transaction. They are:</p>
                                 <ul>
                                     <li>Security & Confidence: Our escrow service guarantees that funds will only be transferred when all deal conditions are satisfied.</li>
