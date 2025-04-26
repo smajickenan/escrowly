@@ -47,6 +47,8 @@ const AllowedGoodsAndServices = () => {
                                         <p>Escrowly is an all-purpose crypto escrow platform that provides a single gateway to secure verified transactions in over thirty business sectors. Our smart contract escrow technology, dispute resolution, and blockchain-backed protection guarantee closing high-value equipment deals.</p>
                                         <h3>Cryptocurrencies and other Digital Assets</h3>
                                         <p>In this age of trading digital assets, the need for a secure exchange platform has become higher than ever. With Escrowly, you can safely trade all major cryptocurrencies through smart contract system tracking, which provides maximum protection. Escrowly enables Bitcoin escrow service along with Stable coins escrow service between individuals and businesses and among peer-to-peer entities:</p>
+                                        <p></p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/allowed-goods.webp" alt="Escrolwy Allowed Goods & Services"/>
                                         <ul>
                                             <li>Ethereum escrow service for dApps, ICOs, and token launches.</li>
                                             <li>USDT escrow service for stable, fast crypto payments.</li>
