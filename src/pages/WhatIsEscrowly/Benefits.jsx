@@ -45,7 +45,6 @@ const Benefits = () => {
                                     <div className="blog-article-content">
                                         <p><strong>The Ultimate Crypto Escrow Platform for Secure, Smart, and Scalable Transactions</strong></p>
                                         <p>Escrowly keeps you secure from modern digital threats and payment problems across all crypto and DeFi trades and online collectible purchases. With our crypto escrow service, every transaction is held, verified, and disbursed securely, thanks to escrow smart contracts crypto and foolproof protocols.</p>
-                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/escrowly-benefits.webp" alt="Escrolwy Benefits"/>
                                         <h3>Ironclad Security for Every Transaction</h3>
                                         <p>Escrowly ensures the safekeeping of your deposited funds without any exceptions. For instance, our platform has an USDT and USDC escrow service to maintain your funds in a secure escrow wallet for crypto until the agreed business conditions are complete.</p>
                                         <ul>
@@ -56,6 +55,7 @@ const Benefits = () => {
                                         </ul>
                                         <p>If you want the best crypto payment protection escrow on the market, choose Escrowly.com!</p>
                                         <blockquote>Users across the globe find Escrowly to be an exceptional crypto escrow service, and they are making it their preferred option for today's digital assets. Customers from over 150 countries choose our platform for their deals doing business operations, online work, and enterprise needs.</blockquote>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/escrowly-benefits.webp" alt="Escrolwy Benefits"/>
                                         <h3>Fast and Foolproof Online Deals</h3>
                                         <p>You can now receive your payment within minutes instead of waiting the usual several days. Through its services, Escrowly allows users to carry out secure P2P crypto escrow transactions in real-time - whether it is for escrow for car lease payments, cross-border crypto escrow deals, and many more.</p>
                                         <p>It is suitable for:</p>

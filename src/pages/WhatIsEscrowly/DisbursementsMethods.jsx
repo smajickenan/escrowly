@@ -73,6 +73,7 @@ const DisbursementsMethods = () => {
                                             <li>Escrow for all kind of business transactions</li>
                                         </ul>
                                         <p>All of these services are available on Escrowly strictly by crypto. No banks. No red tape. Just transparent, global, crypto-native disbursements</p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/disbursements-methods.webp" alt="Escrolwy Disbursements Methods"/>
                                         <h3>Flexible Disbursement - It’s Entirely Up to You!</h3>
                                         <p>You control how your funds are disbursed</p>
                                         <p><strong>Single-Payout:</strong> You get all your payments once customers approve the job delivery. This is common in escrow for second-hand car sales, escrow for land auctions, and escrow for art and collectibles.</p>
