@@ -45,6 +45,7 @@ const ApprovedCarriers = () => {
                                         <h3>Safe, Trusted, and Verified Transport for Every Escrow Transaction</h3>
                                         <p>The secure delivery process holds equal importance to payment security during the transfer of valuable goods from watches to industrial equipment and used cars. Our partner network of specific carriers collaborates with Escrowly to provide secure delivery that supports our cryptographic escrow service and proven carrier service. Escrowly provides end-to-end protected services that extend from cryptocurrency transactions to secure cargo delivery across all escrow payment types, such as escrow for car dealership payments, escrow for second-hand car sales, and escrow and machinery and heavy equipment purchases.</p>
                                         <blockquote>Crypto may move at the speed of light—but physical items still need wheels. Escrowly bridges both worlds: using smart contracts for secure crypto transactions, and approved carriers for safe delivery.</blockquote>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/approved-carriers.webp" alt="Approved Carriers"/>
                                         <h3>Why Use Approved Carriers?</h3>
                                         <p>The Escrowly platform establishes an ecosystem that safeguards all groups involved in trade transactions, from buyers to sellers and brokers, regardless of industry. The transaction security provided by smart contract escrow and blockchain escrow works with our approved carrier network to secure physical goods transfer.</p>
                                         <p>Using Escrowly's logistics partners means:</p>
@@ -65,15 +66,6 @@ const ApprovedCarriers = () => {
                                             <li><strong>API Integration:</strong> The best carriers within Escrowly provide live shipment tracking as an API feature that feeds directly into their dashboard.</li>
                                             <li><strong>Insurance and Dispute Support:</strong> Escrowly requires providers to deliver protection plans and their staff participation for dispute management.</li>
                                         </ul>
-                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/approved-carriers.webp" alt="Approved Carriers"/>
-
-
-
-
-
-
-
-
                                         <h3>Can I Use My Own Carrier?</h3>
                                         <p>The use of Escrowly-approved carriers is recommended strongly for complete protection; however, you can still choose your own carrier. Using your own shipping provider provides flexibility, but Escrowly recommends its selected carriers for full coverage.</p>
                                         <ul>
