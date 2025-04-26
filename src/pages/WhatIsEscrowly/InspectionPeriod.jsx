@@ -46,6 +46,7 @@ const InspectionPeriod = () => {
                                         <h3>What Is the Inspection Period?</h3>
                                         <p>During the inspection period, buyers have the ability to check and verify that the delivered product satisfies their agreed specifications. Payment from the escrow wallet will be released to the seller only after the approving buyer warrants everything is in order.</p>
                                         <p>The inspection period ensures secure crypto transactions and stops both parties from being rushed, especially in cases where trust is vital such as crypto escrow for businesses, crypto escrow for online, escrow for second-hand car sales, and many others.</p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/inspection-period.webp" alt="Inspection Period"/>
                                         <h3>How It Works?</h3>
                                         <ol>
                                             <li>1. The transaction starts with the seller and the buyer establishing terms. Subsequently, the buyer makes a deposit to the crypto escrow platform.</li>
