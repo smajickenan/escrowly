@@ -56,31 +56,31 @@ const ServicePage2 = () => (
                                 <p>The irreversible nature of blockchain transactions has birthed the need for <strong>crypto escrow services</strong>. Unlike conventional methods of payment, crypto transactions cannot be reversed once completed. This trait increases the demand for a crypto escrow service for high-value transactions, making sure that neither the buyer nor the seller can flee with the funds before meeting their end of the deal.</p>
                                 <p>The major roles of a crypto escrow service are:</p>
                                 <ol>
-                                    <li><strong>Fraud Elimination</strong>: The main purpose of a crypto escrow service is to reduce the possibility of fraudulent activities. It achieves this by keeping the funds in a safe environment.</li>
-                                    <li><strong>Dispute Resolution</strong>: In the event of a dispute, a crypto escrow service acts as a mediator to yield fair results.</li>
-                                    <li><strong>Trust Cultivation</strong>: Individuals and businesses that engage in digital assets are more confident when there is a crypto escrow service to protect their funds.</li>
+                                    <li><strong>Fraud Elimination:</strong> The main purpose of a crypto escrow service is to reduce the possibility of fraudulent activities. It achieves this by keeping the funds in a safe environment.</li>
+                                    <li><strong>Dispute Resolution:</strong> In the event of a dispute, a crypto escrow service acts as a mediator to yield fair results.</li>
+                                    <li><strong>Trust Cultivation:</strong> Individuals and businesses that engage in digital assets are more confident when there is a crypto escrow service to protect their funds.</li>
                                 </ol>
                                 <p>For instance, freelancers are often known to accept cryptocurrencies as payment for their services. With the aid of a crypto escrow service, they can receive payment after they have delivered the work as per the agreed terms.</p>
                                 <h4>The Increasing Demand for Crypto Escrow Services</h4>
                                 <p></p>
                                 <p>Crypto escrow services are gaining popularity thanks to the record-breaking adoption of cryptocurrencies across several industries. These are some of the reasons why industries are searching for a crypto escrow service:</p>
-                                <ul>
-                                    <li>Increasing Cryptocurrency Adoption: With most of the world employing cryptocurrencies for transactions, there is a significant demand for trust and security.</li>
-                                    <li>Increase in Online Platforms: Marketplaces that deal with NFTs (non-fungible tokens), and cryptocurrencies and offer decentralized finance (DeFi) services require reliable transaction mechanisms.</li>
-                                    <li>Smart Contract Developments: Advancements in smart contract-based escrow services, such as automation, offer transparency and eliminate dependence on middlemen.</li>
-                                    <li>Uncertainty in Regulations: Several countries have not clearly defined their regulations for cryptocurrency transactions, leading to a need for a safe crypto escrow service that guarantees regulatory compliance.</li>
-                                </ul>
+                                <ol>
+                                    <li><strong>Increasing Cryptocurrency Adoption:</strong> With most of the world employing cryptocurrencies for transactions, there is a significant demand for trust and security.</li>
+                                    <li><strong>Increase in Online Platforms:</strong> Marketplaces that deal with NFTs (non-fungible tokens), and cryptocurrencies and offer decentralized finance (DeFi) services require reliable transaction mechanisms.</li>
+                                    <li><strong>Smart Contract Developments:</strong> Advancements in smart contract-based escrow services, such as automation, offer transparency and eliminate dependence on middlemen.</li>
+                                    <li><strong>Uncertainty in Regulations:</strong> Several countries have not clearly defined their regulations for cryptocurrency transactions, leading to a need for a safe crypto escrow service that guarantees regulatory compliance.</li>
+                                </ol>
                                 <p>The use of crypto escrow services is prevalent in peer-to-peer (P2P) transactions, where parties exchange crypto directly. Without a crypto escrow service, the buyer stands a chance of losing money if the seller defaults on their promise, and vice versa. With the evolution of the crypto industry, crypto escrow services will be key players in safeguarding exchanges and building trust.</p>
                                 <h3>How Does a Crypto Escrow Service Work?</h3>
                                 <p>Blockchain transactions have their fair share of risks, especially when the parties of an exchange are unknown. A crypto escrow service serves as a ‘safe space’ that keeps the funds until the terms of an agreement are met. This mechanism offers security, trust, and openness, qualities that are highly sought after in every crypto transaction.</p>
                                 <h4>Who Are The Key Players in a Crypto Escrow Transaction?</h4>
                                 <p></p>
                                 <p>A <strong>crypto escrow service</strong> involves several shareholders, each of whom plays a major role in ensuring a safe and seamless transaction. They are:</p>
-                                <ul>
+                                <ol>
                                     <li><strong>Buyer</strong>: This entity is the one purchasing the cryptocurrency.</li>
                                     <li><strong>Seller</strong>: This entity is the one offering the cryptocurrency.</li>
                                     <li><strong>Escrow Provider</strong>: A trusted entity, which can be either a third-party service or a smart contract, that keeps the funds until the conditions of the agreement are fulfilled.</li>
-                                </ul>
+                                </ol>
                                 <p>The relationship among these parties makes sure that the funds are only released when both the buyer and the seller keep to the stipulated conditions.</p>
                                 <h4>Step-by-Step Process of a Crypto Escrow Service</h4>
                                 <p></p>
@@ -99,12 +99,12 @@ const ServicePage2 = () => (
                                 <p>Smart contracts are advancing crypto escrow services with automated transactions and eliminating the need for middlemen. Created with blockchain technology, smart contracts automatically implement agreements when the stipulated conditions are met.</p>
                                 <h4>How Do Smart Contracts Improve Crypto Escrow Services</h4>
                                 <p></p>
-                                <ul>
+                                <ol>
                                     <li><strong>Trustless Exchanges:</strong> Since smart contracts automatically execute, users do not have to depend on a third party to process transfers.</li>
                                     <li><strong>Transparent:</strong> Smart contracts are built on the blockchain, leading them to be foolproof and publicly confirmable.</li>
                                     <li><strong>Cost Reduction:</strong> Smart contracts eliminate the need for conventional escrow service costs, ensuring that transfers are cheaper.</li>
                                     <li><strong>Short Processing Time:</strong> The automation features cut down delays resulting from manual verification and processing.</li>
-                                </ul>
+                                </ol>
                                 <p>Let us imagine that Martha wants to buy Bitcoin from James using an escrow service run by a smart contract. Here is how the transaction would go down:</p>
                                 <ul>
                                     <li>Martha deposits into a smart contract escrow account</li>
@@ -121,25 +121,25 @@ const ServicePage2 = () => (
                                 <p>A crypto escrow service can either be centralized or decentralized. You can choose between the two, depending on the amount of trust you are willing to place in a third party.</p>
                                 <p>Centralized escrow services are controlled by third-party organizations that supervise and facilitate exchanges. These services run in a similar manner as traditional escrow service platforms, where the middleman secures the funds until all stipulated terms are met.</p>
                                 <p>Advantages of a Centralized Crypto Escrow Service</p>
-                                <ul>
+                                <ol>
                                     <li><strong>Reliability and Trust:</strong> Successful companies with a long history provide users with assurance.</li>
                                     <li><strong>Customer Support:</strong> Users are given customer service representatives who can solve disputes.</li>
                                     <li><strong>Ease of Use:</strong> Centralized services have user-friendly interfaces, making them easy to use even for beginners.</li>
-                                </ul>
+                                </ol>
                                 <p>Disadvantages of a Centralized Crypto Escrow Service</p>
-                                <ul>
+                                <ol>
                                     <li><strong>Control Over Funds:</strong> Users are forced to trust the service to hold and release their funds.</li>
                                     <li><strong>Regulatory Risks:</strong> Some of the centralized escrow websites might be regulated and bound by prohibitive laws within other jurisdictions.</li>
                                     <li><strong>Risk of Hacking:</strong> Since custodial accounts carry money, centralized services have become the immediate target for hacking.</li>
-                                </ul>
+                                </ol>
                                 <p>Decentralized escrow services remove the need for a third-party intermediary by using smart contracts—self-executing contracts that are programmed on a blockchain. The contracts automatically release funds once specific conditions have been met and without the need for human intervention in the process.</p>
                                 <h4>Benefits of Decentralized Crypto Escrow Services</h4>
                                 <p></p>
-                                <ul>
+                                <ol>
                                     <li><strong>Trustless Transactions:</strong> Users can make transactions without trusting a third party; the blockchain provides transparency and security.</li>
                                     <li><strong>Low Fees:</strong> There is no intermediary, and therefore, transaction fees are usually lower.</li>
                                     <li><strong>Global Availability:</strong> Decentralized services are operating on a blockchain and are consequently accessible to anyone who has internet access, regardless of geographical location.</li>
-                                </ul>
+                                </ol>
                                 <p>Disadvantages of Decentralized Crypto Escrow Services</p>
                                 <ul>
                                     <li><strong>Technical Complexity:</strong> Clients need to have an understanding of how smart contracts function and how to write them to be free from exposure.</li>
@@ -150,21 +150,21 @@ const ServicePage2 = () => (
                                 <p></p>
                                 <p>Third-party crypto escrow services or companies are mediators who ensure secure transactions. They often possess legal support, regulatory systems, and dispute resolution.</p>
                                 <p>Key Features of Third-Party Escrow Websites/Companies</p>
-                                <ul>
+                                <ol>
                                     <li><strong>Identity Verification:</strong> Most of them follow Know Your Customer (KYC) and Anti-Money Laundering (AML) policies to enhance security.</li>
                                     <li><strong>Arbitration Services:</strong> In the event of a dispute, there is a designated arbitrator who checks the transaction and makes a ruling.</li>
                                     <li><strong>Multi-Signature Wallets:</strong> Some services employ multi-signature wallets, which require several signatures before the funds can be released.</li>
-                                </ul>
+                                </ol>
                                 <p></p>
                                 <h4>3 - Automated Smart Contract-Based Escrow Services</h4>
                                 <p></p>
                                 <p>The execution of transactions within automated escrow services depends exclusively on blockchain technology and smart contracts. Such services eliminate the necessity of manual handling while guaranteeing transaction safety by enforcing the fulfillment of specific conditions.</p>
                                 <p><strong>Benefits of Automated Smart Contract-Based Escrow Services</strong></p>
-                                <ul>
+                                <ol>
                                     <li>Automatic code execution eliminates both human-related mistakes and fraudulent activities from the process.</li>
                                     <li>Fund distribution happens immediately after smart contract conditions are fulfilled.</li>
                                     <li>Blockchain technology provides tamper-free security because of its integrated smart contracts.</li>
-                                </ul>
+                                </ol>
                                 <p>Even though automated escrow services offer numerous advantages, they present specific security risks to users. There is a possibility that smart contracts can be hacked when their programming code contains insecure points that hackers can abuse. Furthermore, there is no way to modify smart contracts while they remain immutable. Therefore, these unalterable contracts can produce unintended consequences because of faulty coding.</p>
                                 <p><strong>Benefits of Automated Smart Contract-Based Escrow Services</strong></p>
                                 <p>How to Select an Appropriate Crypto Escrow Service</p>
