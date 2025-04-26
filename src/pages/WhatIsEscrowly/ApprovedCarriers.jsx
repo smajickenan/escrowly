@@ -65,6 +65,15 @@ const ApprovedCarriers = () => {
                                             <li><strong>API Integration:</strong> The best carriers within Escrowly provide live shipment tracking as an API feature that feeds directly into their dashboard.</li>
                                             <li><strong>Insurance and Dispute Support:</strong> Escrowly requires providers to deliver protection plans and their staff participation for dispute management.</li>
                                         </ul>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/approved-carriers.webp" alt="Approved Carriers"/>
+
+
+
+
+
+
+
+
                                         <h3>Can I Use My Own Carrier?</h3>
                                         <p>The use of Escrowly-approved carriers is recommended strongly for complete protection; however, you can still choose your own carrier. Using your own shipping provider provides flexibility, but Escrowly recommends its selected carriers for full coverage.</p>
                                         <ul>
