@@ -47,6 +47,7 @@ const BuyerSellerBrokerProtection = () => {
                                         <h3>For Buyers: Say Goodbye to Fraud & Stress</h3>
                                         <p>It can be frustrating to not receive anything from the seller, when you are using cryptocurrency to buy something online. You are most definitely not alone.</p>
                                         <p>People who make purchases with cryptocurrency stand as the most endangered group in online transactions. The Escrowly crypto escrow platform utilizes a secure escrow wallet for crypto where payments remain safe until all conditions from both parties are satisfied. Funds are only released after you verify that either the delivery was successful or the work was properly completed.</p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/buyer-seller-broker.webp" alt="Escrolwy Buyer Seller Broker Protection"/>
                                         <ul>
                                             <li>Escrow smart contracts crypto technology securing the entire cryptocurrency transaction process</li>
                                             <li>The platform accepts payments through two stablecoins USDT and USDC</li>
