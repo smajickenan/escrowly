@@ -47,6 +47,7 @@ const WhatIsEscrowly = () => {
                                         <h3>What Is Crypto Escrow?</h3>
                                         <p>Think of escrow as your transaction's superhero - guarding your money until everyone plays fair. It’s an innovative, secure way to buy, sell, or trade whether it is buying online products, selling on online stores like Shopify, Wordpress, or doing larger sum of transactions like selling or buying Real estate, or rare sneakers. With a trusted third party crypto escrow holding the funds, no one gets scammed, and everyone walks away smiling.</p>
                                         <p></p>
+                                        <p></p>
                                         <img className="w-full h-auto my-4 rounded-lg" src="/images/what-is-escrowly-1.webp" alt="What is Escrowly"/>
                                         <h3>How Does Escrowly Work?</h3>
                                         <p>Escrowly acts as an unbiased third party, securing funds in an escrow wallet for crypto until both the buyer and the seller fulfill the terms of the agreement. This feature safeguards all entities from scams and payment defaults.</p>
