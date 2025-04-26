@@ -141,11 +141,11 @@ const ServicePage2 = () => (
                                     <li><strong>Global Availability:</strong> Decentralized services are operating on a blockchain and are consequently accessible to anyone who has internet access, regardless of geographical location.</li>
                                 </ol>
                                 <p>Disadvantages of Decentralized Crypto Escrow Services</p>
-                                <ul>
+                                <ol>
                                     <li><strong>Technical Complexity:</strong> Clients need to have an understanding of how smart contracts function and how to write them to be free from exposure.</li>
                                     <li><strong>Irreversibility:</strong> Once money is paid through a smart contract, it cannot be reversed, and this might lead to issues in the event of disputes.</li>
                                     <li><strong>Limited Dispute Resolution:</strong> Although there are a few decentralized platforms that offer arbitration facilities, they are not as strong as the ones in the centralized alternatives.</li>
-                                </ul>
+                                </ol>
                                 <h4>2 - Third-Party Escrow Providers</h4>
                                 <p></p>
                                 <p>Third-party crypto escrow services or companies are mediators who ensure secure transactions. They often possess legal support, regulatory systems, and dispute resolution.</p>
