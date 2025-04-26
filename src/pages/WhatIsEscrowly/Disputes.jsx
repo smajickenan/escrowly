@@ -45,6 +45,7 @@ const Disputes = () => {
                                         <h3>Fair, Fast, and Transparent Resolution - Powered by Escrowly</h3>
                                         <p>Disagreement can happen even in the safest online platforms. The dispute resolution system at Escrowly offers an unbiased framework to safeguard buyers and their assets, sellers and their brokers in all crypto and non-crypto transactions. Escrowly provides fair resolution of disputes no matter if users trade through USDT escrow services, use escrow for internet purchase, or conduct real estate high value crypto escrow deals.</p>
                                         <p>Using smart contracts in our escrow process stops early fund transfers and lets users resolve disputes speedily. All transactions under the USDT and USDC stablecoin exclusions maintain dependable stability as well as low volatility due to their fixed-currency approach.</p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/delivery-disputes.webp" alt="Delivery Disputes"/>
                                         <h3>What Can Lead to a Dispute?</h3>
                                         <p>Users generally create disputes when the following problems occur:</p>
                                         <ol>
