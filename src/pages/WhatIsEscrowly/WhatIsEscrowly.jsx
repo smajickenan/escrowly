@@ -58,6 +58,7 @@ const WhatIsEscrowly = () => {
                                             <li>3. Smooth support for crypto escrow for businesses, traders, and investors worldwide.</li>
                                             <li>4. Cross-industry deployment, from escrow for NFT marketplaces and DeFi transactions to escrow for precious metals trade and escrow for aviation industry transactions.</li>
                                         </ol>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/what-is-escrowly-2.webp" alt="What is Escrowly More Info"/>
                                         <p>Are you looking for a top-tier escrow service that caters to all your transactional demands? Introducing Escrowly - an escrow service that can be used in various sectors, like:</p>
                                         <ol>
                                             <li>1 - Escrow for freelancers and service providers</li>
@@ -67,7 +68,6 @@ const WhatIsEscrowly = () => {
                                             <li>5 - Escrow for land and property auctions</li>
                                         </ol>
                                         <blockquote>Escrowly.com was built to establish trust across nations. Whether you are overseeing cross-border crypto escrow, managing escrow for international business deals, or using escrow for art and collectibles to sell your high-value pieces, Escrowly has got you covered. We have clients in sectors like aviation and sports who enjoy our decentralized escrow service.</blockquote>
-                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/what-is-escrowly-2.webp" alt="What is Escrowly More Info"/>
                                         <h3>Learn How to Use Escrowly</h3>
                                         <p>Do you need help on how to use escrow for crypto or escrow for crypto mining rigs? Head over to our Getting Started page on how to set up your account, set up an escrow account, and ensure a secure transfer from start to finish!</p>
                                         <h3>Ready to Enjoy a Secure Way to Transfer Your Assets?</h3>
