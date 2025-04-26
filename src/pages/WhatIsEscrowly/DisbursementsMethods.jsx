@@ -46,6 +46,7 @@ const DisbursementsMethods = () => {
                                         <p>Escrowly provides secure fund storage, coupled with fast and swift dissemination to the right recipients. The crypto escrow service at Escrowly ensures fund disbursement to the correct destinations after completing any transaction for freelancers, investors, business owners, and crypto traders. Our disbursement model uses instant crypto-native and decentralized operations through escrow smart contract crypto technology for fraud elimination and instantaneous financial settlement.</p>
                                         <h3>How Does Escrowly Disburse Funds?</h3>
                                         <p>At Escrowly, we achieve secure crypto transactions by taking the smart contract escrow approach. Escrowly processes crypto payouts through an automated system after all pre-defined conditions like asset verification and service completion become validated. The blockchain escrow service from Escrowly ensures secure payouts that include Bitcoin escrow service, Ethereum escrow service, and USDT escrow service, together with any other supported coin.</p>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/disbursements-methods.webp" alt="Escrolwy Disbursements Methods"/>
                                         <ul>
                                             <li>Instant and confirmed on-chain</li>
                                             <li>Your preferred cryptocurrency wallet receives the payment</li>
@@ -73,7 +74,6 @@ const DisbursementsMethods = () => {
                                             <li>Escrow for all kind of business transactions</li>
                                         </ul>
                                         <p>All of these services are available on Escrowly strictly by crypto. No banks. No red tape. Just transparent, global, crypto-native disbursements</p>
-                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/disbursements-methods.webp" alt="Escrolwy Disbursements Methods"/>
                                         <h3>Flexible Disbursement - It’s Entirely Up to You!</h3>
                                         <p>You control how your funds are disbursed</p>
                                         <p><strong>Single-Payout:</strong> You get all your payments once customers approve the job delivery. This is common in escrow for second-hand car sales, escrow for land auctions, and escrow for art and collectibles.</p>

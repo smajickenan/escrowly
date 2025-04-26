@@ -53,6 +53,7 @@ const PaymentOptions = () => {
                                             <li>More Stablecoins are being added - Escrowly aims to add BNB, DAI, MATIC, and other main tokens into its secure P2P crypto escrow system so users can store their assets all in one place.</li>
                                         </ol>
                                         <blockquote>Escrowly's mission is to empower small and mid-size businesses to have crypto payments enabled and making sure to give them the liberty to use digital payments to grow business without boundaries.</blockquote>
+                                        <img className="w-full h-auto my-4 rounded-lg" src="/images/payment-options.webp" alt="Escrolwy Payment Options"/>
                                         <h3>Meet Our Clientele</h3>
                                         <p>Escrowly’s users include professionals across various industries and users on all platforms. The Escrowly platform serves the trading needs of everyday traders and corporate clients.</p>
                                         <ul>
