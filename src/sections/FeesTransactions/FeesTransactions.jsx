@@ -195,9 +195,7 @@ const FeesTransactions = function () {
                         <li>Buyer, Seller, and Broker Protection</li>
                     </ul>
                     <p>The fee gets taken from the escrow funds before the release of money to the parties involved. It depends on transaction size, currency type, and the additional agreed-upon services. Users can split, divide the fee payment or assign it to any party involved in the transaction. You can make these arrangements with complete transparency.</p>
-                    <h3>Try the Calculator</h3>
-                    <p>Users need to provide their deal value and their choice of crypto escrow service to receive a specific charge amount instantly.</p>
-                    <p>We currently support:</p>
+                    <h3>We Currently Support</h3>
                     <ul>
                         <li>USDT (Tether)</li>
                         <li>USDC (USD Coin)</li>
@@ -219,7 +217,6 @@ const FeesTransactions = function () {
                         <li>Escrow for Domain Name Marketplaces</li>
                         <li>Escrow for Digital items & Games and many more.</li>
                     </ul>
-                    <p className="call-to-action">Use the Escrowly Fee Calculator</p>
                     <p className="tagline"><strong>Plan Smarter. Trade Safer. Only Pay What's Fair</strong></p>
                 </div>
             </div>
