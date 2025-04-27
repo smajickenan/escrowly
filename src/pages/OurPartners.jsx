@@ -59,6 +59,7 @@ const OurPartners = () => (
                             </ul>
                             <h3>Real Protection for Real Deals</h3>
                             <p>Partnering with Escrowly.com provides users complete access to our fraud protection system, dispute resolution services, alongside inspection period guarantees for all participants. Our system provides solutions tailored to handle escrow for contractor payments, escrow for car lease payments, and other high-stakes transactions.</p>
+                            <img className="w-full h-auto my-4 rounded-lg" src="/images/our-partners-02.webp" alt="Our All Partners"/>
                             <h3>Ready to Collaborate?</h3>
                             <p>Together, we can build a smart, secure digital world.</p>
                             <p>fill out our Partnership form</p>
