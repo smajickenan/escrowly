@@ -35,7 +35,6 @@ import EscrowlyButtons from "./pages/EscrowlyButtons/EscrowlyButtons";
 import ApprovedCarriers from "./pages/WhatIsEscrowly/ApprovedCarriers";
 
 import ReportABug from "./pages/ReportABug";
-import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import AMLKYCPolicy from "./pages/AMLKYCPolicy";
 import RegulatoryCompliance from "./pages/RegulatoryCompliance";
