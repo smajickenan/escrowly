@@ -38,7 +38,7 @@ const OurPartners = () => (
                             <img className="w-full h-auto my-4 rounded-lg" src="/images/our-partners-01.webp" alt="Our Partners"/>
                             <h3>Who Can Partner With Escrowly?</h3>
                             <p>We are eager to collaborate with:</p>   
-                            <ol>
+                            <ul>
                                 <li>1. Crypto Payment Processors</li>
                                 <li>2. Web3 Platforms & DeFi Protocols</li>
                                 <li>3. Brokers and Agents</li>
@@ -46,7 +46,7 @@ const OurPartners = () => (
                                 <li>5. Real Estate Marketplaces</li>
                                 <li>6. Freelancer Networks</li>
                                 <li>7. Business Acquisition Platforms, and Many more</li>
-                            </ol>
+                            </ul>
                             <blockquote>Escrowly provides a secure, effortless, and dependable solution for crypto escrow service, escrow service for high-value goods, and cross-border crypto escrow through its platform.</blockquote>
                             <h3>Why Partner With Us?</h3>
                             <p>Escrowly stands as your ideal provider of the best crypto escrow services because of these key characteristics:</p>
