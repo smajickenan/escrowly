@@ -182,7 +182,7 @@ const FeesTransactions = function () {
                     </div>
                     )}
                 </div>
-                <div className="blog-article-content">
+                <div className="container">
                     <h3>Instantly Estimate Escrow Fees for Your Secure Crypto Transactions</h3>
                     <p>Client can get cost estimates before starting their secure crypto trade with Escrowly's Fee Calculator. Through its Fee Calculator system, Escrowly provides real-time estimates of payment costs that eliminate secret costs or unexpected charges.</p>
                     <p>Escrowly.com enables users to evaluate the cost of our crypto escrow service, escrow for business acquisition, and escrow for machinery and heavy equipment before payments.</p>
