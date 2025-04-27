@@ -35,6 +35,7 @@ const OurPartners = () => (
                         </div>
                         <div className="blog-article-content">
                             <p>This is the time to become part of the advancing technology that protects cryptocurrency transactions at Escrowly.com. The Escrowly team aims to transform the escrow industry while developing a worldwide alliance that dedicates itself to establishing secure crypto transactions as the standard. As the first blockchain-native escrow platform, we provide companies, professionals, and platforms with a path to embed blockchain escrow services for expanding their revenue potential.</p>
+                            <img className="w-full h-auto my-4 rounded-lg" src="/images/our-partners-01.webp" alt="Our Partners"/>
                             <h3>Who Can Partner With Escrowly?</h3>
                             <p>We are eager to collaborate with:</p>   
                             <ol>
