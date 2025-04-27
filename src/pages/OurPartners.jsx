@@ -5,12 +5,12 @@ import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs";
 const OurPartners = () => (
     <>
         <Helmet>
-            <title>Best Crypto Escrow - Escrowly</title>
-            <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-            <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
+            <title>Secure Crypto Escrow - Escrowly | Trusted Blockchain Escrow Service</title>
+            <meta name="description" content="Escrowly provides secure crypto escrow services for traders, businesses, and high-value transactions. Protect your digital assets with our trusted blockchain platform." />
+            <meta name="keywords" content="crypto escrow, secure crypto transactions, blockchain escrow, escrow service for crypto, USDT escrow, Ethereum escrow, Bitcoin escrow, escrow for digital assets, escrow for businesses, smart contract escrow, P2P crypto escrow, escrow for real estate, escrow for domain names, crypto payment processor, Web3 escrow solutions" />
             <meta name="author" content="Escrowly Crypto Escrow Team" />
-            <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-            <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+            <meta property="og:title" content="Escrowly.com – Secure Crypto Escrow for Safe Transactions" />
+            <meta property="og:description" content="Escrowly ensures safe crypto transactions for digital goods, services, and high-value assets. Join the trusted platform for secure escrow services in the crypto world." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
             <meta property="og:url" content="https://escrowly.com" />
             <meta name="twitter:card" content="summary_large_image" />
@@ -32,8 +32,7 @@ const OurPartners = () => (
                             <ul className="post-categories">
                                 <li>Finance & Security</li>
                             </ul>
-                            <span className="post-date">February 10, 2024</span>
-                            <div className="span time-to-read"><img src="/img/icon-time.svg" alt="" />4 min read</div>
+
                         </div>
                         <div className="blog-article-content">
                             <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
