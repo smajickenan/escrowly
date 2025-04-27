@@ -187,21 +187,15 @@ const FeesTransactions = function () {
                     <h2>Fee Calculator</h2>
                     <h3>Instantly Estimate Escrow Fees for Your Secure Crypto Transactions</h3>
                     <p>If you want to enjoy secure P2P crypto escrow transactions, you should know how much it costs to run your transactions. Users can get cost estimates before starting their secure crypto trade with Escrowly's Fee Calculator. Through its Fee Calculator system, Escrowly provides real-time estimates of payment costs that eliminate secret costs or unexpected charges.</p>
-                    <p>
-                        Our platform enables users to evaluate the cost of our crypto escrow service, escrow for business acquisition, 
-                        and escrow for machinery and heavy equipment before payments.
-                    </p>
-
+                    <p>Our platform enables users to evaluate the cost of our crypto escrow service, escrow for business acquisition, and escrow for machinery and heavy equipment before payments.</p>
                     <h3>How Escrow Fees Work</h3>
-                    <p>
-                        Escrowly requires customers to pay a fee when using its services for secure crypto transactions. This fee covers:
-                    </p>
-                    <ul>
+                    <p>Escrowly requires customers to pay a fee when using its services for secure crypto transactions. This fee covers:</p>
+                    <ol>
                         <li>Transaction monitoring</li>
                         <li>Smart contract execution</li>
                         <li>Dispute resolution services</li>
                         <li>Buyer, seller, and broker protection</li>
-                    </ul>
+                    </ol>
                     <p>
                         The fee gets taken from the escrow funds before the release of money to the parties involved. It depends on transaction size, 
                         currency type, and the additional agreed-upon services. Users can divide the fee payment or assign it to any party involved in the transaction. 
