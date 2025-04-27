@@ -30,9 +30,8 @@ const OurPartners = () => (
                         <h1>Our Partners</h1>
                         <div className="post-meta">
                             <ul className="post-categories">
-                                <li>Finance & Security</li>
+                                <li>Escrowly.com has teamed up with industry leading marketplaces and platforms to provide secure payment options.</li>
                             </ul>
-
                         </div>
                         <div className="blog-article-content">
                             <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
