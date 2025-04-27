@@ -39,11 +39,11 @@ const WhatIsEscrowly = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidelines"
-                                        title="What is Escrowly?"
+                                        title="What is Escrow?"
                                         className=""
                                     />
                                     <div className="blog-article-content">
-                                        <p>Escrowly is a must-have, next-gen crypto escrow platform developed to protect all parties involved in an exchange on digital and traditional marketplaces. This innovative platform is a game-changer for secure crypto transactions with speed, autonomy, and complete transparency. If you are looking for a reliable crypto escrow service for your USDT,  Bitcoin or Ethereum, or you are looking for something for your non-crypto assets, like an escrow service for property sales or an escrow for real estate closings, Escrowly is the one for you!</p>
+                                        <p>Escrowly.com is a must-have, next-gen crypto escrow platform developed to protect all parties involved in an exchange on digital and traditional marketplaces. This innovative platform is a game-changer for secure crypto transactions with speed, autonomy, and complete transparency. If you are looking for a reliable crypto escrow service for your USDT,  Bitcoin or Ethereum, or you are looking for something for your non-crypto assets, like an escrow service for property sales or an escrow for real estate closings, Escrowly is the one for you!</p>
                                         <h3>What Is Crypto Escrow?</h3>
                                         <p>Think of escrow as your transaction's superhero - guarding your money until everyone plays fair. It’s an innovative, secure way to buy, sell, or trade whether it is buying online products, selling on online stores like Shopify, Wordpress, or doing larger sum of transactions like selling or buying Real estate, or rare sneakers. With a trusted third party crypto escrow holding the funds, no one gets scammed, and everyone walks away smiling.</p>
                                         <img className="w-full h-auto my-4 rounded-lg" src="/images/what-is-escrowly-1.webp" alt="What is Escrowly"/>
