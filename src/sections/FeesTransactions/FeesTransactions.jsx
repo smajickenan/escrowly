@@ -188,34 +188,30 @@ const FeesTransactions = function () {
                     <p>Escrowly.com enables users to evaluate the cost of our crypto escrow service, escrow for business acquisition, and escrow for machinery and heavy equipment before payments.</p>
                     <h3>How Escrow Fees Work</h3>
                     <p>Escrowly requires customers to pay a fee when using its services for secure crypto transactions. This fee covers:</p>
-                    <ol>
+                    <ul>
                         <li>Transaction Monitoring</li>
                         <li>Smart Contract Execution</li>
                         <li>Dispute Resolution Services</li>
                         <li>Buyer, Seller, and Broker Protection</li>
-                    </ol>
+                    </ul>
                     <p>The fee gets taken from the escrow funds before the release of money to the parties involved. It depends on transaction size, currency type, and the additional agreed-upon services. Users can split, divide the fee payment or assign it to any party involved in the transaction. You can make these arrangements with complete transparency.</p>
                     <h3>Try the Calculator</h3>
                     <p>Users need to provide their deal value and their choice of crypto escrow service to receive a specific charge amount instantly.</p>
                     <p>We currently support:</p>
-                    <ol>
+                    <ul>
                         <li>USDT (Tether)</li>
                         <li>USDC (USD Coin)</li>
-                    </ol>
+                    </ul>
                     <p>No fiat. No volatility. Just stable, reliable crypto escrow.</p>
                     <h3>Example Scenarios</h3>
-                    <ol>
-                        <li>Escrow for token sales: $50,000 in USDT → Estimated fee: $900</li>
+                    <ul>
+                        <li>Escrow for International Business Deals: $50,000 in USDT → Estimated fee: $900</li>
                         <li>Escrow for Art and Collectables: $10,000 in USDC → Estimated fee: $220</li>
-                        <li>Escrow for International Business Deals: $250,000 in USDT → Estimated fee: $3,750</li>
-                    </ol>
+                        <li>Escrow for Real Estate Closing: $250,000 in USDT → Estimated fee: $3,750</li>
+                    </ul>
                     <p>The calculator will allow you to simulate transaction processes and plan for future costs.</p>
                     <h3>Transparent Crypto Escrow - No Surprises</h3>
-                    <p>
-                        Escrowly operates as a platform specifically designed to remove all hidden charges, complex contractual obligations, 
-                        and payment visibility concerns. Our platform prides itself on being the first completely crypto-founded escrow platform 
-                        which transforms trading safety standards during modern digital times.
-                    </p>
+                    <p>Escrowly operates as a platform specifically designed to remove all hidden charges, complex contractual obligations, and payment visibility concerns. Our platform prides itself on being the first completely crypto-founded escrow platform which transforms trading safety standards during modern digital times.</p>
                     <p>It is perfect for:</p>
                     <ul>
                         <li>Escrow for Real Estate Closings</li>
