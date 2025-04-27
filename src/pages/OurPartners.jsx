@@ -50,15 +50,17 @@ const OurPartners = () => (
                             <h3>Why Partner With Us?</h3>
                             <p>Escrowly stands as your ideal provider of the best crypto escrow services because of these key characteristics:</p>
                             <ul>
-                                <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
+                                <li>Our platform embraces only USDT and USDC as secure and stable currencies that exist specifically for Web3 requirements.</li>
+                                <li>Our company exists as a verified Money Services Business (MSB) with registration on FinCEN.gov.</li>
+                                <li>You can integrate Escrowly API into your platform for smooth, secure transactions.</li>
+                                <li>Our escrow solutions can be customized to meet the requirements of every business, where we enable transactions from escrow for freelancers selling domain names to escrow for machinery and heavy equipment.</li>
+                                <li>You will receive revenue share opportunities that allow you to build up your brand and profits whenever a safe deal transaction occurs.</li>
                             </ul>
-                            <h6>Future-Proof Your Transactions with Escrowly</h6>
-                            <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                            <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                            <h3>Real Protection for Real Deals</h3>
+                            <p>Partnering with Escrowly.com provides users complete access to our fraud protection system, dispute resolution services, alongside inspection period guarantees for all participants. Our system provides solutions tailored to handle escrow for contractor payments, escrow for car lease payments, and other high-stakes transactions.</p>
+                            <h3>Ready to Collaborate?</h3>
+                            <p>Together, we can build a smart, secure digital world.</p>
+                            <p>fill out our Partnership form</p>
                         </div>
                     </div>
                 </section> 
