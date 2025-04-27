@@ -103,6 +103,7 @@ function MainLayout() {
         <Route path="/approved-carriers" element={<ApprovedCarriers />} />
         <Route path="/fraud-prevention" element={<FraudPrevention />} />
         <Route path="/report-a-bug" element={<ReportABug />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/aml-kyc-policy" element={<AMLKYCPolicy />} />
         <Route path="/regulatory-compliance" element={<RegulatoryCompliance />} />
