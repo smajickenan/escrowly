@@ -44,6 +44,7 @@ const FraudPrevention = () => {
                                     <div className="blog-article-content">
                                         <h3>We Protect Your Payments - Every Step of the Way</h3>
                                         <p>Every transaction involving digital payments and online activity needs to be protected against fraud to operate effectively. Our platform at Escrowly was built with security at its core while making transparency and trust its foundation. Our system addresses secure crypto escrow and escrow for business acquisition through advanced engineering, which removes fraud risks and provides complete peace of mind for all users.</p>
+                                        <p></p>
                                         <img className="w-full h-auto my-4 rounded-lg" src="/images/prevent-fraud.webp" alt="Prevent Fraud"/>
                                         <h3>How to Identify and Prevent Fraud</h3>
                                         <p>Online fraud occurs frequently on websites and particularly affects crypto payment systems due to the inability to reverse transactions. One misstep can cost thousands. The methodology at Escrowly.com eliminates frequent cyber-attacks, among which are:</p>
