@@ -183,6 +183,7 @@ const FeesTransactions = function () {
                     )}
                 </div>
 
+                <div className="service-page-content row">
                 <div className="col col-left">
                     <h2>Fee Calculator</h2>
                     <h3>Instantly Estimate Escrow Fees for Your Secure Crypto Transactions</h3>
@@ -236,6 +237,7 @@ const FeesTransactions = function () {
                     </ul>
                     <p className="call-to-action">Use the Escrowly Fee Calculator</p>
                     <p className="tagline">Plan Smarter. Trade Safer. Only Pay What's Fair.</p>
+                </div>
                 </div>
             </div>
         </section>
