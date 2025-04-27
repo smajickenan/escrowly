@@ -90,7 +90,7 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
     return (
         <>
         <Helmet>
-            <title>Start Crypto Escrow | Escrowly</title>
+            <title>1Start Crypto Escrow | Escrowly</title>
             <meta name="description" content="Start your crypto escrow transaction securely and easily with Escrowly. Safe and trusted service for online crypto deals." />
             
             {/* Open Graph tags */}
