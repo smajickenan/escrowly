@@ -236,16 +236,14 @@ const FeesTransactions = function () {
                     <p className="tagline">Plan Smarter. Trade Safer. Only Pay What's Fair.</p>
                 </div>
             </div>
+
+
             <section className="section-blog-article">
                     <div className="container">
-                        <h1>Privacy Policy</h1>
                         <div className="post-meta">
                             <ul className="post-categories">
-                                <li>Finance & Security</li>
+                                <li>Fee Calculator Explained</li>
                             </ul>
-                            <span className="post-date">February 10, 2024</span>
-                            <div className="span time-to-read"><img src="/img/icon-time.svg" alt="" />4 min read</div>
-                        </div>
                         <div className="blog-article-content">
                             <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
                             <h3>How Escrowly Ensures Safe Transactions</h3>
@@ -272,7 +270,10 @@ const FeesTransactions = function () {
                             <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
                         </div>
                     </div>
+                    </div>
                 </section> 
+
+
         </section>
     )
 }
