@@ -52,7 +52,7 @@ const InspectionPeriod = () => {
                                             <li>1. The transaction starts with the seller and the buyer establishing terms. Subsequently, the buyer makes a deposit to the crypto escrow platform.</li>
                                             <li>2. The seller transfers the goods or services to meet the conditions outlined in the agreement.</li>
                                             <li>3. The inspection period begins when the buyer performs checks to confirm the quality and performance or authenticity of the goods.</li>
-                                            <li>4. The transaction reaches its end when the buyer chooses to release funds following their approval. The <Link to="/disputes">dispute resolution</Link> team from Escrowly will intervene when buyers do not approve the transaction.</li>
+                                            <li>4. The transaction reaches its end when the buyer chooses to release funds following their approval. The dispute resolution team from Escrowly will intervene when buyers do not approve the transaction.</li>
                                         </ol>
                                         <p>Enterprises using decentralized escrow services and escrow for business acquisition benefit from this basic process, which delivers equilibrium and unbiased treatment to the deals.</p>
                                         <blockquote>Crypto payments have an irreversible nature, which makes the inspection period one of the maximum protection layers for sellers and buyers.</blockquote>
