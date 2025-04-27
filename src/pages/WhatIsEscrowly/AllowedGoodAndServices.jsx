@@ -39,7 +39,7 @@ const AllowedGoodsAndServices = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidelines"
-                                        title="Goods and Services You Can Trade on Escrowly"
+                                        title="Goods and Services You Can Trade on Escrowly.com"
                                         className=""
                                     />
                                     <div className="blog-article-content">

@@ -44,7 +44,7 @@ const CurrencyOptions = () => {
                                     <div className="blog-article-content">
                                         <h3>Escrowly: Borderless and Built for the Future</h3>
                                         <p>What should come to your mind when you think of a crypto escrow platform developed for trustworthy, lightning-fast, and hiccup-free virtual exchanges across the globe? You guessed right - it’s Escrowly! Whether you are a web store owner, an NFT artist, or a tech startup, Escrowly supports an increasing range of cryptocurrencies that will cater to every use case.</p>
-                                        <h3>Powering Crypto SafeDeals with Escrowly</h3>
+                                        <h3>Powering Crypto SafeDeals with Escrowly.com</h3>
                                         <p>Born out of a desire to offer secure P2P crypto escrow services, Escrowly supports popular digital currencies vetted by millions worldwide.</p>
                                         <p>Escrowly presently supports:</p>
                                         <ol>
@@ -76,7 +76,7 @@ const CurrencyOptions = () => {
                                             <li>Escrow for domain holding</li>
                                         </ol>
                                         <p>The choice of which crypto to deal in is entirely up to you!</p>
-                                        <h3>Automate Your Crypto Flow with Escrowly API</h3>
+                                        <h3>Automate Your Crypto Flow with Escrowly.com API</h3>
                                         <p>The Escrowly API enables automated secure transactions among crypto exchanges, DeFi protocols, NFT marketplaces, and Web3 startups between supported coins and tokens.</p>
                                         <p>You can integrate features like:</p>
                                         <ol>
@@ -86,7 +86,7 @@ const CurrencyOptions = () => {
                                             <li>Decentralized escrow service support</li>
                                         </ol>
                                         <p>Our API serves developers who work independently and those who manage complete dApp infrastructure along with easy to connect API so you can have your website up and running in minutes.</p>
-                                        <h3>Escrow, The Crypto Way! No Middlemen, No Waiting</h3>
+                                        <h3>Escrowly, The Crypto Way! No Middlemen, No Waiting</h3>
                                         <p>Trust in crypto will evolve toward the direction of escrow. The crypto escrow service at Escrowly allows users to secure transactions with their cryptocurrencies, including Ethereum escrow service, Bitcoin escrow service, USDT escrow service and many more options beyond that.</p>
                                         <h6>Get started with crypto escrow service today. Create your Escrowly account now!</h6>
                                     </div>

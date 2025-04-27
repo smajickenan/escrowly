@@ -65,7 +65,7 @@ const HowItWorksBroker = () => {
                                         <p>Once the security of the funds is confirmed, the seller executes the delivery of their goods or service completion. During the exchange, the broker has to verify that the transaction follows all stated terms. The control you maintain in escrow transactions prevails in every case, including escrow for car lease payments, escrow for real estate closings, and escrow for business acquisitions - all while your exposure remains minimal.</p>
                                         <h3>Step 4: Funds are Disbursed & Commission is Paid</h3>
                                         <p>Both the buyer and the seller confirm the transaction, or you, as the verified broker, verify the agreement for the contract to disburse payments to the seller and send your commission automatically. No chasing clients. No manual splits. Every commercial deal features automatic trust mechanisms.</p>
-                                        <h3>Why Use Escrowly as a Broker?</h3>
+                                        <h3>Why Use Escrowly.com as a Broker?</h3>
                                         <ul>
                                             <li>The platform allows you to serve as a trustworthy bridge between crypto buyers and sellers.</li>
                                             <li>Escrowly facilitates financial agreements for escrow for industrial equipment purchases, escrow for jewelry or luxury watches, and escrow for contractor services.</li>

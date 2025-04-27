@@ -44,7 +44,7 @@ const DisbursementsMethods = () => {
                                     <div className="blog-article-content">
                                         <h3>Sharing Money Just Got Easier!</h3>
                                         <p>Escrowly provides secure fund storage, coupled with fast and swift dissemination to the right recipients. The crypto escrow service at Escrowly ensures fund disbursement to the correct destinations after completing any transaction for freelancers, investors, business owners, and crypto traders. Our disbursement model uses instant crypto-native and decentralized operations through escrow smart contract crypto technology for fraud elimination and instantaneous financial settlement.</p>
-                                        <h3>How Does Escrowly Disburse Funds?</h3>
+                                        <h3>How Does Escrowly.com Disburse Funds?</h3>
                                         <p>At Escrowly, we achieve secure crypto transactions by taking the smart contract escrow approach. Escrowly processes crypto payouts through an automated system after all pre-defined conditions like asset verification and service completion become validated. The blockchain escrow service from Escrowly ensures secure payouts that include Bitcoin escrow service, Ethereum escrow service, and USDT escrow service, together with any other supported coin.</p>
                                         <img className="w-full h-auto my-4 rounded-lg" src="/images/disbursements-methods.webp" alt="Escrolwy Disbursements Methods"/>
                                         <ul>
@@ -54,7 +54,7 @@ const DisbursementsMethods = () => {
                                             <li>Transparent, traceable, and verifiable</li>
                                         </ul>
                                         <blockquote>Escrowly makes disbursement safer by offering both cryptocurrency speed with smart contract escrow and wallet for crypto solutions. Our crypto payment system gives you speedy results for multiple blockchain transactions. It also offers total visibility because users can check all transaction history.</blockquote>
-                                        <h3>Available Crypto Disbursement Options on Escrowly</h3>
+                                        <h3>Available Crypto Disbursement Options on Escrowly.com</h3>
                                         <ul>
                                             <li><strong>USDT Coin Tether (USDT):</strong> The USDT crypto escrow on our platform provides support for both ERC-20 and TRC-20 payment distribution options. USDT represents an optimal choice for payments involving both high risks and swift execution speed</li>
                                             <li><strong>USDC Coin (USDC):</strong> Stable, fast, and ideal for escrow for e-commerce stores, contractor payments, and crypto escrow for businesses</li>
@@ -79,7 +79,7 @@ const DisbursementsMethods = () => {
                                         <p><strong>Single-Payout:</strong> You get all your payments once customers approve the job delivery. This is common in escrow for second-hand car sales, escrow for land auctions, and escrow for art and collectibles.</p>
                                         <p><strong>Milestone-Based:</strong> Money can flow out in phases, making it ideal for escrow for contractor payments, crypto escrow for ICOs, and escrow for film production financing.</p>
                                         <p><strong>Multi-Party Disbursement:</strong> You can opt to split payments between multiple parties. The payment system helps with escrow for franchise business purchases, escrow for corporate mergers, and escrow for professional sports contracts.</p>
-                                        <h3>Enjoy Integrated Disbursement with Escrowly API</h3>
+                                        <h3>Enjoy Integrated Disbursement with Escrowly.com API</h3>
                                         <p>Thanks to our Escrowly API, developers and companies can automate payments to initiate when specific criteria are fulfilled without needing human input.</p>
                                         <p>Our API system works well with platforms such as:</p>
                                         <ul>
