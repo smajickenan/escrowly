@@ -183,7 +183,7 @@ const FeesTransactions = function () {
                     )}
                 </div>
 
-                <div className="blog-article-content">
+                <div className="col col-left">
                     <h2>Fee Calculator</h2>
                     <h3>Instantly Estimate Escrow Fees for Your Secure Crypto Transactions</h3>
                     <p>
