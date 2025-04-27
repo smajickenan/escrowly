@@ -90,12 +90,12 @@ const FeeCalculator = ({ paymentMethod = false, animation = true }) => {
     return (
         <>
         <Helmet>
-            <title>1Start Crypto Escrow | Escrowly</title>
-            <meta name="description" content="Start your crypto escrow transaction securely and easily with Escrowly. Safe and trusted service for online crypto deals." />
-            
+            <title>Crypto Escrow Fee Calculator | Escrowly.com</title>
+            <meta name="description" content="Estimate your crypto escrow fees instantly with Escrowly.com. Use our fee calculator for USDT, USDC, Bitcoin, and Ethereum transactions across industries." />
+            <meta name="keywords" content="crypto escrow fees, Escrowly fee calculator, USDT escrow cost, Ethereum escrow fee, Bitcoin escrow fee, USDC escrow service, calculate escrow fees, crypto escrow platform, smart contract escrow cost, crypto transaction fee estimate, secure escrow payments, escrow calculator for domain sales, escrow for luxury assets, escrow for real estate deals" />
             {/* Open Graph tags */}
-            <meta property="og:title" content="Start Crypto Escrow | Escrowly" />
-            <meta property="og:description" content="Escrowly offers secure and fast crypto escrow transactions. Start now with trusted protection." />
+            <meta property="og:title" content="Estimate Your Crypto Escrow Fees | Escrowly.com" />
+            <meta property="og:description" content="Quickly calculate how much your secure crypto escrow will cost. Escrowly's transparent fee calculator helps you plan transactions with confidence." />
             <meta property="og:image" content="/img/shield-og.jpg" />
             <meta property="og:url" content="https://escrowly.com" />
         </Helmet>
