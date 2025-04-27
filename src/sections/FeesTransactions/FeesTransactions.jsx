@@ -206,7 +206,7 @@ const FeesTransactions = function () {
                     <ul>
                         <li>Escrow for International Business Deals: <strong>$50,000 in USDT</strong> → <strong>Estimated fee: $900</strong></li>
                         <li>Escrow for Art and Collectables: <strong>$10,000 in USDC</strong> → Estimated fee: <strong>$220</strong></li>
-                        <li>Escrow for Real Estate Closing: <strong>$250,000 in USDT</strong> → Estimated fee: $3,750</li>
+                        <li>Escrow for Real Estate Closing: <strong>$250,000</strong> in USDT → Estimated fee: <strong>$3,750</strong></li>
                     </ul>
                     <p>The calculator will allow you to simulate transaction processes and plan for future costs.</p>
                     <h3>Transparent Crypto Escrow - No Surprises</h3>
