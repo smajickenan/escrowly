@@ -34,19 +34,21 @@ const OurPartners = () => (
                             </ul>
                         </div>
                         <div className="blog-article-content">
-                            <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
-                            <h3>How Escrowly Ensures Safe Transactions</h3>
-                            <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>   
+                            <p>This is the time to become part of the advancing technology that protects cryptocurrency transactions at Escrowly.com. The Escrowly team aims to transform the escrow industry while developing a worldwide alliance that dedicates itself to establishing secure crypto transactions as the standard. As the first blockchain-native escrow platform, we provide companies, professionals, and platforms with a path to embed blockchain escrow services for expanding their revenue potential.</p>
+                            <h3>Who Can Partner With Escrowly?</h3>
+                            <p>We are eager to collaborate with:</p>   
                             <ol>
-                                <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
+                                <li>1. Crypto Payment Processors</li>
+                                <li>2. Web3 Platforms & DeFi Protocols</li>
+                                <li>3. Brokers and Agents</li>
+                                <li>4. E-commerce Platforms</li>
+                                <li>5. Real Estate Marketplaces</li>
+                                <li>6. Freelancer Networks</li>
+                                <li>7. Business Acquisition Platforms, and Many more</li>
                             </ol>
-                            <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                            <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                            <h4>Benefits of Using Escrowly</h4>
-                            <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
+                            <blockquote>Escrowly provides a secure, effortless, and dependable solution for crypto escrow service, escrow service for high-value goods, and cross-border crypto escrow through its platform.</blockquote>
+                            <h3>Why Partner With Us?</h3>
+                            <p>Escrowly stands as your ideal provider of the best crypto escrow services because of these key characteristics:</p>
                             <ul>
                                 <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
                                 <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
