@@ -48,7 +48,7 @@ const PartnersEnquiry = () => {
 
           <section className="section-blog-article">
             <div className="container">
-              <h1>Partners Enquiry</h1>
+              <h1>Partners Inquiry</h1>
               <div className="post-meta">
                 <ul className="post-categories">
                   <li>New Partner Inquiries</li>
