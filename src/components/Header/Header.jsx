@@ -117,22 +117,22 @@ const Header = ({ className }) => {
                                     <Link>Become a Partner<span>Grow your business and revenue</span></Link>
                                 </li>
                                 <li>
-                                    <Link to='/benefits'>Benefits<span>See the advantages of using Escrow</span></Link>
+                                    <Link to='/benefits'>Benefits<span>See the advantages of using Escrowly</span></Link>
                                 </li>
                                 <li>
                                     <Link to="/fee-calculator">Fees<span>Low transparent fees</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/escrowly-pay">Escrow Pay<span>Simplest way to add escrow payments</span></Link>
+                                    <Link to="/escrowly-pay">Escrowly Pay<span>Simplest way to add escrowly payments</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/escrowly-offer">Escrow Offer<span>Allow negotiation for your transactions</span></Link>
+                                    <Link to="/escrowly-offer">Escrowly Offer<span>Allow negotiation for your transactions</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/escrowly-buttons">Escrow Buttons<span>Create a button for Escrow transaction</span></Link>
+                                    <Link to="/escrowly-buttons">Escrowly Buttons<span>Create a button for Escrowly transaction</span></Link>
                                 </li>
                                 <li>
-                                    <Link to="/api-guide">Escrow API<span>Get all benefits of Escrow via API</span></Link>
+                                    <Link to="/api-guide">Escrowly API<span>Get all benefits of Escrowly via API</span></Link>
                                 </li>
                                 <li className="bordered">
                                     <Link>Start A Transaction With Escrowly<span>Sell, buy or broker anything from domain names to real estate</span></Link>
