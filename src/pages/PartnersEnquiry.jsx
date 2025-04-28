@@ -53,33 +53,17 @@ const PartnersEnquiry = () => {
                 <ul className="post-categories">
                   <li>Finance & Security</li>
                 </ul>
-                <span className="post-date">February 10, 2024</span>
-                <div className="span time-to-read">
-                  <img src="/img/icon-time.svg" alt="" />4 min read
-                </div>
               </div>
 
               <div className="blog-article-content">
                 <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever...</p>
                 {/* (your full content above stays as-is) */}
-                <h4>Benefits of Using Escrowly</h4>
-                <p>Escrowly offers a reliable and secure platform...</p>
-                <ul>
-                  <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                  <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                  <li>Trust & Transparency: Builds confidence between buyers and sellers...</li>
-                  <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                  <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                </ul>
-                <h6>Future-Proof Your Transactions with Escrowly</h6>
-                <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system...</p>
-                <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
+                <h4>Partner Form</h4>
 
                 {/* ===== Insert the Form Here ===== */}
                 <form onSubmit={handleSubmit}>
                   <fieldset>
                     <legend>New Partner Enquiry Form</legend>
-
                     <div>
                       <label htmlFor="title">Title</label>
                       <select
