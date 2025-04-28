@@ -51,12 +51,12 @@ const PartnersEnquiry = () => {
               <h1>Partners Enquiry</h1>
               <div className="post-meta">
                 <ul className="post-categories">
-                  <li>Finance & Security</li>
+                  <li>New Partner Inquiries</li>
                 </ul>
               </div>
 
               <div className="blog-article-content">
-                <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever...</p>
+                <p>Thank you for considering a partnership with Escrowly. Please fill out the form below, and we’ll gladly assist with any questions you have about partner accounts.</p>
                 {/* (your full content above stays as-is) */}
                 <h4>Partner Form</h4>
 
